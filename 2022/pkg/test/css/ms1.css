@@ -1,0 +1,44 @@
+#ve1374 .infoBarTextTitle {
+  font-style : italic;
+}
+#ve1974 .infoBarTextTitle {
+  font-style : italic;
+}
+#ve1928 .Table {
+  display-opts : retainnewline;
+  wrap-text : normal;
+}
+#ve1374 .infoBarTextUnderline {
+  text-decoration : underline;
+}
+#ve1374 .infoBarTextBold {
+  font-weight : bold;
+}
+#ve1974 .infoBarTextUnderline {
+  text-decoration : underline;
+}
+#ve2581 .infoBarTextTitle {
+  font-style : italic;
+}
+#ve3135 .Table {
+  display-opts : retainnewline;
+  wrap-text : normal;
+}
+#ve2581 .infoBarTextUnderline {
+  text-decoration : underline;
+}
+#ve1974 .infoBarTextBold {
+  font-weight : bold;
+}
+#ve2581 .infoBarTextBold {
+  font-weight : bold;
+}
+.Report {
+  background-color : #000000;
+}
+#ve94 .LegendFill {
+  fill-color : #000000;
+}
+#ve202 .LegendFill {
+  fill-color : #000000;
+}
