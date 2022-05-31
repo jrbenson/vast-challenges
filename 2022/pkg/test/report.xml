@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SASReport xmlns="http://www.sas.com/sasreportmodel/bird-4.20.0" label="Embed Test (Riley)" implicitInteractions="reportPrompt sectionPrompt" createdLocale="en" createdVersion="4.19.0" dateCreated="2022-05-24T20:46:55Z" dateModified="2022-05-24T23:37:31Z" createdApplication="SAS Visual Analytics 2020" lastModifiedApplication="SAS Visual Analytics 2020" nextUniqueNameIndex="3667">
+<SASReport xmlns="http://www.sas.com/sasreportmodel/bird-4.20.0" label="Embed Test (Riley)" implicitInteractions="reportPrompt sectionPrompt" createdLocale="en" createdVersion="4.19.0" dateCreated="2022-05-24T20:46:55Z" dateModified="2022-05-31T13:59:45Z" createdApplication="SAS Visual Analytics 2020" lastModifiedApplication="SAS Visual Analytics 2020" nextUniqueNameIndex="5270">
 	<Results>
-		<Result ref="dd182" type="relational" status="success" dataLevel="baseline" label="Participant ID, Expense Category" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-05-22T14:56:09.883Z">
+		<Result ref="dd182" type="relational" status="success" dataLevel="baseline" label="Participant ID, Expense Category" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-05-30T13:06:07.648Z">
 			<Variables>
 				<StringVariable label="Expense Category" ref="bi110" varname="bi110" column="c0"/>
 				<NumericVariable format="BEST12." usage="categorical" label="Participant ID" ref="bi106" varname="bi106" column="c1"/>
@@ -12,10 +12,10 @@
 				<NumericColumn dataType="double" colname="c1" encoding="text"/>
 				<NumericColumn dataType="double" colname="c2" encoding="text"/>
 			</Columns>
-			<DataFile contentKey="5RIYV5SNJN6KFC7INH5REVSKRBYZQCLN" size="2099" format="CSV" rowCount="84" grandTotal="false" dataLayout="minimal" file="dd182.csv" isIndexed="true" availableRowCount="84"/>
+			<DataFile contentKey="YVO7T7T4KCWEVSAK5F3SFLH4HTSHS2HR" size="2097" format="CSV" rowCount="84" grandTotal="false" dataLayout="minimal" file="dd182.csv" isIndexed="true" availableRowCount="84"/>
 			<StringTableFile contentKey="CPPHWGOF4SSXUGNWEEYF7HQUVRWH2VNK" size="42" format="CSV" rowCount="4" file="dd182index.csv"/>
 		</Result>
-		<Result ref="dd228" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-05-22T14:56:09.883Z">
+		<Result ref="dd228" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-05-30T13:06:07.648Z">
 			<Variables>
 				<StringVariable label="Expense Category" ref="bi276" varname="bi276" column="c0"/>
 				<StringVariable label="Abs (Transaction Amount)" ref="bi234" varname="bi234" column="c1"/>
@@ -84,10 +84,10 @@
 				<NumericColumn dataType="double" colname="c30" encoding="text"/>
 				<NumericColumn dataType="double" colname="c31" encoding="text"/>
 			</Columns>
-			<Data isIndexed="true" availableRowCount="4" contentKey="BLVMZGLTFIO62WVV2X5ITEH3JDKWALHH" size="946" format="CSV" rowCount="4" grandTotal="false" dataLayout="minimal"><![CDATA[1,0,46.462019579910695,4060.0,12.812445018190989,91.14351384881228,91.14351384881228,38.00537955363991,12.812445018190989,12.812445018190989,12.812445018190989,73.19785214731145,28.80169378185509,91.14351384881228,0.0,.,.,.,.,.,.,.,.,0.0,.,.,.,.,.,.,.,.
-2,0,4.683829003284728,974100.0,4.0,14.84047264906378,14.84047264906378,4.0,4.0,4.0,4.0,5.509498930902453,1.1871250914266078,14.84047264906378,0.0,.,.,.,.,.,.,.,.,0.0,.,.,.,.,.,.,.,.
-3,0,13.994564099027912,355359.0,0.5347862825107764,44.52141794719134,44.52141794719134,14.363078379033963,0.5347862825107764,0.5347862825107764,6.943528769149253,19.962645211304103,8.28056909991268,44.52141794719134,0.0,.,.,.,.,.,.,.,.,0.0,.,.,.,.,.,.,.,.
-4,0,636.9157685049076,14103.0,231.70356153146105,1562.725994131264,1562.725994131264,657.5402444528316,231.70356153146105,231.70356153146105,436.25633098825983,779.1930374570419,213.9148373100663,1562.725994131264,0.0,.,.,.,.,.,.,.,.,0.0,.,.,.,.,.,.,.,.
+			<Data isIndexed="true" availableRowCount="4" contentKey="QE2YFLCAHUNXSLHHITZLYX3FPDYGUA64" size="949" format="CSV" rowCount="4" grandTotal="false" dataLayout="minimal"><![CDATA[1,0,46.462019579910695,4060.0,12.812445018190989,91.14351384881228,91.14351384881228,38.00537955363991,12.812445018190989,12.812445018190989,12.812445018190989,73.19785214731145,28.801693781855047,91.14351384881228,0.0,.,.,.,.,.,.,.,.,0.0,.,.,.,.,.,.,.,.
+2,0,4.683829003284721,974100.0,4.0,14.84047264906378,14.84047264906378,4.0,4.0,4.0,4.0,5.509498930902453,1.1871250914266642,14.84047264906378,0.0,.,.,.,.,.,.,.,.,0.0,.,.,.,.,.,.,.,.
+3,0,13.994564099027885,355359.0,0.5347862825107764,44.52141794719134,44.52141794719134,14.363078379033963,0.5347862825107764,0.5347862825107764,6.943528769149253,19.962645211304103,8.280569099912706,44.52141794719134,0.0,.,.,.,.,.,.,.,.,0.0,.,.,.,.,.,.,.,.
+4,0,636.9157685049078,14103.0,231.70356153146105,1562.725994131264,1562.725994131264,657.5402444528316,231.70356153146105,231.70356153146105,436.25633098825983,779.1930374570419,213.91483731006568,1562.725994131264,0.0,.,.,.,.,.,.,.,.,0.0,.,.,.,.,.,.,.,.
 ]]></Data>
 			<StringTable contentKey="7WYG2BY3OED3SM4NV36PPWDKTWNAT3RM" size="69" format="CSV" rowCount="5"><![CDATA["Abs (Transaction Amount)"
 "Education"
@@ -96,7 +96,7 @@
 "Shelter"
 ]]></StringTable>
 		</Result>
-		<Result ref="dd274" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-05-22T14:56:09.883Z">
+		<Result ref="dd274" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-05-30T13:06:07.648Z">
 			<Variables>
 				<StringVariable label="Expense Category" ref="bi276" varname="bi276" column="c0"/>
 				<StringVariable label="Measure" ref="bi267" varname="bi267" column="c1"/>
@@ -125,10 +125,10 @@
 				<NumericColumn dataType="double" colname="c10" encoding="text"/>
 				<NumericColumn dataType="double" colname="c11" encoding="text"/>
 			</Columns>
-			<Data isIndexed="true" availableRowCount="4" contentKey="I4HQT6R56UYIIMYXZ3VAU4KYUZ6UA7ND" size="653" format="CSV" rowCount="4" grandTotal="false" dataLayout="minimal"><![CDATA[1,0,46.462019579910695,4060.0,12.812445018190989,91.14351384881228,38.00537955363991,12.812445018190989,12.812445018190989,73.19785214731145,28.80169378185509,91.14351384881228
-2,0,4.683829003284728,974100.0,4.0,14.84047264906378,4.0,4.0,4.0,5.509498930902453,1.1871250914266078,14.84047264906378
-3,0,13.994564099027912,355359.0,0.5347862825107764,44.52141794719134,14.363078379033963,0.5347862825107764,6.943528769149253,19.962645211304103,8.28056909991268,44.52141794719134
-4,0,636.9157685049076,14103.0,231.70356153146105,1562.725994131264,657.5402444528316,231.70356153146105,436.25633098825983,779.1930374570419,213.9148373100663,1562.725994131264
+			<Data isIndexed="true" availableRowCount="4" contentKey="ECV4XFB7L5VVFTIH44JECIHH2X7GN566" size="656" format="CSV" rowCount="4" grandTotal="false" dataLayout="minimal"><![CDATA[1,0,46.462019579910695,4060.0,12.812445018190989,91.14351384881228,38.00537955363991,12.812445018190989,12.812445018190989,73.19785214731145,28.801693781855047,91.14351384881228
+2,0,4.683829003284721,974100.0,4.0,14.84047264906378,4.0,4.0,4.0,5.509498930902453,1.1871250914266642,14.84047264906378
+3,0,13.994564099027885,355359.0,0.5347862825107764,44.52141794719134,14.363078379033963,0.5347862825107764,6.943528769149253,19.962645211304103,8.280569099912706,44.52141794719134
+4,0,636.9157685049078,14103.0,231.70356153146105,1562.725994131264,657.5402444528316,231.70356153146105,436.25633098825983,779.1930374570419,213.91483731006568,1562.725994131264
 ]]></Data>
 			<StringTable contentKey="7WYG2BY3OED3SM4NV36PPWDKTWNAT3RM" size="69" format="CSV" rowCount="5"><![CDATA["Abs (Transaction Amount)"
 "Education"
@@ -1644,33 +1644,21 @@
 					</EditorProperties>
 					<Expression>ge(${bi2153,raw},0)</Expression>
 				</RelationalFilterItem>
-				<SyntheticItems name="si2128">
-					<Item purpose="semiMajor" name="bi2129"/>
-					<Item purpose="semiMinor" name="bi2130"/>
-					<Item purpose="slope" name="bi2131"/>
-					<Item purpose="inverseSlope" name="bi2132"/>
-					<Item purpose="rowOrigin" name="bi2133"/>
-					<Item purpose="columnOrigin" name="bi2134"/>
+				<SyntheticItems name="si4972">
+					<Item purpose="semiMajor" name="bi4973"/>
+					<Item purpose="semiMinor" name="bi4974"/>
+					<Item purpose="slope" name="bi4975"/>
+					<Item purpose="inverseSlope" name="bi4976"/>
+					<Item purpose="rowOrigin" name="bi4977"/>
+					<Item purpose="columnOrigin" name="bi4978"/>
 				</SyntheticItems>
-				<SyntheticItems root="bi2155" name="si3385">
-					<Item purpose="lowerBound" name="bi3386"/>
-					<Item purpose="upperBound" name="bi3387"/>
+				<SyntheticItems root="bi2159" name="si4979">
+					<Item purpose="lowerBound" name="bi4980"/>
+					<Item purpose="upperBound" name="bi4981"/>
 				</SyntheticItems>
-				<SyntheticItems root="bi2159" name="si3388">
-					<Item purpose="lowerBound" name="bi3389"/>
-					<Item purpose="upperBound" name="bi3390"/>
-				</SyntheticItems>
-				<SyntheticItems root="bi2156" name="si3391">
-					<Item purpose="lowerBound" name="bi3392"/>
-					<Item purpose="upperBound" name="bi3393"/>
-				</SyntheticItems>
-				<SyntheticItems root="bi2157" name="si3394">
-					<Item purpose="lowerBound" name="bi3395"/>
-					<Item purpose="upperBound" name="bi3396"/>
-				</SyntheticItems>
-				<SyntheticItems root="bi2158" name="si3397">
-					<Item purpose="lowerBound" name="bi3398"/>
-					<Item purpose="upperBound" name="bi3399"/>
+				<SyntheticItems root="bi2158" name="si4982">
+					<Item purpose="lowerBound" name="bi4983"/>
+					<Item purpose="upperBound" name="bi4984"/>
 				</SyntheticItems>
 				<RelationalDataItem name="bi2176" base="bi17"/>
 				<SyntheticItems name="si2137">
@@ -1705,11 +1693,27 @@
 			<DataDefinition dataSource="ds2149" type="procedural" name="dd2126">
 				<ProceduralQuery type="ellipseMatrix" scoreCodeNumber="2127">
 					<Arguments>
+						<ListArgument purpose="cellDefinitions">
+							<ArgumentGroup group="cellDefinition">
+								<Argument purpose="row">
+									<ReferenceValue>bi2158</ReferenceValue>
+								</Argument>
+								<Argument purpose="column">
+									<ReferenceValue>bi2159</ReferenceValue>
+								</Argument>
+								<Argument purpose="resultDefinition">
+									<ReferenceValue>dd5260</ReferenceValue>
+								</Argument>
+							</ArgumentGroup>
+						</ListArgument>
 						<Argument purpose="category">
 							<ReferenceValue>bi2153</ReferenceValue>
 						</Argument>
 					</Arguments>
 				</ProceduralQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="cell" name="dd5260" syntheticItems="si4972"/>
+				</ResultDefinitions>
 			</DataDefinition>
 			<DataDefinition dataSource="ds2149" type="procedural" name="dd2135">
 				<ProceduralQuery type="heatMapMatrix" scoreCodeNumber="2136">
@@ -1723,10 +1727,10 @@
 						<ListArgument purpose="cellDefinitions">
 							<ArgumentGroup group="cellDefinition">
 								<Argument purpose="row">
-									<ReferenceValue>si3388</ReferenceValue>
+									<ReferenceValue>si4979</ReferenceValue>
 								</Argument>
 								<Argument purpose="column">
-									<ReferenceValue>si3385</ReferenceValue>
+									<ReferenceValue>bi2155</ReferenceValue>
 								</Argument>
 								<Argument purpose="resultDefinition">
 									<ReferenceValue>dd2172</ReferenceValue>
@@ -1734,10 +1738,10 @@
 							</ArgumentGroup>
 							<ArgumentGroup group="cellDefinition">
 								<Argument purpose="row">
-									<ReferenceValue>si3391</ReferenceValue>
+									<ReferenceValue>bi2156</ReferenceValue>
 								</Argument>
 								<Argument purpose="column">
-									<ReferenceValue>si3385</ReferenceValue>
+									<ReferenceValue>bi2155</ReferenceValue>
 								</Argument>
 								<Argument purpose="resultDefinition">
 									<ReferenceValue>dd2173</ReferenceValue>
@@ -1745,10 +1749,10 @@
 							</ArgumentGroup>
 							<ArgumentGroup group="cellDefinition">
 								<Argument purpose="row">
-									<ReferenceValue>si3394</ReferenceValue>
+									<ReferenceValue>bi2157</ReferenceValue>
 								</Argument>
 								<Argument purpose="column">
-									<ReferenceValue>si3385</ReferenceValue>
+									<ReferenceValue>bi2155</ReferenceValue>
 								</Argument>
 								<Argument purpose="resultDefinition">
 									<ReferenceValue>dd2174</ReferenceValue>
@@ -1756,10 +1760,10 @@
 							</ArgumentGroup>
 							<ArgumentGroup group="cellDefinition">
 								<Argument purpose="row">
-									<ReferenceValue>si3397</ReferenceValue>
+									<ReferenceValue>si4982</ReferenceValue>
 								</Argument>
 								<Argument purpose="column">
-									<ReferenceValue>si3385</ReferenceValue>
+									<ReferenceValue>bi2155</ReferenceValue>
 								</Argument>
 								<Argument purpose="resultDefinition">
 									<ReferenceValue>dd2175</ReferenceValue>
@@ -1767,10 +1771,10 @@
 							</ArgumentGroup>
 							<ArgumentGroup group="cellDefinition">
 								<Argument purpose="row">
-									<ReferenceValue>si3391</ReferenceValue>
+									<ReferenceValue>bi2156</ReferenceValue>
 								</Argument>
 								<Argument purpose="column">
-									<ReferenceValue>si3388</ReferenceValue>
+									<ReferenceValue>si4979</ReferenceValue>
 								</Argument>
 								<Argument purpose="resultDefinition">
 									<ReferenceValue>dd2147</ReferenceValue>
@@ -1778,10 +1782,10 @@
 							</ArgumentGroup>
 							<ArgumentGroup group="cellDefinition">
 								<Argument purpose="row">
-									<ReferenceValue>si3394</ReferenceValue>
+									<ReferenceValue>bi2157</ReferenceValue>
 								</Argument>
 								<Argument purpose="column">
-									<ReferenceValue>si3388</ReferenceValue>
+									<ReferenceValue>si4979</ReferenceValue>
 								</Argument>
 								<Argument purpose="resultDefinition">
 									<ReferenceValue>dd2167</ReferenceValue>
@@ -1789,10 +1793,10 @@
 							</ArgumentGroup>
 							<ArgumentGroup group="cellDefinition">
 								<Argument purpose="row">
-									<ReferenceValue>si3397</ReferenceValue>
+									<ReferenceValue>si4982</ReferenceValue>
 								</Argument>
 								<Argument purpose="column">
-									<ReferenceValue>si3388</ReferenceValue>
+									<ReferenceValue>si4979</ReferenceValue>
 								</Argument>
 								<Argument purpose="resultDefinition">
 									<ReferenceValue>dd2168</ReferenceValue>
@@ -1800,10 +1804,10 @@
 							</ArgumentGroup>
 							<ArgumentGroup group="cellDefinition">
 								<Argument purpose="row">
-									<ReferenceValue>si3394</ReferenceValue>
+									<ReferenceValue>bi2157</ReferenceValue>
 								</Argument>
 								<Argument purpose="column">
-									<ReferenceValue>si3391</ReferenceValue>
+									<ReferenceValue>bi2156</ReferenceValue>
 								</Argument>
 								<Argument purpose="resultDefinition">
 									<ReferenceValue>dd2169</ReferenceValue>
@@ -1811,10 +1815,10 @@
 							</ArgumentGroup>
 							<ArgumentGroup group="cellDefinition">
 								<Argument purpose="row">
-									<ReferenceValue>si3397</ReferenceValue>
+									<ReferenceValue>si4982</ReferenceValue>
 								</Argument>
 								<Argument purpose="column">
-									<ReferenceValue>si3391</ReferenceValue>
+									<ReferenceValue>bi2156</ReferenceValue>
 								</Argument>
 								<Argument purpose="resultDefinition">
 									<ReferenceValue>dd2170</ReferenceValue>
@@ -1822,10 +1826,10 @@
 							</ArgumentGroup>
 							<ArgumentGroup group="cellDefinition">
 								<Argument purpose="row">
-									<ReferenceValue>si3397</ReferenceValue>
+									<ReferenceValue>si4982</ReferenceValue>
 								</Argument>
 								<Argument purpose="column">
-									<ReferenceValue>si3394</ReferenceValue>
+									<ReferenceValue>bi2157</ReferenceValue>
 								</Argument>
 								<Argument purpose="resultDefinition">
 									<ReferenceValue>dd2171</ReferenceValue>
@@ -2747,6 +2751,12 @@
 				<DataItem name="bi3646" xref="employerId"/>
 				<DataItem name="bi3647" xref="employerLocationLat"/>
 				<DataItem name="bi3648" xref="employerLocationLng"/>
+				<DataItem name="bi5236" xref="apartmentBuildingId"/>
+				<DataItem name="bi5237" xref="apartmentBuildingMaxOccupancy"/>
+				<DataItem name="bi5238" xref="apartmentLocationLat"/>
+				<DataItem name="bi5239" xref="apartmentLocationLng"/>
+				<DataItem name="bi5240" xref="apartmentRentalCost"/>
+				<DataItem name="bi5241" xref="apartmentNumberOfRooms"/>
 			</BusinessItemFolder>
 		</DataSource>
 		<DataSource label="PARTICIPANTMONTHLYSHELTERCOST" type="relational" name="ds350">
@@ -3125,11 +3135,11 @@
 <![CDATA[<StatGraph opaque="false" includeMissingDiscrete="true" missingValueDisplay="autolabel" displayOptionPolicy="union">
     <Meta>
         <DataNameMap>
-            <Entry model="LayoutOverlay_70" data="dd228"/>
+            <Entry model="LayoutOverlay_40" data="dd228"/>
         </DataNameMap>
     </Meta>
-    <LayoutOverlay cycleAttrs="true" name="LayoutOverlay_70">
-        <HeatBoxParm name="HeatBoxParm_5" tipListPolicy="replace" orient="horizontal" display="NOMEAN NOOUTLIERS" connect="mean" boxWidth="0.800000011" binWidth="0.800000011" binDisplay="FILL" discreteOffset="0" tip="x Role1 min Q1 mean median Q3 max Role2 STD N" x="dd228#bi276" analysisLabel="dd228#bi234" dataMin="dd228#bi241" dataMax="dd228#bi242" min="dd228#bi232" max="dd228#bi240" Q1="dd228#bi237" Q3="dd228#bi238" mean="dd228#bi230" median="dd228#bi235" STD="dd228#bi239" N="dd228#bi231" binMin="dd228#bi243" binMax="dd228#bi252" binStartMin="dd228#bi250" binStartMax="dd228#bi259" binSizeMin="dd228#bi251" binSizeMax="dd228#bi260" group="dd228#bi234" fillAttrs="GraphDataStyle1" outlineAttrs="OutlinesUnfilled" medianAttrs="BoxMedian" outlierAttrs="Outlier" whiskerAttrs="BoxWhisker" connectAttrs="ConnectLine">
+    <LayoutOverlay cycleAttrs="true" name="LayoutOverlay_40">
+        <HeatBoxParm name="HeatBoxParm_4" tipListPolicy="replace" orient="horizontal" display="NOMEAN NOOUTLIERS" connect="mean" boxWidth="0.800000011" binWidth="0.800000011" binDisplay="FILL" discreteOffset="0" tip="x Role1 min Q1 mean median Q3 max Role2 STD N" x="dd228#bi276" analysisLabel="dd228#bi234" dataMin="dd228#bi241" dataMax="dd228#bi242" min="dd228#bi232" max="dd228#bi240" Q1="dd228#bi237" Q3="dd228#bi238" mean="dd228#bi230" median="dd228#bi235" STD="dd228#bi239" N="dd228#bi231" binMin="dd228#bi243" binMax="dd228#bi252" binStartMin="dd228#bi250" binStartMax="dd228#bi259" binSizeMin="dd228#bi251" binSizeMax="dd228#bi260" group="dd228#bi234" fillAttrs="GraphDataStyle1" outlineAttrs="OutlinesUnfilled" medianAttrs="BoxMedian" outlierAttrs="Outlier" whiskerAttrs="BoxWhisker" connectAttrs="ConnectLine">
             <OutlierMinVars>
                 <Value>dd228#bi244</Value>
                 <Value>dd228#bi245</Value>
@@ -3164,7 +3174,7 @@
     <LayoutGlobalLegend hAlign="center" vAlign="bottom" position="bottom" allowCollapsed="true">
         <AutoLegend opaque="false">
             <GraphNames>
-                <Value>HeatBoxParm_5</Value>
+                <Value>HeatBoxParm_4</Value>
             </GraphNames>
         </AutoLegend>
     </LayoutGlobalLegend>
@@ -3868,7 +3878,7 @@
 				<Property key="visualType">COMPOSITE_SUBCONTAINER</Property>
 			</EditorProperties>
 		</VisualContainer>
-		<Graph graphType="cluster" resultDefinitions="dd2062 dd2125 dd2172 dd2173 dd2174 dd2175 dd2147 dd2167 dd2168 dd2169 dd2170 dd2171 dd2146" name="ve1980" data="dd1982 dd2123" label="Cluster Diagram" applyDynamicBrushes="no"><![CDATA[<StatGraph opaque="false" missingValueDisplay="autolabel">
+		<Graph graphType="cluster" resultDefinitions="dd2062 dd2125 dd5260 dd2172 dd2173 dd2174 dd2175 dd2147 dd2167 dd2168 dd2169 dd2170 dd2171 dd2146" name="ve1980" data="dd1982 dd2123" label="Cluster Diagram" applyDynamicBrushes="no"><![CDATA[<StatGraph opaque="false" missingValueDisplay="autolabel">
     <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
     <Meta>
         <DataNameMap>
@@ -3890,12 +3900,22 @@
             <Entry model="Scatter_1_4" data="dd2125"/>
             <Entry model="Scatter_2_4" data="dd2125"/>
             <Entry model="Scatter_3_4" data="dd2125"/>
+            <Entry model="BinMetadata_0_2_0" data="dd2146"/>
+            <Entry model="BinMetadata_0_2_1" data="dd2146"/>
+            <Entry model="BinMetadata_0_2_2" data="dd2146"/>
+            <Entry model="BinMetadata_0_3_0" data="dd2146"/>
+            <Entry model="BinMetadata_0_3_1" data="dd2146"/>
+            <Entry model="BinMetadata_0_3_2" data="dd2146"/>
+            <Entry model="BinMetadata_2_3_0" data="dd2146"/>
+            <Entry model="BinMetadata_2_3_1" data="dd2146"/>
+            <Entry model="BinMetadata_2_3_2" data="dd2146"/>
             <Entry model="HeatMap_0_2_0" data="dd2173"/>
             <Entry model="HeatMap_0_2_1" data="dd2173"/>
             <Entry model="HeatMap_0_2_2" data="dd2173"/>
             <Entry model="HeatMap_0_3_0" data="dd2174"/>
             <Entry model="HeatMap_0_3_1" data="dd2174"/>
             <Entry model="HeatMap_0_3_2" data="dd2174"/>
+            <Entry model="Ellipse_1_4" data="dd5260"/>
             <Entry model="HeatMap_2_3_0" data="dd2169"/>
             <Entry model="HeatMap_2_3_1" data="dd2169"/>
             <Entry model="HeatMap_2_3_2" data="dd2169"/>
@@ -3907,12 +3927,8 @@
                 <ScatterPlot name="Scatter_0_1" jitter="auto" x="dd2125#bi2155" y="dd2125#bi2159" group="dd2125#bi2153">
                     <MarkerAttrs size="3px" symbol="SQUARE_FILLED"/>
                 </ScatterPlot>
-                <EllipseParm name="Ellipse_0_1" display="OUTLINE FILL" xOrigin="unknownDataName#bi2155" yOrigin="unknownDataName#bi2159" semiMajor="unknownDataName#bi2129" semiMinor="unknownDataName#bi2130" slope="unknownDataName#bi2131" group="unknownDataName#bi2153">
-                    <OutlineAttrs thickness="1px"/>
-                    <FillAttrs transparency="0.75"/>
-                </EllipseParm>
                 <ScatterPlot name="Centroids_0_1" jitter="auto" x="dd2062#bi2102" y="dd2062#bi2121" group="dd2062#bi1986">
-                    <MarkerAttrs size="15px" symbol="HEXAGON"/>
+                    <MarkerAttrs size="15px" symbol="X"/>
                 </ScatterPlot>
                 <HeatmapParm name="HMLegendSource" visible="false" x="dd2062#bi2102" y="dd2062#bi2121" group="dd2062#bi1986"/>
                 <BorderAttrs thickness="3px" color="4210752" pattern="36"/>
@@ -3921,6 +3937,7 @@
         <Cell>
             <LayoutOverlay name="MatrixCell_0_2" border="true">
                 <HeatmapParm name="HeatMap_0_2_0" showMissingValuesInTips="false" includeMissingColor="false" xGap="2px" yGap="2px" tip="x y Role1 Role2 Role3 Role4" x="dd2173#bi2155" y="dd2173#bi2156" colorResponse="dd2173#bi2145-ri1" fillPatternAttrs="GraphDataStyle1" colorModel="TwoColorRamp1">
+                    <BinMetadata name="BinMetadata_0_2_0" dataField="dd2146#bi2138" size="dd2146#bi2140" start="dd2146#bi2139" count="dd2146#bi2141"/>
                     <Roles>
                         <Role name="Role1" type="variable">dd2173#bi2143</Role>
                         <Role name="Role2" type="variable">dd2173#bi2144-ri1</Role>
@@ -3931,6 +3948,7 @@
                     <FillPatternAttrs/>
                 </HeatmapParm>
                 <HeatmapParm name="HeatMap_0_2_1" showMissingValuesInTips="false" includeMissingColor="false" xGap="2px" yGap="2px" tip="x y Role1 Role2 Role3 Role4" x="dd2173#bi2155" y="dd2173#bi2156" colorResponse="dd2173#bi2145-ri2" fillPatternAttrs="GraphDataStyle2" colorModel="TwoColorRamp2">
+                    <BinMetadata name="BinMetadata_0_2_1" dataField="dd2146#bi2138" size="dd2146#bi2140" start="dd2146#bi2139" count="dd2146#bi2141"/>
                     <Roles>
                         <Role name="Role1" type="variable">dd2173#bi2143</Role>
                         <Role name="Role2" type="variable">dd2173#bi2144-ri1</Role>
@@ -3941,6 +3959,7 @@
                     <FillPatternAttrs/>
                 </HeatmapParm>
                 <HeatmapParm name="HeatMap_0_2_2" showMissingValuesInTips="false" includeMissingColor="false" xGap="2px" yGap="2px" tip="x y Role1 Role2 Role3 Role4" x="dd2173#bi2155" y="dd2173#bi2156" colorResponse="dd2173#bi2145-ri3" fillPatternAttrs="GraphDataStyle3" colorModel="TwoColorRamp3">
+                    <BinMetadata name="BinMetadata_0_2_2" dataField="dd2146#bi2138" size="dd2146#bi2140" start="dd2146#bi2139" count="dd2146#bi2141"/>
                     <Roles>
                         <Role name="Role1" type="variable">dd2173#bi2143</Role>
                         <Role name="Role2" type="variable">dd2173#bi2144-ri1</Role>
@@ -3950,12 +3969,8 @@
                     <FillAttrs transparency="0"/>
                     <FillPatternAttrs/>
                 </HeatmapParm>
-                <EllipseParm name="Ellipse_0_2" display="OUTLINE FILL" xOrigin="unknownDataName#bi2155" yOrigin="unknownDataName#bi2156" semiMajor="unknownDataName#bi2129" semiMinor="unknownDataName#bi2130" slope="unknownDataName#bi2131" group="unknownDataName#bi2153">
-                    <OutlineAttrs thickness="1px"/>
-                    <FillAttrs transparency="0.75"/>
-                </EllipseParm>
                 <ScatterPlot name="Centroids_0_2" jitter="auto" x="dd2062#bi2102" y="dd2062#bi2272" group="dd2062#bi1986">
-                    <MarkerAttrs size="15px" symbol="HEXAGON"/>
+                    <MarkerAttrs size="15px" symbol="X"/>
                 </ScatterPlot>
                 <BorderAttrs thickness="3px" color="4210752" pattern="36"/>
             </LayoutOverlay>
@@ -3963,6 +3978,7 @@
         <Cell>
             <LayoutOverlay name="MatrixCell_0_3" border="true">
                 <HeatmapParm name="HeatMap_0_3_0" showMissingValuesInTips="false" includeMissingColor="false" xGap="2px" yGap="2px" tip="x y Role1 Role2 Role3 Role4" x="dd2174#bi2155" y="dd2174#bi2157" colorResponse="dd2174#bi2145-ri1" fillPatternAttrs="GraphDataStyle1" colorModel="TwoColorRamp1">
+                    <BinMetadata name="BinMetadata_0_3_0" dataField="dd2146#bi2138" size="dd2146#bi2140" start="dd2146#bi2139" count="dd2146#bi2141"/>
                     <Roles>
                         <Role name="Role1" type="variable">dd2174#bi2143</Role>
                         <Role name="Role2" type="variable">dd2174#bi2144-ri1</Role>
@@ -3973,6 +3989,7 @@
                     <FillPatternAttrs/>
                 </HeatmapParm>
                 <HeatmapParm name="HeatMap_0_3_1" showMissingValuesInTips="false" includeMissingColor="false" xGap="2px" yGap="2px" tip="x y Role1 Role2 Role3 Role4" x="dd2174#bi2155" y="dd2174#bi2157" colorResponse="dd2174#bi2145-ri2" fillPatternAttrs="GraphDataStyle2" colorModel="TwoColorRamp2">
+                    <BinMetadata name="BinMetadata_0_3_1" dataField="dd2146#bi2138" size="dd2146#bi2140" start="dd2146#bi2139" count="dd2146#bi2141"/>
                     <Roles>
                         <Role name="Role1" type="variable">dd2174#bi2143</Role>
                         <Role name="Role2" type="variable">dd2174#bi2144-ri1</Role>
@@ -3983,6 +4000,7 @@
                     <FillPatternAttrs/>
                 </HeatmapParm>
                 <HeatmapParm name="HeatMap_0_3_2" showMissingValuesInTips="false" includeMissingColor="false" xGap="2px" yGap="2px" tip="x y Role1 Role2 Role3 Role4" x="dd2174#bi2155" y="dd2174#bi2157" colorResponse="dd2174#bi2145-ri3" fillPatternAttrs="GraphDataStyle3" colorModel="TwoColorRamp3">
+                    <BinMetadata name="BinMetadata_0_3_2" dataField="dd2146#bi2138" size="dd2146#bi2140" start="dd2146#bi2139" count="dd2146#bi2141"/>
                     <Roles>
                         <Role name="Role1" type="variable">dd2174#bi2143</Role>
                         <Role name="Role2" type="variable">dd2174#bi2144-ri1</Role>
@@ -3992,12 +4010,8 @@
                     <FillAttrs transparency="0"/>
                     <FillPatternAttrs/>
                 </HeatmapParm>
-                <EllipseParm name="Ellipse_0_3" display="OUTLINE FILL" xOrigin="unknownDataName#bi2155" yOrigin="unknownDataName#bi2157" semiMajor="unknownDataName#bi2129" semiMinor="unknownDataName#bi2130" slope="unknownDataName#bi2131" group="unknownDataName#bi2153">
-                    <OutlineAttrs thickness="1px"/>
-                    <FillAttrs transparency="0.75"/>
-                </EllipseParm>
                 <ScatterPlot name="Centroids_0_3" jitter="auto" x="dd2062#bi2102" y="dd2062#bi2273" group="dd2062#bi1986">
-                    <MarkerAttrs size="15px" symbol="HEXAGON"/>
+                    <MarkerAttrs size="15px" symbol="X"/>
                 </ScatterPlot>
                 <BorderAttrs thickness="3px" color="4210752" pattern="36"/>
             </LayoutOverlay>
@@ -4007,12 +4021,8 @@
                 <ScatterPlot name="Scatter_0_4" jitter="auto" x="dd2125#bi2155" y="dd2125#bi2158" group="dd2125#bi2153">
                     <MarkerAttrs size="3px" symbol="SQUARE_FILLED"/>
                 </ScatterPlot>
-                <EllipseParm name="Ellipse_0_4" display="OUTLINE FILL" xOrigin="unknownDataName#bi2155" yOrigin="unknownDataName#bi2158" semiMajor="unknownDataName#bi2129" semiMinor="unknownDataName#bi2130" slope="unknownDataName#bi2131" group="unknownDataName#bi2153">
-                    <OutlineAttrs thickness="1px"/>
-                    <FillAttrs transparency="0.75"/>
-                </EllipseParm>
                 <ScatterPlot name="Centroids_0_4" jitter="auto" x="dd2062#bi2102" y="dd2062#bi2274" group="dd2062#bi1986">
-                    <MarkerAttrs size="15px" symbol="HEXAGON"/>
+                    <MarkerAttrs size="15px" symbol="X"/>
                 </ScatterPlot>
                 <BorderAttrs thickness="3px" color="4210752" pattern="36"/>
             </LayoutOverlay>
@@ -4023,12 +4033,8 @@
                 <ScatterPlot name="Scatter_1_2" jitter="auto" x="dd2125#bi2159" y="dd2125#bi2156" group="dd2125#bi2153">
                     <MarkerAttrs size="3px" symbol="SQUARE_FILLED"/>
                 </ScatterPlot>
-                <EllipseParm name="Ellipse_1_2" display="OUTLINE FILL" xOrigin="unknownDataName#bi2159" yOrigin="unknownDataName#bi2156" semiMajor="unknownDataName#bi2129" semiMinor="unknownDataName#bi2130" slope="unknownDataName#bi2131" group="unknownDataName#bi2153">
-                    <OutlineAttrs thickness="1px"/>
-                    <FillAttrs transparency="0.75"/>
-                </EllipseParm>
                 <ScatterPlot name="Centroids_1_2" jitter="auto" x="dd2062#bi2121" y="dd2062#bi2272" group="dd2062#bi1986">
-                    <MarkerAttrs size="15px" symbol="HEXAGON"/>
+                    <MarkerAttrs size="15px" symbol="X"/>
                 </ScatterPlot>
                 <BorderAttrs thickness="3px" color="4210752" pattern="36"/>
             </LayoutOverlay>
@@ -4038,12 +4044,8 @@
                 <ScatterPlot name="Scatter_1_3" jitter="auto" x="dd2125#bi2159" y="dd2125#bi2157" group="dd2125#bi2153">
                     <MarkerAttrs size="3px" symbol="SQUARE_FILLED"/>
                 </ScatterPlot>
-                <EllipseParm name="Ellipse_1_3" display="OUTLINE FILL" xOrigin="unknownDataName#bi2159" yOrigin="unknownDataName#bi2157" semiMajor="unknownDataName#bi2129" semiMinor="unknownDataName#bi2130" slope="unknownDataName#bi2131" group="unknownDataName#bi2153">
-                    <OutlineAttrs thickness="1px"/>
-                    <FillAttrs transparency="0.75"/>
-                </EllipseParm>
                 <ScatterPlot name="Centroids_1_3" jitter="auto" x="dd2062#bi2121" y="dd2062#bi2273" group="dd2062#bi1986">
-                    <MarkerAttrs size="15px" symbol="HEXAGON"/>
+                    <MarkerAttrs size="15px" symbol="X"/>
                 </ScatterPlot>
                 <BorderAttrs thickness="3px" color="4210752" pattern="36"/>
             </LayoutOverlay>
@@ -4053,12 +4055,12 @@
                 <ScatterPlot name="Scatter_1_4" x="dd2125#bi2159" y="dd2125#bi2158" group="dd2125#bi2153">
                     <MarkerAttrs size="3px" symbol="SQUARE_FILLED"/>
                 </ScatterPlot>
-                <EllipseParm name="Ellipse_1_4" display="OUTLINE FILL" xOrigin="unknownDataName#bi2159" yOrigin="unknownDataName#bi2158" semiMajor="unknownDataName#bi2129" semiMinor="unknownDataName#bi2130" slope="unknownDataName#bi2131" group="unknownDataName#bi2153">
+                <EllipseParm name="Ellipse_1_4" display="OUTLINE FILL" xOrigin="dd5260#bi2159" yOrigin="dd5260#bi2158" semiMajor="dd5260#bi4973" semiMinor="dd5260#bi4974" slope="dd5260#bi4975" group="dd5260#bi2153">
                     <OutlineAttrs thickness="1px"/>
                     <FillAttrs transparency="0.75"/>
                 </EllipseParm>
                 <ScatterPlot name="Centroids_1_4" jitter="auto" x="dd2062#bi2121" y="dd2062#bi2274" group="dd2062#bi1986">
-                    <MarkerAttrs size="15px" symbol="HEXAGON"/>
+                    <MarkerAttrs size="15px" symbol="X"/>
                 </ScatterPlot>
                 <BorderAttrs thickness="3px" color="4210752" pattern="36"/>
             </LayoutOverlay>
@@ -4068,6 +4070,7 @@
         <Cell>
             <LayoutOverlay name="MatrixCell_2_3" border="true">
                 <HeatmapParm name="HeatMap_2_3_0" showMissingValuesInTips="false" includeMissingColor="false" xGap="2px" yGap="2px" tip="x y Role1 Role2 Role3 Role4" x="dd2169#bi2156" y="dd2169#bi2157" colorResponse="dd2169#bi2145-ri1" fillPatternAttrs="GraphDataStyle1" colorModel="TwoColorRamp1">
+                    <BinMetadata name="BinMetadata_2_3_0" dataField="dd2146#bi2138" size="dd2146#bi2140" start="dd2146#bi2139" count="dd2146#bi2141"/>
                     <Roles>
                         <Role name="Role1" type="variable">dd2169#bi2143</Role>
                         <Role name="Role2" type="variable">dd2169#bi2144-ri1</Role>
@@ -4078,6 +4081,7 @@
                     <FillPatternAttrs/>
                 </HeatmapParm>
                 <HeatmapParm name="HeatMap_2_3_1" showMissingValuesInTips="false" includeMissingColor="false" xGap="2px" yGap="2px" tip="x y Role1 Role2 Role3 Role4" x="dd2169#bi2156" y="dd2169#bi2157" colorResponse="dd2169#bi2145-ri2" fillPatternAttrs="GraphDataStyle2" colorModel="TwoColorRamp2">
+                    <BinMetadata name="BinMetadata_2_3_1" dataField="dd2146#bi2138" size="dd2146#bi2140" start="dd2146#bi2139" count="dd2146#bi2141"/>
                     <Roles>
                         <Role name="Role1" type="variable">dd2169#bi2143</Role>
                         <Role name="Role2" type="variable">dd2169#bi2144-ri1</Role>
@@ -4088,6 +4092,7 @@
                     <FillPatternAttrs/>
                 </HeatmapParm>
                 <HeatmapParm name="HeatMap_2_3_2" showMissingValuesInTips="false" includeMissingColor="false" xGap="2px" yGap="2px" tip="x y Role1 Role2 Role3 Role4" x="dd2169#bi2156" y="dd2169#bi2157" colorResponse="dd2169#bi2145-ri3" fillPatternAttrs="GraphDataStyle3" colorModel="TwoColorRamp3">
+                    <BinMetadata name="BinMetadata_2_3_2" dataField="dd2146#bi2138" size="dd2146#bi2140" start="dd2146#bi2139" count="dd2146#bi2141"/>
                     <Roles>
                         <Role name="Role1" type="variable">dd2169#bi2143</Role>
                         <Role name="Role2" type="variable">dd2169#bi2144-ri1</Role>
@@ -4097,12 +4102,8 @@
                     <FillAttrs transparency="0"/>
                     <FillPatternAttrs/>
                 </HeatmapParm>
-                <EllipseParm name="Ellipse_2_3" display="OUTLINE FILL" xOrigin="unknownDataName#bi2156" yOrigin="unknownDataName#bi2157" semiMajor="unknownDataName#bi2129" semiMinor="unknownDataName#bi2130" slope="unknownDataName#bi2131" group="unknownDataName#bi2153">
-                    <OutlineAttrs thickness="1px"/>
-                    <FillAttrs transparency="0.75"/>
-                </EllipseParm>
                 <ScatterPlot name="Centroids_2_3" jitter="auto" x="dd2062#bi2272" y="dd2062#bi2273" group="dd2062#bi1986">
-                    <MarkerAttrs size="15px" symbol="HEXAGON"/>
+                    <MarkerAttrs size="15px" symbol="X"/>
                 </ScatterPlot>
                 <BorderAttrs thickness="3px" color="4210752" pattern="36"/>
             </LayoutOverlay>
@@ -4112,12 +4113,8 @@
                 <ScatterPlot name="Scatter_2_4" jitter="auto" x="dd2125#bi2156" y="dd2125#bi2158" group="dd2125#bi2153">
                     <MarkerAttrs size="3px" symbol="SQUARE_FILLED"/>
                 </ScatterPlot>
-                <EllipseParm name="Ellipse_2_4" display="OUTLINE FILL" xOrigin="unknownDataName#bi2156" yOrigin="unknownDataName#bi2158" semiMajor="unknownDataName#bi2129" semiMinor="unknownDataName#bi2130" slope="unknownDataName#bi2131" group="unknownDataName#bi2153">
-                    <OutlineAttrs thickness="1px"/>
-                    <FillAttrs transparency="0.75"/>
-                </EllipseParm>
                 <ScatterPlot name="Centroids_2_4" jitter="auto" x="dd2062#bi2272" y="dd2062#bi2274" group="dd2062#bi1986">
-                    <MarkerAttrs size="15px" symbol="HEXAGON"/>
+                    <MarkerAttrs size="15px" symbol="X"/>
                 </ScatterPlot>
                 <BorderAttrs thickness="3px" color="4210752" pattern="36"/>
             </LayoutOverlay>
@@ -4130,12 +4127,8 @@
                 <ScatterPlot name="Scatter_3_4" jitter="auto" x="dd2125#bi2157" y="dd2125#bi2158" group="dd2125#bi2153">
                     <MarkerAttrs size="3px" symbol="SQUARE_FILLED"/>
                 </ScatterPlot>
-                <EllipseParm name="Ellipse_3_4" display="OUTLINE FILL" xOrigin="unknownDataName#bi2157" yOrigin="unknownDataName#bi2158" semiMajor="unknownDataName#bi2129" semiMinor="unknownDataName#bi2130" slope="unknownDataName#bi2131" group="unknownDataName#bi2153">
-                    <OutlineAttrs thickness="1px"/>
-                    <FillAttrs transparency="0.75"/>
-                </EllipseParm>
                 <ScatterPlot name="Centroids_3_4" jitter="auto" x="dd2062#bi2273" y="dd2062#bi2274" group="dd2062#bi1986">
-                    <MarkerAttrs size="15px" symbol="HEXAGON"/>
+                    <MarkerAttrs size="15px" symbol="X"/>
                 </ScatterPlot>
                 <BorderAttrs thickness="3px" color="4210752" pattern="36"/>
             </LayoutOverlay>
@@ -4217,7 +4210,7 @@
         <DataNameMap>
             <Entry model="SeriesPlot_4" data="dd2075"/>
             <Entry model="ReferenceLine_1" data="dd2075"/>
-            <Entry model="ScatterPlot_37" data="dd2075"/>
+            <Entry model="ScatterPlot_38" data="dd2075"/>
         </DataNameMap>
     </Meta>
     <LayoutOverlay>
@@ -4227,7 +4220,7 @@
             </YVars>
         </SeriesPlot>
         <ReferenceLine name="ReferenceLine_1" x="dd2075#bi2058"/>
-        <ScatterPlot name="ScatterPlot_37" dataLabelPosition="top_right" x="dd2075#bi2058" y="dd2075#bi2055" dataLabel="dd2075#bi2058"/>
+        <ScatterPlot name="ScatterPlot_38" dataLabelPosition="top_right" x="dd2075#bi2058" y="dd2075#bi2055" dataLabel="dd2075#bi2058"/>
         <XAxisOpts display="LABEL TICKVALUES" gridDisplay="on" offsetMax="0">
             <LinearOpts integer="true">
                 <TickValueFormatOpts/>
@@ -4246,12 +4239,13 @@
     <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
     <Meta>
         <DataNameMap>
-            <Entry model="ParallelCoordinatesPlot_4" data="dd2093"/>
+            <Entry model="ParallelCoordinatesPlot_7" data="dd2093"/>
+            <Entry model="BinMetadata_7" data="dd2094"/>
         </DataNameMap>
     </Meta>
     <LayoutRegion>
-        <ParallelCoordinatesPlot name="ParallelCoordinatesPlot_4" dataTransparency="0.5" smoothConnect="true" lineWidthResponse="dd2093#bi2083">
-            <BinMetadata dataField="dd2094#bi2086" size="dd2094#bi2088" start="dd2094#bi2087" count="dd2094#bi2089"/>
+        <ParallelCoordinatesPlot name="ParallelCoordinatesPlot_7" dataTransparency="0.5" smoothConnect="true" lineWidthResponse="dd2093#bi2083">
+            <BinMetadata dataField="dd2094#bi2086" size="dd2094#bi2088" start="dd2094#bi2087" count="dd2094#bi2089" name="BinMetadata_7"/>
             <Response>
                 <Value>dd2093#bi2177</Value>
                 <Value>dd2093#bi2178</Value>
@@ -4324,11 +4318,11 @@
 <![CDATA[<StatGraph opaque="false" includeMissingDiscrete="true" missingValueDisplay="autolabel" displayOptionPolicy="union">
     <Meta>
         <DataNameMap>
-            <Entry model="LayoutOverlay_658" data="dd2482"/>
+            <Entry model="LayoutOverlay_110" data="dd2482"/>
         </DataNameMap>
     </Meta>
-    <LayoutOverlay name="LayoutOverlay_658" cycleAttrs="true">
-        <HeatBoxParm name="HeatBoxParm_39" tipListPolicy="replace" orient="vertical" display="NOMEAN NOOUTLIERS" connect="mean" boxWidth="0.800000011" binWidth="0.800000011" binDisplay="FILL" discreteOffset="0" tip="x Role1 min Q1 mean median Q3 max Role2 STD N" x="dd2482#bi2381" analysisLabel="dd2482#bi2489" dataMin="dd2482#bi2496" dataMax="dd2482#bi2497" min="dd2482#bi2487" max="dd2482#bi2495" Q1="dd2482#bi2492" Q3="dd2482#bi2493" mean="dd2482#bi2485" median="dd2482#bi2490" STD="dd2482#bi2494" N="dd2482#bi2486" binMin="dd2482#bi2498" binMax="dd2482#bi2507" binStartMin="dd2482#bi2505" binStartMax="dd2482#bi2514" binSizeMin="dd2482#bi2506" binSizeMax="dd2482#bi2515" group="dd2482#bi2489" fillAttrs="GraphDataStyle1" outlineAttrs="OutlinesUnfilled" medianAttrs="BoxMedian" outlierAttrs="Outlier" whiskerAttrs="BoxWhisker" connectAttrs="ConnectLine">
+    <LayoutOverlay cycleAttrs="true" name="LayoutOverlay_110">
+        <HeatBoxParm name="HeatBoxParm_5" tipListPolicy="replace" orient="vertical" display="NOMEAN NOOUTLIERS" connect="mean" boxWidth="0.800000011" binWidth="0.800000011" binDisplay="FILL" discreteOffset="0" tip="x Role1 min Q1 mean median Q3 max Role2 STD N" x="dd2482#bi2381" analysisLabel="dd2482#bi2489" dataMin="dd2482#bi2496" dataMax="dd2482#bi2497" min="dd2482#bi2487" max="dd2482#bi2495" Q1="dd2482#bi2492" Q3="dd2482#bi2493" mean="dd2482#bi2485" median="dd2482#bi2490" STD="dd2482#bi2494" N="dd2482#bi2486" binMin="dd2482#bi2498" binMax="dd2482#bi2507" binStartMin="dd2482#bi2505" binStartMax="dd2482#bi2514" binSizeMin="dd2482#bi2506" binSizeMax="dd2482#bi2515" group="dd2482#bi2489" fillAttrs="GraphDataStyle1" outlineAttrs="OutlinesUnfilled" medianAttrs="BoxMedian" outlierAttrs="Outlier" whiskerAttrs="BoxWhisker" connectAttrs="ConnectLine">
             <OutlierMinVars>
                 <Value>dd2482#bi2499</Value>
                 <Value>dd2482#bi2500</Value>
@@ -4363,7 +4357,7 @@
     <LayoutGlobalLegend hAlign="center" vAlign="bottom" position="bottom" allowCollapsed="true">
         <AutoLegend opaque="false">
             <GraphNames>
-                <Value>HeatBoxParm_39</Value>
+                <Value>HeatBoxParm_5</Value>
             </GraphNames>
         </AutoLegend>
     </LayoutGlobalLegend>
@@ -4665,7 +4659,7 @@
 				<Column variable="bi3006"/>
 			</Columns>
 		</Table>
-		<Table columnSizing="autoFill" resultDefinitions="dd2062" name="ve3658" data="dd1982" applyDynamicBrushes="yes">
+		<Table columnSizing="autoFill" resultDefinitions="dd2062" name="ve5261" data="dd1982" applyDynamicBrushes="yes">
 			<Columns>
 				<Column variable="bi1986"/>
 				<Column variable="bi2102"/>
@@ -4676,7 +4670,7 @@
 				<Column variable="bi2296"/>
 			</Columns>
 		</Table>
-		<Table columnSizing="autoFill" resultDefinitions="dd2063" name="ve3659" data="dd1982" applyDynamicBrushes="yes">
+		<Table columnSizing="autoFill" resultDefinitions="dd2063" name="ve5262" data="dd1982" applyDynamicBrushes="yes">
 			<Columns>
 				<Column variable="bi1988"/>
 				<Column variable="bi1989"/>
@@ -4688,13 +4682,13 @@
 				<Column variable="bi1997"/>
 			</Columns>
 		</Table>
-		<Table columnSizing="autoFill" resultDefinitions="dd2069" name="ve3660" data="dd1982" applyDynamicBrushes="yes">
+		<Table columnSizing="autoFill" resultDefinitions="dd2069" name="ve5263" data="dd1982" applyDynamicBrushes="yes">
 			<Columns>
 				<Column variable="bi2027"/>
 				<Column variable="bi2028"/>
 			</Columns>
 		</Table>
-		<Table columnSizing="autoFill" resultDefinitions="dd2070" name="ve3661" data="dd1982" applyDynamicBrushes="yes">
+		<Table columnSizing="autoFill" resultDefinitions="dd2070" name="ve5264" data="dd1982" applyDynamicBrushes="yes">
 			<Columns>
 				<Column variable="bi2030"/>
 				<Column variable="bi2031"/>
@@ -4702,7 +4696,7 @@
 				<Column variable="bi2033"/>
 			</Columns>
 		</Table>
-		<Table columnSizing="autoFill" resultDefinitions="dd2071" name="ve3662" data="dd1982" applyDynamicBrushes="yes">
+		<Table columnSizing="autoFill" resultDefinitions="dd2071" name="ve5265" data="dd1982" applyDynamicBrushes="yes">
 			<Columns>
 				<Column variable="bi2035"/>
 				<Column variable="bi2036"/>
@@ -4710,7 +4704,7 @@
 				<Column variable="bi2038"/>
 			</Columns>
 		</Table>
-		<Table columnSizing="autoFill" resultDefinitions="dd2072" name="ve3663" data="dd1982" applyDynamicBrushes="yes">
+		<Table columnSizing="autoFill" resultDefinitions="dd2072" name="ve5266" data="dd1982" applyDynamicBrushes="yes">
 			<Columns>
 				<Column variable="bi2040"/>
 				<Column variable="bi2041"/>
@@ -4718,21 +4712,21 @@
 				<ColumnSet variable="bi2059"/>
 			</Columns>
 		</Table>
-		<Table columnSizing="autoFill" resultDefinitions="dd2073" name="ve3664" data="dd1982" applyDynamicBrushes="yes">
+		<Table columnSizing="autoFill" resultDefinitions="dd2073" name="ve5267" data="dd1982" applyDynamicBrushes="yes">
 			<Columns>
 				<Column variable="bi2044"/>
 				<Column variable="bi2045"/>
 				<Column variable="bi2046"/>
 			</Columns>
 		</Table>
-		<Table columnSizing="autoFill" resultDefinitions="dd2074" name="ve3665" data="dd1982" applyDynamicBrushes="yes">
+		<Table columnSizing="autoFill" resultDefinitions="dd2074" name="ve5268" data="dd1982" applyDynamicBrushes="yes">
 			<Columns>
 				<Column variable="bi2048"/>
 				<Column variable="bi2049"/>
 				<Column variable="bi2050"/>
 			</Columns>
 		</Table>
-		<Table columnSizing="autoFill" resultDefinitions="dd2093" name="ve3666" data="dd2080" applyDynamicBrushes="yes">
+		<Table columnSizing="autoFill" resultDefinitions="dd2093" name="ve5269" data="dd2080" applyDynamicBrushes="yes">
 			<Columns>
 				<Column variable="bi2177"/>
 				<Column variable="bi2178"/>
@@ -4751,7 +4745,7 @@
 			<CompositeMember ref="ve1445" role="supporting"/>
 			<CompositeMember ref="ve1447" role="supporting"/>
 		</CompositeVisual>
-		<CompositeVisual label="Cluster - Children (yes/no) 1" type="clusterContainer" supplementalVisuals="ve3658 ve3659 ve3660 ve3661 ve3662 ve3663 ve3664 ve3665 ve3666" name="ve1972">
+		<CompositeVisual label="Cluster - Children (yes/no) 1" type="clusterContainer" supplementalVisuals="ve5261 ve5262 ve5263 ve5264 ve5265 ve5266 ve5267 ve5268 ve5269" name="ve1972">
 			<CompositeMember ref="ve1974" role="supporting"/>
 			<CompositeMember ref="ve1980" role="primary"/>
 			<CompositeMember ref="ve2076" role="supporting"/>
@@ -5536,7 +5530,7 @@
 									<Weight value="100%"/>
 								</Weights>
 							</ResponsiveLayout>
-							<Container ref="ve1978" hidden="true" name="vi1979">
+							<Container ref="ve1978" name="vi1979">
 								<ResponsiveConstraint>
 									<WidthConstraint>
 										<Width mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="flexible"/>
@@ -5546,7 +5540,7 @@
 									</HeightConstraint>
 								</ResponsiveConstraint>
 								<ResponsiveLayout orientation="vertical" overflow="grow"/>
-								<Visual ref="ve1980" hidden="true" name="vi1981">
+								<Visual ref="ve1980" hidden="false" name="vi1981">
 									<ResponsiveConstraint>
 										<WidthConstraint>
 											<Width mediaTarget="mt3" preferredSizeBehavior="ignore" value="75%" flexibility="flexible"/>
@@ -5778,7 +5772,7 @@
 		<MediaTarget windowSize="large" scheme="ms1" name="mt5"/>
 	</MediaTargets>
 	<Properties>
-		<Property key="displayDataSource">ds74</Property>
+		<Property key="displayDataSource">ds7</Property>
 		<Property key="ReportPackagesServiceVersion">2020.1.4</Property>
 		<Property key="ReportDataServiceVersion">2020.1.4</Property>
 	</Properties>
@@ -6127,7 +6121,7 @@ if (MISSING('_CLUSTER_ID_'n))then _CLUSTER_ID_ = -1;]]></Code>
 	</Conversions>
 	<Editors>
 		<Editor applicationName="VA">
-			<Revision editorVersion="2020" lastDate="2022-05-24T23:37:31.500Z"/>
+			<Revision editorVersion="2020" lastDate="2022-05-31T13:59:45.021Z"/>
 		</Editor>
 	</Editors>
 </History>
