@@ -1,0 +1,587 @@
+/* Resets
+-------------------------------------------------------------------------------*/
+
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-weight: 300;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+article, aside, figure, footer, header, nav, section, details, summary {
+	display: block;
+}
+
+/* Handle box-sizing while better addressing child elements:
+   http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+/* consider resetting the default cursor: https://gist.github.com/murtaugh/5247154 */
+
+/* Responsive images and other embedded objects */
+
+/* if you don't have full control over `img` tags (if you have to overcome attributes), consider adding height: auto */
+
+img, object, embed {
+	max-width: 100%;
+}
+
+/*
+   Note: keeping IMG here will cause problems if you're using foreground images as sprites.
+	In fact, it *will* cause problems with Google Maps' controls at small size.
+	If this is the case for you, try uncommenting the following:
+#map img {
+		max-width: none;
+}
+*/
+
+/* force a vertical scrollbar to prevent a jumpy page */
+
+html {
+	overflow-y: scroll;
+}
+
+/* we use a lot of ULs that aren't bulleted.
+	you'll have to restore the bullets within content,
+	which is fine because they're probably customized anyway */
+
+ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+
+a {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+	border-bottom: 1px dotted #01182a;
+	cursor: help;
+}
+
+/* tables still need cellspacing="0" in the markup */
+
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+
+th {
+	font-weight: bold;
+	vertical-align: bottom;
+}
+
+td {
+	font-weight: normal;
+	vertical-align: top;
+}
+
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
+}
+
+input, select {
+	vertical-align: middle;
+}
+
+pre {
+	white-space: pre;
+	/* CSS2 */
+	white-space: pre-wrap;
+	/* CSS 2.1 */
+	white-space: pre-line;
+	/* CSS 3 (and 2.1 as well, actually) */
+	word-wrap: break-word;
+	/* IE */
+}
+
+input[type="radio"] {
+	vertical-align: text-bottom;
+}
+
+input[type="checkbox"] {
+	vertical-align: bottom;
+}
+
+.ie7 input[type="checkbox"] {
+	vertical-align: baseline;
+}
+
+.ie6 input {
+	vertical-align: text-bottom;
+}
+
+select, input, textarea {
+	font: 99% sans-serif;
+}
+
+table {
+	font-size: inherit;
+	font: 100%;
+}
+
+small {
+	font-size: 75%;
+}
+
+strong {
+	font-weight: 600;
+}
+
+td, td img {
+	vertical-align: top;
+}
+
+/* Make sure sup and sub don't mess with your line-heights http://gist.github.com/413930 */
+
+sub, sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+}
+
+sup {
+	top: -0.5em;
+}
+
+sub {
+	bottom: -0.25em;
+}
+
+/* standardize any monospaced elements */
+
+pre, code, kbd, samp {
+	font-family: monospace, sans-serif;
+}
+
+/* hand cursor on clickable elements */
+
+.clickable, label, input[type=button], input[type=submit], input[type=file], button {
+	cursor: pointer;
+}
+
+/* Webkit browsers add a 2px margin outside the chrome of form elements */
+
+button, input, select, textarea {
+	margin: 0;
+}
+
+/* make buttons play nice in IE */
+
+button, input[type=button] {
+	width: auto;
+	overflow: visible;
+}
+
+/* scale images in IE7 more attractively */
+
+.ie7 img {
+	-ms-interpolation-mode: bicubic;
+}
+
+/* prevent BG image flicker upon hover
+   (commented out as usage is rare, and the filter syntax messes with some pre-processors)
+.ie6 html {filter: expression(document.execCommand("BackgroundImageCache", false, true));}
+*/
+
+/* let's clear some floats */
+
+.clearfix:after {
+	content: " ";
+	display: block;
+	clear: both;
+}
+
+/* General
+-------------------------------------------------------------------------------*/
+
+body, select, input, textarea {
+	color: #01182a;
+}
+
+a {
+	color: #0766D1;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #0766D1;
+	text-decoration: underline;
+}
+
+input:-moz-placeholder {
+	color: #a9a9a9;
+}
+
+textarea:-moz-placeholder {
+	color: #a9a9a9;
+}
+
+pre {
+	white-space: pre-wrap;
+	border-left: solid 2px #e2e2e2;
+	padding-left: 1rem;
+}
+html {
+	background-color: #0766D1;
+
+}
+body {
+	font: 16px 'Open Sans', sans-serif;
+	font-weight: 300;
+	line-height: 1.45;
+	background: linear-gradient(#0766D1,#054A99);
+	padding-bottom: 3rem;
+	/* background: #777; */
+	/* background-repeat: repeat;
+	background-size: 35%; */
+}
+
+#main {
+	padding: 3rem;
+	background: #fff;
+	margin: 3rem;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 55rem;
+	border: 4px solid #01182a;
+	border-radius: 2.5rem;
+	box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 0.2);
+}
+
+header {
+	padding-bottom: 3rem;
+}
+
+nav {
+	padding-top: 1rem;
+}
+
+.centered {
+	text-align: center;
+}
+
+h1, h2 {
+	font-weight: 600;
+	text-align: center;
+}
+
+h1, h2, h3, h4 {
+	margin: 1.414em 0 0.5em;
+	font-weight: inherit;
+	line-height: 1.2;
+}
+
+h1 {
+	margin-top: 4.35rem;
+	font-size: 4.666em;
+	color: #0766D1;
+	-webkit-text-stroke: 3px #01182a;
+	text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+	font-size: 1.953em;
+	font-weight: 600;
+    position: relative;
+    font-size: 30px;
+    z-index: 1;
+    overflow: hidden;
+    text-align: center;
+}
+h2:before, h2:after {
+    position: absolute;
+    top: 51%;
+    overflow: hidden;
+    width: 50%;
+    height: 4px;
+    content: '\a0';
+    background-color: #01182a;
+}
+h2:before {
+    margin-left: -50%;
+    text-align: right;
+}
+
+
+h3 {
+	font-size: 1.563em;
+}
+
+h4 {
+	font-size: 1.25em;
+}
+
+small, .font_small {
+	font-size: 0.75em;
+}
+
+p {
+	margin-bottom: 1.45rem;
+}
+
+ul {
+	list-style-type: disc;
+	list-style-position: outside;
+	margin-left: 1.000rem;
+}
+
+ol {
+	list-style-type: decimal;
+	list-style-position: outside;
+	margin-left: 1.000rem;
+	margin-bottom: 1.45rem;
+}
+
+ul ul, ol ul {
+	list-style-type: circle;
+	list-style-position: inside;
+	margin-left: 15px;
+}
+
+ol ol, ul ol {
+	list-style-type: lower-latin;
+	list-style-position: inside;
+	margin-left: 15px;
+}
+
+ul.list {
+	margin-top: -0.72rem;
+	margin-left: 1.55rem;
+	margin-bottom: 1.45rem;
+}
+
+ul.list li {
+	margin-top: 0.72rem;
+}
+
+img.logo {
+	max-height: 5rem;
+	margin-top: -1rem;
+	margin-bottom: 1rem;
+}
+
+figure {
+	margin-top: 2rem;
+}
+
+figure > *:not(figcaption), .darkpane {
+	width: 100%;
+	padding: 2rem;
+	border-radius: 2rem;
+	background-color: #01182a;
+	margin-bottom: 2.9rem;
+	box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.2);
+}
+
+.darkpane {
+	margin-bottom: 0.5rem;
+}
+
+figure>figcaption {
+	font-variant-caps: all-small-caps;
+	font-size: 1.563em;
+	color: #01182a;
+	padding-top: 1rem;
+	padding-bottom: 0.5rem;
+	/* font-style: italic; */
+	text-align: center;
+	font-weight: bold;
+	max-width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+figure pre {
+	color: #777;
+	font-size: smaller;
+}
+
+figure pre strong {
+	color: #333;
+}
+
+.wrapblock {
+	display: inline-block;
+}
+
+.vidwrap {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 0;
+	height: 0;
+	box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 0.2);
+	margin-bottom: 0.5rem;
+}
+
+.vidwrap iframe, .vidwrap object, .vidwrap embed {
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	width: 100%; 
+	height: 100%;
+}
+
+.highlight1 {
+	background: #b3dcff;
+}
+
+.highlight1.dark {
+	background: #9bcfff;
+}
+
+.highlight, .highlight2 {
+	background: #ffebb4;
+}
+
+.highlight.dark, .highlight2.dark {
+	background: #fee69a;
+}
+
+.highlight3 {
+	background: #d4c5fe;
+}
+
+.highlight3.dark {
+	background: #c9b2ff;
+}
+
+span.highlight, span.highlight1, span.highlight2, span.highlight3 {
+	padding: 0rem 0.1rem;
+	margin: 0rem -0.1rem;
+}
+
+table.tableizer-table {}
+
+.tableizer-table td, .tableizer-table th {
+	padding: 0.25rem 0.75rem;
+	border-bottom: 1px solid #ddd;
+}
+
+.tableizer-table th {
+	font-weight: bold;
+	text-align: left;
+	white-space: nowrap;
+}
+
+.question-number {
+	color: #fff;
+    font-weight: bold;
+    font-size: larger;
+    margin-left: -5rem;
+    margin-right: 1.5rem;
+    margin-top: -1.45rem;
+    background: #01182a;
+    padding: 0.5rem 1.25rem;
+    border-radius: 5rem;
+    /* border: 4px solid #01182a; */
+    box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* Header, Footer, and Nav
+-------------------------------------------------------------------------------*/
+
+header {
+	text-align: center;
+}
+
+header>p {
+	margin: 0em;
+	font-weight: 600;
+}
+
+footer {
+	text-align: center;
+	margin-bottom: -5rem;
+	margin-top: 4rem;
+}
+
+
+/* Small Screens
+-------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 59rem) {
+	#main {
+		margin: 0;
+		padding: 1.5rem;
+		border: none;
+		box-shadow: none;
+		max-width: none;
+		font-size: 14px;
+		border-radius: 0;
+	}
+	html {
+		margin: 0;
+		background: #fff;
+	}
+	body {
+		background: #fff;
+	}
+	header {
+		padding-bottom: 0;
+	}
+	footer {
+		margin-bottom: -4rem;
+		height: 1.8rem;
+	}
+	.question-number {
+		color: #01182a;
+		position: unset;
+		margin: unset;
+		padding: unset;
+		background: unset;
+		box-shadow: unset;
+		font-size: unset;
+		border-radius: unset;
+		border: unset;
+	}
+	.question-number::after {
+		content: ". ";
+	}
+}
+
+/* Print styles
+-------------------------------------------------------------------------------*/
+
+@media print {
+	body {
+		margin: 0;
+		border: none;
+		box-shadow: none;
+		max-width: none;
+	}
+	html {
+		background: #fff;
+	}
+}

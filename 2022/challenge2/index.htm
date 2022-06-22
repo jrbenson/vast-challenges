@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>SAS-SCHULZ-CH2</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#1f75bd" />
+    <meta name="msapplication-TileColor" content="#1f75bd" />
+    <meta name="theme-color" content="#ffffff" /> -->
+
+    <script
+      async
+      src="https://cdn.developer.sas.com/packages/va-report-components/latest/dist/umd/va-report-components.js"
+    ></script>
+
+    <style>
+      sas-report,
+      sas-report-page,
+      sas-report-object {
+        height: 80vh;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="main">
+      <header>
+        <h1><strong class="wrapblock">SAS-SCHULZ-CH2</strong></h1>
+        <p>VAST Challenge 2022</p>
+        <p>Challenge 2</p>
+
+        <nav>
+          <a href="#team_information">Team Information</a> |
+          <a href="#video">Video</a> |
+          <a href="#questions">Questions</a>
+        </nav>
+      </header>
+
+      <h2 id="team_information">Team Information</h2>
+
+      <h3>Team members:</h3>
+      <ul>
+        <li>
+          First Last, SAS Institute,
+          <a href="mailto:Falko.Schulz@sas.com">Falko.Schulz@sas.com</a>
+          (PRIMARY)
+        </li>
+        <li>
+          First Last, SAS Institute,
+          <a href="mailto:Don.Chapman@sas.com">Don.Chapman@sas.com</a>
+        </li>
+      </ul>
+
+      <h3>Student team?</h3>
+      <p>No</p>
+
+      <h3>Analytics tools used:</h3>
+      <ul>
+        <li>
+          <a href="https://www.sas.com/en_us/software/visual-analytics.html"
+            >SAS Visual Analytics</a
+          >
+        </li>
+      </ul>
+
+      <h3>
+        Approximately how many hours were spent working on this submission in
+        total?
+      </h3>
+      <p>?? hours</p>
+
+      <h3>
+        May we post your submission in the Visual Analytics Benchmark Repository
+        after VAST Challenge 2022 is complete?
+      </h3>
+      <p>Yes</p>
+
+      <h2 id="video">Video</h2>
+      <div class="darkpane">
+        <div class="vidwrap">
+          <iframe
+            width="784"
+            height="480"
+            src="https://www.youtube.com/embed/BTX8mT4Kfr8?theme=light&modestbranding=1&controls=2&rel=0&showinfo=0"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+      <p class="centered">
+        <a href="https://youtu.be/BTX8mT4Kfr8">Watch Video on YouTube</a>
+      </p>
+
+      <h2 id="questions">Questions</h2>
+
+      <p class="centered">
+        <a href="#q1">Question 1</a> | <a href="#q2">Question 2</a> |
+        <a href="#q3">Question 3</a> |
+        <a href="#q4">Question 4</a>
+      </p>
+
+      <p>
+        Patterns of Life considers the patterns of daily life throughout the
+        city. You will describe the daily routines for some representative
+        people, characterize the travel patterns to identify potential
+        bottlenecks or hazards, and examine how these patterns change over time
+        and seasons.
+      </p>
+
+      <h3>
+        <span id="q1" class="question-number">1</span>Assuming the volunteers
+        are representative of the city's population, characterize the distinct
+        areas of the city that you identify. For each area you identify, provide
+        your rationale and supporting data.
+      </h3>
+      <p>
+        <small>Limit your response to 10 images and 500 words.</small>
+      </p>
+
+      <p>
+        Using the transactional data of the participant's daily routines we
+        identified various distinct areas in the city. Particularly, the city
+        can be divided into areas with residential and business use.
+      </p>
+
+      <figure>
+        <figcaption>Map of Residential and Business Districts</figcaption>
+        <sas-report-page
+          packageUri="https://jrbenson.github.io/vast-challenges/2022/pkg/ch2-q1-1/"
+          pageName="vi6"
+        ></sas-report-page>
+      </figure>
+
+      <p>
+        Most of the residential buildings (shown as yellow in the figure below)
+        are in the outer areas of the city which means long commutes to business
+        locations (shown as red). Combining the business district heat map and
+        residential information reveals a potential source of bottlenecks during
+        peak hours as employees travel from the outer city areas into each of
+        the business districts.
+      </p>
+
+      <figure>
+        <figcaption>Heat Maps of Residential and Business Activity</figcaption>
+        <sas-report-page
+          packageUri="https://jrbenson.github.io/vast-challenges/2022/pkg/ch2-q1-2/"
+          pageName="vi2365"
+        ></sas-report-page>
+      </figure>
+
+      <p>
+        Comparing residential rental costs for different areas of the city
+        reveals that many high-cost apartments are close to the city center and
+        in close proximity to business locations.
+      </p>
+
+      <figure>
+        <figcaption>Heat Maps of Rental Costs</figcaption>
+        <sas-report-page
+          packageUri="https://jrbenson.github.io/vast-challenges/2022/pkg/ch2-q1-1/"
+          pageName="vi96"
+        ></sas-report-page>
+      </figure>
+
+      <p>
+        Looking into the happiness score for participants shows that the
+        majority of people are happier if they live close to the center of the
+        city. Likely shorter commutes, better access to facilities, and
+        employment options contribute.
+      </p>
+
+      <figure>
+        <figcaption>Clustering of Higher Happiness Near City Center</figcaption>
+        <sas-report-page
+          packageUri="https://jrbenson.github.io/vast-challenges/2022/pkg/ch2-q1-1/"
+          pageName="vi613"
+        ></sas-report-page>
+      </figure>
+
+      <p>
+        Because some buildings contain both businesses and apartments we need to
+        further in on specific business locations using the employer data. Using
+        a heat map visualization of employer locations we discovered three
+        business hubs within the city.
+      </p>
+
+      <figure>
+        <figcaption>Heatmap Showing Three Distinct Business Centers</figcaption>
+        <sas-report-page
+          packageUri="https://jrbenson.github.io/vast-challenges/2022/pkg/ch2-q1-2/"
+          pageName="vi1070"
+        ></sas-report-page>
+      </figure>
+
+      <p>
+        For brevity the business districts will be reference using this acronyms
+        going forward:
+      </p>
+      <ul>
+        <li>NWD = North West District</li>
+        <li>CBD = Central Business District</li>
+        <li>EBD = East Business District</li>
+      </ul>
+      <p>
+        By identifying family homes as those where the household size is greater
+        than one we are able to identify where family residences and potentially
+        children are located.
+      </p>
+
+      <figure>
+        <figcaption>
+          Clustering Showing Areas With More Families With Children
+        </figcaption>
+        <sas-report-page
+          packageUri="https://jrbenson.github.io/vast-challenges/2022/pkg/ch2-q1-2/"
+          pageName="vi4004"
+        ></sas-report-page>
+      </figure>
+
+      <p>
+        Dividing homes by age group shows that younger generations are drawn
+        towards the city center. Older people tend to live further out with
+        especially high concentration in the north-west part of the city.
+      </p>
+
+      <figure>
+        <figcaption>
+          Clustering of Residential Locations by Age Group
+        </figcaption>
+        <sas-report-page
+          packageUri="https://jrbenson.github.io/vast-challenges/2022/pkg/ch2-q1-2/"
+          pageName="vi4005"
+        ></sas-report-page>
+      </figure>
+
+      <p>
+        Participants with more than one job typically live closer to the city
+        center, presumably in order to be able to make it to multiple jobs
+        without lengthy commutes.
+      </p>
+
+      <figure>
+        <figcaption>Map of Participants With More Than One Job</figcaption>
+        <sas-report-page
+          packageUri="https://jrbenson.github.io/vast-challenges/2022/pkg/ch2-q1-2/"
+          pageName="vi4006"
+        ></sas-report-page>
+      </figure>
+
+      <h3>
+        <span id="q2" class="question-number">2</span>Where are the busiest
+        areas in Engagement? Are there traffic bottlenecks that should be
+        addressed? Explain your rationale.
+      </h3>
+      <p>
+        <small>Limit your response to 10 images and 500 words.</small>
+      </p>
+
+      <p>
+        The traffic patterns of the city depend very much upon the time of the
+        day. Many people are commuting to work and increased traffic is
+        measurable during 8-9AM and 4-5PM each day. Animating traffic changes at
+        each hour reveals the shift in these patterns.
+      </p>
+
+      <figure>
+        <figcaption>???</figcaption>
+        <sas-report-page
+          packageUri="https://jrbenson.github.io/vast-challenges/2022/pkg/test/"
+          pageName="vi92"
+        ></sas-report-page>
+      </figure>
+
+      <p>
+        There are several potential areas of concern. In particular the two
+        connecting gateways in the north and south east show consistent traffic
+        bottlenecks at the peak hour (4-5PM).
+      </p>
+
+      <figure>
+        <figcaption>Heatmap of 4-5PM Traffic Congestion</figcaption>
+        <sas-report-page
+          packageUri="https://jrbenson.github.io/vast-challenges/2022/pkg/test/"
+          pageName="vi92"
+        ></sas-report-page>
+      </figure>
+
+      <p>
+        Breaking down the traffic patterns based on the business district they
+        are traveling to reveal more nuanced patterns? For example, almost 50%
+        of all employees traveling to the Eastern Business District do so from
+        the western parts of the city, which can take over an hour.
+      </p>
+
+      <figure>
+        <figcaption>
+          Diagram of Commutes to Eastern Business District
+        </figcaption>
+        <sas-report-page
+          packageUri="https://jrbenson.github.io/vast-challenges/2022/pkg/test/"
+          pageName="vi92"
+        ></sas-report-page>
+      </figure>
+
+      <p>
+        Comparing travel during weekdays and weekends reveals very different
+        patterns. For instance, the average mid-day traffic (11AM-3PM) on
+        weekends is twice as high as on business days. In contrast, evening
+        traffic is always higher on weekdays.
+      </p>
+
+      <figure>
+        <figcaption>
+          Comparison of Weekday and Weekend Travel Patterns
+        </figcaption>
+        <sas-report-page
+          packageUri="https://jrbenson.github.io/vast-challenges/2022/pkg/test/"
+          pageName="vi92"
+        ></sas-report-page>
+      </figure>
+
+      <h3>
+        <span id="q3" class="question-number">3</span>Participants have given
+        permission to have their daily routines captured. Choose two different
+        participants with different routines and describe their daily patterns,
+        with supporting evidence.
+      </h3>
+      <p>
+        <small>Limit your response to 10 images and 500 words.</small>
+      </p>
+
+      <p>
+        We have selected participant <strong>40</strong> as our first case
+        study. This 55-year old lives in a household of three with children and
+        works for two employers during the year. Initially working at
+        <em>jobId 228</em> they tried three other jobs for a few days until
+        <em>jobId 534</em> was accepted in April 2022. The change in employment
+        is also reflected in the change of daily travel pattern. The days spent
+        working were different (<em>jobId 228</em> was from Monday through
+        Friday and <em>jobId 534</em> was from Friday through Wednesday. They
+        also received a pay increase ($2) for <em>jobId 534</em>.
+      </p>
+
+      <figure>
+        <figcaption>Summary of Participant 40 Activity</figcaption>
+        <sas-report-page
+          packageUri="https://jrbenson.github.io/vast-challenges/2022/pkg/test/"
+          pageName="vi92"
+        ></sas-report-page>
+      </figure>
+
+      <p>
+        Participant <strong>50</strong>'s activity dashboard reveals their daily
+        life. The participant was typically at home between 1-7pm or engaged in
+        recreational activities between 6-23pm. Lunches were usually eaten at a
+        restaurant at 2pm.
+      </p>
+
+      <figure>
+        <figcaption>Daily Activity Dashboard for Participant 40</figcaption>
+        <sas-report-page
+          packageUri="https://jrbenson.github.io/vast-challenges/2022/pkg/test/"
+          pageName="vi92"
+        ></sas-report-page>
+      </figure>
+
+      <p>
+        After April the change in employment changed their routine
+        significantly. Thursday's schedule in particular is different since they
+        no longer worked that day. The following figure shows a transition from
+        a typical workday route (Home > Work > Restaurant (Lunch) > Work) in
+        March to a more weekend style routine (Home > Restaurant > Home) in May.
+      </p>
+
+      <figure>
+        <figcaption>
+          Participant 40 Routine Change Between March and May
+        </figcaption>
+        <sas-report-page
+          packageUri="https://jrbenson.github.io/vast-challenges/2022/pkg/test/"
+          pageName="vi92"
+        ></sas-report-page>
+      </figure>
+
+      <p>
+        Not surprisingly participant <strong>40</strong> spends most of their
+        time during the year at home (<em>apartmentId 977</em>) and working for
+        <em>jobId 534</em> (<em>employerId 862</em>). They also visited various
+        pubs and restaurants during that time, with <em>pubId 443</em> being the
+        favorite lunch location.
+      </p>
+      <p>
+        The participant travels mostly at 8am and 2pm to commute to work and
+        nearly as frequently at 5pm to restaurants and pubs. On average the
+        participants spends a bit more than 30min commuting to and from work and
+        only 12 minutes traveling to eat.
+      </p>
+
+      <figure>
+        <figcaption>Participant 40 Daily Time Allocation</figcaption>
+        <sas-report-page
+          packageUri="https://jrbenson.github.io/vast-challenges/2022/pkg/test/"
+          pageName="vi92"
+        ></sas-report-page>
+      </figure>
+
+      <p>
+        More detailed examination of travel routes shows the change in
+        workplace. Participant <strong>40</strong> changed to
+        <em>jobId 534</em> in April after working for one month (34 days) at
+        <em>jobId 228</em>. They stayed at <em>job 534</em>
+        for the reminder of the year. Comparing daily routines between March and
+        April reflects the new home to work commute.
+      </p>
+
+      <figure>
+        <figcaption>Change in Daily Commute for Participant 40</figcaption>
+        <sas-report-page
+          packageUri="https://jrbenson.github.io/vast-challenges/2022/pkg/test/"
+          pageName="vi92"
+        ></sas-report-page>
+      </figure>
+
+      <p>
+        Viewing travel for a single day (March 1st 2022) shows the participant's
+        typical commute and restaurant visits.
+      </p>
+
+      <figure>
+        <figcaption>Typical Daily Travel Destinations</figcaption>
+        <sas-report-page
+          packageUri="https://jrbenson.github.io/vast-challenges/2022/pkg/test/"
+          pageName="vi92"
+        ></sas-report-page>
+      </figure>
+
+      <p>
+        The second participant example is participant <strong>50</strong>. This
+        45 year old, educated person lives in a three person household. They had
+        a single job during the entire study, working from Sunday to Thursday
+        each day. This participant earns more than twice as much ($29) as
+        participant 40.
+      </p>
+
+      <figure>
+        <figcaption>Summary of Participant 50 Activity</figcaption>
+        <sas-report-page
+          packageUri="https://jrbenson.github.io/vast-challenges/2022/pkg/test/"
+          pageName="vi92"
+        ></sas-report-page>
+      </figure>
+
+      <p>
+        The activity dashboard in the following figure reveals a similar daily
+        pattern as the previous participant. However, they don't eat at a
+        restaurant for lunch, instead eat at restaurants for breakfast (8-10am)
+        and dinner (7-22pm). This participants also more frequently travels to
+        recreational activities after work between 6-22pm.
+      </p>
+
+      <figure>
+        <figcaption>Daily Activity Dashboard for Participant 50</figcaption>
+        <sas-report-page
+          packageUri="https://jrbenson.github.io/vast-challenges/2022/pkg/test/"
+          pageName="vi92"
+        ></sas-report-page>
+      </figure>
+
+      <p>
+        Most of their time is spent at home, followed by their place of work
+        (<em>employerId 400</em>). 8am and 5pm are the busiest times of the day
+        for this participant when they are commuting to and from work. They have
+        significantly longer commutes, on average 1 hour, which are twice as
+        long as participant 40's commutes.
+      </p>
+
+      <figure>
+        <figcaption>Participant 50 Daily Time Allocation</figcaption>
+        <sas-report-page
+          packageUri="https://jrbenson.github.io/vast-challenges/2022/pkg/test/"
+          pageName="vi92"
+        ></sas-report-page>
+      </figure>
+
+      <p>
+        With only one job during the entire year the travel pattern for
+        participant <strong>50</strong> does not change much. They are primarily
+        active in the north eastern part of the city with daily commute to work
+        in the the southern part of the city.
+      </p>
+
+      <figure>
+        <figcaption>Daily Commute for Participant 50</figcaption>
+        <sas-report-page
+          packageUri="https://jrbenson.github.io/vast-challenges/2022/pkg/test/"
+          pageName="vi92"
+        ></sas-report-page>
+      </figure>
+
+      <h3>
+        <span id="q4" class="question-number">4</span>Over the span of the
+        dataset, how do patterns change in the city change? Describe up to 10
+        significant changes, with supporting evidence.
+      </h3>
+      <p>
+        <small>Limit your response to 10 images and 500 words.</small>
+      </p>
+
+      <p>
+        Overall activity levels for participants remain at similar levels during
+        the entire study. However there are changes in activity across
+        individual months. The following figure shows the percentage change
+        grouped by activity mode, showing for example that recreational
+        activities dropped by 12% in the month of November.
+      </p>
+
+      <figure>
+        <figcaption>Animation of Change in Activities</figcaption>
+        <sas-report-page
+          packageUri="https://jrbenson.github.io/vast-challenges/2022/pkg/test/"
+          pageName="vi92"
+        ></sas-report-page>
+      </figure>
+
+      <p>
+        There are moderate declines in commute activity at various times of the
+        day. In particular the weekend travel patterns show a slight decrease in
+        average traffic counts towards the end of the study.
+      </p>
+
+      <figure>
+        <figcaption>Trend of Weekend Activity Levels</figcaption>
+        <sas-report-page
+          packageUri="https://jrbenson.github.io/vast-challenges/2022/pkg/test/"
+          pageName="vi92"
+        ></sas-report-page>
+      </figure>
+
+      <p>
+        During weekdays the morning and evening traffic increases in August but
+        decreases in February. Traffic levels for the remainder of the study
+        period remain largely the same.
+      </p>
+
+      <figure>
+        <figcaption>Weekday Traffic Activity Levels</figcaption>
+        <sas-report-page
+          packageUri="https://jrbenson.github.io/vast-challenges/2022/pkg/test/"
+          pageName="vi92"
+        ></sas-report-page>
+      </figure>
+
+      <p>
+        Participants without children spend more time (averaging about 4
+        minutes) at recreational or social activities on Tuesday, Wednesday and
+        Thursday. The total number of activities on those days doesn't change
+        significantly, just the duration. Recreational activities are three
+        times as common on weekends as they are on weekdays.
+      </p>
+
+      <figure>
+        <figcaption>
+          Activity Comparison for Participants Without Children
+        </figcaption>
+        <sas-report-page
+          packageUri="https://jrbenson.github.io/vast-challenges/2022/pkg/test/"
+          pageName="vi92"
+        ></sas-report-page>
+      </figure>
+
+      <p>
+        Total weekend traffic is highest in July, October, and April of 2023.
+        However, weekday traffic is highest in August and March of 2023.
+      </p>
+
+      <figure>
+        <figcaption>Total Traffic for Weekend and Workdays</figcaption>
+        <sas-report-page
+          packageUri="https://jrbenson.github.io/vast-challenges/2022/pkg/test/"
+          pageName="vi92"
+        ></sas-report-page>
+      </figure>
+
+      <p>
+        Traffic patterns don't show significant geographical changes during the
+        study period. However, one can observe a slight change in traffic
+        concentration in November and December. A hotspot for traffic congestion
+        moves from one area to another (from the blue marker to the green in the
+        following figure) indicating that some event may have been responsible
+        for this temporary shift.
+      </p>
+
+      <figure>
+        <figcaption>Shift in Traffic Concentration Location</figcaption>
+        <sas-report-page
+          packageUri="https://jrbenson.github.io/vast-challenges/2022/pkg/test/"
+          pageName="vi92"
+        ></sas-report-page>
+      </figure>
+
+      <p>
+        Participants with more than one job experience more variance in where
+        they create high traffic areas due to the changing of jobs. November
+        seems to be the peak travel activity for this group of participants but
+        December is the lowest. These participants also typically only travel
+        short distances, due to living closer to work locations.
+      </p>
+
+      <figure>
+        <figcaption>Travel Hotspots by Month</figcaption>
+        <sas-report-page
+          packageUri="https://jrbenson.github.io/vast-challenges/2022/pkg/test/"
+          pageName="vi92"
+        ></sas-report-page>
+      </figure>
+
+      <script></script>
+    </div>
+  </body>
+</html>
