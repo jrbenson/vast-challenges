@@ -1,0 +1,1763 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SASReport xmlns="http://www.sas.com/sasreportmodel/bird-4.20.0" label="Building and Location Analysis (Falko)" implicitInteractions="reportPrompt sectionPrompt" createdLocale="en" createdVersion="4.19.0" dateCreated="2022-04-28T22:55:06Z" dateModified="2022-06-22T16:00:17Z" createdApplication="SAS Visual Analytics 2020" lastModifiedApplication="SAS Visual Analytics 2020" nextUniqueNameIndex="745">
+	<Results>
+		<Result ref="dd618" type="relational" status="warning" dataLevel="baseline" label="Cluster Result" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-06-19T13:44:53.096Z">
+			<Messages>
+				<Message messageKey="limitedInteractivity" messageLevel="warning">
+					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
+					<Parameters>
+						<Parameter key="offlineNeedsAdvancedProcessingReason">This object type requires an advanced query.</Parameter>
+						<Parameter key="unsupportedFeature">This object uses geo clustering.</Parameter>
+					</Parameters>
+				</Message>
+			</Messages>
+			<Variables>
+				<StringVariable label="Geo Item" ref="bi641" varname="bi641" column="c0"/>
+				<NumericVariable format="BEST." usage="categorical" label="Geo Item Raw Value" ref="bi633" varname="bi633" column="c1"/>
+				<NumericVariable format="BEST." usage="categorical" coordinateSpace="custom" customCoordinateSpace="EPSG:900913" ref="bi629" varname="bi629" column="c2"/>
+				<NumericVariable format="BEST." usage="categorical" coordinateSpace="custom" customCoordinateSpace="EPSG:900913" ref="bi628" varname="bi628" column="c3"/>
+				<NumericVariable format="BEST." usage="quantitative" label="Node Count" ref="bi649" varname="bi649" column="c4"/>
+				<NumericVariable format="PERCENT12." usage="quantitative" label="Happiness (%) (Average)" ref="bi645" varname="bi645" column="c5"/>
+				<StringVariable label="Apartment ID" ref="bi642" varname="bi642" column="c6"/>
+				<NumericVariable format="PERCENT12." usage="quantitative" label="Happiness (%) (Average)" ref="bi646" varname="bi646" column="c7"/>
+			</Variables>
+			<Columns>
+				<StringColumn maxLength="2" colname="c0" encoding="text"/>
+				<NumericColumn dataType="double" colname="c1" encoding="text"/>
+				<NumericColumn dataType="double" colname="c2" encoding="text"/>
+				<NumericColumn dataType="double" colname="c3" encoding="text"/>
+				<NumericColumn dataType="double" colname="c4" encoding="text"/>
+				<NumericColumn dataType="double" colname="c5" encoding="text"/>
+				<StringColumn maxLength="0" colname="c6" encoding="text"/>
+				<NumericColumn dataType="double" colname="c7" encoding="text"/>
+			</Columns>
+			<Data isIndexed="true" availableRowCount="17" contentKey="6GN6POH47SICEER64557IMY6NCDA7FM3" size="1206" format="CSV" rowCount="17" grandTotal="false" dataLayout="minimal"><![CDATA[0,0.0,1727.726,-1598.21,20.0,0.37922264650000004,-1,0.37922264650000004
+1,1.0,1520.327,-185.929,40.0,0.4564747923859649,-1,0.4564747923859649
+9,2.0,5249.2,-4167.1,70.0,0.3946947266067416,-1,0.3946947266067416
+10,3.0,5214.852,-207.448,54.0,0.6076638532597401,-1,0.6076638532597401
+11,4.0,4956.647,-2012.56,61.0,0.5520663300133333,-1,0.5520663300133333
+12,5.0,3257.188,1352.574,30.0,0.5097062728947369,-1,0.5097062728947369
+13,6.0,6223.628,-1845.1,43.0,0.3254914259999999,-1,0.3254914259999999
+14,7.0,2782.763,-2251.06,42.0,0.4412365126304349,-1,0.4412365126304349
+15,8.0,2510.406,-1412.1,51.0,0.44004534343859647,-1,0.44004534343859647
+16,9.0,3412.393,-127.266,32.0,0.5232474512820512,-1,0.5232474512820512
+2,10.0,3512.059,-1302.48,50.0,0.5253572403934426,-1,0.5253572403934426
+3,11.0,4877.664,2015.601,53.0,0.5639395002812501,-1,0.5639395002812501
+4,12.0,6184.855,-574.854,20.0,0.3553333694193549,-1,0.3553333694193549
+5,13.0,6298.465,-3134.77,20.0,0.7104846334074075,-1,0.7104846334074075
+6,14.0,7229.108,-4243.5,73.0,0.3549709143863638,-1,0.3549709143863638
+7,15.0,7432.927,-3323.45,26.0,0.33172211248387096,-1,0.33172211248387096
+8,16.0,676.0876,1066.514,14.0,0.45770512913333333,-1,0.45770512913333333
+]]></Data>
+			<StringTable contentKey="GCVZED3KJNFOYBW42RSH4HUHTWEA7Y2M" size="211" format="CSV" rowCount="17"><![CDATA["Cluster 0"
+"Cluster 1"
+"Cluster 10"
+"Cluster 11"
+"Cluster 12"
+"Cluster 13"
+"Cluster 14"
+"Cluster 15"
+"Cluster 16"
+"Cluster 2"
+"Cluster 3"
+"Cluster 4"
+"Cluster 5"
+"Cluster 6"
+"Cluster 7"
+"Cluster 8"
+"Cluster 9"
+]]></StringTable>
+		</Result>
+		<Result ref="dd87" type="relational" status="success" dataLevel="baseline" label="Contour Result" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-06-19T13:44:53.092Z">
+			<Variables>
+				<NumericVariable format="BEST." usage="quantitative" coordinateSpace="EPSG:900913" label="Location Latitude" ref="bi85" varname="bi85" column="c0"/>
+				<NumericVariable format="BEST." usage="quantitative" coordinateSpace="EPSG:900913" label="Location Longitude" ref="bi84" varname="bi84" column="c1"/>
+				<NumericVariable format="DOLLAR12.2" usage="quantitative" label="Rental Cost ($)" ref="bi83" varname="bi83" column="c2"/>
+			</Variables>
+			<Columns>
+				<NumericColumn dataType="double" colname="c0" encoding="text"/>
+				<NumericColumn dataType="double" colname="c1" encoding="text"/>
+				<NumericColumn dataType="double" colname="c2" encoding="text"/>
+			</Columns>
+			<DataFile contentKey="ZSY5B77T2G4WIMWG4ZH4JKJFQHGH53GY" size="53848" format="CSV" rowCount="1296" grandTotal="false" dataLayout="minimal" file="dd87.csv" isIndexed="false" availableRowCount="1296"/>
+		</Result>
+		<Result ref="dd18" type="relational" status="success" dataLevel="baseline" label="Region" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-06-19T13:45:02.922Z">
+			<Variables>
+				<NumericVariable format="BEST12." usage="categorical" label="Building ID" ref="bi41" varname="bi41" column="c0"/>
+				<StringVariable label="Map ID" ref="bi30" varname="bi30" column="c1"/>
+				<NumericVariable format="BEST12." usage="categorical" regionMapProvider="vast_buildings" label="Building ID" ref="bi31" varname="bi31" column="c2"/>
+				<StringVariable label="Building Type" ref="bi50" varname="bi50" column="c3"/>
+				<NumericVariable format="BEST12." usage="categorical" label="Building ID" ref="bi33" varname="bi33" column="c4"/>
+				<StringVariable label="Building Type" ref="bi691" varname="bi691" column="c5"/>
+				<NumericVariable format="BEST12." usage="categorical" label="Building ID" ref="bi692" varname="bi692" column="c6"/>
+				<NumericVariable format="BEST12." usage="quantitative" label="Occupancy (max)" ref="bi693" varname="bi693" column="c7"/>
+			</Variables>
+			<Columns>
+				<NumericColumn dataType="double" colname="c0" encoding="text"/>
+				<StringColumn maxLength="0" colname="c1" encoding="text"/>
+				<NumericColumn dataType="double" colname="c2" encoding="text"/>
+				<StringColumn maxLength="1" colname="c3" encoding="text"/>
+				<NumericColumn dataType="double" colname="c4" encoding="text"/>
+				<StringColumn maxLength="1" colname="c5" encoding="text"/>
+				<NumericColumn dataType="double" colname="c6" encoding="text"/>
+				<NumericColumn dataType="double" colname="c7" encoding="text"/>
+			</Columns>
+			<DataFile contentKey="7BBU6KLZJSSVSLYED2M3T4CY67BC5SUC" size="35582" format="CSV" rowCount="1042" grandTotal="false" dataLayout="minimal" file="dd18.csv" isIndexed="true" availableRowCount="1042"/>
+			<StringTableFile contentKey="4JPP65LYUYKKNRGP32GJATLT3NHO4V44" size="36" format="CSV" rowCount="3" file="dd18index.csv"/>
+			<MapDataFiles>
+				<MapDataFile contentKey="Z2CPEEJTOYLURY6WTH7UC4YQWUZKPJW2" size="849013" mapId="vast_buildings" file="dd18_vast_buildings.gml"/>
+			</MapDataFiles>
+		</Result>
+	</Results>
+	<DataDefinitions>
+		<DataDefinition dataSource="ds37" type="mapprovider" name="dd35"/>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds7" name="dd16">
+			<BusinessItems>
+				<SyntheticItems name="si27">
+					<Item purpose="geoItem" root="bi38" name="bi41"/>
+					<Item purpose="dataTip" root="bi49" name="bi691"/>
+					<Item purpose="dataTip" root="bi38" name="bi692"/>
+					<Item purpose="dataTip" root="bi52" name="bi693"/>
+					<Item purpose="color" root="bi49" name="bi50"/>
+					<Item purpose="mapId" root="bi48" name="bi30"/>
+					<Item purpose="polygonId" root="bi47" name="bi31"/>
+					<Item purpose="geoItemRaw" root="bi38" name="bi33"/>
+				</SyntheticItems>
+				<RelationalDataItem includeAssociatedColumns="true" name="bi38" base="bi8"/>
+				<LookupDataItem property="polygonId" lookup="bi8" name="bi47"/>
+				<LookupDataItem property="mapId" lookup="bi8" name="bi48"/>
+				<RelationalDataItem name="bi49" base="bi9"/>
+				<RelationalDataItem name="bi52" base="bi10"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds7" type="procedural" name="dd17">
+				<ProceduralQuery type="geoMap" scoreCodeNumber="26">
+					<Arguments>
+						<Argument purpose="geoType">
+							<StringValue>region</StringValue>
+						</Argument>
+						<Argument purpose="geoItem">
+							<ReferenceValue>bi38</ReferenceValue>
+						</Argument>
+						<Argument purpose="polygonId">
+							<ReferenceValue>bi47</ReferenceValue>
+						</Argument>
+						<Argument purpose="mapId">
+							<ReferenceValue>bi48</ReferenceValue>
+						</Argument>
+					</Arguments>
+					<SortItems>
+						<SortItem ref="bi49" sortDirection="ascending"/>
+					</SortItems>
+				</ProceduralQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRowsLookup="geoRegion" maxRowsBehavior="truncate" name="dd18" syntheticItems="si27"/>
+				</ResultDefinitions>
+			</DataDefinition>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds54" name="dd88">
+			<BusinessItems>
+				<SyntheticItems name="si79">
+					<Item purpose="geoItem" root="bi75" name="bi80"/>
+					<Item purpose="dataTip" root="bi75" name="bi81"/>
+					<Item purpose="dataTip" root="bi76" name="bi82"/>
+					<Item purpose="color" root="bi76" name="bi83"/>
+					<Item purpose="longitude" root="bi77" name="bi84"/>
+					<Item purpose="latitude" root="bi78" name="bi85"/>
+					<Item purpose="geoItemRaw" root="bi75" name="bi86"/>
+				</SyntheticItems>
+				<RelationalDataItem includeAssociatedColumns="true" name="bi75" base="bi58"/>
+				<LookupDataItem property="longitude" lookup="bi58" name="bi77"/>
+				<LookupDataItem property="latitude" lookup="bi58" name="bi78"/>
+				<RelationalDataItem name="bi76" base="bi61"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds54" type="procedural" name="dd89">
+				<ProceduralQuery type="geoContour" scoreCodeNumber="96">
+					<Arguments>
+						<Argument purpose="geoType">
+							<StringValue>contour</StringValue>
+						</Argument>
+						<Argument purpose="geoItem">
+							<ReferenceValue>bi75</ReferenceValue>
+						</Argument>
+						<Argument purpose="longitude">
+							<ReferenceValue>bi77</ReferenceValue>
+						</Argument>
+						<Argument purpose="latitude">
+							<ReferenceValue>bi78</ReferenceValue>
+						</Argument>
+						<Argument purpose="binCountLatitude">
+							<IntValue>30</IntValue>
+						</Argument>
+						<Argument purpose="binCountLongitude">
+							<IntValue>30</IntValue>
+						</Argument>
+						<Argument purpose="padMissingGrid">
+							<StringValue>zero</StringValue>
+						</Argument>
+						<Argument purpose="padGridCount">
+							<IntValue>3</IntValue>
+						</Argument>
+					</Arguments>
+					<SortItems>
+						<SortItem ref="bi76" sortDirection="ascending"/>
+					</SortItems>
+				</ProceduralQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRowsLookup="geoContour" maxRowsBehavior="truncate" name="dd87" syntheticItems="si79"/>
+				</ResultDefinitions>
+			</DataDefinition>
+		</ParentDataDefinition>
+		<DataDefinition dataSource="ds55" type="mapprovider" name="dd91"/>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds54" name="dd100">
+			<BusinessItems>
+				<SyntheticItems name="si120">
+					<Item purpose="geoItem" root="bi142" name="bi145"/>
+					<Item purpose="dataTip" root="bi142" name="bi146"/>
+					<Item purpose="color" root="bi155" name="bi167"/>
+					<Item purpose="mapId" root="bi144" name="bi123"/>
+					<Item purpose="polygonId" root="bi143" name="bi124"/>
+					<Item purpose="geoItemRaw" root="bi142" name="bi126"/>
+				</SyntheticItems>
+				<SyntheticItems name="si128">
+					<Item purpose="geoItem" root="bi147" name="bi150"/>
+					<Item purpose="size" root="bi168" name="bi169"/>
+					<Item purpose="dataTip" root="bi147" name="bi154"/>
+					<Item purpose="dataTip" root="bi155" name="bi157"/>
+					<Item purpose="dataTip" root="bi158" name="bi160"/>
+					<Item purpose="dataTip" root="bi168" name="bi170"/>
+					<Item purpose="dataTip" root="bi174" name="bi176"/>
+					<Item purpose="color" root="bi174" name="bi175"/>
+					<Item purpose="longitude" root="bi149" name="bi129"/>
+					<Item purpose="latitude" root="bi148" name="bi130"/>
+					<Item purpose="geoItemRaw" root="bi147" name="bi134"/>
+				</SyntheticItems>
+				<RelationalDataItem includeAssociatedColumns="true" name="bi142" base="bi59"/>
+				<LookupDataItem property="polygonId" lookup="bi59" name="bi143"/>
+				<LookupDataItem property="mapId" lookup="bi59" name="bi144"/>
+				<RelationalDataItem includeAssociatedColumns="true" name="bi147" base="bi58"/>
+				<LookupDataItem property="longitude" lookup="bi58" name="bi149"/>
+				<LookupDataItem property="latitude" lookup="bi58" name="bi148"/>
+				<RelationalDataItem name="bi155" base="bi60"/>
+				<RelationalDataItem name="bi158" base="bi61"/>
+				<RelationalDataItem name="bi168" base="bi62"/>
+				<RelationalDataItem name="bi174" base="bi171"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds54" type="procedural" name="dd101">
+				<ProceduralQuery type="geoMap" scoreCodeNumber="119">
+					<Arguments>
+						<Argument purpose="geoType">
+							<StringValue>region</StringValue>
+						</Argument>
+						<Argument purpose="geoItem">
+							<ReferenceValue>bi142</ReferenceValue>
+						</Argument>
+						<Argument purpose="polygonId">
+							<ReferenceValue>bi143</ReferenceValue>
+						</Argument>
+						<Argument purpose="mapId">
+							<ReferenceValue>bi144</ReferenceValue>
+						</Argument>
+					</Arguments>
+					<SortItems>
+						<SortItem ref="bi155" sortDirection="ascending"/>
+					</SortItems>
+				</ProceduralQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRowsLookup="geoRegion" maxRowsBehavior="truncate" name="dd102" syntheticItems="si120"/>
+				</ResultDefinitions>
+			</DataDefinition>
+			<DataDefinition dataSource="ds54" type="procedural" name="dd110">
+				<ProceduralQuery type="geoMap" scoreCodeNumber="127">
+					<Arguments>
+						<Argument purpose="geoType">
+							<StringValue>coordinate</StringValue>
+						</Argument>
+						<Argument purpose="geoItem">
+							<ReferenceValue>bi147</ReferenceValue>
+						</Argument>
+						<Argument purpose="longitude">
+							<ReferenceValue>bi149</ReferenceValue>
+						</Argument>
+						<Argument purpose="latitude">
+							<ReferenceValue>bi148</ReferenceValue>
+						</Argument>
+					</Arguments>
+					<SortItems>
+						<SortItem ref="bi174" sortDirection="ascending"/>
+					</SortItems>
+				</ProceduralQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRowsLookup="geoScatter" maxRowsBehavior="truncate" name="dd111" syntheticItems="si128"/>
+				</ResultDefinitions>
+			</DataDefinition>
+		</ParentDataDefinition>
+		<DataDefinition dataSource="ds139" type="mapprovider" name="dd137"/>
+		<DataDefinition dataSource="ds304" type="mapprovider" name="dd302"/>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds459" name="dd265">
+			<BusinessItems>
+				<SyntheticItems name="si285">
+					<Item purpose="geoItem" root="bi482" name="bi485"/>
+					<Item purpose="dataTip" root="bi482" name="bi486"/>
+					<Item purpose="dataTip" root="bi526" name="bi528"/>
+					<Item purpose="color" root="bi526" name="bi527"/>
+					<Item purpose="mapId" root="bi484" name="bi288"/>
+					<Item purpose="polygonId" root="bi483" name="bi289"/>
+					<Item purpose="geoItemRaw" root="bi482" name="bi291"/>
+				</SyntheticItems>
+				<SyntheticItems name="si293">
+					<Item purpose="geoItem" root="bi522" name="bi525"/>
+					<Item purpose="dataTip" root="bi522" name="bi529"/>
+					<Item purpose="dataTip" root="bi530" name="bi532"/>
+					<Item purpose="color" root="bi530" name="bi531"/>
+					<Item purpose="longitude" root="bi524" name="bi294"/>
+					<Item purpose="latitude" root="bi523" name="bi295"/>
+					<Item purpose="nodeCount" name="bi340"/>
+					<Item purpose="geoItemRaw" root="bi522" name="bi299"/>
+				</SyntheticItems>
+				<RelationalDataItem includeAssociatedColumns="true" name="bi482" base="bi475"/>
+				<LookupDataItem property="polygonId" lookup="bi475" name="bi483"/>
+				<LookupDataItem property="mapId" lookup="bi475" name="bi484"/>
+				<RelationalDataItem includeAssociatedColumns="true" name="bi522" base="bi461"/>
+				<LookupDataItem property="longitude" lookup="bi461" name="bi524"/>
+				<LookupDataItem property="latitude" lookup="bi461" name="bi523"/>
+				<RelationalDataItem name="bi526" base="bi478"/>
+				<RelationalDataItem name="bi530" base="bi464"/>
+				<RelationalDataItem name="bi742" base="bi463"/>
+				<RelationalDataItem name="bi743" base="bi473"/>
+				<RelationalDataItem name="bi744" base="bi469"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds459" type="procedural" name="dd266">
+				<ProceduralQuery type="geoMap" scoreCodeNumber="284">
+					<Arguments>
+						<Argument purpose="geoType">
+							<StringValue>region</StringValue>
+						</Argument>
+						<Argument purpose="geoItem">
+							<ReferenceValue>bi482</ReferenceValue>
+						</Argument>
+						<Argument purpose="polygonId">
+							<ReferenceValue>bi483</ReferenceValue>
+						</Argument>
+						<Argument purpose="mapId">
+							<ReferenceValue>bi484</ReferenceValue>
+						</Argument>
+					</Arguments>
+					<SortItems>
+						<SortItem ref="bi526" sortDirection="ascending"/>
+					</SortItems>
+				</ProceduralQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRowsLookup="geoRegion" maxRowsBehavior="truncate" name="dd267" syntheticItems="si285"/>
+				</ResultDefinitions>
+			</DataDefinition>
+			<DataDefinition dataSource="ds459" type="procedural" name="dd275">
+				<ProceduralQuery type="geo" scoreCodeNumber="292">
+					<Arguments>
+						<Argument purpose="geoType">
+							<StringValue>coordinate</StringValue>
+						</Argument>
+						<Argument purpose="geoItem">
+							<ReferenceValue>bi522</ReferenceValue>
+						</Argument>
+						<Argument purpose="longitude">
+							<ReferenceValue>bi524</ReferenceValue>
+						</Argument>
+						<Argument purpose="latitude">
+							<ReferenceValue>bi523</ReferenceValue>
+						</Argument>
+						<Argument purpose="nBody">
+							<IntValue>25</IntValue>
+						</Argument>
+						<Argument purpose="maxDepth">
+							<IntValue>5</IntValue>
+						</Argument>
+						<Argument purpose="minSeparation">
+							<DoubleValue>0.1</DoubleValue>
+						</Argument>
+						<Argument purpose="clusterColor">
+							<StringValue>average</StringValue>
+						</Argument>
+						<Argument purpose="viewPortMinX">
+							<DoubleValue>-9279.6171875</DoubleValue>
+						</Argument>
+						<Argument purpose="viewPortMaxX">
+							<DoubleValue>7288.716796875</DoubleValue>
+						</Argument>
+						<Argument purpose="viewPortMinY">
+							<DoubleValue>-445.5757141113281</DoubleValue>
+						</Argument>
+						<Argument purpose="viewPortMaxY">
+							<DoubleValue>8447.125457763672</DoubleValue>
+						</Argument>
+					</Arguments>
+					<SortItems>
+						<SortItem ref="bi530" sortDirection="ascending"/>
+					</SortItems>
+				</ProceduralQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRowsLookup="geoScatter" maxRowsBehavior="truncate" name="dd276" syntheticItems="si293"/>
+				</ResultDefinitions>
+			</DataDefinition>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds459" name="dd343">
+			<BusinessItems>
+				<RelationalDataItem name="bi533" base="bi463"/>
+				<RelationalDataItem name="bi534" base="bi478"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds459" type="multidimensional" name="dd344">
+				<MultidimensionalQuery detail="false">
+					<Axes>
+						<Axis type="column">
+							<BusinessItem ref="bi533"/>
+						</Axis>
+						<Axis type="row">
+							<BusinessItem ref="bi534"/>
+						</Axis>
+					</Axes>
+					<ColumnSortItems>
+						<MeasureSortItem ref="bi534" sortDirection="descending"/>
+						<SortItem ref="bi533" sortDirection="ascending"/>
+					</ColumnSortItems>
+				</MultidimensionalQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRowsLookup="graphDefault" maxRowsBehavior="truncate" name="dd345"/>
+				</ResultDefinitions>
+			</DataDefinition>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds459" name="dd388">
+			<BusinessItems>
+				<RelationalDataItem name="bi517" base="bi469"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds459" type="relational" name="dd389">
+				<RelationalQuery detail="false">
+					<Axes>
+						<Axis type="column">
+							<BusinessItem ref="bi517"/>
+						</Axis>
+					</Axes>
+					<SortItems>
+						<SortItem ref="bi517" sortDirection="ascending"/>
+					</SortItems>
+				</RelationalQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRowsLookup="buttonBar" maxRowsBehavior="truncate" name="dd390"/>
+				</ResultDefinitions>
+			</DataDefinition>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds459" name="dd395">
+			<BusinessItems>
+				<RelationalDataItem name="bi518" base="bi473"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds459" type="relational" name="dd396">
+				<RelationalQuery detail="false">
+					<Axes>
+						<Axis type="column">
+							<BusinessItem ref="bi518"/>
+						</Axis>
+					</Axes>
+					<SortItems>
+						<SortItem ref="bi518" sortDirection="ascending"/>
+					</SortItems>
+				</RelationalQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRowsLookup="buttonBar" maxRowsBehavior="truncate" name="dd393"/>
+				</ResultDefinitions>
+			</DataDefinition>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds459" name="dd405">
+			<BusinessItems>
+				<RelationalDataItem name="bi519" base="bi474"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds459" type="relational" name="dd406">
+				<RelationalQuery detail="false">
+					<Axes>
+						<Axis type="column">
+							<BusinessItem ref="bi519"/>
+						</Axis>
+					</Axes>
+					<SortItems>
+						<SortItem ref="bi519" sortDirection="ascending"/>
+					</SortItems>
+				</RelationalQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRowsLookup="buttonBar" maxRowsBehavior="truncate" name="dd403"/>
+				</ResultDefinitions>
+			</DataDefinition>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds459" name="dd413">
+			<BusinessItems>
+				<RelationalDataItem name="bi520" base="bi473"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds459" type="relational" name="dd414">
+				<RelationalQuery detail="false">
+					<Axes>
+						<Axis type="column">
+							<BusinessItem ref="bi520"/>
+						</Axis>
+					</Axes>
+					<SortItems>
+						<SortItem ref="bi520" sortDirection="ascending"/>
+					</SortItems>
+				</RelationalQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRowsLookup="buttonBar" maxRowsBehavior="truncate" name="dd411"/>
+				</ResultDefinitions>
+			</DataDefinition>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds459" name="dd421">
+			<BusinessItems>
+				<RelationalDataItem name="bi521" base="bi468"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds459" type="relational" name="dd422">
+				<RelationalQuery detail="false">
+					<Axes>
+						<Axis type="column">
+							<BusinessItem ref="bi521"/>
+						</Axis>
+					</Axes>
+					<SortItems>
+						<SortItem ref="bi521" sortDirection="ascending"/>
+					</SortItems>
+				</RelationalQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRowsLookup="buttonBar" maxRowsBehavior="truncate" name="dd419"/>
+				</ResultDefinitions>
+			</DataDefinition>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" dataSources="ds195 ds430" name="dd490">
+			<BusinessItems>
+				<SyntheticItems name="si492">
+					<Item purpose="message" name="bi493"/>
+				</SyntheticItems>
+				<RelationalDataItem name="bi440" base="bi198"/>
+				<RelationalDataItem name="bi441" base="bi196"/>
+				<RelationalDataItem name="bi442" base="bi197"/>
+				<RelationalDataItem name="bi443" base="bi199"/>
+				<RelationalDataItem name="bi444" base="bi200"/>
+				<RelationalDataItem name="bi445" base="bi201"/>
+				<RelationalDataItem name="bi446" base="bi202"/>
+				<RelationalDataItem name="bi447" base="bi377"/>
+				<RelationalDataItem name="bi448" base="bi378"/>
+				<RelationalDataItem name="bi449" base="bi379"/>
+				<RelationalDataItem name="bi450" base="bi380"/>
+				<RelationalDataItem name="bi451" base="bi381"/>
+				<RelationalDataItem name="bi452" base="bi382"/>
+				<RelationalDataItem name="bi453" base="bi383"/>
+				<RelationalDataItem name="bi454" base="bi432" usage="categorical"/>
+				<RelationalDataItem name="bi455" base="bi431"/>
+				<RelationalDataItem name="bi456" base="bi433"/>
+				<RelationalDataItem name="bi457" base="bi434"/>
+			</BusinessItems>
+			<DataDefinition type="procedural" dataSources="ds195 ds430" name="dd491">
+				<ProceduralQuery type="join">
+					<GeneratedResources>
+						<GeneratedTable purpose="joinedTable" lifetime="executor" name="ge494"/>
+					</GeneratedResources>
+					<Arguments>
+						<Argument purpose="joinType">
+							<StringValue>leftOuterJoin</StringValue>
+						</Argument>
+						<ArgumentGroup group="table1">
+							<Argument purpose="dataSource">
+								<ReferenceValue>ds195</ReferenceValue>
+							</Argument>
+							<ListArgument purpose="joinColumns">
+								<ReferenceValue>bi440</ReferenceValue>
+							</ListArgument>
+							<ListArgument purpose="selectColumns">
+								<ReferenceValue>bi440</ReferenceValue>
+								<ReferenceValue>bi441</ReferenceValue>
+								<ReferenceValue>bi442</ReferenceValue>
+								<ReferenceValue>bi443</ReferenceValue>
+								<ReferenceValue>bi444</ReferenceValue>
+								<ReferenceValue>bi445</ReferenceValue>
+								<ReferenceValue>bi446</ReferenceValue>
+								<ReferenceValue>bi447</ReferenceValue>
+								<ReferenceValue>bi448</ReferenceValue>
+								<ReferenceValue>bi449</ReferenceValue>
+								<ReferenceValue>bi450</ReferenceValue>
+								<ReferenceValue>bi451</ReferenceValue>
+								<ReferenceValue>bi452</ReferenceValue>
+								<ReferenceValue>bi453</ReferenceValue>
+							</ListArgument>
+						</ArgumentGroup>
+						<ArgumentGroup group="table2">
+							<Argument purpose="dataSource">
+								<ReferenceValue>ds430</ReferenceValue>
+							</Argument>
+							<ListArgument purpose="joinColumns">
+								<ReferenceValue>bi454</ReferenceValue>
+							</ListArgument>
+							<ListArgument purpose="selectColumns">
+								<ReferenceValue>bi455</ReferenceValue>
+								<ReferenceValue>bi456</ReferenceValue>
+								<ReferenceValue>bi457</ReferenceValue>
+							</ListArgument>
+						</ArgumentGroup>
+					</Arguments>
+				</ProceduralQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="status" name="dd513" syntheticItems="si492"/>
+				</ResultDefinitions>
+			</DataDefinition>
+		</ParentDataDefinition>
+		<DataDefinition dataSource="ds637" type="mapprovider" name="dd635"/>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds590" name="dd616">
+			<BusinessItems>
+				<SyntheticItems name="si627">
+					<Item purpose="geoItem" root="bi638" name="bi641"/>
+					<Item purpose="dataTip" root="bi638" name="bi642"/>
+					<Item purpose="dataTip" root="bi644" name="bi646"/>
+					<Item purpose="color" root="bi644" name="bi645"/>
+					<Item purpose="longitude" root="bi640" name="bi628"/>
+					<Item purpose="latitude" root="bi639" name="bi629"/>
+					<Item purpose="nodeCount" name="bi649"/>
+					<Item purpose="geoItemRaw" root="bi638" name="bi633"/>
+				</SyntheticItems>
+				<RelationalDataItem includeAssociatedColumns="true" name="bi638" base="bi594"/>
+				<LookupDataItem property="longitude" lookup="bi594" name="bi640"/>
+				<LookupDataItem property="latitude" lookup="bi594" name="bi639"/>
+				<RelationalDataItem name="bi644" base="bi604"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds590" type="procedural" name="dd617">
+				<ProceduralQuery type="geo" scoreCodeNumber="626">
+					<Arguments>
+						<Argument purpose="geoType">
+							<StringValue>coordinate</StringValue>
+						</Argument>
+						<Argument purpose="geoItem">
+							<ReferenceValue>bi638</ReferenceValue>
+						</Argument>
+						<Argument purpose="longitude">
+							<ReferenceValue>bi640</ReferenceValue>
+						</Argument>
+						<Argument purpose="latitude">
+							<ReferenceValue>bi639</ReferenceValue>
+						</Argument>
+						<Argument purpose="nBody">
+							<IntValue>25</IntValue>
+						</Argument>
+						<Argument purpose="maxDepth">
+							<IntValue>5</IntValue>
+						</Argument>
+						<Argument purpose="minSeparation">
+							<DoubleValue>0.12</DoubleValue>
+						</Argument>
+						<Argument purpose="clusterColor">
+							<StringValue>average</StringValue>
+						</Argument>
+						<Argument purpose="viewPortMinX">
+							<DoubleValue>0.0</DoubleValue>
+						</Argument>
+						<Argument purpose="viewPortMaxX">
+							<DoubleValue>0.0</DoubleValue>
+						</Argument>
+						<Argument purpose="viewPortMinY">
+							<DoubleValue>0.0</DoubleValue>
+						</Argument>
+						<Argument purpose="viewPortMaxY">
+							<DoubleValue>0.0</DoubleValue>
+						</Argument>
+					</Arguments>
+					<SortItems>
+						<SortItem ref="bi644" sortDirection="ascending"/>
+					</SortItems>
+				</ProceduralQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRowsLookup="geoScatter" maxRowsBehavior="truncate" name="dd618" syntheticItems="si627"/>
+				</ResultDefinitions>
+			</DataDefinition>
+		</ParentDataDefinition>
+	</DataDefinitions>
+	<DataSources>
+		<DataSource label="VAST2022_BUILDINGS" type="relational" name="ds7">
+			<CasResource server="cas-shared-default" library="VAST" table="VAST2022_BUILDINGS" locale="en_US"/>
+			<BusinessItemFolder>
+				<DataItem name="bi8" xref="buildingId" usage="categorical">
+					<GeoInfo geoType="column" coordinateSpace="custom" customCoordinateSpace="EPSG:900913" regionMapProvider="vast_buildings">
+						<Lookup property="polygonId" ref="bi8"/>
+					</GeoInfo>
+					<GeoInfo geoType="mapProvider" coordinateSpace="custom" customCoordinateSpace="EPSG:900913" regionMapProvider="vast_buildings">
+						<Lookup property="latitude" ref="bi8"/>
+						<Lookup property="longitude" ref="bi8"/>
+					</GeoInfo>
+				</DataItem>
+				<DataItem name="bi9" xref="buildingType"/>
+				<DataItem name="bi10" xref="maxOccupancy"/>
+				<DataItem name="bi11" xref="unit"/>
+				<PredefinedDataItem calculation="totalCount" name="bi12" label="Frequency" usage="quantitative" format="COMMA12."/>
+				<PredefinedDataItem calculation="totalCountPercent" name="bi13" label="Frequency Percent" usage="quantitative" format="PERCENT20.2"/>
+				<DataItem name="bi538" xref="locationLat" aggregation="average"/>
+				<DataItem name="bi539" xref="locationLng" aggregation="average"/>
+				<DataItem name="bi540" xref="unitType"/>
+			</BusinessItemFolder>
+		</DataSource>
+		<DataSource label="OpenStreetMapProvider" type="mapprovider" name="ds37">
+			<OpenStreetMapProvider useSSL="true" osmType="SAS_AUTO"/>
+		</DataSource>
+		<DataSource label="VAST2022_APARTMENTS" type="relational" name="ds54">
+			<CasResource server="cas-shared-default" library="VAST" table="VAST2022_APARTMENTS" locale="en_US"/>
+			<BusinessItemFolder>
+				<DataItem name="bi58" xref="apartmentId" usage="categorical">
+					<GeoInfo geoType="column" coordinateSpace="EPSG:900913">
+						<Lookup property="latitude" ref="bi56"/>
+						<Lookup property="longitude" ref="bi57"/>
+					</GeoInfo>
+				</DataItem>
+				<DataItem name="bi59" xref="buildingId" usage="categorical">
+					<GeoInfo geoType="column" coordinateSpace="custom" customCoordinateSpace="EPSG:900913" regionMapProvider="vast_buildings">
+						<Lookup property="polygonId" ref="bi59"/>
+					</GeoInfo>
+					<GeoInfo geoType="mapProvider" coordinateSpace="custom" customCoordinateSpace="EPSG:900913" regionMapProvider="vast_buildings">
+						<Lookup property="latitude" ref="bi59"/>
+						<Lookup property="longitude" ref="bi59"/>
+					</GeoInfo>
+				</DataItem>
+				<DataItem name="bi56" xref="locationLat"/>
+				<DataItem name="bi57" xref="locationLng"/>
+				<DataItem name="bi60" xref="maxOccupancy"/>
+				<DataItem name="bi61" xref="rentalCost" aggregation="average"/>
+				<DataItem name="bi62" xref="numberOfRooms"/>
+				<PredefinedDataItem calculation="totalCount" name="bi63" label="Frequency" usage="quantitative" format="COMMA12."/>
+				<PredefinedDataItem calculation="totalCountPercent" name="bi64" label="Frequency Percent" usage="quantitative" format="PERCENT20.2"/>
+				<GroupedItem customSort="cs177" grouping="gr173" dataType="string" label="Rental Cost ($) - Intervals" sortOn="custom" name="bi171">
+					<GroupingParameters>
+						<GroupingParameter parameter="bi61" variable="var172"/>
+					</GroupingParameters>
+				</GroupedItem>
+			</BusinessItemFolder>
+		</DataSource>
+		<DataSource label="EsriMapProvider" type="mapprovider" name="ds55">
+			<EsriMapProvider url="https://tiles.arcgis.com/tiles/W5awwALRgdQoWumf/arcgis/rest/services" service="VAST2022_Dark_City_Map" authenticationRequired="true"/>
+		</DataSource>
+		<DataSource label="OpenStreetMapProvider" type="mapprovider" name="ds139">
+			<OpenStreetMapProvider useSSL="true" osmType="SAS_AUTO"/>
+		</DataSource>
+		<DataSource label="VAST2022_JOBS" type="relational" name="ds195">
+			<CasResource server="cas-shared-default" library="VAST" table="VAST2022_JOBS" locale="en_US"/>
+			<BusinessItemFolder>
+				<DataItem name="bi196" xref="daysToWork"/>
+				<DataItem name="bi197" xref="educationRequirement"/>
+				<DataItem name="bi198" xref="employerId" usage="categorical"/>
+				<DataItem name="bi199" xref="hourlyRate"/>
+				<DataItem name="bi200" xref="endTime"/>
+				<DataItem name="bi201" xref="jobId"/>
+				<DataItem name="bi202" xref="startTime"/>
+				<PredefinedDataItem calculation="totalCount" name="bi203" label="Frequency" usage="quantitative" format="COMMA12."/>
+				<PredefinedDataItem calculation="totalCountPercent" name="bi204" label="Frequency Percent" usage="quantitative" format="PERCENT20.2"/>
+				<DataItem name="bi377" xref="day6" usage="categorical"/>
+				<DataItem name="bi378" xref="day2" usage="categorical"/>
+				<DataItem name="bi379" xref="day7" usage="categorical"/>
+				<DataItem name="bi380" xref="day1" usage="categorical"/>
+				<DataItem name="bi381" xref="day5" usage="categorical"/>
+				<DataItem name="bi382" xref="day3" usage="categorical"/>
+				<DataItem name="bi383" xref="day4" usage="categorical"/>
+				<DataItem name="bi558" xref="endTime2"/>
+				<DataItem name="bi559" xref="startTime2"/>
+			</BusinessItemFolder>
+		</DataSource>
+		<DataSource label="EsriMapProvider" type="mapprovider" name="ds304">
+			<EsriMapProvider url="https://tiles.arcgis.com/tiles/W5awwALRgdQoWumf/arcgis/rest/services" service="VAST2022_City_Map" authenticationRequired="true"/>
+		</DataSource>
+		<DataSource label="VAST2022_EMPLOYERS" type="relational" hidden="true" name="ds430">
+			<CasResource server="cas-shared-default" library="VAST" table="VAST2022_EMPLOYERS" locale="en_US"/>
+			<BusinessItemFolder>
+				<DataItem name="bi431" xref="buildingId"/>
+				<DataItem name="bi432" xref="employerId"/>
+				<DataItem name="bi433" xref="locationLat"/>
+				<DataItem name="bi434" xref="locationLng"/>
+			</BusinessItemFolder>
+		</DataSource>
+		<DataSource label="JOBS_EMPLOYERS" type="relational" name="ds459">
+			<GeneratedResource type="standalone" resource="ge494" generator="dd491" lifetime="executor" sources="ds195 ds430" externalReferenceName="cas-shared-defaultPublicVAST2022_JOBScas-shared-defaultPublicVAST2022_EMPLOYERShiddenemployerIddaysToWorkeducationRequirementhourlyRateendTimejobIdstartTimeday6day2day7day1day5day3day4employerIdbuildingIdlocationLatlocationLng"/>
+			<BusinessItemFolder>
+				<GeneratedDataItem root="bi440" name="bi461" label="Employer ID" xref="employerId" usage="categorical" format="BEST12.">
+					<GeoInfo geoType="column" coordinateSpace="EPSG:900913">
+						<Lookup property="latitude" ref="bi476"/>
+						<Lookup property="longitude" ref="bi477"/>
+					</GeoInfo>
+				</GeneratedDataItem>
+				<GeneratedDataItem root="bi441" name="bi462" label="Days To Work" xref="daysToWork" usage="categorical" format="$."/>
+				<GeneratedDataItem root="bi442" name="bi463" label="Education Level (min req)" xref="educationRequirement" usage="categorical" format="$."/>
+				<GeneratedDataItem root="bi443" name="bi464" label="Hourly Rate ($)" xref="hourlyRate" usage="quantitative" format="DOLLAR12.2" aggregation="sum"/>
+				<GeneratedDataItem root="bi444" name="bi465" label="Job End Time (hh:mm)" xref="endTime" usage="categorical" format="TIME8."/>
+				<GeneratedDataItem root="bi445" name="bi466" label="Job ID" xref="jobId" usage="quantitative" format="BEST12." aggregation="sum"/>
+				<GeneratedDataItem root="bi446" name="bi467" label="Job Start Time (hh:mm)" xref="startTime" usage="categorical" format="TIME8."/>
+				<GeneratedDataItem root="bi447" name="bi468" label="Workday: Friday" xref="day6" usage="categorical" format="$."/>
+				<GeneratedDataItem root="bi448" name="bi469" label="Workday: Monday" xref="day2" usage="categorical" format="$."/>
+				<GeneratedDataItem root="bi449" name="bi470" label="Workday: Saturday" xref="day7" usage="categorical" format="$."/>
+				<GeneratedDataItem root="bi450" name="bi471" label="Workday: Sunday" xref="day1" usage="categorical" format="$."/>
+				<GeneratedDataItem root="bi451" name="bi472" label="Workday: Thursday" xref="day5" usage="categorical" format="$."/>
+				<GeneratedDataItem root="bi452" name="bi473" label="Workday: Tuesday" xref="day3" usage="categorical" format="$."/>
+				<GeneratedDataItem root="bi453" name="bi474" label="Workday: Wednesday" xref="day4" usage="categorical" format="$."/>
+				<GeneratedDataItem root="bi455" name="bi475" label="Building ID" xref="buildingId" usage="categorical" format="BEST12." aggregation="sum">
+					<GeoInfo geoType="column" coordinateSpace="custom" customCoordinateSpace="EPSG:900913" regionMapProvider="vast_buildings">
+						<Lookup property="polygonId" ref="bi475"/>
+					</GeoInfo>
+					<GeoInfo geoType="mapProvider" coordinateSpace="custom" customCoordinateSpace="EPSG:900913" regionMapProvider="vast_buildings">
+						<Lookup property="latitude" ref="bi475"/>
+						<Lookup property="longitude" ref="bi475"/>
+					</GeoInfo>
+				</GeneratedDataItem>
+				<GeneratedDataItem root="bi456" name="bi476" label="Location Latitude" xref="locationLat" usage="quantitative" format="BEST12." aggregation="sum"/>
+				<GeneratedDataItem root="bi457" name="bi477" label="Location Longitude" xref="locationLng" usage="quantitative" format="BEST12." aggregation="sum"/>
+				<PredefinedDataItem calculation="totalCount" name="bi478" label="Frequency" usage="quantitative" format="COMMA12."/>
+				<PredefinedDataItem calculation="totalCountPercent" name="bi479" label="Frequency Percent" usage="quantitative" format="PERCENT20.2"/>
+			</BusinessItemFolder>
+		</DataSource>
+		<DataSource label="VAST2022_PARTICIPANTS_PLUS" type="relational" name="ds590">
+			<CasResource server="cas-shared-default" library="VAST" table="VAST2022_PARTICIPANTS_PLUS" locale="en_US"/>
+			<BusinessItemFolder>
+				<DataItem name="bi591" xref="age"/>
+				<DataItem name="bi592" xref="apartmentBuildingId"/>
+				<DataItem name="bi593" xref="apartmentBuildingMaxOccupancy"/>
+				<DataItem name="bi594" xref="apartmentId" usage="categorical">
+					<GeoInfo geoType="column" coordinateSpace="custom" customCoordinateSpace="EPSG:900913" regionMapProvider="vast2022apartments">
+						<Lookup property="polygonId" ref="bi594"/>
+					</GeoInfo>
+					<GeoInfo geoType="mapProvider" coordinateSpace="custom" customCoordinateSpace="EPSG:900913" regionMapProvider="vast2022apartments">
+						<Lookup property="latitude" ref="bi594"/>
+						<Lookup property="longitude" ref="bi594"/>
+					</GeoInfo>
+				</DataItem>
+				<DataItem name="bi595" xref="apartmentLocationLat"/>
+				<DataItem name="bi596" xref="apartmentLocationLng"/>
+				<DataItem name="bi597" xref="apartmentMaxOccupancy"/>
+				<DataItem name="bi598" xref="apartmentRentalCost"/>
+				<DataItem name="bi599" xref="apartmentNumberOfRooms"/>
+				<DataItem name="bi600" xref="avgHourlyRate"/>
+				<DataItem name="bi601" xref="buildingId"/>
+				<DataItem name="bi602" xref="haveKids"/>
+				<DataItem name="bi603" xref="educationLevel"/>
+				<DataItem name="bi604" xref="joviality" aggregation="average"/>
+				<DataItem name="bi605" xref="householdSize"/>
+				<DataItem name="bi606" xref="interestGroup"/>
+				<DataItem name="bi607" xref="maxHourlyRate"/>
+				<DataItem name="bi608" xref="minHourlyRate"/>
+				<DataItem name="bi609" xref="participantId"/>
+				<DataItem name="bi610" xref="totalEmployers"/>
+				<PredefinedDataItem calculation="totalCount" name="bi611" label="Frequency" usage="quantitative" format="COMMA12."/>
+				<PredefinedDataItem calculation="totalCountPercent" name="bi612" label="Frequency Percent" usage="quantitative" format="PERCENT20.2"/>
+				<DataItem name="bi660" xref="workDays"/>
+				<DataItem name="bi661" xref="daysInStudy"/>
+				<DataItem name="bi662" xref="checkInDays"/>
+				<DataItem name="bi663" xref="multiplePubsOneDay"/>
+				<DataItem name="bi664" xref="twoJobs"/>
+				<DataItem name="bi665" xref="twoShifts"/>
+				<DataItem name="bi666" xref="totalJobs"/>
+				<DataItem name="bi667" xref="pubEvents"/>
+				<DataItem name="bi668" xref="eatEvents"/>
+				<DataItem name="bi669" xref="goingToEatAfterWork"/>
+				<DataItem name="bi670" xref="goingToPubAtWork"/>
+				<DataItem name="bi671" xref="goingToEatAtWork"/>
+			</BusinessItemFolder>
+		</DataSource>
+		<DataSource label="EsriMapProvider" type="mapprovider" name="ds637">
+			<EsriMapProvider url="https://tiles.arcgis.com/tiles/W5awwALRgdQoWumf/arcgis/rest/services" service="VAST2022_Dark_City_Map" authenticationRequired="true"/>
+		</DataSource>
+	</DataSources>
+	<VisualElements>
+		<Graph graphType="geo" graphSubType="geoRegion" supplementalVisuals="ve43" mapData="dd35" resultDefinitions="dd18" name="ve15" data="dd16" label="Geo region - Building ID 1" selectionDisabled="true" applyDynamicBrushes="yes" sourceInteractionVariables="bi33">
+			<EditorProperties>
+				<Property key="isAutoLabel">true</Property>
+				<Property key="derivedVisualType">true</Property>
+			</EditorProperties>
+<![CDATA[<StatGraph border="false" opaque="false" includeMissingDiscrete="true" missingValueDisplay="autolabel" labelingLimit="500" overplottingPolicy="REDUCEMARKERSIZE">
+    <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
+    <Meta>
+        <DataNameMap>
+            <Entry model="LayoutOverlayMap_1" data="dd18"/>
+        </DataNameMap>
+    </Meta>
+    <LayoutOverlayMap name="LayoutOverlayMap_1" cycleAttrs="true" cycleColorResponses="true" dataLabelThinPolicy="nonoverlapping">
+        <MapLayer name="MapLayer_1" visible="false"/>
+        <MapRegionLayer name="Region" dataTransparency="0.129999995" compactLabelFormats="true" visible="true" includeMissingColor="true" auxiliary="Role1 Role1" tip="Role2 Role3 Role4" identification="dd18#bi31" colorGroup="dd18#bi50">
+            <CompactLabelFormatOpts precisionType="auto"/>
+            <Roles>
+                <Role name="Role1" type="variable">dd18#bi41</Role>
+                <Role name="Role2" type="variable">dd18#bi691</Role>
+                <Role name="Role3" type="variable">dd18#bi692</Role>
+                <Role name="Role4" type="variable">dd18#bi693</Role>
+            </Roles>
+        </MapRegionLayer>
+    </LayoutOverlayMap>
+    <LayoutGlobalLegend hAlign="center" vAlign="top" position="top" allowCollapsed="true">
+        <ContinuousLegend border="false" opaque="false" vAlign="bottom" valueStyle="inflections" displayMissing="automatic" extractScale="true" type="fillcolor" title_type="KEYWORD" title="AUTO">
+            <PadAttrs top="2px" bottom="2px" left="2px" right="2px"/>
+            <GraphNames>
+                <Value>Region</Value>
+            </GraphNames>
+        </ContinuousLegend>
+        <AutoLegend opaque="false" sortOrder="ascending">
+            <GraphNames>
+                <Value>Region</Value>
+            </GraphNames>
+        </AutoLegend>
+    </LayoutGlobalLegend>
+    <Animation keyframesPerSecond="1" playDirectionForward="true" repeatEnabled="false"/>
+</StatGraph>]]>
+		</Graph>
+		<Graph graphType="geo" graphSubType="geoContour" supplementalVisuals="ve90" mapData="dd91" resultDefinitions="dd87" name="ve92" data="dd88" label="Geo contour - Apartment ID 1" selectionDisabled="true" applyDynamicBrushes="no">
+			<EditorProperties>
+				<Property key="isAutoLabel">true</Property>
+				<Property key="derivedVisualType">true</Property>
+			</EditorProperties>
+<![CDATA[<StatGraph border="false" opaque="false" includeMissingDiscrete="true" missingValueDisplay="autolabel" labelingLimit="500" overplottingPolicy="REDUCEMARKERSIZE">
+    <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
+    <Meta>
+        <DataNameMap>
+            <Entry model="LayoutOverlayMap_1" data="dd87"/>
+        </DataNameMap>
+    </Meta>
+    <LayoutOverlayMap name="LayoutOverlayMap_1" cycleAttrs="true" cycleColorResponses="true" dataLabelThinPolicy="nonoverlapping">
+        <MapLayer name="MapLayer_1" dataTransparency="0.00999999977" visible="true"/>
+        <ContourPlotParm name="Contour" dataTransparency="0.129999995" compactLabelFormats="true" visible="true" contourType="labeledlinefill" nLevels="5" transparencyRampType="one_color" auxiliary="Role1 Role1" tip="Role2 Role3" x="dd87#bi84" y="dd87#bi85" z="dd87#bi83">
+            <CompactLabelFormatOpts precisionType="auto"/>
+            <TransparencyRampOpts color="14505815" transparencyEnd="0.129999995"/>
+            <Roles>
+                <Role name="Role1" type="variable">dd87#bi80</Role>
+                <Role name="Role2" type="variable">dd87#bi81</Role>
+                <Role name="Role3" type="variable">dd87#bi82</Role>
+            </Roles>
+            <LineAttrs color="GraphDataStyle6:line_color"/>
+            <LineLabelAttrs size="8.25pt"/>
+        </ContourPlotParm>
+    </LayoutOverlayMap>
+    <LayoutGlobalLegend hAlign="center" vAlign="top" position="top" allowCollapsed="true">
+        <ContinuousLegend border="false" opaque="false" vAlign="bottom" valueStyle="inflections" displayMissing="automatic" extractScale="true" type="fillcolor" title_type="KEYWORD" title="AUTO">
+            <PadAttrs top="2px" bottom="2px" left="2px" right="2px"/>
+            <GraphNames>
+                <Value>Contour</Value>
+            </GraphNames>
+        </ContinuousLegend>
+    </LayoutGlobalLegend>
+    <Animation keyframesPerSecond="1" playDirectionForward="true" repeatEnabled="false"/>
+</StatGraph>]]>
+		</Graph>
+		<Graph graphType="geo" graphSubType="geoRegion" supplementalVisuals="ve140 ve141" mapData="dd137" resultDefinitions="dd102 dd111" name="ve99" data="dd100" label="Geo region-coordinate - Building ID 1" applyDynamicBrushes="yes" sourceInteractionVariables="bi126 bi134">
+			<EditorProperties>
+				<Property key="isAutoLabel">true</Property>
+				<Property key="derivedVisualType">true</Property>
+			</EditorProperties>
+<![CDATA[<StatGraph border="false" opaque="false" includeMissingDiscrete="true" missingValueDisplay="autolabel" labelingLimit="500" overplottingPolicy="REDUCEMARKERSIZE">
+    <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
+    <Meta>
+        <DataNameMap>
+            <Entry model="LayoutOverlayMap_1" data="dd102"/>
+        </DataNameMap>
+    </Meta>
+    <LayoutOverlayMap name="LayoutOverlayMap_1" cycleColorResponses="true" dataLabelThinPolicy="nonoverlapping">
+        <MapLayer name="MapLayer" visible="false"/>
+        <MapRegionLayer name="Regions" dataTransparency="0.129999995" compactLabelFormats="true" auxiliary="Role1 Role1" tip="Role2" identification="dd102#bi124" colorResponse="dd102#bi167" dataLabel="dd102#bi145">
+            <Roles>
+                <Role name="Role1" type="variable">dd102#bi145</Role>
+                <Role name="Role2" type="variable">dd102#bi146</Role>
+            </Roles>
+            <DataLabelAttrs size="10.5pt"/>
+        </MapRegionLayer>
+        <ScatterPlot name="Scatter" dataTransparency="0.129999995" tipListPolicy="replace" compactLabelFormats="true" includeMissingGroup="true" sizeMax="10px" sizeMin="4px" auxiliary="Role1 Role1" tip="Role2 Role3 Role4 Role5 Role6" x="dd111#bi129" y="dd111#bi130" group="dd111#bi175" sizeResponse="dd111#bi169">
+            <ProximityClusterOptions proximityCluster="auto" clusterDistance="150px"/>
+            <Roles>
+                <Role name="Role1" type="variable">dd111#bi150</Role>
+                <Role name="Role2" type="variable">dd111#bi154</Role>
+                <Role name="Role3" type="variable">dd111#bi157</Role>
+                <Role name="Role4" type="variable">dd111#bi160</Role>
+                <Role name="Role5" type="variable">dd111#bi170</Role>
+                <Role name="Role6" type="variable">dd111#bi176</Role>
+            </Roles>
+        </ScatterPlot>
+    </LayoutOverlayMap>
+    <LayoutGlobalLegend border="false" hAlign="center" vAlign="top" legendTitlePosition="top" position="top" allowCollapsed="true">
+        <ContinuousLegend border="false" opaque="false" displayMissing="automatic" extractScale="true" title_type="KEYWORD" title="AUTO">
+            <GraphNames>
+                <Value>Regions</Value>
+            </GraphNames>
+        </ContinuousLegend>
+        <AutoLegend sortOrder="ascending">
+            <GraphNames>
+                <Value>Regions</Value>
+            </GraphNames>
+        </AutoLegend>
+        <ContinuousLegend border="false" opaque="false" displayMissing="automatic" extractScale="true" title_type="KEYWORD" title="AUTO">
+            <GraphNames>
+                <Value>Scatter</Value>
+            </GraphNames>
+        </ContinuousLegend>
+        <SizeLegend border="false" opaque="false" extractScale="true" title_type="KEYWORD" title="AUTO">
+            <GraphNames>
+                <Value>Scatter</Value>
+            </GraphNames>
+        </SizeLegend>
+        <AutoLegend sortOrder="ascending">
+            <GraphNames>
+                <Value>Scatter</Value>
+            </GraphNames>
+        </AutoLegend>
+    </LayoutGlobalLegend>
+    <Animation keyFrameSortOrder="ascending_unformatted"/>
+</StatGraph>]]>
+		</Graph>
+		<Graph graphType="geo" graphSubType="geoRegion" supplementalVisuals="ve305 ve306" mapData="dd302" resultDefinitions="dd267 dd276" name="ve264" data="dd265" label="Custom geo map - Building ID 1" applyDynamicBrushes="yes" sourceInteractionVariables="bi291 bi299">
+			<EditorProperties>
+				<Property key="isAutoLabel">true</Property>
+				<Property key="autoFrequencyQueryDataItemName">bi526</Property>
+				<Property key="derivedVisualType">true</Property>
+				<Property key="addedInteractionQueryDataItems">bi742,bi743,bi744</Property>
+			</EditorProperties>
+			<Title auto="false"><P><Span>Business locations by income levels</Span></P></Title>
+<![CDATA[<StatGraph border="false" opaque="false" includeMissingDiscrete="true" missingValueDisplay="autolabel" labelingLimit="500" overplottingPolicy="REDUCEMARKERSIZE">
+    <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
+    <Meta>
+        <DataNameMap>
+            <Entry model="LayoutOverlayMap_1" data="dd267"/>
+        </DataNameMap>
+    </Meta>
+    <LayoutOverlayMap name="LayoutOverlayMap_1" cycleColorResponses="true" dataLabelThinPolicy="nonoverlapping">
+        <MapLayer name="MapLayer" dataTransparency="0.00999999977" visible="true"/>
+        <MapRegionLayer name="Regions" dataTransparency="0.129999995" compactLabelFormats="true" auxiliary="Role1 Role1" tip="Role2 Role3" identification="dd267#bi289" colorResponse="dd267#bi527" dataLabel="dd267#bi485">
+            <Roles>
+                <Role name="Role1" type="variable">dd267#bi485</Role>
+                <Role name="Role2" type="variable">dd267#bi486</Role>
+                <Role name="Role3" type="variable">dd267#bi528</Role>
+            </Roles>
+            <DataLabelAttrs size="10.5pt"/>
+        </MapRegionLayer>
+        <ScatterPlot name="Cluster" dataTransparency="0.129999995" compactLabelFormats="true" visible="true" groupDisplay="overlay" auxiliary="Role1 Role1" tip="Role2 Role3" x="dd267#bi294" y="dd267#bi295" colorResponse="dd267#bi531" proximityClusterFreq="dd267#bi340">
+            <CompactLabelFormatOpts precisionType="auto"/>
+            <ProximityClusterOptions proximityCluster="auto" clusterDistance="150px" includeMissingColor="true"/>
+            <Roles>
+                <Role name="Role1" type="variable">dd267#bi525</Role>
+                <Role name="Role2" type="variable">dd267#bi529</Role>
+                <Role name="Role3" type="variable">dd267#bi532</Role>
+            </Roles>
+        </ScatterPlot>
+    </LayoutOverlayMap>
+    <LayoutGlobalLegend border="false" legendTitlePosition="top" allowCollapsed="true">
+        <ContinuousLegend border="false" opaque="false" displayMissing="automatic" extractScale="true" title_type="KEYWORD" title="AUTO">
+            <GraphNames>
+                <Value>Regions</Value>
+            </GraphNames>
+        </ContinuousLegend>
+        <AutoLegend sortOrder="ascending">
+            <GraphNames>
+                <Value>Regions</Value>
+            </GraphNames>
+        </AutoLegend>
+        <ContinuousLegend border="false" opaque="false" vAlign="bottom" valueStyle="inflections" displayMissing="automatic" extractScale="true" type="fillcolor" title_type="KEYWORD" title="AUTO">
+            <PadAttrs top="2px" bottom="2px" left="2px" right="2px"/>
+            <GraphNames>
+                <Value>Cluster</Value>
+            </GraphNames>
+        </ContinuousLegend>
+        <SizeLegend border="false" opaque="false" hAlign="left" vAlign="bottom" orient="horizontal" extractScale="true" type="shape" title_type="KEYWORD" title="AUTO">
+            <GraphNames>
+                <Value>Cluster</Value>
+            </GraphNames>
+        </SizeLegend>
+        <AutoLegend opaque="false" sortOrder="ascending">
+            <GraphNames>
+                <Value>Cluster</Value>
+            </GraphNames>
+        </AutoLegend>
+    </LayoutGlobalLegend>
+    <Animation keyFrameSortOrder="ascending_unformatted"/>
+</StatGraph>]]>
+		</Graph>
+		<Graph graphType="bar" supplementalVisuals="ve349" resultDefinitions="dd345" name="ve342" data="dd343" label="Bar - Education Level (min req) 1" applyDynamicBrushes="yes" sourceInteractionVariables="bi533">
+			<EditorProperties>
+				<Property key="isAutoLabel">true</Property>
+				<Property key="autoFrequencyQueryDataItemName">bi534</Property>
+			</EditorProperties>
+			<Title auto="true"><P><DynamicSpan key="bird.autotitle.template.oneOfTwo.fmt.txt"><Substitutions><Substitution valueType="label" variables="bi478"/><Substitution valueType="label" variables="bi463"/></Substitutions></DynamicSpan></P></Title>
+<![CDATA[<StatGraph border="false" opaque="false" includeMissingDiscrete="true" selectionMode="multiple" missingValueDisplay="autolabel">
+    <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
+    <Meta>
+        <DynVars>
+            <DynVar name="CATEGORY" description="CATEGORY_VAR" required="true" assignedType="character" type="character">
+                <DefaultValues>
+                    <Value>dd345.bi533</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name="RESPONSE" description="MEASURE_VAR" required="true" assignedType="numeric" type="numeric" multiplesAllowed="true">
+                <DefaultValues>
+                    <Value>dd345.bi534</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name="GROUP" description="SUBGROUP_VAR" required="false" type="character"/>
+            <DynVar name="COLUMN" description="HORIZONTAL_SERIES_VAR" required="false" type="character" multiplesAllowed="true"/>
+            <DynVar name="ROW" description="VERTICAL_SERIES_VAR" required="false" type="character" multiplesAllowed="true"/>
+            <DynVar name="TIP" description="TIP_VAR" required="false" assignedType="numeric" type="any" multiplesAllowed="true">
+                <DefaultValues>
+                    <Value>dd345.bi533</Value>
+                    <Value>dd345.bi534</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name="KEY_FRAME" description="ANIMATION" required="false" type="time" multiplesAllowed="false"/>
+            <DynVar name="HIDDEN" description="HIDDEN_VAR" required="false" type="character" multiplesAllowed="true"/>
+        </DynVars>
+        <DataNameMap>
+            <Entry model="LayoutDataMatrix_38" data="dd345"/>
+        </DataNameMap>
+    </Meta>
+    <LayoutDataMatrix name="LayoutDataMatrix_38" cellHeightMin="1px" cellWidthMin="1px" includeMissingClass="true" rowVars="ROW" columnVars="COLUMN">
+        <LayoutPrototypeOverlay2D>
+            <BarChartParm name="BarChart" tipListPolicy="replace" _stmt="barchart" compactLabelFormats="true" groupDisplay="cluster" orient="horizontal" stat="none" segmentLabel="true" tip="TIP" category="CATEGORY" responseVars="RESPONSE" group="GROUP">
+                <SegmentLabelAttrs size="12pt" color="16777215"/>
+            </BarChartParm>
+            <XAxisOpts name="categoryAxis" display="NONE" gridDisplay="off">
+                <DiscreteOpts sortOrder="data"/>
+                <LinearOpts>
+                    <TickValueFormatOpts extractScale="true"/>
+                </LinearOpts>
+            </XAxisOpts>
+            <YAxisOpts display="LINE TICKS TICKVALUES" gridDisplay="off" reverse="true">
+                <DiscreteOpts tickValueFitPolicy="staggertruncatedrop" sortOrder="data" tickValueAppearance="auto"/>
+                <LinearOpts>
+                    <TickValueFormatOpts extractScale="true"/>
+                </LinearOpts>
+            </YAxisOpts>
+        </LayoutPrototypeOverlay2D>
+    </LayoutDataMatrix>
+    <LayoutGlobalLegend legendTitlePosition="top" allowCollapsed="true">
+        <AutoLegend>
+            <GraphNames>
+                <Value>BarChart</Value>
+            </GraphNames>
+        </AutoLegend>
+    </LayoutGlobalLegend>
+    <Animation keyFrameSortOrder="ascending_unformatted" keyFrame="KEY_FRAME"/>
+    <OverviewAxis maxPlotSize="60px" minPlotSize="35px" visible="off" axis="categoryAxis"/>
+</StatGraph>]]>
+		</Graph>
+		<VisualContainer containerType="layout" name="ve351" label="Layout Container 2" selectionDisabled="true">
+			<EditorProperties>
+				<Property key="visualType">LAYOUT_CONTAINER</Property>
+			</EditorProperties>
+		</VisualContainer>
+		<VisualContainer containerType="layout" name="ve385" label="Layout Container 3" selectionDisabled="true">
+			<EditorProperties>
+				<Property key="visualType">LAYOUT_CONTAINER</Property>
+			</EditorProperties>
+		</VisualContainer>
+		<Prompt ref="pr391" name="ve387" label="Button bar - Workday: Monday 1" selectionDisabled="true" applyDynamicBrushes="promptsOnly" sourceInteractionVariables="bi517">
+			<EditorProperties>
+				<Property key="autoChartCategory">CONTROL</Property>
+				<Property key="isAutoLabel">true</Property>
+			</EditorProperties>
+			<Title auto="false"><P><Span>Monday</Span></P></Title>
+			<LinkBar/>
+		</Prompt>
+		<Prompt ref="pr397" name="ve398" label="Button bar - Workday: Tuesday 1" selectionDisabled="true" applyDynamicBrushes="promptsOnly" sourceInteractionVariables="bi518">
+			<EditorProperties>
+				<Property key="autoChartCategory">CONTROL</Property>
+				<Property key="isAutoLabel">true</Property>
+			</EditorProperties>
+			<Title auto="false"><P><Span>Tuesday</Span></P></Title>
+			<LinkBar/>
+		</Prompt>
+		<VisualContainer containerType="layout" name="ve402" label="Layout Container 4" selectionDisabled="true">
+			<EditorProperties>
+				<Property key="visualType">LAYOUT_CONTAINER</Property>
+			</EditorProperties>
+		</VisualContainer>
+		<Prompt ref="pr407" name="ve408" label="Button bar - Workday: Wednesday 1" selectionDisabled="true" applyDynamicBrushes="promptsOnly" sourceInteractionVariables="bi519">
+			<EditorProperties>
+				<Property key="autoChartCategory">CONTROL</Property>
+				<Property key="isAutoLabel">true</Property>
+			</EditorProperties>
+			<Title auto="false"><P><Span>Wednesday</Span></P></Title>
+			<LinkBar/>
+		</Prompt>
+		<Prompt ref="pr415" name="ve416" label="Button bar - Workday: Tuesday 2" selectionDisabled="true" applyDynamicBrushes="promptsOnly" sourceInteractionVariables="bi520">
+			<EditorProperties>
+				<Property key="autoChartCategory">CONTROL</Property>
+				<Property key="isAutoLabel">true</Property>
+			</EditorProperties>
+			<Title auto="false"><P><Span>Thursday</Span></P></Title>
+			<LinkBar/>
+		</Prompt>
+		<Prompt ref="pr423" name="ve424" label="Button bar - Workday: Friday 1" selectionDisabled="true" applyDynamicBrushes="promptsOnly" sourceInteractionVariables="bi521">
+			<EditorProperties>
+				<Property key="autoChartCategory">CONTROL</Property>
+				<Property key="isAutoLabel">true</Property>
+			</EditorProperties>
+			<Title auto="false"><P><Span>Friday</Span></P></Title>
+			<LinkBar/>
+		</Prompt>
+		<Table columnSizing="autoFill" resultDefinitions="dd345" name="ve349" data="dd343" applyDynamicBrushes="yes" sourceInteractionVariables="bi533">
+			<Columns>
+				<Column variable="bi533"/>
+				<Column variable="bi534"/>
+			</Columns>
+		</Table>
+		<Graph graphType="geo" graphSubType="geoCluster" supplementalVisuals="ve643" mapData="dd635" resultDefinitions="dd618" name="ve615" data="dd616" label="Geo cluster - Apartment ID 1" selectionDisabled="true" applyDynamicBrushes="yes" sourceInteractionVariables="bi633">
+			<EditorProperties>
+				<Property key="isAutoLabel">true</Property>
+				<Property key="derivedVisualType">true</Property>
+			</EditorProperties>
+<![CDATA[<StatGraph border="false" opaque="false" includeMissingDiscrete="true" missingValueDisplay="autolabel" labelingLimit="500" overplottingPolicy="REDUCEMARKERSIZE">
+    <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
+    <Meta>
+        <DataNameMap>
+            <Entry model="LayoutOverlayMap_12" data="dd618"/>
+        </DataNameMap>
+    </Meta>
+    <LayoutOverlayMap name="LayoutOverlayMap_12" cycleAttrs="true" cycleColorResponses="true" dataLabelThinPolicy="nonoverlapping" lockNavigation="true">
+        <MapLayer name="MapLayer_12" dataTransparency="0.00999999977"/>
+        <ScatterPlot name="Cluster" dataTransparency="0.129999995" compactLabelFormats="true" visible="true" groupDisplay="overlay" auxiliary="Role1 Role1" tip="Role2 Role3" x="dd618#bi628" y="dd618#bi629" colorResponse="dd618#bi645" proximityClusterFreq="dd618#bi649">
+            <CompactLabelFormatOpts precisionType="auto"/>
+            <ProximityClusterOptions proximityCluster="auto" clusterDistance="180px" includeMissingColor="true"/>
+            <Roles>
+                <Role name="Role1" type="variable">dd618#bi641</Role>
+                <Role name="Role2" type="variable">dd618#bi642</Role>
+                <Role name="Role3" type="variable">dd618#bi646</Role>
+            </Roles>
+        </ScatterPlot>
+    </LayoutOverlayMap>
+    <LayoutGlobalLegend hAlign="center" vAlign="top" position="top" allowCollapsed="true">
+        <ContinuousLegend border="false" opaque="false" vAlign="bottom" valueStyle="inflections" displayMissing="automatic" extractScale="true" type="fillcolor" title_type="KEYWORD" title="AUTO">
+            <PadAttrs top="2px" bottom="2px" left="2px" right="2px"/>
+            <GraphNames>
+                <Value>Cluster</Value>
+            </GraphNames>
+        </ContinuousLegend>
+        <SizeLegend border="false" opaque="false" hAlign="left" vAlign="bottom" orient="horizontal" extractScale="true" type="shape" title_type="KEYWORD" title="AUTO">
+            <GraphNames>
+                <Value>Cluster</Value>
+            </GraphNames>
+        </SizeLegend>
+        <AutoLegend opaque="false" sortOrder="ascending">
+            <GraphNames>
+                <Value>Cluster</Value>
+            </GraphNames>
+        </AutoLegend>
+    </LayoutGlobalLegend>
+    <Animation keyframesPerSecond="1" playDirectionForward="true" repeatEnabled="false"/>
+</StatGraph>]]>
+		</Graph>
+		<Table columnSizing="autoFill" resultDefinitions="dd18" name="ve43" data="dd16" applyDynamicBrushes="yes">
+			<Columns>
+				<Column variable="bi41"/>
+				<Column variable="bi50"/>
+				<Column variable="bi693"/>
+			</Columns>
+		</Table>
+		<Table columnSizing="autoFill" resultDefinitions="dd87" name="ve90" data="dd88" applyDynamicBrushes="yes">
+			<Columns>
+				<Column variable="bi83"/>
+			</Columns>
+		</Table>
+		<Table columnSizing="autoFill" resultDefinitions="dd102" name="ve140" data="dd100" applyDynamicBrushes="yes">
+			<Columns>
+				<Column variable="bi145"/>
+				<Column variable="bi167"/>
+			</Columns>
+		</Table>
+		<Table columnSizing="autoFill" resultDefinitions="dd111" name="ve141" data="dd100" applyDynamicBrushes="yes">
+			<Columns>
+				<Column variable="bi150"/>
+				<Column variable="bi169"/>
+				<Column variable="bi175"/>
+				<Column variable="bi157"/>
+				<Column variable="bi160"/>
+			</Columns>
+		</Table>
+		<Table columnSizing="autoFill" resultDefinitions="dd618" name="ve643" data="dd616" applyDynamicBrushes="yes">
+			<Columns>
+				<Column variable="bi641"/>
+				<Column variable="bi645"/>
+			</Columns>
+		</Table>
+		<Table columnSizing="autoFill" resultDefinitions="dd267" name="ve305" data="dd265" applyDynamicBrushes="yes">
+			<Columns>
+				<Column variable="bi485"/>
+				<Column variable="bi527"/>
+			</Columns>
+		</Table>
+		<Table columnSizing="autoFill" resultDefinitions="dd276" name="ve306" data="dd265" applyDynamicBrushes="yes">
+			<Columns>
+				<Column variable="bi525"/>
+				<Column variable="bi531"/>
+			</Columns>
+		</Table>
+	</VisualElements>
+	<PromptDefinitions>
+		<PromptDefinition data="dd388" labelVariable="bi517" valueVariable="bi517" resultDefinitions="dd390" name="pr391">
+			<DefaultValue>
+				<String>Yes</String>
+			</DefaultValue>
+			<StringConstraint/>
+		</PromptDefinition>
+		<PromptDefinition data="dd395" labelVariable="bi518" valueVariable="bi518" resultDefinitions="dd393" name="pr397">
+			<DefaultValue>
+				<String>Yes</String>
+			</DefaultValue>
+			<StringConstraint/>
+		</PromptDefinition>
+		<PromptDefinition data="dd405" labelVariable="bi519" valueVariable="bi519" resultDefinitions="dd403" name="pr407">
+			<DefaultValue>
+				<String>Yes</String>
+			</DefaultValue>
+			<StringConstraint/>
+		</PromptDefinition>
+		<PromptDefinition data="dd413" labelVariable="bi520" valueVariable="bi520" resultDefinitions="dd411" name="pr415">
+			<DefaultValue>
+				<String>Yes</String>
+			</DefaultValue>
+			<StringConstraint/>
+		</PromptDefinition>
+		<PromptDefinition data="dd421" labelVariable="bi521" valueVariable="bi521" resultDefinitions="dd419" name="pr423">
+			<DefaultValue>
+				<String>Yes</String>
+			</DefaultValue>
+			<StringConstraint/>
+		</PromptDefinition>
+	</PromptDefinitions>
+	<View>
+		<Header>
+			<MediaContainer target="mt2">
+				<ResponsiveLayout orientation="horizontal" overflow="fit">
+					<Weights mediaTarget="mt5" unit="percent">
+						<Weight value="100%"/>
+					</Weights>
+					<Weights mediaTarget="mt4" unit="percent">
+						<Weight value="100%"/>
+					</Weights>
+					<Weights mediaTarget="mt3" unit="percent">
+						<Weight value="100%"/>
+					</Weights>
+				</ResponsiveLayout>
+			</MediaContainer>
+		</Header>
+		<Section name="vi6" label="Q1-1 Map">
+			<Header>
+				<MediaContainer target="mt2">
+					<ResponsiveLayout orientation="horizontal" overflow="fit">
+						<Weights mediaTarget="mt5" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt4" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt3" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+					</ResponsiveLayout>
+				</MediaContainer>
+			</Header>
+			<Body>
+				<MediaContainer target="mt2">
+					<ResponsiveLayout orientation="vertical" overflow="fit">
+						<Weights mediaTarget="mt5" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt4" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt3" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+					</ResponsiveLayout>
+					<Visual ref="ve15" name="vi14">
+						<ResponsiveConstraint>
+							<WidthConstraint>
+								<Width mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+							</WidthConstraint>
+							<HeightConstraint>
+								<Height mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+							</HeightConstraint>
+						</ResponsiveConstraint>
+					</Visual>
+				</MediaContainer>
+			</Body>
+		</Section>
+		<Section name="vi96" label="Q1-3 Rental Analysis">
+			<Header>
+				<MediaContainer target="mt2">
+					<ResponsiveLayout orientation="horizontal" overflow="fit">
+						<Weights mediaTarget="mt5" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt4" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt3" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+					</ResponsiveLayout>
+				</MediaContainer>
+			</Header>
+			<Body>
+				<MediaContainer target="mt2">
+					<ResponsiveLayout orientation="vertical" overflow="fit">
+						<Weights mediaTarget="mt5" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt4" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt3" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+					</ResponsiveLayout>
+					<Visual ref="ve92" name="vi93">
+						<ResponsiveConstraint>
+							<WidthConstraint>
+								<Width mediaTarget="mt3" preferredSizeBehavior="ignore" value="75%" flexibility="flexible"/>
+							</WidthConstraint>
+							<HeightConstraint>
+								<Height mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+							</HeightConstraint>
+						</ResponsiveConstraint>
+					</Visual>
+				</MediaContainer>
+			</Body>
+		</Section>
+		<Section name="vi613" label="Q1-4 Happiness">
+			<Header>
+				<MediaContainer target="mt2">
+					<ResponsiveLayout orientation="horizontal" overflow="fit">
+						<Weights mediaTarget="mt5" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt4" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt3" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+					</ResponsiveLayout>
+				</MediaContainer>
+			</Header>
+			<Body>
+				<MediaContainer target="mt2">
+					<ResponsiveLayout orientation="vertical" overflow="fit">
+						<Weights mediaTarget="mt5" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt4" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt3" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+					</ResponsiveLayout>
+					<Visual ref="ve615" name="vi614">
+						<ResponsiveConstraint>
+							<WidthConstraint>
+								<Width mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+							</WidthConstraint>
+							<HeightConstraint>
+								<Height mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+							</HeightConstraint>
+						</ResponsiveConstraint>
+					</Visual>
+				</MediaContainer>
+			</Body>
+		</Section>
+		<Section name="vi741" label="STOP">
+			<Body>
+				<MediaContainer target="mt2">
+					<ResponsiveLayout orientation="vertical" overflow="fit">
+						<Weights mediaTarget="mt5" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt4" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt3" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+					</ResponsiveLayout>
+				</MediaContainer>
+			</Body>
+		</Section>
+		<Section name="vi97" label="Apartments">
+			<Header>
+				<MediaContainer target="mt2">
+					<ResponsiveLayout orientation="horizontal" overflow="fit">
+						<Weights mediaTarget="mt5" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt4" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt3" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+					</ResponsiveLayout>
+				</MediaContainer>
+			</Header>
+			<Body>
+				<MediaContainer target="mt2">
+					<ResponsiveLayout orientation="vertical" overflow="fit">
+						<Weights mediaTarget="mt5" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt4" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt3" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+					</ResponsiveLayout>
+					<Visual ref="ve99" name="vi98">
+						<ResponsiveConstraint>
+							<WidthConstraint>
+								<Width mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+							</WidthConstraint>
+							<HeightConstraint>
+								<Height mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+							</HeightConstraint>
+						</ResponsiveConstraint>
+					</Visual>
+				</MediaContainer>
+			</Body>
+		</Section>
+		<Section name="vi194" label="Business Locations">
+			<Header>
+				<MediaContainer target="mt2">
+					<ResponsiveLayout orientation="horizontal" overflow="fit">
+						<Weights mediaTarget="mt5" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt4" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt3" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+					</ResponsiveLayout>
+				</MediaContainer>
+			</Header>
+			<Body>
+				<MediaContainer target="mt2">
+					<ResponsiveLayout orientation="vertical" overflow="fit">
+						<Weights mediaTarget="mt5" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt4" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt3" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+					</ResponsiveLayout>
+					<Container ref="ve351" name="vi350">
+						<ResponsiveConstraint>
+							<WidthConstraint>
+								<Width mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="shrinkable"/>
+							</WidthConstraint>
+							<HeightConstraint>
+								<Height mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="shrinkable"/>
+							</HeightConstraint>
+						</ResponsiveConstraint>
+						<ResponsiveLayout orientation="vertical" overflow="grow"/>
+						<Visual ref="ve342" name="vi341">
+							<ResponsiveConstraint>
+								<WidthConstraint>
+									<Width mediaTarget="mt3" preferredSizeBehavior="ignore" value="25%" flexibility="shrinkable"/>
+								</WidthConstraint>
+								<HeightConstraint>
+									<Height mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+								</HeightConstraint>
+							</ResponsiveConstraint>
+						</Visual>
+						<Container ref="ve385" name="vi384">
+							<ResponsiveConstraint>
+								<WidthConstraint>
+									<Width mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="shrinkable"/>
+								</WidthConstraint>
+								<HeightConstraint>
+									<Height mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="shrinkable"/>
+								</HeightConstraint>
+							</ResponsiveConstraint>
+							<ResponsiveLayout orientation="vertical" overflow="grow">
+								<Weights mediaTarget="mt5" unit="percent">
+									<Weight value="100%"/>
+								</Weights>
+								<Weights mediaTarget="mt4" unit="percent">
+									<Weight value="100%"/>
+								</Weights>
+								<Weights mediaTarget="mt3" unit="percent">
+									<Weight value="100%"/>
+								</Weights>
+							</ResponsiveLayout>
+							<Container ref="ve402" name="vi401">
+								<ResponsiveConstraint>
+									<WidthConstraint>
+										<Width mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="shrinkable"/>
+									</WidthConstraint>
+									<HeightConstraint>
+										<Height mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="shrinkable"/>
+									</HeightConstraint>
+								</ResponsiveConstraint>
+								<ResponsiveLayout orientation="vertical" overflow="grow"/>
+								<Visual ref="ve387" name="vi386">
+									<ResponsiveConstraint>
+										<WidthConstraint>
+											<Width mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+										</WidthConstraint>
+										<HeightConstraint>
+											<Height mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="fixed"/>
+										</HeightConstraint>
+									</ResponsiveConstraint>
+								</Visual>
+								<Visual ref="ve398" name="vi399">
+									<ResponsiveConstraint>
+										<WidthConstraint>
+											<Width mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+										</WidthConstraint>
+										<HeightConstraint>
+											<Height mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="fixed"/>
+										</HeightConstraint>
+									</ResponsiveConstraint>
+								</Visual>
+								<Visual ref="ve408" name="vi409">
+									<ResponsiveConstraint>
+										<WidthConstraint>
+											<Width mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+										</WidthConstraint>
+										<HeightConstraint>
+											<Height mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="fixed"/>
+										</HeightConstraint>
+									</ResponsiveConstraint>
+								</Visual>
+								<Visual ref="ve416" name="vi417">
+									<ResponsiveConstraint>
+										<WidthConstraint>
+											<Width mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+										</WidthConstraint>
+										<HeightConstraint>
+											<Height mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="fixed"/>
+										</HeightConstraint>
+									</ResponsiveConstraint>
+								</Visual>
+								<Visual ref="ve424" name="vi425">
+									<ResponsiveConstraint>
+										<WidthConstraint>
+											<Width mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+										</WidthConstraint>
+										<HeightConstraint>
+											<Height mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="fixed"/>
+										</HeightConstraint>
+									</ResponsiveConstraint>
+								</Visual>
+							</Container>
+							<Visual ref="ve264" name="vi263">
+								<ResponsiveConstraint>
+									<WidthConstraint>
+										<Width mediaTarget="mt3" preferredSizeBehavior="ignore" value="75%" flexibility="flexible"/>
+									</WidthConstraint>
+									<HeightConstraint>
+										<Height mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+									</HeightConstraint>
+								</ResponsiveConstraint>
+							</Visual>
+						</Container>
+					</Container>
+				</MediaContainer>
+			</Body>
+		</Section>
+	</View>
+	<Interactions>
+		<Interaction name="ia352" type="filter" derived="false">
+			<InteractionElementReference purpose="source" ref="ve342" variable="bi533"/>
+			<InteractionElementReference purpose="target" ref="ve264" variable="bi742"/>
+		</Interaction>
+		<Interaction name="ia428" type="filter" derived="false">
+			<InteractionElementReference purpose="source" ref="ve398" variable="bi518"/>
+			<InteractionElementReference purpose="target" ref="ve264" variable="bi743"/>
+		</Interaction>
+		<Interaction name="ia489" type="filter" derived="false">
+			<InteractionElementReference purpose="source" ref="ve387" variable="bi517"/>
+			<InteractionElementReference purpose="target" ref="ve264" variable="bi744"/>
+		</Interaction>
+	</Interactions>
+	<MediaSchemes>
+		<MediaScheme name="ms1">
+			<BaseStylesheetResource file="basems1.css" theme="midnight2020"/>
+			<StylesheetFile file="ms1.css"/>
+		</MediaScheme>
+	</MediaSchemes>
+	<MediaTargets>
+		<MediaTarget windowSize="default" scheme="ms1" name="mt2"/>
+		<MediaTarget windowSize="small" scheme="ms1" name="mt3"/>
+		<MediaTarget windowSize="medium" scheme="ms1" name="mt4"/>
+		<MediaTarget windowSize="large" scheme="ms1" name="mt5"/>
+	</MediaTargets>
+	<Properties>
+		<Property key="displayDataSource">ds590</Property>
+		<Property key="loadedFromXML">true</Property>
+		<Property key="ReportPackagesServiceVersion">2020.1.4</Property>
+		<Property key="ReportDataServiceVersion">2020.1.4</Property>
+	</Properties>
+	<Groupings>
+		<Grouping outputType="string" name="gr173">
+			<GroupingVariables>
+				<GroupingVariable variable="var172" type="double"/>
+			</GroupingVariables>
+			<Group>
+				<ValueExpression>&apos;Low&apos;</ValueExpression>
+				<TestExpression>between(${var172,raw},0,1000)</TestExpression>
+			</Group>
+			<Group>
+				<ValueExpression>&apos;Medium&apos;</ValueExpression>
+				<TestExpression>between(${var172,raw},1000,1500)</TestExpression>
+			</Group>
+			<Group>
+				<ValueExpression>&apos;High&apos;</ValueExpression>
+				<TestExpression>between(${var172,raw},1500,2000)</TestExpression>
+			</Group>
+			<Other>
+				<ValueExpression>&apos;Other&apos;</ValueExpression>
+			</Other>
+		</Grouping>
+	</Groupings>
+	<CustomSorts>
+		<CustomSort type="string" name="cs177">
+			<Value>Low</Value>
+			<Value>Medium</Value>
+			<Value>High</Value>
+		</CustomSort>
+	</CustomSorts>
+	<DataSourceMappings>
+		<InternalDataSourceMapping source="ds195" target="ds459" name="dm515">
+			<InternalColumnMapping source="bi198" target="bi461"/>
+		</InternalDataSourceMapping>
+		<InternalDataSourceMapping source="ds430" target="ds459" name="dm516">
+			<InternalColumnMapping source="bi432" target="bi461"/>
+		</InternalDataSourceMapping>
+	</DataSourceMappings>
+	<ExportProperties>
+		<Export destination="pdf">
+			<Property key="showCoverPage" value="true"></Property>
+			<Property key="showPageNumbers" value="true"></Property>
+		</Export>
+	</ExportProperties>
+	<History>
+	<Versions>
+		<Version key="4.19.0" lastDate="2022-04-28T00:00:00Z"/>
+		<Version key="4.20.0" lastDate="2022-06-01T00:00:00Z"/>
+	</Versions>
+	<Conversions>
+		<Conversion startVersion="4.19.0" finalVersion="4.20.0" date="2022-06-01T00:00:00Z"/>
+	</Conversions>
+	<Editors>
+		<Editor applicationName="VA">
+			<Revision editorVersion="2021.2.6" lastDate="2022-05-03T04:45:27.598Z"/>
+			<Revision editorVersion="2020" lastDate="2022-06-22T16:00:17.496Z"/>
+		</Editor>
+	</Editors>
+</History>
+	<SASReportState>
+		<VisualElements>
+			<GraphState element="ve615">
+				<Viewports>
+					<LayoutOverlayMapViewport top="7739.25830078125" bottom="369.756103515625" left="-6162.34814453125" right="3934.449951171875"/>
+				</Viewports>
+			</GraphState>
+		</VisualElements>
+		<View/>
+	</SASReportState>
+</SASReport>

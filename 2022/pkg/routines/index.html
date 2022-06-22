@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script async src='https://cdn.developer.sas.com/packages/va-report-components/latest/dist/umd/va-report-components.js'></script>
+    <!--
+    Uncomment the stylesheet link below to access the fonts in the SAS Viya deployment.
+       Risk: This change requires a live connection to SAS Viya.
+       Reward: This change enables access to the fonts that were used to design the report.
+    <link rel='stylesheet' type='text/css' href='css/viyafonts.css' />
+    -->
+    <style>
+      body {margin: 0px; padding: 0px;}
+      sas-report,
+      sas-report-page,
+      sas-report-object {width: 100vw; height: 100vh;}
+    </style>
+  </head>
+  <body>
+    <!-- Q3-1 P40 Profile -->
+    <sas-report-page packageUri='.' pageName='vi2899' ></sas-report-page>
+    <!-- Q3-2 P40 Activity -->
+    <sas-report-page packageUri='.' pageName='vi2357' ></sas-report-page>
+    <!-- Q3-3 P40 Routines -->
+    <sas-report-page packageUri='.' pageName='vi2391' ></sas-report-page>
+    <!-- Q3-4 P40 Time spent -->
+    <sas-report-page packageUri='.' pageName='vi2662' ></sas-report-page>
+    <!-- Q3-5 P40 Monthly Travel Routes -->
+    <sas-report-page packageUri='.' pageName='vi3803' ></sas-report-page>
+    <!-- Q3-7 P50 Profile -->
+    <sas-report-page packageUri='.' pageName='vi4696' ></sas-report-page>
+    <!-- Q3-8 P50 Activity -->
+    <sas-report-page packageUri='.' pageName='vi4743' ></sas-report-page>
+    <!-- Q3-9 P50 Time spent -->
+    <sas-report-page packageUri='.' pageName='vi4857' ></sas-report-page>
+    <!-- Q3-10 P50 Monthly Travel Routes -->
+    <sas-report-page packageUri='.' pageName='vi4890' ></sas-report-page>
+  </body>
+</html>

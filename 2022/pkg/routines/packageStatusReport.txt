@@ -1,0 +1,7 @@
+Bar - End Travel Location ID 1
+  Interactivity for this object is limited for the following reasons:
+    * This object uses a join.
+
+Bar - End Travel Location ID 1 (1)
+  Interactivity for this object is limited for the following reasons:
+    * This object uses a join.

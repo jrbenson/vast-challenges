@@ -1,0 +1,65 @@
+
+
+#ve615 .GraphSkin {
+  data-skin: CRISP;
+}
+#ve92 .GraphDataStyle1 {
+  fill-color: #DD5757;
+}
+#ve99 .GraphDataStyle3 {
+  marker-color: #DD5757;
+  text-color: #DD5757;
+  line-color: #DD5757;
+}
+#ve99 .GraphDataStyle2 {
+  marker-color: #FFCC32;
+  text-color: #FFCC32;
+  line-color: #FFCC32;
+}
+#ve99 .GraphDataStyle1 {
+  marker-color: #15B57B;
+  text-color: #15B57B;
+  line-color: #15B57B;
+}
+#ve99 .TwoColorRamp1 {
+  fill-gradient-start-color: #E9ECEF;
+  fill-gradient-end-color: #7DC3FC;
+}
+#ve264 .TwoColorAltRamp2 {
+  fill-gradient-start-color: #C7E3F9;
+  fill-gradient-end-color: #DD5757;
+}
+#ve615 .TwoColorAltRamp1 {
+  fill-gradient-start-color: #33A3FF;
+  fill-gradient-end-color: #FFCC32;
+}
+#ve92 .TwoColorRamp1 {
+  fill-gradient-start-color: #F9EDC6;
+  fill-gradient-end-color: #DD5757;
+}
+#ve99 .TwoColorRamp {
+  fill-gradient-start-color: #E9ECEF;
+  fill-gradient-end-color: #7DC3FC;
+}
+#ve99 .GraphDataStyleDefault {
+  marker-color: #15B57B;
+  text-color: #15B57B;
+  line-color: #15B57B;
+}
+#ve99 .TwoColorAltRamp2 {
+  fill-gradient-start-color: #71EBBF;
+  fill-gradient-end-color: #DD5757;
+}
+#ve92 .GraphDataStyleDefault {
+  fill-color: #DD5757;
+}
+#ve92 .TwoColorRamp {
+  fill-gradient-start-color: #F9EDC6;
+  fill-gradient-end-color: #DD5757;
+}
+#ve615 .TwoColorAltRamp {
+  fill-gradient-start-color: #33A3FF;
+  fill-gradient-end-color: #FFCC32;
+}
+
+			

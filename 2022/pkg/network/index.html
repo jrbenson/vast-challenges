@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script async src='https://cdn.developer.sas.com/packages/va-report-components/latest/dist/umd/va-report-components.js'></script>
+    <!--
+    Uncomment the stylesheet link below to access the fonts in the SAS Viya deployment.
+       Risk: This change requires a live connection to SAS Viya.
+       Reward: This change enables access to the fonts that were used to design the report.
+    <link rel='stylesheet' type='text/css' href='css/viyafonts.css' />
+    -->
+    <style>
+      body {margin: 0px; padding: 0px;}
+      sas-report,
+      sas-report-page,
+      sas-report-object {width: 100vw; height: 100vh;}
+    </style>
+  </head>
+  <body>
+    <!-- Q1-1 Map -->
+    <sas-report-page packageUri='.' pageName='vi4003' ></sas-report-page>
+    <!-- Q1-2 Home+Business -->
+    <sas-report-page packageUri='.' pageName='vi2365' ></sas-report-page>
+    <!-- Q1-5 Business Locations -->
+    <sas-report-page packageUri='.' pageName='vi1070' ></sas-report-page>
+    <!-- Q1-6 Children Households -->
+    <sas-report-page packageUri='.' pageName='vi4004' ></sas-report-page>
+    <!-- Q1-7 Age Distribution -->
+    <sas-report-page packageUri='.' pageName='vi4005' ></sas-report-page>
+    <!-- Q1-8 Multiple Employers -->
+    <sas-report-page packageUri='.' pageName='vi4006' ></sas-report-page>
+    <!-- Q2-1 City Areas -->
+    <sas-report-page packageUri='.' pageName='vi754' ></sas-report-page>
+    <!-- Q2-2 City Areas at 4PM -->
+    <sas-report-page packageUri='.' pageName='vi4369' ></sas-report-page>
+    <!-- Q2-3 Commute -->
+    <sas-report-page packageUri='.' pageName='vi51' ></sas-report-page>
+    <!-- Q3-7 P40 Activities -->
+    <sas-report-page packageUri='.' pageName='vi635' ></sas-report-page>
+    <!-- Q3-? P50 Activities -->
+    <sas-report-page packageUri='.' pageName='vi4693' ></sas-report-page>
+  </body>
+</html>
