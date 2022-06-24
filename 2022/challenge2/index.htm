@@ -17,7 +17,7 @@
 
     <script
       async
-      src="https://cdn.developer.sas.com/packages/va-report-components/latest/dist/umd/va-report-components.js"
+      src="https://cdn.developer.sas.com/packages/va-report-components/1.8.0/dist/umd/va-report-components.js"
     ></script>
 
     <style>
@@ -43,10 +43,10 @@
         </nav>
       </header>
 
-      <h2 id="team_information">Team Information</h2>
+      <h2 class="vast" id="team_information">Team Information</h2>
 
       <h3>Team members:</h3>
-      <ul>
+      <ul class="vast">
         <li>
           First Last, SAS Institute,
           <a href="mailto:Falko.Schulz@sas.com">Falko.Schulz@sas.com</a>
@@ -62,7 +62,7 @@
       <p>No</p>
 
       <h3>Analytics tools used:</h3>
-      <ul>
+      <ul class="vast">
         <li>
           <a href="https://www.sas.com/en_us/software/visual-analytics.html"
             >SAS Visual Analytics</a
@@ -82,7 +82,7 @@
       </h3>
       <p>Yes</p>
 
-      <h2 id="video">Video</h2>
+      <h2 class="vast" id="video">Video</h2>
       <div class="darkpane">
         <div class="vidwrap">
           <iframe
@@ -99,7 +99,7 @@
         <a href="https://youtu.be/BTX8mT4Kfr8">Watch Video on YouTube</a>
       </p>
 
-      <h2 id="questions">Questions</h2>
+      <h2 class="vast" id="questions">Questions</h2>
 
       <p class="centered">
         <a href="#q1">Question 1</a> | <a href="#q2">Question 2</a> |
@@ -204,7 +204,7 @@
         For brevity the business districts will be reference using this acronyms
         going forward:
       </p>
-      <ul>
+      <ul class="vast">
         <li>NWD = North West District</li>
         <li>CBD = Central Business District</li>
         <li>EBD = East Business District</li>
@@ -640,6 +640,7 @@
       vaReportComponents.setLoadingTheme({
         baseTheme: "dark",
       });
+      vaReportComponents.setUseZoomOverlay(true);
     });
 
     const target = document.querySelectorAll("sas-report-page");
