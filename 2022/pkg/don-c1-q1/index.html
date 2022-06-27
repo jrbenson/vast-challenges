@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script async src='https://cdn.developer.sas.com/packages/va-report-components/latest/dist/umd/va-report-components.js'></script>
+    <!--
+    Uncomment the stylesheet link below to access the fonts in the SAS Viya deployment.
+       Risk: This change requires a live connection to SAS Viya.
+       Reward: This change enables access to the fonts that were used to design the report.
+    <link rel='stylesheet' type='text/css' href='css/viyafonts.css' />
+    -->
+    <style>
+      body {margin: 0px; padding: 0px;}
+      sas-report,
+      sas-report-page,
+      sas-report-object {width: 100vw; height: 100vh;}
+    </style>
+  </head>
+  <body>
+    <!-- age -->
+    <sas-report-page packageUri='.' pageName='vi40509' ></sas-report-page>
+    <!-- apartment cost -->
+    <sas-report-page packageUri='.' pageName='vi55047' ></sas-report-page>
+    <!-- household -->
+    <sas-report-page packageUri='.' pageName='vi5268' ></sas-report-page>
+    <!-- schools / food -->
+    <sas-report-page packageUri='.' pageName='vi58616' ></sas-report-page>
+    <!-- employers map -->
+    <sas-report-page packageUri='.' pageName='vi62455' ></sas-report-page>
+    <!-- job details -->
+    <sas-report-page packageUri='.' pageName='vi9921' ></sas-report-page>
+    <!-- jobs in study -->
+    <sas-report-page packageUri='.' pageName='vi58201' ></sas-report-page>
+  </body>
+</html>

@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script async src='https://cdn.developer.sas.com/packages/va-report-components/latest/dist/umd/va-report-components.js'></script>
+    <!--
+    Uncomment the stylesheet link below to access the fonts in the SAS Viya deployment.
+       Risk: This change requires a live connection to SAS Viya.
+       Reward: This change enables access to the fonts that were used to design the report.
+    <link rel='stylesheet' type='text/css' href='css/viyafonts.css' />
+    -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter');
+      @import url('https://fonts.googleapis.com/css2?family=Consolas');
+      @import url('https://fonts.googleapis.com/css2?family=Roboto');
+      @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+      body {
+        padding: 0 2rem 0 2rem;
+        background-color: #ffffff;
+      }
+      h1 {
+        font-size: 3rem;
+        font-weight: 700;
+        font-family: Inter;
+        margin: 8px 0px;
+      }
+      h2 {
+        font-size: 1.246rem;
+        font-weight: 400;
+        font-family: Inter;
+        margin: 4px 0px;
+      }
+      h3 {
+        font-size: .984rem;
+        font-weight: 400;
+        font-family: Inter;
+        margin: 2px 0px;
+      }
+      h4 {
+        font-size: 0.75rem;
+        font-weight: 400;
+        font-family: Inter;
+        margin: 2px 0px;
+      }
+      hr {
+        border-top: 1px solid #CED2D9;        width:100%;
+        text-align:left;
+        margin-left: 0
+      }
+      .container {
+        display: flex;
+        align-items: stretch;
+        background-color: #ffffff;
+        height: 30rem;
+        margin: 2rem 0 2rem 0;
+      }
+      .flex-report {
+        width: 100%;
+        height: 30rem;
+        margin-right: 1rem;
+      }
+      .flex-report sas-report {
+        width: 100%;
+        height: 100%;
+        display: block;
+      }
+      .flex-code  {
+        background-color: #f0f1f4;
+        width: 100%;
+        height: 15rem;
+        margin-left: 1rem; 
+        text-align: left;
+        flex: 0 0 350px;
+      }
+      .code-bar {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #FFFFFF;
+      }
+      .code-snippet {
+        font-size: 1rem;
+        font-weight: 900;
+        font-family: Inter;
+        float: left;
+        display: block;
+        color: black;
+        text-align: left;
+        padding: 0 0 0 0;
+        text-decoration: none;
+      }
+      .code-btn {
+        float: right;
+        display: block;
+        color: black;
+        text-align: left;
+        padding: 0 0 0 0;
+        text-decoration: none;
+      }
+      .code {
+        font-size: 1rem;
+        font-weight: 400;
+        font-family: Consolas;
+      }
+      .code-green {
+        color: #26883e;
+      }
+      .code-blue {
+        color: #001aff;
+      }
+      .code-brown {
+        color: #7a641c;;
+      }
+      .copy {
+        background: #ffffff;
+        border: none; 
+      }
+      .material-icons {
+        font-family: 'Material Icons';
+        font-size: 16px;
+        padding: 0 0 0 0;
+        cursor: pointer;
+      }
+      ul {
+        font-size: .984rem;
+        font-weight: 400;
+        font-family: Inter;
+        margin: 2px 0px;
+        list-style-type: disc;
+      }
+      a {
+        text-decoration: none;
+      }
+      sas-report,
+      sas-report-page {height: 30rem;}
+      sas-report-object {height: 30rem;}
+    </style>
+  </head>
+  <body>
+    <h1>Challenge1 Q1 (Don)</h1>
+    <h2>exported from SAS&reg;Visual Analytics</h2>
+    <br>
+    <h3>7 page(s) exported from the report Challenge1 Q1 (Don) on June 27, 2022 at 19:18 PM UTC</h3>
+    <h4>This page contains the exported contents and the code to reference in order to customize your webpage. See the <a target='_blank' href='https://github.com/sassoftware/visual-analytics-sdk/tree/master/examples'>examples</a> on GitHub</h4>
+    <br>
+    <ul>
+      <li><a href="#link0">age</a></li>
+      <li><a href="#link1">apartment cost</a></li>
+      <li><a href="#link2">household</a></li>
+      <li><a href="#link3">schools / food</a></li>
+      <li><a href="#link4">employers map</a></li>
+      <li><a href="#link5">job details</a></li>
+      <li><a href="#link6">jobs in study</a></li>
+    </ul> 
+    <hr/>
+    <a id='link0'><h3>age</h3></a>
+    <div class='container'>
+      <div class='flex-report'>
+        <!-- age -->
+        <sas-report-page packageUri='.' pageName='vi40509' ></sas-report-page>
+      </div>
+      <div class='flex-code'>
+        <section>
+          <ul class='code-bar'>
+            <li class='code-snippet'>Code Snippet</li>
+            <li class='code-btn'><button id='copy0' class='copy'><i class='material-icons'>content_copy</i></button></li>
+          </ul>
+          <p id='code0' class='code'>
+            <span class='code-green'>&lt;!--age--&gt</span><br><br>&lt;<span class='code-blue'>sas-report-page </span><span class='code-brown'>packageUri</span>=<span class='code-green'>'.' </span><span class='code-brown'>pageName</span>=<span class='code-green'>'vi40509'</span>&gt;&lt;/<span class='code-blue'>sas-report-page</span>&gt;
+          </p>
+        </section>
+      </div>
+    </div>
+    <hr/>
+    <a id='link1'><h3>apartment cost</h3></a>
+    <div class='container'>
+      <div class='flex-report'>
+        <!-- apartment cost -->
+        <sas-report-page packageUri='.' pageName='vi55047' ></sas-report-page>
+      </div>
+      <div class='flex-code'>
+        <section>
+          <ul class='code-bar'>
+            <li class='code-snippet'>Code Snippet</li>
+            <li class='code-btn'><button id='copy1' class='copy'><i class='material-icons'>content_copy</i></button></li>
+          </ul>
+          <p id='code1' class='code'>
+            <span class='code-green'>&lt;!--apartment cost--&gt</span><br><br>&lt;<span class='code-blue'>sas-report-page </span><span class='code-brown'>packageUri</span>=<span class='code-green'>'.' </span><span class='code-brown'>pageName</span>=<span class='code-green'>'vi55047'</span>&gt;&lt;/<span class='code-blue'>sas-report-page</span>&gt;
+          </p>
+        </section>
+      </div>
+    </div>
+    <hr/>
+    <a id='link2'><h3>household</h3></a>
+    <div class='container'>
+      <div class='flex-report'>
+        <!-- household -->
+        <sas-report-page packageUri='.' pageName='vi5268' ></sas-report-page>
+      </div>
+      <div class='flex-code'>
+        <section>
+          <ul class='code-bar'>
+            <li class='code-snippet'>Code Snippet</li>
+            <li class='code-btn'><button id='copy2' class='copy'><i class='material-icons'>content_copy</i></button></li>
+          </ul>
+          <p id='code2' class='code'>
+            <span class='code-green'>&lt;!--household--&gt</span><br><br>&lt;<span class='code-blue'>sas-report-page </span><span class='code-brown'>packageUri</span>=<span class='code-green'>'.' </span><span class='code-brown'>pageName</span>=<span class='code-green'>'vi5268'</span>&gt;&lt;/<span class='code-blue'>sas-report-page</span>&gt;
+          </p>
+        </section>
+      </div>
+    </div>
+    <hr/>
+    <a id='link3'><h3>schools / food</h3></a>
+    <div class='container'>
+      <div class='flex-report'>
+        <!-- schools / food -->
+        <sas-report-page packageUri='.' pageName='vi58616' ></sas-report-page>
+      </div>
+      <div class='flex-code'>
+        <section>
+          <ul class='code-bar'>
+            <li class='code-snippet'>Code Snippet</li>
+            <li class='code-btn'><button id='copy3' class='copy'><i class='material-icons'>content_copy</i></button></li>
+          </ul>
+          <p id='code3' class='code'>
+            <span class='code-green'>&lt;!--schools / food--&gt</span><br><br>&lt;<span class='code-blue'>sas-report-page </span><span class='code-brown'>packageUri</span>=<span class='code-green'>'.' </span><span class='code-brown'>pageName</span>=<span class='code-green'>'vi58616'</span>&gt;&lt;/<span class='code-blue'>sas-report-page</span>&gt;
+          </p>
+        </section>
+      </div>
+    </div>
+    <hr/>
+    <a id='link4'><h3>employers map</h3></a>
+    <div class='container'>
+      <div class='flex-report'>
+        <!-- employers map -->
+        <sas-report-page packageUri='.' pageName='vi62455' ></sas-report-page>
+      </div>
+      <div class='flex-code'>
+        <section>
+          <ul class='code-bar'>
+            <li class='code-snippet'>Code Snippet</li>
+            <li class='code-btn'><button id='copy4' class='copy'><i class='material-icons'>content_copy</i></button></li>
+          </ul>
+          <p id='code4' class='code'>
+            <span class='code-green'>&lt;!--employers map--&gt</span><br><br>&lt;<span class='code-blue'>sas-report-page </span><span class='code-brown'>packageUri</span>=<span class='code-green'>'.' </span><span class='code-brown'>pageName</span>=<span class='code-green'>'vi62455'</span>&gt;&lt;/<span class='code-blue'>sas-report-page</span>&gt;
+          </p>
+        </section>
+      </div>
+    </div>
+    <hr/>
+    <a id='link5'><h3>job details</h3></a>
+    <div class='container'>
+      <div class='flex-report'>
+        <!-- job details -->
+        <sas-report-page packageUri='.' pageName='vi9921' ></sas-report-page>
+      </div>
+      <div class='flex-code'>
+        <section>
+          <ul class='code-bar'>
+            <li class='code-snippet'>Code Snippet</li>
+            <li class='code-btn'><button id='copy5' class='copy'><i class='material-icons'>content_copy</i></button></li>
+          </ul>
+          <p id='code5' class='code'>
+            <span class='code-green'>&lt;!--job details--&gt</span><br><br>&lt;<span class='code-blue'>sas-report-page </span><span class='code-brown'>packageUri</span>=<span class='code-green'>'.' </span><span class='code-brown'>pageName</span>=<span class='code-green'>'vi9921'</span>&gt;&lt;/<span class='code-blue'>sas-report-page</span>&gt;
+          </p>
+        </section>
+      </div>
+    </div>
+    <hr/>
+    <a id='link6'><h3>jobs in study</h3></a>
+    <div class='container'>
+      <div class='flex-report'>
+        <!-- jobs in study -->
+        <sas-report-page packageUri='.' pageName='vi58201' ></sas-report-page>
+      </div>
+      <div class='flex-code'>
+        <section>
+          <ul class='code-bar'>
+            <li class='code-snippet'>Code Snippet</li>
+            <li class='code-btn'><button id='copy6' class='copy'><i class='material-icons'>content_copy</i></button></li>
+          </ul>
+          <p id='code6' class='code'>
+            <span class='code-green'>&lt;!--jobs in study--&gt</span><br><br>&lt;<span class='code-blue'>sas-report-page </span><span class='code-brown'>packageUri</span>=<span class='code-green'>'.' </span><span class='code-brown'>pageName</span>=<span class='code-green'>'vi58201'</span>&gt;&lt;/<span class='code-blue'>sas-report-page</span>&gt;
+          </p>
+        </section>
+      </div>
+    </div>
+    <hr>
+    <h3>Powered by SAS&reg;Viya&reg;</h3>
+    <script>
+      function copy(id) {
+        var code = document.getElementById(id)
+        navigator.clipboard.writeText(code.innerText)
+      }
+      for(let i = 0; i < 7; i++) {
+        document.getElementById('copy' + i).addEventListener('click', function(){ copy('code' + i); });
+      }
+    </script>
+  </body>
+</html>
