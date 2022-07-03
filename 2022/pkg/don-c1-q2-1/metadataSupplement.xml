@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<metadataSupplement>
+    <tables>
+        <table dataLocale="en_US" dataSources="ds7" resourceIdentifier="'cas-shared-default','VAST','VAST2022_APARTMENTS','en_US'" tableModifiedTimeStamp="2022-06-26T14:23:36.418Z">
+            <columns>
+                <column dataType="double" format="BEST12." label="Apartment ID" xref="apartmentId"/>
+                <column dataType="double" format="DOLLAR12.2" label="Rental Cost ($)" xref="rentalCost"/>
+                <column dataType="double" format="BEST12." label="Occupancy (max)" xref="maxOccupancy"/>
+                <column dataType="double" format="BEST12." label="Rooms" xref="numberOfRooms"/>
+                <column dataType="double" format="BEST12." label="Location Latitude" xref="locationLat"/>
+                <column dataType="double" format="BEST12." label="Location Longitude" xref="locationLng"/>
+                <column dataType="double" format="BEST12." label="Building ID" xref="buildingId"/>
+            </columns>
+        </table>
+        <table dataLocale="en_US" dataSources="ds17" resourceIdentifier="'cas-shared-default','VAST','VAST2022_BUILDINGS','en_US'" tableModifiedTimeStamp="2022-06-26T14:23:32.366Z">
+            <columns>
+                <column dataType="double" format="BEST12." label="Building ID" xref="buildingId"/>
+                <column dataType="string" label="Building Type" xref="buildingType"/>
+                <column dataType="double" format="BEST12." label="Occupancy (max)" xref="maxOccupancy"/>
+                <column dataType="double" format="BEST12." label="Unit ID (Apartment/Workplace/School)" xref="unit"/>
+                <column dataType="string" label="Unit Type" xref="unitType"/>
+                <column dataType="double" format="BEST12." label="Location Latitude" xref="locationLat"/>
+                <column dataType="double" format="BEST12." label="Location Longitude" xref="locationLng"/>
+            </columns>
+        </table>
+        <table dataLocale="en_US" dataSources="ds31" resourceIdentifier="'cas-shared-default','VAST','VAST2022_EMPLOYERS','en_US'" tableModifiedTimeStamp="2022-06-26T14:23:31.742Z">
+            <columns>
+                <column dataType="double" format="BEST12." label="Employer ID" xref="employerId"/>
+                <column dataType="double" format="BEST12." label="Location Latitude" xref="locationLat"/>
+                <column dataType="double" format="BEST12." label="Location Longitude" xref="locationLng"/>
+                <column dataType="double" format="BEST12." label="Building ID" xref="buildingId"/>
+            </columns>
+        </table>
+        <table dataLocale="en_US" dataSources="ds45" resourceIdentifier="'cas-shared-default','VAST','VAST2022_PARTICIPANTS_PLUS','en_US'" tableModifiedTimeStamp="2022-06-26T14:23:24.985Z">
+            <columns>
+                <column dataType="double" format="BEST12." label="Participant ID" xref="participantId"/>
+                <column dataType="double" format="BEST12." label="Household Size" xref="householdSize"/>
+                <column dataType="string" label="Children (yes/no)" xref="haveKids"/>
+                <column dataType="double" format="BEST12." label="Age" xref="age"/>
+                <column dataType="string" label="Education Level" xref="educationLevel"/>
+                <column dataType="string" label="Interest Group" xref="interestGroup"/>
+                <column dataType="double" format="PERCENT12." label="Happiness (%)" xref="joviality"/>
+                <column dataType="double" format="BEST12." label="Apartment ID" xref="apartmentId"/>
+                <column dataType="double" format="BEST12." label="Build ID (deprecated)" xref="buildingId"/>
+                <column dataType="double" format="BEST12." label="Apartment Building ID" xref="apartmentBuildingId"/>
+                <column dataType="double" format="BEST12." label="Days in Study" xref="daysInStudy"/>
+                <column dataType="double" format="DOLLAR12.2" label="Apartment Rental Cost ($)" xref="apartmentRentalCost"/>
+                <column dataType="double" format="BEST12." label="Apartment Max Occupancy" xref="apartmentMaxOccupancy"/>
+                <column dataType="double" format="BEST12." label="Apartment Rooms" xref="apartmentNumberOfRooms"/>
+                <column dataType="double" format="BEST12." label="Apartment Latitude" xref="apartmentLocationLat"/>
+                <column dataType="double" format="BEST12." label="Apartment Longitude" xref="apartmentLocationLng"/>
+                <column dataType="double" format="BEST12." label="Apartment Building Max Occupancy" xref="apartmentBuildingMaxOccupancy"/>
+                <column dataType="double" format="BEST12." label="Total Employers" xref="totalEmployers"/>
+                <column dataType="double" format="DOLLAR12.2" label="Average Hourly Rate" xref="avgHourlyRate"/>
+                <column dataType="double" format="DOLLAR12.2" label="Minimum Hourly Rate" xref="minHourlyRate"/>
+                <column dataType="double" format="DOLLAR12.2" label="Maximum Hourly Rate" xref="maxHourlyRate"/>
+                <column dataType="double" format="BEST12." label="Total Jobs" xref="totalJobs"/>
+                <column dataType="double" format="BEST12." label="Days with Check-In Event" xref="checkInDays"/>
+                <column dataType="double" format="BEST12." label="Days at Work" xref="workDays"/>
+                <column dataType="double" format="BEST12." label="Trips to a Pub" xref="pubEvents"/>
+                <column dataType="double" format="BEST12." label="Trips to Restuarant from Work" xref="goingToEatAtWork"/>
+                <column dataType="double" format="BEST12." label="Days with Two Jobs" xref="twoJobs"/>
+                <column dataType="double" format="BEST12." label="Days with Two Shifts" xref="twoShifts"/>
+                <column dataType="double" format="BEST12." label="Trips to Pub from Work" xref="goingToPubAtWork"/>
+                <column dataType="double" format="BEST12." label="Trips to a Restuarant" xref="eatEvents"/>
+                <column dataType="double" format="BEST12." label="Trips to Pub from Home" xref="goingToEatAfterWork"/>
+                <column dataType="double" format="BEST12." label="Days with Multiple Pub Trips" xref="multiplePubsOneDay"/>
+            </columns>
+        </table>
+        <table dataLocale="en_US" dataSources="ds55" resourceIdentifier="'cas-shared-default','VAST','VAST2022_JOBS','en_US'" tableModifiedTimeStamp="2022-06-26T14:23:36.291Z">
+            <columns>
+                <column dataType="double" format="BEST12." label="Job ID" xref="jobId"/>
+                <column dataType="double" format="BEST12." label="Employer ID" xref="employerId"/>
+                <column dataType="double" format="DOLLAR12.2" label="Hourly Rate ($)" xref="hourlyRate"/>
+                <column dataType="double" format="TIME8" label="Job Start Time (hh:mm)" xref="startTime"/>
+                <column dataType="datetime" format="TIMEAMPM8" label="Job Start Time" xref="startTime2"/>
+                <column dataType="double" format="TIME8" label="Job End Time (hh:mm)" xref="endTime"/>
+                <column dataType="datetime" format="TIMEAMPM8" label="Job End Time" xref="endTime2"/>
+                <column dataType="string" label="Days To Work" xref="daysToWork"/>
+                <column dataType="string" label="Education Level (min req)" xref="educationRequirement"/>
+                <column dataType="string" label="Workday: Sunday" xref="day1"/>
+                <column dataType="string" label="Workday: Monday" xref="day2"/>
+                <column dataType="string" label="Workday: Tuesday" xref="day3"/>
+                <column dataType="string" label="Workday: Wednesday" xref="day4"/>
+                <column dataType="string" label="Workday: Thursday" xref="day5"/>
+                <column dataType="string" label="Workday: Friday" xref="day6"/>
+                <column dataType="string" label="Workday: Saturday" xref="day7"/>
+            </columns>
+        </table>
+        <table dataLocale="en_US" dataSources="ds90" resourceIdentifier="'cas-shared-default','VAST','VAST2022_RESTAURANTS','en_US'" tableModifiedTimeStamp="2022-06-26T14:23:35.611Z">
+            <columns>
+                <column dataType="double" format="BEST12." label="RestaurantId ID" xref="restaurantId"/>
+                <column dataType="double" format="DOLLAR12.2" label="Food Cost ($)" xref="foodCost"/>
+                <column dataType="double" format="BEST12." label="Occupancy (max)" xref="maxOccupancy"/>
+                <column dataType="double" format="BEST12." label="Location Latitude" xref="locationLat"/>
+                <column dataType="double" format="BEST12." label="Location Longitude" xref="locationLng"/>
+                <column dataType="double" format="BEST12." label="Building ID" xref="buildingId"/>
+            </columns>
+        </table>
+        <table dataLocale="en_US" dataSources="ds99" resourceIdentifier="'cas-shared-default','VAST','VAST2022_SCHOOLS','en_US'" tableModifiedTimeStamp="2022-06-26T14:23:32.256Z">
+            <columns>
+                <column dataType="double" format="BEST12." label="School ID" xref="schoolId"/>
+                <column dataType="double" format="DOLLAR12.2" label="Monthly Cost ($)" xref="monthlyCost"/>
+                <column dataType="double" format="BEST12." label="Enrollment (max)" xref="maxEnrollment"/>
+                <column dataType="double" format="BEST12." label="Location Latitude" xref="locationLat"/>
+                <column dataType="double" format="BEST12." label="Location Longitude" xref="locationLng"/>
+                <column dataType="double" format="BEST12." label="Building ID" xref="buildingId"/>
+            </columns>
+        </table>
+        <table dataLocale="en_US" dataSources="ds5669" resourceIdentifier="'cas-shared-default','VAST','VAST2022_PARTICIPANTS_JOBS','en_US'" tableModifiedTimeStamp="2022-06-26T14:23:35.868Z">
+            <columns>
+                <column dataType="double" format="BEST12." label="Participant ID" xref="participantId"/>
+                <column dataType="double" format="BEST12." label="Household Size" xref="householdSize"/>
+                <column dataType="string" label="Children (yes/no)" xref="haveKids"/>
+                <column dataType="double" format="BEST12." label="Age" xref="age"/>
+                <column dataType="string" label="Education Level" xref="educationLevel"/>
+                <column dataType="string" label="Interest Group" xref="interestGroup"/>
+                <column dataType="double" format="PERCENT12." label="Happiness (%)" xref="joviality"/>
+                <column dataType="double" format="BEST12." label="Apartment ID" xref="apartmentId"/>
+                <column dataType="double" format="BEST12." label="Build ID (deprecated)" xref="buildingId"/>
+                <column dataType="double" format="BEST12." label="Apartment Building ID" xref="apartmentBuildingId"/>
+                <column dataType="double" format="BEST12." label="Days in Study" xref="daysInStudy"/>
+                <column dataType="double" format="BEST12." label="Job ID" xref="jobId"/>
+                <column dataType="double" format="BEST12." label="Employer ID" xref="employerId"/>
+                <column dataType="double" format="BEST12." label="Employer Building ID" xref="employerBuildingId"/>
+                <column dataType="double" format="COMMA8.2" label="Job Hourly Rate" xref="hourlyRate"/>
+                <column dataType="datetime" format="TIMEAMPM8" label="Job Start Time" xref="startTime2"/>
+                <column dataType="datetime" format="TIMEAMPM8" label="Job End Time" xref="endTime2"/>
+                <column dataType="string" label="Job Days to Work" xref="daysToWork"/>
+                <column dataType="double" format="BEST12." label="Unique Job (0/1)" xref="uniqueJob"/>
+                <column dataType="double" format="BEST12." label="Employer Location Latitude" xref="employerLocationLat"/>
+                <column dataType="double" format="BEST12." label="Employer Location Longitude" xref="employerLocationLng"/>
+                <column dataType="string" label="Employer Building Type" xref="employerBuildingType"/>
+            </columns>
+        </table>
+        <table dataLocale="en_US" dataSources="ds15039" resourceIdentifier="'cas-shared-default','VAST','VAST2022_PUBS','en_US'" tableModifiedTimeStamp="2022-06-26T14:23:33.915Z">
+            <columns>
+                <column dataType="double" format="BEST12." label="Pub ID" xref="pubId"/>
+                <column dataType="double" format="DOLLAR12.2" label="Hourly Cost ($)" xref="hourlyCost"/>
+                <column dataType="double" format="BEST12." label="Occupancy (max)" xref="maxOccupancy"/>
+                <column dataType="double" format="BEST12." label="Location Latitude" xref="locationLat"/>
+                <column dataType="double" format="BEST12." label="Location Longitude" xref="locationLng"/>
+                <column dataType="double" format="BEST12." label="Building ID" xref="buildingId"/>
+            </columns>
+        </table>
+        <table dataLocale="en_US" dataSources="ds24521" resourceIdentifier="'cas-shared-default','VAST','VAST2022_TRAVELJOURNAL3','en_US'" tableModifiedTimeStamp="2022-06-26T14:23:37.553Z">
+            <columns>
+                <column dataType="double" format="BEST12." label="Participant ID" xref="participantId"/>
+                <column dataType="datetime" format="DATETIME19" label="Start Travel Time (date/time)" xref="travelStartTime"/>
+                <column dataType="double" format="BEST12." label="Start Travel Location ID" xref="travelStartLocationId"/>
+                <column dataType="datetime" format="DATETIME19" label="End Travel Time (date/time)" xref="travelEndTime"/>
+                <column dataType="double" format="BEST12." label="End Travel Location ID" xref="travelEndLocationId"/>
+                <column dataType="string" label="Purpose of Travel" xref="purpose"/>
+                <column dataType="datetime" format="DATETIME19" label="Check-In (date/time)" xref="checkInTime"/>
+                <column dataType="datetime" format="DATETIME19" label="Check-Out (date/time)" xref="checkOutTime"/>
+                <column dataType="double" format="DOLLAR12.2" label="Start Travel Balance ($)" xref="startingBalance"/>
+                <column dataType="double" format="DOLLAR12.2" label="End Travel Balance ($)" xref="endingBalance"/>
+                <column dataType="double" format="BEST12." label="Start Travel Building ID" xref="travelStartBuildingId"/>
+                <column dataType="double" format="BEST12." label="Start Travel Location Latitude" xref="travelStartLocationLat"/>
+                <column dataType="double" format="BEST12." label="Start Travel Location Longitude" xref="travelStartLocationLng"/>
+                <column dataType="double" format="BEST12." label="End Travel Building ID" xref="travelEndBuildingId"/>
+                <column dataType="double" format="BEST12." label="End Travel Location Latitude" xref="travelEndLocationLat"/>
+                <column dataType="double" format="BEST12." label="End Travel Location Longitude" xref="travelEndLocationLng"/>
+                <column dataType="double" format="BEST12." label="Start Travel Location Is Employer Flag" xref="travelStartIsEmployer"/>
+                <column dataType="double" format="BEST12." label="End Travel Location Is Employer Flag" xref="travelEndIsEmployer"/>
+                <column dataType="double" format="BEST12." label="Household Size" xref="householdSize"/>
+                <column dataType="string" label="Children (yes/no)" xref="haveKids"/>
+                <column dataType="double" format="BEST12." label="Age" xref="age"/>
+                <column dataType="string" label="Education Level" xref="educationLevel"/>
+                <column dataType="string" label="Interest Group" xref="interestGroup"/>
+                <column dataType="double" format="PERCENT12." label="Happiness (%)" xref="joviality"/>
+                <column dataType="double" format="BEST12." label="Apartment ID" xref="apartmentId"/>
+                <column dataType="double" format="BEST12." label="Build ID (deprecated)" xref="buildingId"/>
+                <column dataType="double" format="BEST12." label="Apartment Building ID" xref="apartmentBuildingId"/>
+                <column dataType="double" format="BEST12." label="Days in Study" xref="daysInStudy"/>
+                <column dataType="double" format="DOLLAR12.2" label="Apartment Rental Cost ($)" xref="apartmentRentalCost"/>
+                <column dataType="double" format="BEST12." label="Apartment Max Occupancy" xref="apartmentMaxOccupancy"/>
+                <column dataType="double" format="BEST12." label="Apartment Rooms" xref="apartmentNumberOfRooms"/>
+                <column dataType="double" format="BEST12." label="Apartment Latitude" xref="apartmentLocationLat"/>
+                <column dataType="double" format="BEST12." label="Apartment Longitude" xref="apartmentLocationLng"/>
+                <column dataType="double" format="BEST12." label="Apartment Building Max Occupancy" xref="apartmentBuildingMaxOccupancy"/>
+                <column dataType="double" format="BEST12." label="Total Employers" xref="totalEmployers"/>
+                <column dataType="double" format="DOLLAR12.2" label="Average Hourly Rate" xref="avgHourlyRate"/>
+                <column dataType="double" format="DOLLAR12.2" label="Minimum Hourly Rate" xref="minHourlyRate"/>
+                <column dataType="double" format="DOLLAR12.2" label="Maximum Hourly Rate" xref="maxHourlyRate"/>
+                <column dataType="double" format="BEST12." label="Total Jobs" xref="totalJobs"/>
+                <column dataType="double" format="BEST12." label="Days with Check-In Event" xref="checkInDays"/>
+                <column dataType="double" format="BEST12." label="Days at Work" xref="workDays"/>
+                <column dataType="double" format="BEST12." label="Trips to a Pub" xref="pubEvents"/>
+                <column dataType="double" format="BEST12." label="Trips to Restuarant from Work" xref="goingToEatAtWork"/>
+                <column dataType="double" format="BEST12." label="Days with Two Jobs" xref="twoJobs"/>
+                <column dataType="double" format="BEST12." label="Days with Two Shifts" xref="twoShifts"/>
+                <column dataType="double" format="BEST12." label="Trips to Pub from Work" xref="goingToPubAtWork"/>
+                <column dataType="double" format="BEST12." label="Trips to a Restuarant" xref="eatEvents"/>
+                <column dataType="double" format="BEST12." label="Trips to Pub from Home" xref="goingToEatAfterWork"/>
+                <column dataType="double" format="BEST12." label="Days with Multiple Pub Trips" xref="multiplePubsOneDay"/>
+                <column dataType="string" label="Start Travel Building Type" xref="travelStartBuildingType"/>
+                <column dataType="string" label="Start Travel Location Type" xref="travelStartLocationType"/>
+                <column dataType="string" label="End Travel Building Type" xref="travelEndBuildingType"/>
+                <column dataType="string" label="End Travel Location Type" xref="travelEndLocationType"/>
+                <column dataType="double" format="BEST12." label="Job ID" xref="jobId"/>
+                <column dataType="double" format="BEST12." label="Employer ID" xref="employerId"/>
+            </columns>
+        </table>
+        <table dataLocale="en_US" dataSources="ds24867" resourceIdentifier="'cas-shared-default','VAST','VAST2022_CHECKINJOURNAL3','en_US'" tableModifiedTimeStamp="2022-06-26T14:23:32.580Z">
+            <columns>
+                <column dataType="datetime" format="DATETIME19" label="Date/Time" xref="timestamp"/>
+                <column dataType="double" format="BEST12." label="Venue ID" xref="venueId"/>
+                <column dataType="string" label="Venue Type" xref="venueType"/>
+                <column dataType="double" format="BEST12." label="Participant ID" xref="participantId"/>
+                <column dataType="double" format="BEST12." label="Household Size" xref="householdSize"/>
+                <column dataType="string" label="Children (yes/no)" xref="haveKids"/>
+                <column dataType="double" format="BEST12." label="Age" xref="age"/>
+                <column dataType="string" label="Education Level" xref="educationLevel"/>
+                <column dataType="string" label="Interest Group" xref="interestGroup"/>
+                <column dataType="double" format="PERCENT12." label="Happiness (%)" xref="joviality"/>
+                <column dataType="double" format="BEST12." label="Apartment ID" xref="apartmentId"/>
+                <column dataType="double" format="BEST12." label="Build ID (deprecated)" xref="buildingId"/>
+                <column dataType="double" format="BEST12." label="Apartment Building ID" xref="apartmentBuildingId"/>
+                <column dataType="double" format="BEST12." label="Days in Study" xref="daysInStudy"/>
+                <column dataType="double" format="DOLLAR12.2" label="Apartment Rental Cost ($)" xref="apartmentRentalCost"/>
+                <column dataType="double" format="BEST12." label="Apartment Max Occupancy" xref="apartmentMaxOccupancy"/>
+                <column dataType="double" format="BEST12." label="Apartment Rooms" xref="apartmentNumberOfRooms"/>
+                <column dataType="double" format="BEST12." label="Apartment Latitude" xref="apartmentLocationLat"/>
+                <column dataType="double" format="BEST12." label="Apartment Longitude" xref="apartmentLocationLng"/>
+                <column dataType="double" format="BEST12." label="Apartment Building Max Occupancy" xref="apartmentBuildingMaxOccupancy"/>
+                <column dataType="double" format="BEST12." label="Total Employers" xref="totalEmployers"/>
+                <column dataType="double" format="DOLLAR12.2" label="Average Hourly Rate" xref="avgHourlyRate"/>
+                <column dataType="double" format="DOLLAR12.2" label="Minimum Hourly Rate" xref="minHourlyRate"/>
+                <column dataType="double" format="DOLLAR12.2" label="Maximum Hourly Rate" xref="maxHourlyRate"/>
+                <column dataType="double" format="BEST12." label="Job ID" xref="jobId"/>
+            </columns>
+        </table>
+        <table dataLocale="en_US" dataSources="ds25166" resourceIdentifier="'cas-shared-default','VAST','VAST2022_FINANCIALJOURNAL3','en_US'" tableModifiedTimeStamp="2022-06-26T14:23:33.242Z">
+            <columns>
+                <column dataType="datetime" format="DATETIME19" label="Date/Time" xref="timestamp"/>
+                <column dataType="string" label="Expense Category" xref="category"/>
+                <column dataType="double" format="DOLLAR12.2" label="Transaction Amount ($)" xref="amount"/>
+                <column dataType="double" format="BEST12." label="Participant ID" xref="participantId"/>
+                <column dataType="double" format="BEST12." label="Household Size" xref="householdSize"/>
+                <column dataType="string" label="Children (yes/no)" xref="haveKids"/>
+                <column dataType="double" format="BEST12." label="Age" xref="age"/>
+                <column dataType="string" label="Education Level" xref="educationLevel"/>
+                <column dataType="string" label="Interest Group" xref="interestGroup"/>
+                <column dataType="double" format="PERCENT12." label="Happiness (%)" xref="joviality"/>
+                <column dataType="double" format="BEST12." label="Apartment ID" xref="apartmentId"/>
+                <column dataType="double" format="BEST12." label="Build ID (deprecated)" xref="buildingId"/>
+                <column dataType="double" format="BEST12." label="Apartment Building ID" xref="apartmentBuildingId"/>
+                <column dataType="double" format="BEST12." label="Days in Study" xref="daysInStudy"/>
+                <column dataType="double" format="DOLLAR12.2" label="Apartment Rental Cost ($)" xref="apartmentRentalCost"/>
+                <column dataType="double" format="BEST12." label="Apartment Max Occupancy" xref="apartmentMaxOccupancy"/>
+                <column dataType="double" format="BEST12." label="Apartment Rooms" xref="apartmentNumberOfRooms"/>
+                <column dataType="double" format="BEST12." label="Apartment Latitude" xref="apartmentLocationLat"/>
+                <column dataType="double" format="BEST12." label="Apartment Longitude" xref="apartmentLocationLng"/>
+                <column dataType="double" format="BEST12." label="Apartment Building Max Occupancy" xref="apartmentBuildingMaxOccupancy"/>
+                <column dataType="double" format="BEST12." label="Total Employers" xref="totalEmployers"/>
+                <column dataType="double" format="DOLLAR12.2" label="Average Hourly Rate" xref="avgHourlyRate"/>
+                <column dataType="double" format="DOLLAR12.2" label="Minimum Hourly Rate" xref="minHourlyRate"/>
+                <column dataType="double" format="DOLLAR12.2" label="Maximum Hourly Rate" xref="maxHourlyRate"/>
+                <column dataType="double" format="BEST12." label="Job ID" xref="jobId"/>
+            </columns>
+        </table>
+        <table dataLocale="en_US" dataSources="ds29536" resourceIdentifier="'cas-shared-default','VAST','VAST2022_PARTICIPANTS_JOBS_PLUS','en_US'" tableModifiedTimeStamp="2022-06-26T14:23:32.439Z">
+            <columns>
+                <column dataType="double" format="BEST12." label="Participant ID" xref="participantId"/>
+                <column dataType="double" format="BEST12." label="Household Size" xref="householdSize"/>
+                <column dataType="string" label="Children (yes/no)" xref="haveKids"/>
+                <column dataType="double" format="BEST12." label="Age" xref="age"/>
+                <column dataType="string" label="Education Level" xref="educationLevel"/>
+                <column dataType="string" label="Interest Group" xref="interestGroup"/>
+                <column dataType="double" format="PERCENT12." label="Happiness (%)" xref="joviality"/>
+                <column dataType="double" format="BEST12." label="Apartment ID" xref="apartmentId"/>
+                <column dataType="double" format="BEST12." label="Build ID (deprecated)" xref="buildingId"/>
+                <column dataType="double" format="BEST12." label="Apartment Building ID" xref="apartmentBuildingId"/>
+                <column dataType="double" format="BEST12." label="Days in Study" xref="daysInStudy"/>
+                <column dataType="double" format="DOLLAR12.2" label="Apartment Rental Cost ($)" xref="apartmentRentalCost"/>
+                <column dataType="double" format="BEST12." label="Apartment Max Occupancy" xref="apartmentMaxOccupancy"/>
+                <column dataType="double" format="BEST12." label="Apartment Rooms" xref="apartmentNumberOfRooms"/>
+                <column dataType="double" format="BEST12." label="Apartment Latitude" xref="apartmentLocationLat"/>
+                <column dataType="double" format="BEST12." label="Apartment Longitude" xref="apartmentLocationLng"/>
+                <column dataType="double" format="BEST12." label="Apartment Building Max Occupancy" xref="apartmentBuildingMaxOccupancy"/>
+                <column dataType="double" format="BEST12." label="Total Jobs" xref="totalJobs"/>
+                <column dataType="double" format="BEST12." label="Days with Check-In Event" xref="checkInDays"/>
+                <column dataType="double" format="BEST12." label="Days at Work" xref="workDays"/>
+                <column dataType="double" format="BEST12." label="Trips to a Pub" xref="pubEvents"/>
+                <column dataType="double" format="BEST12." label="Trips to Restuarant from Work" xref="goingToEatAtWork"/>
+                <column dataType="double" format="BEST12." label="Days with Two Jobs" xref="twoJobs"/>
+                <column dataType="double" format="BEST12." label="Days with Two Shifts" xref="twoShifts"/>
+                <column dataType="double" format="BEST12." label="Trips to Pub from Work" xref="goingToPubAtWork"/>
+                <column dataType="double" format="BEST12." label="Trips to a Restuarant" xref="eatEvents"/>
+                <column dataType="double" format="BEST12." label="Trips to Pub from Home" xref="goingToEatAfterWork"/>
+                <column dataType="double" format="BEST12." label="Days with Multiple Pub Trips" xref="multiplePubsOneDay"/>
+                <column dataType="double" format="BEST12." label="Job ID" xref="jobId"/>
+                <column dataType="double" format="COMMA8.2" label="Job Hourly Rate" xref="hourlyRate"/>
+                <column dataType="datetime" format="TIMEAMPM8" label="Job Start Time" xref="startTime2"/>
+                <column dataType="datetime" format="TIMEAMPM8" label="Job End Time" xref="endTime2"/>
+                <column dataType="string" label="Job Days to Work" xref="daysToWork"/>
+                <column dataType="double" format="BEST12." label="Employer ID" xref="employerId"/>
+                <column dataType="double" format="BEST12." label="Employer Building ID" xref="employerBuildingId"/>
+                <column dataType="double" format="BEST12." label="Employer Location Latitude" xref="employerLocationLat"/>
+                <column dataType="double" format="BEST12." label="Employer Location Longitude" xref="employerLocationLng"/>
+            </columns>
+        </table>
+        <table dataLocale="en_US" dataSources="ds50088" resourceIdentifier="GeneratedResource-ge50086" tableModifiedTimeStamp="2022-06-26T14:23:24.985Z">
+            <columns/>
+        </table>
+        <table dataLocale="en_US" dataSources="ds58312" resourceIdentifier="'cas-shared-default','VAST','VAST2022_JOBS_PLUS','en_US'" tableModifiedTimeStamp="2022-06-26T14:23:39.766Z">
+            <columns>
+                <column dataType="double" format="BEST12." label="Job ID" xref="jobId"/>
+                <column dataType="double" format="BEST12." label="Employer ID" xref="employerId"/>
+                <column dataType="double" format="DOLLAR12.2" label="Hourly Rate ($)" xref="hourlyRate"/>
+                <column dataType="double" format="TIME8" label="Job Start Time (hh:mm)" xref="startTime"/>
+                <column dataType="datetime" format="TIMEAMPM8" label="Job Start Time" xref="startTime2"/>
+                <column dataType="double" format="TIME8" label="Job End Time (hh:mm)" xref="endTime"/>
+                <column dataType="datetime" format="TIMEAMPM8" label="Job End Time" xref="endTime2"/>
+                <column dataType="string" label="Days To Work" xref="daysToWork"/>
+                <column dataType="string" label="Education Level (min req)" xref="educationRequirement"/>
+                <column dataType="string" label="Workday: Sunday" xref="day1"/>
+                <column dataType="string" label="Workday: Monday" xref="day2"/>
+                <column dataType="string" label="Workday: Tuesday" xref="day3"/>
+                <column dataType="string" label="Workday: Wednesday" xref="day4"/>
+                <column dataType="string" label="Workday: Thursday" xref="day5"/>
+                <column dataType="string" label="Workday: Friday" xref="day6"/>
+                <column dataType="string" label="Workday: Saturday" xref="day7"/>
+                <column dataType="double" format="BEST12." label="Employer Building ID" xref="employerBuildingId"/>
+                <column dataType="double" format="BEST12." label="Employer Location Latitude" xref="employerLocationLat"/>
+                <column dataType="double" format="BEST12." label="Employer Location Longitude" xref="employerLocationLng"/>
+                <column dataType="string" label="Employer Building Type" xref="employerBuildingType"/>
+                <column dataType="double" format="BEST12." label="Participant ID" xref="participantId"/>
+                <column dataType="double" format="BEST12." label="Days in Study" xref="daysInStudy"/>
+            </columns>
+        </table>
+        <table dataLocale="en_US" dataSources="ds62081" resourceIdentifier="'cas-shared-default','VAST','VAST2022_EMPLOYERS_PLUS','en_US'" tableModifiedTimeStamp="2022-06-26T14:23:24.988Z">
+            <columns>
+                <column dataType="double" format="BEST12." label="Employer ID" xref="employerId"/>
+                <column dataType="double" format="BEST12." label="Location Latitude" xref="locationLat"/>
+                <column dataType="double" format="BEST12." label="Location Longitude" xref="locationLng"/>
+                <column dataType="double" format="BEST12." label="Building ID" xref="buildingId"/>
+                <column dataType="double" format="BEST12." label="Employer Job Count" xref="jobCount"/>
+            </columns>
+        </table>
+        <table dataLocale="en_US" dataSources="ds69742" resourceIdentifier="'cas-shared-default','VAST','VAST2022_TRAVELJOURNAL','en_US'" tableModifiedTimeStamp="2022-06-26T14:27:41.901Z">
+            <columns>
+                <column dataType="double" format="BEST12." label="Participant ID" xref="participantId"/>
+                <column dataType="datetime" format="DATETIME19" label="Start Travel Time (date/time)" xref="travelStartTime"/>
+                <column dataType="double" format="BEST12." label="Start Travel Location ID" xref="travelStartLocationId"/>
+                <column dataType="datetime" format="DATETIME19" label="End Travel Time (date/time)" xref="travelEndTime"/>
+                <column dataType="double" format="BEST12." label="End Travel Location ID" xref="travelEndLocationId"/>
+                <column dataType="string" label="Purpose of Travel" xref="purpose"/>
+                <column dataType="datetime" format="DATETIME19" label="Check-In (date/time)" xref="checkInTime"/>
+                <column dataType="datetime" format="DATETIME19" label="Check-Out (date/time)" xref="checkOutTime"/>
+                <column dataType="double" format="DOLLAR12.2" label="Start Travel Balance ($)" xref="startingBalance"/>
+                <column dataType="double" format="DOLLAR12.2" label="End Travel Balance ($)" xref="endingBalance"/>
+                <column dataType="double" format="BEST12." label="Start Travel Building ID" xref="travelStartBuildingId"/>
+                <column dataType="double" format="BEST12." label="Start Travel Location Latitude" xref="travelStartLocationLat"/>
+                <column dataType="double" format="BEST12." label="Start Travel Location Longitude" xref="travelStartLocationLng"/>
+                <column dataType="double" format="BEST12." label="End Travel Building ID" xref="travelEndBuildingId"/>
+                <column dataType="double" format="BEST12." label="End Travel Location Latitude" xref="travelEndLocationLat"/>
+                <column dataType="double" format="BEST12." label="End Travel Location Longitude" xref="travelEndLocationLng"/>
+                <column dataType="double" format="BEST12." label="Start Travel Location Is Employer Flag" xref="travelStartIsEmployer"/>
+                <column dataType="double" format="BEST12." label="End Travel Location Is Employer Flag" xref="travelEndIsEmployer"/>
+            </columns>
+        </table>
+        <table dataLocale="en_US" dataSources="ds69763" resourceIdentifier="'cas-shared-default','VAST','VAST2022_TRAVELJOURNAL2','en_US'" tableModifiedTimeStamp="2022-06-26T14:27:43.405Z">
+            <columns>
+                <column dataType="double" format="BEST12." label="Participant ID" xref="participantId"/>
+                <column dataType="datetime" format="DATETIME19" label="Start Travel Time (date/time)" xref="travelStartTime"/>
+                <column dataType="double" format="BEST12." label="Start Travel Location ID" xref="travelStartLocationId"/>
+                <column dataType="datetime" format="DATETIME19" label="End Travel Time (date/time)" xref="travelEndTime"/>
+                <column dataType="double" format="BEST12." label="End Travel Location ID" xref="travelEndLocationId"/>
+                <column dataType="string" label="Purpose of Travel" xref="purpose"/>
+                <column dataType="datetime" format="DATETIME19" label="Check-In (date/time)" xref="checkInTime"/>
+                <column dataType="datetime" format="DATETIME19" label="Check-Out (date/time)" xref="checkOutTime"/>
+                <column dataType="double" format="DOLLAR12.2" label="Start Travel Balance ($)" xref="startingBalance"/>
+                <column dataType="double" format="DOLLAR12.2" label="End Travel Balance ($)" xref="endingBalance"/>
+                <column dataType="double" format="BEST12." label="Start Travel Building ID" xref="travelStartBuildingId"/>
+                <column dataType="double" format="BEST12." label="Start Travel Location Latitude" xref="travelStartLocationLat"/>
+                <column dataType="double" format="BEST12." label="Start Travel Location Longitude" xref="travelStartLocationLng"/>
+                <column dataType="double" format="BEST12." label="End Travel Building ID" xref="travelEndBuildingId"/>
+                <column dataType="double" format="BEST12." label="End Travel Location Latitude" xref="travelEndLocationLat"/>
+                <column dataType="double" format="BEST12." label="End Travel Location Longitude" xref="travelEndLocationLng"/>
+                <column dataType="double" format="BEST12." label="Start Travel Location Is Employer Flag" xref="travelStartIsEmployer"/>
+                <column dataType="double" format="BEST12." label="End Travel Location Is Employer Flag" xref="travelEndIsEmployer"/>
+                <column dataType="double" format="BEST12." label="Household Size" xref="householdSize"/>
+                <column dataType="string" label="Children (yes/no)" xref="haveKids"/>
+                <column dataType="double" format="BEST12." label="Age" xref="age"/>
+                <column dataType="string" label="Education Level" xref="educationLevel"/>
+                <column dataType="string" label="Interest Group" xref="interestGroup"/>
+                <column dataType="double" format="PERCENT12." label="Happiness (%)" xref="joviality"/>
+                <column dataType="double" format="BEST12." label="Apartment ID" xref="apartmentId"/>
+                <column dataType="double" format="BEST12." label="Build ID (deprecated)" xref="buildingId"/>
+                <column dataType="double" format="BEST12." label="Apartment Building ID" xref="apartmentBuildingId"/>
+                <column dataType="double" format="BEST12." label="Days in Study" xref="daysInStudy"/>
+                <column dataType="double" format="DOLLAR12.2" label="Apartment Rental Cost ($)" xref="apartmentRentalCost"/>
+                <column dataType="double" format="BEST12." label="Apartment Max Occupancy" xref="apartmentMaxOccupancy"/>
+                <column dataType="double" format="BEST12." label="Apartment Rooms" xref="apartmentNumberOfRooms"/>
+                <column dataType="double" format="BEST12." label="Apartment Latitude" xref="apartmentLocationLat"/>
+                <column dataType="double" format="BEST12." label="Apartment Longitude" xref="apartmentLocationLng"/>
+                <column dataType="double" format="BEST12." label="Apartment Building Max Occupancy" xref="apartmentBuildingMaxOccupancy"/>
+                <column dataType="double" format="BEST12." label="Total Employers" xref="totalEmployers"/>
+                <column dataType="double" format="DOLLAR12.2" label="Average Hourly Rate" xref="avgHourlyRate"/>
+                <column dataType="double" format="DOLLAR12.2" label="Minimum Hourly Rate" xref="minHourlyRate"/>
+                <column dataType="double" format="DOLLAR12.2" label="Maximum Hourly Rate" xref="maxHourlyRate"/>
+                <column dataType="string" label="Start Travel Building Type" xref="travelStartBuildingType"/>
+                <column dataType="string" label="Start Travel Location Type" xref="travelStartLocationType"/>
+                <column dataType="string" label="End Travel Building Type" xref="travelEndBuildingType"/>
+                <column dataType="string" label="End Travel Location Type" xref="travelEndLocationType"/>
+            </columns>
+        </table>
+        <table dataLocale="en_US" dataSources="ds72349" resourceIdentifier="'cas-shared-default','VAST','VAST2022_PARTICIPANTS','en_US'" tableModifiedTimeStamp="2022-06-26T14:27:46.694Z">
+            <columns>
+                <column dataType="double" format="BEST12." label="Participant ID" xref="participantId"/>
+                <column dataType="double" format="BEST12." label="Household Size" xref="householdSize"/>
+                <column dataType="string" label="Children (yes/no)" xref="haveKids"/>
+                <column dataType="double" format="BEST12." label="Age" xref="age"/>
+                <column dataType="string" label="Education Level" xref="educationLevel"/>
+                <column dataType="string" label="Interest Group" xref="interestGroup"/>
+                <column dataType="double" format="PERCENT12." label="Happiness (%)" xref="joviality"/>
+                <column dataType="double" format="BEST12." label="Apartment ID" xref="apartmentId"/>
+                <column dataType="double" format="BEST12." label="Building ID" xref="buildingId"/>
+            </columns>
+        </table>
+        <table dataLocale="en_US" dataSources="ds74647" resourceIdentifier="'cas-shared-default','VAST','VAST2022_TRAVEL_PATTERNS','en_US'" tableModifiedTimeStamp="2022-06-26T14:27:36.422Z">
+            <columns>
+                <column dataType="double" format="BEST12." label="Participant ID" xref="participantId"/>
+                <column dataType="double" format="BEST12." label="Days with Check-In Event" xref="checkInDays"/>
+                <column dataType="double" format="BEST12." label="Days at Work" xref="workDays"/>
+                <column dataType="double" format="BEST12." label="Trips to a Pub" xref="pubEvents"/>
+                <column dataType="double" format="BEST12." label="Trips to Restuarant from Work" xref="goingToEatAtWork"/>
+                <column dataType="double" format="BEST12." label="Days with Two Jobs" xref="twoJobs"/>
+                <column dataType="double" format="BEST12." label="Days with Two Shifts" xref="twoShifts"/>
+                <column dataType="double" format="BEST12." label="Trips to Pub from Work" xref="goingToPubAtWork"/>
+                <column dataType="double" format="BEST12." label="Trips to a Restuarant" xref="eatEvents"/>
+                <column dataType="double" format="BEST12." label="Trips to Pub from Home" xref="goingToEatAfterWork"/>
+                <column dataType="double" format="BEST12." label="Days with Multiple Pub Trips" xref="multiplePubsOneDay"/>
+            </columns>
+        </table>
+    </tables>
+    <version>2</version>
+</metadataSupplement>
