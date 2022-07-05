@@ -1,267 +1,263 @@
-
-
 #ve555 .GraphDataStyle2 {
-  fill-color: #329FF7;
+  fill-color : #329FF7;
 }
 #ve555 .GraphDataStyle3 {
-  fill-color: #2C8EDD;
+  fill-color : #2C8EDD;
 }
 #ve151 .GraphSkin {
-  data-skin: FLAT;
+  data-skin : FLAT;
 }
 #ve555 .GraphDataStyle4 {
-  fill-color: #2477BA;
+  fill-color : #2477BA;
 }
 #ve555 .GraphDataStyle5 {
-  fill-color: #1C6199;
+  fill-color : #1C6199;
 }
 #ve555 .GraphDataStyle6 {
-  fill-color: #134A76;
+  fill-color : #134A76;
 }
 #ve555 .GraphDataStyle7 {
-  fill-color: #0B3354;
+  fill-color : #0B3354;
 }
 #ve555 .GraphDataStyle8 {
-  fill-color: #05223A;
+  fill-color : #05223A;
 }
 #ve268 .GraphDataStyle2 {
-  marker-color: #B0B7C2;
-  text-color: #B0B7C2;
-  line-color: #B0B7C2;
+  text-color : #B0B7C2;
+  line-color : #B0B7C2;
+  marker-color : #B0B7C2;
 }
 #ve555 .GraphDataStyle1 {
-  fill-color: #45ADFF;
+  fill-color : #45ADFF;
 }
 #ve235 .styleForTitle_paragraph1 {
-  text-align: center;
+  text-align : center;
 }
 #ve180 .GraphDataStyle2 {
-  marker-color: #B0B7C2;
-  text-color: #B0B7C2;
-  line-color: #B0B7C2;
+  text-color : #B0B7C2;
+  line-color : #B0B7C2;
+  marker-color : #B0B7C2;
 }
 #ve268 .styleForTitle_span5 {
-  font-weight: bold;
-  font-size: 20pt;
+  font-weight : bold;
+  font-size : 20pt;
 }
 #ve235 .styleForTitle_span6 {
-  font-weight: bold;
-  font-size: 20pt;
+  font-weight : bold;
+  font-size : 20pt;
 }
 #ve591 .GraphDataStyleDefault {
-  fill-color: #45ADFF;
+  fill-color : #45ADFF;
 }
 #ve268 .styleForTitle_paragraph6 {
-  text-align: center;
+  text-align : center;
 }
 #ve180 .styleForTitle_paragraph6 {
-  text-align: center;
+  text-align : center;
 }
 #ve579 .GraphDataStyle1 {
-  fill-color: #45ADFF;
+  fill-color : #45ADFF;
 }
 #ve579 .GraphDataStyle3 {
-  fill-color: #2C8EDD;
+  fill-color : #2C8EDD;
 }
 #ve579 .GraphDataStyle2 {
-  fill-color: #329FF7;
+  fill-color : #329FF7;
 }
 #ve474 .GraphDataStyle2 {
-  marker-color: #B0B7C2;
-  text-color: #B0B7C2;
-  line-color: #B0B7C2;
+  text-color : #B0B7C2;
+  line-color : #B0B7C2;
+  marker-color : #B0B7C2;
 }
 #ve579 .GraphDataStyle8 {
-  fill-color: #05223A;
+  fill-color : #05223A;
 }
 #ve73 .GraphSkin {
-  data-skin: FLAT;
+  data-skin : FLAT;
 }
 #ve113 .GraphSkin {
-  data-skin: FLAT;
+  data-skin : FLAT;
 }
 #ve579 .GraphDataStyle5 {
-  fill-color: #1C6199;
+  fill-color : #1C6199;
 }
 #ve579 .GraphDataStyle4 {
-  fill-color: #2477BA;
+  fill-color : #2477BA;
 }
 #ve151 .TwoColorRamp1 {
-  fill-gradient-end-color: #FF8224;
+  fill-gradient-end-color : #FF8224;
 }
 #ve579 .GraphDataStyle7 {
-  fill-color: #0B3354;
+  fill-color : #0B3354;
 }
 #ve340 .GraphDataStyle2 {
-  marker-color: #B0B7C2;
-  text-color: #B0B7C2;
-  line-color: #B0B7C2;
+  text-color : #B0B7C2;
+  line-color : #B0B7C2;
+  marker-color : #B0B7C2;
 }
 #ve427 .GraphDataStyle2 {
-  marker-color: #B0B7C2;
-  text-color: #B0B7C2;
-  line-color: #B0B7C2;
+  text-color : #B0B7C2;
+  line-color : #B0B7C2;
+  marker-color : #B0B7C2;
 }
 #ve579 .GraphDataStyle6 {
-  fill-color: #134A76;
+  fill-color : #134A76;
 }
 #ve543 .GraphDataStyle3 {
-  fill-color: #2C8EDD;
+  fill-color : #2C8EDD;
 }
 #ve543 .GraphDataStyle4 {
-  fill-color: #2477BA;
+  fill-color : #2477BA;
 }
 #ve543 .GraphDataStyle1 {
-  fill-color: #45ADFF;
+  fill-color : #45ADFF;
 }
 #ve543 .GraphDataStyle2 {
-  fill-color: #329FF7;
+  fill-color : #329FF7;
 }
 #ve543 .GraphDataStyle7 {
-  fill-color: #0B3354;
+  fill-color : #0B3354;
 }
 #ve151 .GraphDataStyle1 {
-  fill-color: #FF8224;
+  fill-color : #FF8224;
 }
 #ve543 .GraphDataStyle8 {
-  fill-color: #05223A;
+  fill-color : #05223A;
 }
 #ve543 .GraphDataStyle5 {
-  fill-color: #1C6199;
+  fill-color : #1C6199;
 }
 #ve122 .GraphSkin {
-  data-skin: FLAT;
+  data-skin : FLAT;
 }
 #ve543 .GraphDataStyle6 {
-  fill-color: #134A76;
+  fill-color : #134A76;
 }
 #ve531 .GraphDataStyleDefault {
-  fill-color: #45ADFF;
+  fill-color : #45ADFF;
 }
 #ve151 .GraphDataStyleDefault {
-  fill-color: #FF8224;
+  fill-color : #FF8224;
 }
 #ve543 .GraphDataStyleDefault {
-  fill-color: #45ADFF;
+  fill-color : #45ADFF;
 }
 #ve555 .GraphDataStyleDefault {
-  fill-color: #45ADFF;
+  fill-color : #45ADFF;
 }
 #ve567 .GraphDataStyle2 {
-  fill-color: #329FF7;
+  fill-color : #329FF7;
 }
 #ve567 .GraphDataStyle1 {
-  fill-color: #45ADFF;
+  fill-color : #45ADFF;
 }
 #ve323 .styleForTitle_paragraph1 {
-  text-align: center;
+  text-align : center;
 }
 #ve100 .GraphDataStyleDefault {
-  fill-color: #2C8AD6;
+  fill-color : #2C8AD6;
 }
 #ve567 .GraphDataStyle8 {
-  fill-color: #05223A;
+  fill-color : #05223A;
 }
 #ve567 .GraphDataStyle7 {
-  fill-color: #0B3354;
+  fill-color : #0B3354;
 }
 #ve384 .GraphDataStyle2 {
-  marker-color: #B0B7C2;
-  text-color: #B0B7C2;
-  line-color: #B0B7C2;
+  text-color : #B0B7C2;
+  line-color : #B0B7C2;
+  marker-color : #B0B7C2;
 }
 #ve567 .GraphDataStyle6 {
-  fill-color: #134A76;
+  fill-color : #134A76;
 }
 #ve567 .GraphDataStyle5 {
-  fill-color: #1C6199;
+  fill-color : #1C6199;
 }
 #ve567 .GraphDataStyle4 {
-  fill-color: #2477BA;
+  fill-color : #2477BA;
 }
 #ve567 .GraphDataStyle3 {
-  fill-color: #2C8EDD;
+  fill-color : #2C8EDD;
 }
 #ve531 .GraphDataStyle4 {
-  fill-color: #2477BA;
+  fill-color : #2477BA;
 }
 #ve100 .GraphSkin {
-  data-skin: FLAT;
+  data-skin : FLAT;
 }
 #ve531 .GraphDataStyle5 {
-  fill-color: #1C6199;
+  fill-color : #1C6199;
 }
 #ve531 .GraphDataStyle6 {
-  fill-color: #134A76;
+  fill-color : #134A76;
 }
 #ve531 .GraphDataStyle7 {
-  fill-color: #0B3354;
+  fill-color : #0B3354;
 }
 #ve531 .GraphDataStyle1 {
-  fill-color: #45ADFF;
+  fill-color : #45ADFF;
 }
 #ve591 .GraphDataStyle1 {
-  fill-color: #45ADFF;
+  fill-color : #45ADFF;
 }
 #ve531 .GraphDataStyle2 {
-  fill-color: #329FF7;
+  fill-color : #329FF7;
 }
 #ve531 .GraphDataStyle3 {
-  fill-color: #2C8EDD;
+  fill-color : #2C8EDD;
 }
 #ve255 .TwoColorRamp {
-  fill-gradient-start-color: #342C28;
-  fill-gradient-end-color: #FF8224;
+  fill-gradient-start-color : #342C28;
+  fill-gradient-end-color : #FF8224;
 }
 #ve167 .TwoColorRamp {
-  fill-gradient-end-color: #33A3FF;
+  fill-gradient-end-color : #33A3FF;
 }
 #ve567 .GraphDataStyleDefault {
-  fill-color: #45ADFF;
+  fill-color : #45ADFF;
 }
 #ve151 .TwoColorRamp {
-  fill-gradient-end-color: #FF8224;
+  fill-gradient-end-color : #FF8224;
 }
 #ve591 .GraphDataStyle4 {
-  fill-color: #2477BA;
+  fill-color : #2477BA;
 }
 #ve591 .GraphDataStyle5 {
-  fill-color: #1C6199;
+  fill-color : #1C6199;
 }
 #ve591 .GraphDataStyle2 {
-  fill-color: #329FF7;
+  fill-color : #329FF7;
 }
 #ve323 .styleForTitle_span6 {
-  font-weight: bold;
-  font-size: 20pt;
+  font-weight : bold;
+  font-size : 20pt;
 }
 #ve579 .GraphDataStyleDefault {
-  fill-color: #45ADFF;
+  fill-color : #45ADFF;
 }
 #ve591 .GraphDataStyle3 {
-  fill-color: #2C8EDD;
+  fill-color : #2C8EDD;
 }
 #ve180 .styleForTitle_span5 {
-  font-weight: bold;
-  font-size: 20pt;
+  font-weight : bold;
+  font-size : 20pt;
 }
 #ve531 .GraphDataStyle8 {
-  fill-color: #05223A;
+  fill-color : #05223A;
 }
 #ve591 .GraphDataStyle8 {
-  fill-color: #05223A;
+  fill-color : #05223A;
 }
 #ve591 .GraphDataStyle6 {
-  fill-color: #134A76;
+  fill-color : #134A76;
 }
 #ve100 .GraphDataStyle1 {
-  fill-color: #2C8AD6;
+  fill-color : #2C8AD6;
 }
 #cd111 .If {
-  color: #545B66;
+  color : #545B66;
 }
 #ve591 .GraphDataStyle7 {
-  fill-color: #0B3354;
+  fill-color : #0B3354;
 }
-
-			

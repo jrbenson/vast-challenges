@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SASReport xmlns="http://www.sas.com/sasreportmodel/bird-4.20.0" label="Challenge 1 Q3 (Stu) (Simplified) v2" implicitInteractions="reportPrompt sectionPrompt" createdLocale="en" createdVersion="4.19.0" dateCreated="2022-07-04T01:22:48Z" dateModified="2022-07-04T14:51:52Z" createdApplication="SAS Visual Analytics 2020" lastModifiedApplication="SAS Visual Analytics 2020" nextUniqueNameIndex="709">
+<SASReport xmlns="http://www.sas.com/sasreportmodel/bird-4.20.0" label="Challenge 1 Q3 (Stu) (Simplified) v2" implicitInteractions="reportPrompt sectionPrompt" createdLocale="en" createdVersion="4.19.0" dateCreated="2022-07-04T01:22:48Z" dateModified="2022-07-04T14:51:52Z" createdApplication="SAS Visual Analytics 2020" lastModifiedApplication="SAS Visual Analytics 2020" nextUniqueNameIndex="777">
 	<Results>
 		<Result ref="dd498" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-07-03T23:05:52.757Z">
 			<Variables>
@@ -1617,7 +1617,7 @@ Historical values of Sales are displayed as markers only, without a line. The ch
 			<Variables>
 				<StringVariable label="Type" ref="bi115" varname="bi115" column="c0"/>
 				<StringVariable sortOn="custom" customSort="cs19" label="District" ref="bi116" varname="bi116" column="c1"/>
-				<NumericVariable format="BEST12." usage="categorical" label="Unit" ref="bi700" varname="bi700" column="c2"/>
+				<NumericVariable format="BEST12." usage="categorical" label="Unit" ref="bi768" varname="bi768" column="c2"/>
 				<NumericVariable format="DOLLAR32.2" usage="quantitative" definedAggregation="sum" label="Sales" ref="bi118" varname="bi118" column="c3"/>
 				<NumericVariable format="COMMA12.2" usage="brush" definedAggregation="totalCount" varname="ri1" column="c4"/>
 			</Variables>
@@ -1637,38 +1637,38 @@ Historical values of Sales are displayed as markers only, without a line. The ch
 				<DefinedSortItem variable="bi116" sortOn="custom" sortDirection="ascending"/>
 				<DefinedSortItem variable="bi115" sortDirection="ascending"/>
 			</DefinedColumnSortItems>
-			<Data isIndexed="true" availableRowCount="32" contentKey="JDXYJYKNDLMFN7NKDV3JFH6SV5DIWYKU" size="1179" format="CSV" rowCount="32" grandTotal="false" dataLayout="partiallyAggregated"><![CDATA[4,0,1342.0,802116.4255696018,44778.0
-4,0,1344.0,727750.3823534374,53697.0
-4,3,1798.0,472692.4512005011,29357.0
-4,0,893.0,464137.01880552236,22964.0
-4,0,1343.0,454428.45531836094,31492.0
-4,3,1800.0,443790.2393874172,30604.0
-4,0,892.0,367729.6363819151,22773.0
-4,3,1799.0,324537.3099136583,30345.0
-4,0,894.0,318896.14397382137,18808.0
-5,3,1801.0,264747.9521266558,48053.0
-4,6,444.0,259745.0998589659,15746.0
-4,1,442.0,258524.16588930626,22773.0
-5,3,1805.0,218024.41366985848,38978.0
-5,1,449.0,212933.57330831615,41645.0
+			<Data isIndexed="true" availableRowCount="32" contentKey="VHEB6JBFWENDWLZJYNE3FWV2NCE6GTGS" size="1174" format="CSV" rowCount="32" grandTotal="false" dataLayout="partiallyAggregated"><![CDATA[4,0,1342.0,802116.4255696019,44778.0
+4,0,1344.0,727750.3823534376,53697.0
+4,3,1798.0,472692.4512005012,29357.0
+4,0,893.0,464137.0188055224,22964.0
+4,0,1343.0,454428.4553183609,31492.0
+4,3,1800.0,443790.2393874171,30604.0
+4,0,892.0,367729.63638191496,22773.0
+4,3,1799.0,324537.30991365813,30345.0
+4,0,894.0,318896.1439738212,18808.0
+5,3,1801.0,264747.9521266565,48053.0
+4,6,444.0,259745.09985896604,15746.0
+4,1,442.0,258524.16588930623,22773.0
+5,3,1805.0,218024.4136698589,38978.0
+5,1,449.0,212933.57330831612,41645.0
 4,1,443.0,204731.16296103442,23157.0
-5,6,447.0,201316.68243454202,34270.0
-5,0,897.0,179464.27478978672,31156.0
-5,0,899.0,162887.75205952546,28839.0
-5,1,448.0,134597.91394821036,33067.0
+5,6,447.0,201316.682434542,34270.0
+5,0,897.0,179464.27478978675,31156.0
+5,0,899.0,162887.75205952543,28839.0
+5,1,448.0,134597.9139482108,33067.0
 5,0,895.0,134434.81700977724,30290.0
-5,2,1345.0,122658.84149922502,26118.0
-5,0,896.0,121597.81178647395,20755.0
-5,3,1804.0,92115.00629117562,15574.0
+5,2,1345.0,122658.84149922481,26118.0
+5,0,896.0,121597.8117864739,20755.0
+5,3,1804.0,92115.00629117557,15574.0
 5,3,1802.0,81090.41877219256,15954.0
 5,6,446.0,74535.76747391894,17860.0
-5,0,898.0,53876.229825572744,12778.0
-5,3,1803.0,52348.34402327003,12028.0
-5,6,445.0,43011.27957614176,8355.0
-5,0,1347.0,41697.28941712911,9445.0
+5,0,898.0,53876.22982557283,12778.0
+5,3,1803.0,52348.344023270096,12028.0
+5,6,445.0,43011.27957614175,8355.0
+5,0,1347.0,41697.28941712913,9445.0
 5,2,1348.0,40598.08024186662,9590.0
-5,3,1346.0,36949.91127049995,6318.0
-5,0,1349.0,24165.226316883665,5063.0
+5,3,1346.0,36949.91127049996,6318.0
+5,0,1349.0,24165.226316883654,5063.0
 ]]></Data>
 			<StringTable contentKey="GANYFVUALK6K2EANNVJN7HHTYAR6WTB5" size="72" format="CSV" rowCount="7"><![CDATA["Central"
 "East"
@@ -1682,8 +1682,8 @@ Historical values of Sales are displayed as markers only, without a line. The ch
 		<Result ref="dd106" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-07-03T23:05:52.757Z">
 			<Variables>
 				<NumericVariable format="BEST12." usage="categorical" label="Unit" ref="bi105" varname="bi105" column="c0"/>
-				<StringVariable label="Type" ref="bi698" varname="bi698" column="c1"/>
-				<StringVariable sortOn="custom" customSort="cs19" label="District" ref="bi699" varname="bi699" column="c2"/>
+				<StringVariable label="Type" ref="bi766" varname="bi766" column="c1"/>
+				<StringVariable sortOn="custom" customSort="cs19" label="District" ref="bi767" varname="bi767" column="c2"/>
 				<NumericVariable format="DOLLAR32.2" usage="quantitative" definedAggregation="sum" label="Sales" ref="bi107" varname="bi107" column="c3"/>
 				<NumericVariable format="COMMA12.2" usage="brush" definedAggregation="totalCount" varname="ri1" column="c4"/>
 			</Variables>
@@ -1702,38 +1702,38 @@ Historical values of Sales are displayed as markers only, without a line. The ch
 				<DefinedMeasureSortItem variable="bi107" sortDirection="descending"/>
 				<DefinedSortItem variable="bi105" sortDirection="ascending"/>
 			</DefinedColumnSortItems>
-			<Data isIndexed="true" availableRowCount="32" contentKey="RHQHBI2UX62VONAKHE64IWE7OSI7YAQJ" size="1179" format="CSV" rowCount="32" grandTotal="false" dataLayout="partiallyAggregated"><![CDATA[1342.0,4,0,802116.4255696018,44778.0
-1344.0,4,0,727750.3823534374,53697.0
-1798.0,4,3,472692.4512005011,29357.0
-893.0,4,0,464137.01880552236,22964.0
-1343.0,4,0,454428.45531836094,31492.0
-1800.0,4,3,443790.2393874172,30604.0
-892.0,4,0,367729.6363819151,22773.0
-1799.0,4,3,324537.3099136583,30345.0
-894.0,4,0,318896.14397382137,18808.0
-1801.0,5,3,264747.9521266558,48053.0
-444.0,4,6,259745.0998589659,15746.0
-442.0,4,1,258524.16588930626,22773.0
-1805.0,5,3,218024.41366985848,38978.0
-449.0,5,1,212933.57330831615,41645.0
+			<Data isIndexed="true" availableRowCount="32" contentKey="TLQHF4H3VYHBRWYIWWPH3GUUGCFYFXGA" size="1174" format="CSV" rowCount="32" grandTotal="false" dataLayout="partiallyAggregated"><![CDATA[1342.0,4,0,802116.4255696019,44778.0
+1344.0,4,0,727750.3823534376,53697.0
+1798.0,4,3,472692.4512005012,29357.0
+893.0,4,0,464137.0188055224,22964.0
+1343.0,4,0,454428.4553183609,31492.0
+1800.0,4,3,443790.2393874171,30604.0
+892.0,4,0,367729.63638191496,22773.0
+1799.0,4,3,324537.30991365813,30345.0
+894.0,4,0,318896.1439738212,18808.0
+1801.0,5,3,264747.9521266565,48053.0
+444.0,4,6,259745.09985896604,15746.0
+442.0,4,1,258524.16588930623,22773.0
+1805.0,5,3,218024.4136698589,38978.0
+449.0,5,1,212933.57330831612,41645.0
 443.0,4,1,204731.16296103442,23157.0
-447.0,5,6,201316.68243454202,34270.0
-897.0,5,0,179464.27478978672,31156.0
-899.0,5,0,162887.75205952546,28839.0
-448.0,5,1,134597.91394821036,33067.0
+447.0,5,6,201316.682434542,34270.0
+897.0,5,0,179464.27478978675,31156.0
+899.0,5,0,162887.75205952543,28839.0
+448.0,5,1,134597.9139482108,33067.0
 895.0,5,0,134434.81700977724,30290.0
-1345.0,5,2,122658.84149922502,26118.0
-896.0,5,0,121597.81178647395,20755.0
-1804.0,5,3,92115.00629117562,15574.0
+1345.0,5,2,122658.84149922481,26118.0
+896.0,5,0,121597.8117864739,20755.0
+1804.0,5,3,92115.00629117557,15574.0
 1802.0,5,3,81090.41877219256,15954.0
 446.0,5,6,74535.76747391894,17860.0
-898.0,5,0,53876.229825572744,12778.0
-1803.0,5,3,52348.34402327003,12028.0
-445.0,5,6,43011.27957614176,8355.0
-1347.0,5,0,41697.28941712911,9445.0
+898.0,5,0,53876.22982557283,12778.0
+1803.0,5,3,52348.344023270096,12028.0
+445.0,5,6,43011.27957614175,8355.0
+1347.0,5,0,41697.28941712913,9445.0
 1348.0,5,2,40598.08024186662,9590.0
-1346.0,5,3,36949.91127049995,6318.0
-1349.0,5,0,24165.226316883665,5063.0
+1346.0,5,3,36949.91127049996,6318.0
+1349.0,5,0,24165.226316883654,5063.0
 ]]></Data>
 			<StringTable contentKey="GANYFVUALK6K2EANNVJN7HHTYAR6WTB5" size="72" format="CSV" rowCount="7"><![CDATA["Central"
 "East"
@@ -1846,38 +1846,38 @@ Historical values of Sales are displayed as markers only, without a line. The ch
 				<DefinedSortItem variable="bi66" sortDirection="ascending"/>
 				<DefinedSortItem variable="bi65" sortDirection="ascending"/>
 			</DefinedColumnSortItems>
-			<Data isIndexed="true" availableRowCount="32" contentKey="2PHDYQLUMJUJB6PUJ2V76SU6DMRS57YJ" size="1519" format="CSV" rowCount="32" grandTotal="false" dataLayout="minimal"><![CDATA[0,1342.0,802116.4255696018,0.10850951175981075
-0,1344.0,727750.3823534374,0.09844934744493002
-0,1798.0,472692.4512005011,0.0639453643601565
-0,893.0,464137.01880552236,0.06278799398039651
-0,1343.0,454428.45531836094,0.061474629174118035
-0,1800.0,443790.2393874172,0.06003550191046374
-0,892.0,367729.6363819151,0.04974609923376008
-0,1799.0,324537.3099136583,0.04390308429548263
-0,894.0,318896.14397382137,0.04313995298140551
-1,1801.0,264747.9521266558,0.03581483947828767
-0,444.0,259745.0998589659,0.03513805860250895
-0,442.0,258524.16588930626,0.0349728918702049
-1,1805.0,218024.41366985848,0.029494125696572594
-1,449.0,212933.57330831615,0.028805441879026006
-0,443.0,204731.16296103442,0.02769582797053994
-1,447.0,201316.68243454202,0.027233920443113395
-1,897.0,179464.27478978672,0.02427774848512748
-1,899.0,162887.75205952546,0.02203529298764936
-1,448.0,134597.91394821036,0.018208271842878498
-1,895.0,134434.81700977724,0.018186208251366416
-1,1345.0,122658.84149922502,0.01659316600411645
-1,896.0,121597.81178647395,0.016449630960545296
-1,1804.0,92115.00629117562,0.012461226375347476
-1,1802.0,81090.41877219256,0.010969831147792255
-1,446.0,74535.76747391894,0.010083124443554888
-1,898.0,53876.229825572744,0.0072883227515018285
-1,1803.0,52348.34402327003,0.007081631880765847
-1,445.0,43011.27957614176,0.005818523094895633
-1,1347.0,41697.28941712911,0.005640767813908327
-1,1348.0,40598.08024186662,0.005492067890646018
-1,1346.0,36949.91127049995,0.0049985472229709
-1,1349.0,24165.226316883665,0.0032690477661622757
+			<Data isIndexed="true" availableRowCount="32" contentKey="QVTESC5BELWULE6PLMSLSTTDINWJLGO4" size="1517" format="CSV" rowCount="32" grandTotal="false" dataLayout="minimal"><![CDATA[0,1342.0,802116.4255696019,0.10850951175981054
+0,1344.0,727750.3823534376,0.09844934744492984
+0,1798.0,472692.4512005012,0.06394536436015638
+0,893.0,464137.0188055224,0.06278799398039639
+0,1343.0,454428.4553183609,0.0614746291741179
+0,1800.0,443790.2393874171,0.06003550191046359
+0,892.0,367729.63638191496,0.04974609923375996
+0,1799.0,324537.30991365813,0.043903084295482515
+0,894.0,318896.1439738212,0.04313995298140539
+1,1801.0,264747.9521266565,0.03581483947828769
+0,444.0,259745.09985896604,0.0351380586025089
+0,442.0,258524.16588930623,0.034972891870204824
+1,1805.0,218024.4136698589,0.02949412569657259
+1,449.0,212933.57330831612,0.02880544187902594
+0,443.0,204731.16296103442,0.02769582797053988
+1,447.0,201316.682434542,0.027233920443113332
+1,897.0,179464.27478978675,0.024277748485127433
+1,899.0,162887.75205952543,0.022035292987649308
+1,448.0,134597.9139482108,0.01820827184287852
+1,895.0,134434.81700977724,0.018186208251366378
+1,1345.0,122658.84149922481,0.016593166004116387
+1,896.0,121597.8117864739,0.016449630960545254
+1,1804.0,92115.00629117557,0.012461226375347441
+1,1802.0,81090.41877219256,0.010969831147792233
+1,446.0,74535.76747391894,0.010083124443554865
+1,898.0,53876.22982557283,0.007288322751501825
+1,1803.0,52348.344023270096,0.007081631880765841
+1,445.0,43011.27957614175,0.005818523094895619
+1,1347.0,41697.28941712913,0.005640767813908316
+1,1348.0,40598.08024186662,0.0054920678906460055
+1,1346.0,36949.91127049996,0.004998547222970891
+1,1349.0,24165.226316883654,0.0032690477661622675
 ]]></Data>
 			<StringTable contentKey="D5FZCPAEN4X6Y3N2ATAZQ5V6RPSSGFUD" size="19" format="CSV" rowCount="2"><![CDATA["Pub"
 "Restaurant"
@@ -1937,7 +1937,7 @@ Historical values of Sales are displayed as markers only, without a line. The ch
 				<NumericVariable format="DOWNAME11" usage="categorical" label="Day of Week" ref="bi172" varname="bi172" column="c1"/>
 				<StringVariable label="Type" ref="bi173" varname="bi173" column="c2"/>
 				<StringVariable sortOn="custom" customSort="cs19" label="District" ref="bi174" varname="bi174" column="c3"/>
-				<NumericVariable format="MONYY7" usage="categorical" label="Month" ref="bi701" varname="bi701" column="c4"/>
+				<NumericVariable format="MONYY7" usage="categorical" label="Month" ref="bi769" varname="bi769" column="c4"/>
 				<NumericVariable format="DOLLAR32.2" usage="quantitative" definedAggregation="sum" label="Sales" ref="bi175" varname="bi175" column="c5"/>
 			</Variables>
 			<Columns>
@@ -1950,7 +1950,7 @@ Historical values of Sales are displayed as markers only, without a line. The ch
 					<DataColumn dataType="double" aggregation="sum"/>
 				</NumericAggregations>
 			</Columns>
-			<DataFile contentKey="UWLRPDLAUMLXFFHDMPM5PBZQ435L4I3G" size="162370" format="CSV" rowCount="3834" grandTotal="false" dataLayout="partiallyAggregated" file="dd170.csv" isIndexed="true" availableRowCount="3834"/>
+			<DataFile contentKey="YMN5AP3VI4CFTNOURWZI3ZET5GZQ5APZ" size="162316" format="CSV" rowCount="3834" grandTotal="false" dataLayout="partiallyAggregated" file="dd170.csv" isIndexed="true" availableRowCount="3834"/>
 			<StringTableFile contentKey="GANYFVUALK6K2EANNVJN7HHTYAR6WTB5" size="72" format="CSV" rowCount="7" file="dd170index.csv"/>
 		</Result>
 		<Result ref="dd258" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-07-03T23:05:52.757Z">
@@ -1959,7 +1959,7 @@ Historical values of Sales are displayed as markers only, without a line. The ch
 				<NumericVariable format="DOWNAME11" usage="categorical" label="Day of Week" ref="bi260" varname="bi260" column="c1"/>
 				<StringVariable label="Type" ref="bi261" varname="bi261" column="c2"/>
 				<StringVariable sortOn="custom" customSort="cs19" label="District" ref="bi262" varname="bi262" column="c3"/>
-				<NumericVariable format="MONYY7" usage="categorical" label="Month" ref="bi702" varname="bi702" column="c4"/>
+				<NumericVariable format="MONYY7" usage="categorical" label="Month" ref="bi770" varname="bi770" column="c4"/>
 				<NumericVariable format="DOLLAR32.2" usage="quantitative" definedAggregation="sum" label="Sales" ref="bi263" varname="bi263" column="c5"/>
 			</Variables>
 			<Columns>
@@ -1972,7 +1972,7 @@ Historical values of Sales are displayed as markers only, without a line. The ch
 					<DataColumn dataType="double" aggregation="sum"/>
 				</NumericAggregations>
 			</Columns>
-			<DataFile contentKey="UWLRPDLAUMLXFFHDMPM5PBZQ435L4I3G" size="162370" format="CSV" rowCount="3834" grandTotal="false" dataLayout="partiallyAggregated" file="dd258.csv" isIndexed="true" availableRowCount="3834"/>
+			<DataFile contentKey="YMN5AP3VI4CFTNOURWZI3ZET5GZQ5APZ" size="162316" format="CSV" rowCount="3834" grandTotal="false" dataLayout="partiallyAggregated" file="dd258.csv" isIndexed="true" availableRowCount="3834"/>
 			<StringTableFile contentKey="GANYFVUALK6K2EANNVJN7HHTYAR6WTB5" size="72" format="CSV" rowCount="7" file="dd258index.csv"/>
 		</Result>
 		<Result ref="dd521" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-07-03T23:05:49.680Z">
@@ -1980,7 +1980,7 @@ Historical values of Sales are displayed as markers only, without a line. The ch
 				<NumericVariable format="DATE9" usage="categorical" label="Date" ref="bi523" varname="bi523" column="c0"/>
 				<NumericVariable format="BEST12." usage="categorical" label="Unit" ref="bi524" varname="bi524" column="c1"/>
 				<NumericVariable format="DOWNAME11" usage="categorical" label="Day of Week" ref="bi525" varname="bi525" column="c2"/>
-				<NumericVariable format="MONYY7" usage="categorical" label="Month" ref="bi703" varname="bi703" column="c3"/>
+				<NumericVariable format="MONYY7" usage="categorical" label="Month" ref="bi771" varname="bi771" column="c3"/>
 				<NumericVariable format="BEST12." usage="quantitative" definedAggregation="average" label="Normalized Sales" ref="bi526" varname="bi526" column="c4"/>
 			</Variables>
 			<Columns>
@@ -2003,7 +2003,7 @@ Historical values of Sales are displayed as markers only, without a line. The ch
 				<NumericVariable format="DATE9" usage="categorical" label="Date" ref="bi535" varname="bi535" column="c0"/>
 				<NumericVariable format="BEST12." usage="categorical" label="Unit" ref="bi536" varname="bi536" column="c1"/>
 				<NumericVariable format="DOWNAME11" usage="categorical" label="Day of Week" ref="bi537" varname="bi537" column="c2"/>
-				<NumericVariable format="MONYY7" usage="categorical" label="Month" ref="bi704" varname="bi704" column="c3"/>
+				<NumericVariable format="MONYY7" usage="categorical" label="Month" ref="bi772" varname="bi772" column="c3"/>
 				<NumericVariable format="BEST12." usage="quantitative" definedAggregation="average" label="Normalized Sales" ref="bi538" varname="bi538" column="c4"/>
 			</Variables>
 			<Columns>
@@ -2026,7 +2026,7 @@ Historical values of Sales are displayed as markers only, without a line. The ch
 				<NumericVariable format="DATE9" usage="categorical" label="Date" ref="bi547" varname="bi547" column="c0"/>
 				<NumericVariable format="BEST12." usage="categorical" label="Unit" ref="bi548" varname="bi548" column="c1"/>
 				<NumericVariable format="DOWNAME11" usage="categorical" label="Day of Week" ref="bi549" varname="bi549" column="c2"/>
-				<NumericVariable format="MONYY7" usage="categorical" label="Month" ref="bi705" varname="bi705" column="c3"/>
+				<NumericVariable format="MONYY7" usage="categorical" label="Month" ref="bi773" varname="bi773" column="c3"/>
 				<NumericVariable format="BEST12." usage="quantitative" definedAggregation="average" label="Normalized Sales" ref="bi550" varname="bi550" column="c4"/>
 			</Variables>
 			<Columns>
@@ -2049,7 +2049,7 @@ Historical values of Sales are displayed as markers only, without a line. The ch
 				<NumericVariable format="DATE9" usage="categorical" label="Date" ref="bi559" varname="bi559" column="c0"/>
 				<NumericVariable format="BEST12." usage="categorical" label="Unit" ref="bi560" varname="bi560" column="c1"/>
 				<NumericVariable format="DOWNAME11" usage="categorical" label="Day of Week" ref="bi561" varname="bi561" column="c2"/>
-				<NumericVariable format="MONYY7" usage="categorical" label="Month" ref="bi706" varname="bi706" column="c3"/>
+				<NumericVariable format="MONYY7" usage="categorical" label="Month" ref="bi774" varname="bi774" column="c3"/>
 				<NumericVariable format="BEST12." usage="quantitative" definedAggregation="average" label="Normalized Sales" ref="bi562" varname="bi562" column="c4"/>
 			</Variables>
 			<Columns>
@@ -2072,7 +2072,7 @@ Historical values of Sales are displayed as markers only, without a line. The ch
 				<NumericVariable format="DATE9" usage="categorical" label="Date" ref="bi571" varname="bi571" column="c0"/>
 				<NumericVariable format="BEST12." usage="categorical" label="Unit" ref="bi572" varname="bi572" column="c1"/>
 				<NumericVariable format="DOWNAME11" usage="categorical" label="Day of Week" ref="bi573" varname="bi573" column="c2"/>
-				<NumericVariable format="MONYY7" usage="categorical" label="Month" ref="bi707" varname="bi707" column="c3"/>
+				<NumericVariable format="MONYY7" usage="categorical" label="Month" ref="bi775" varname="bi775" column="c3"/>
 				<NumericVariable format="BEST12." usage="quantitative" definedAggregation="average" label="Normalized Sales" ref="bi574" varname="bi574" column="c4"/>
 			</Variables>
 			<Columns>
@@ -2095,7 +2095,7 @@ Historical values of Sales are displayed as markers only, without a line. The ch
 				<NumericVariable format="DATE9" usage="categorical" label="Date" ref="bi583" varname="bi583" column="c0"/>
 				<NumericVariable format="BEST12." usage="categorical" label="Unit" ref="bi584" varname="bi584" column="c1"/>
 				<NumericVariable format="DOWNAME11" usage="categorical" label="Day of Week" ref="bi585" varname="bi585" column="c2"/>
-				<NumericVariable format="MONYY7" usage="categorical" label="Month" ref="bi708" varname="bi708" column="c3"/>
+				<NumericVariable format="MONYY7" usage="categorical" label="Month" ref="bi776" varname="bi776" column="c3"/>
 				<NumericVariable format="BEST12." usage="quantitative" definedAggregation="average" label="Normalized Sales" ref="bi586" varname="bi586" column="c4"/>
 			</Variables>
 			<Columns>
@@ -2121,7 +2121,7 @@ Historical values of Sales are displayed as markers only, without a line. The ch
 				<RelationalDataItem name="bi68" base="bi42"/>
 				<RelationalDataItem name="bi66" base="bi30"/>
 				<RelationalDataItem name="bi69" base="bi16"/>
-				<RelationalDataItem name="bi697" base="bi18"/>
+				<RelationalDataItem name="bi765" base="bi18"/>
 			</BusinessItems>
 			<DataDefinition dataSource="ds7" type="multidimensional" name="dd71">
 				<MultidimensionalQuery detail="false">
@@ -2205,8 +2205,8 @@ Historical values of Sales are displayed as markers only, without a line. The ch
 			<BusinessItems>
 				<RelationalDataItem name="bi105" base="bi30"/>
 				<RelationalDataItem name="bi107" base="bi16"/>
-				<RelationalDataItem name="bi698" base="bi22"/>
-				<RelationalDataItem name="bi699" base="bi23"/>
+				<RelationalDataItem name="bi766" base="bi22"/>
+				<RelationalDataItem name="bi767" base="bi23"/>
 			</BusinessItems>
 			<DataDefinition dataSource="ds7" type="multidimensional" name="dd109">
 				<MultidimensionalQuery detail="false">
@@ -2234,7 +2234,7 @@ Historical values of Sales are displayed as markers only, without a line. The ch
 				<RelationalDataItem name="bi115" base="bi22"/>
 				<RelationalDataItem name="bi118" base="bi16"/>
 				<RelationalDataItem name="bi116" base="bi23"/>
-				<RelationalDataItem name="bi700" base="bi30"/>
+				<RelationalDataItem name="bi768" base="bi30"/>
 			</BusinessItems>
 			<DataDefinition dataSource="ds7" type="multidimensional" name="dd120">
 				<MultidimensionalQuery detail="false">
@@ -2382,7 +2382,7 @@ Historical values of Sales are displayed as markers only, without a line. The ch
 				<RelationalDataItem name="bi172" base="bi32"/>
 				<RelationalDataItem name="bi173" base="bi22"/>
 				<RelationalDataItem name="bi174" base="bi23"/>
-				<RelationalDataItem name="bi701" base="bi24"/>
+				<RelationalDataItem name="bi769" base="bi24"/>
 			</BusinessItems>
 			<DataDefinition dataSource="ds7" type="multidimensional" name="dd178">
 				<MultidimensionalQuery detail="false">
@@ -2559,7 +2559,7 @@ Historical values of Sales are displayed as markers only, without a line. The ch
 				<RelationalDataItem name="bi260" base="bi32"/>
 				<RelationalDataItem name="bi261" base="bi22"/>
 				<RelationalDataItem name="bi262" base="bi23"/>
-				<RelationalDataItem name="bi702" base="bi24"/>
+				<RelationalDataItem name="bi770" base="bi24"/>
 			</BusinessItems>
 			<DataDefinition dataSource="ds7" type="multidimensional" name="dd266">
 				<MultidimensionalQuery detail="false">
@@ -3314,7 +3314,7 @@ Historical values of Sales are displayed as markers only, without a line. The ch
 					<Expression>in(${bi522,binned},1)</Expression>
 				</RelationalFilterItem>
 				<RelationalDataItem name="bi525" base="bi62"/>
-				<RelationalDataItem name="bi703" base="bi63"/>
+				<RelationalDataItem name="bi771" base="bi63"/>
 			</BusinessItems>
 			<DataDefinition dataSource="ds13" type="multidimensional" name="dd529">
 				<MultidimensionalQuery detail="false">
@@ -3356,7 +3356,7 @@ Historical values of Sales are displayed as markers only, without a line. The ch
 					<Expression>in(${bi534,binned},2)</Expression>
 				</RelationalFilterItem>
 				<RelationalDataItem name="bi537" base="bi62"/>
-				<RelationalDataItem name="bi704" base="bi63"/>
+				<RelationalDataItem name="bi772" base="bi63"/>
 			</BusinessItems>
 			<DataDefinition dataSource="ds13" type="multidimensional" name="dd541">
 				<MultidimensionalQuery detail="false">
@@ -3398,7 +3398,7 @@ Historical values of Sales are displayed as markers only, without a line. The ch
 					<Expression>in(${bi546,binned},3)</Expression>
 				</RelationalFilterItem>
 				<RelationalDataItem name="bi549" base="bi62"/>
-				<RelationalDataItem name="bi705" base="bi63"/>
+				<RelationalDataItem name="bi773" base="bi63"/>
 			</BusinessItems>
 			<DataDefinition dataSource="ds13" type="multidimensional" name="dd553">
 				<MultidimensionalQuery detail="false">
@@ -3440,7 +3440,7 @@ Historical values of Sales are displayed as markers only, without a line. The ch
 					<Expression>in(${bi558,binned},4)</Expression>
 				</RelationalFilterItem>
 				<RelationalDataItem name="bi561" base="bi62"/>
-				<RelationalDataItem name="bi706" base="bi63"/>
+				<RelationalDataItem name="bi774" base="bi63"/>
 			</BusinessItems>
 			<DataDefinition dataSource="ds13" type="multidimensional" name="dd565">
 				<MultidimensionalQuery detail="false">
@@ -3482,7 +3482,7 @@ Historical values of Sales are displayed as markers only, without a line. The ch
 					<Expression>in(${bi570,binned},5)</Expression>
 				</RelationalFilterItem>
 				<RelationalDataItem name="bi573" base="bi62"/>
-				<RelationalDataItem name="bi707" base="bi63"/>
+				<RelationalDataItem name="bi775" base="bi63"/>
 			</BusinessItems>
 			<DataDefinition dataSource="ds13" type="multidimensional" name="dd577">
 				<MultidimensionalQuery detail="false">
@@ -3524,7 +3524,7 @@ Historical values of Sales are displayed as markers only, without a line. The ch
 					<Expression>in(${bi582,binned},6)</Expression>
 				</RelationalFilterItem>
 				<RelationalDataItem name="bi585" base="bi62"/>
-				<RelationalDataItem name="bi708" base="bi63"/>
+				<RelationalDataItem name="bi776" base="bi63"/>
 			</BusinessItems>
 			<DataDefinition dataSource="ds13" type="multidimensional" name="dd589">
 				<MultidimensionalQuery detail="false">
@@ -3551,6 +3551,13 @@ Historical values of Sales are displayed as markers only, without a line. The ch
 					<BusinessItem ref="bi587"/>
 				</DetailFilters>
 			</AppliedFilters>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="incomplete" name="dd761">
+			<DataDefinition type="relational" name="dd762">
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRowsLookup="graphDefault" maxRowsBehavior="truncate" name="dd763"/>
+				</ResultDefinitions>
+			</DataDefinition>
 		</ParentDataDefinition>
 	</DataDefinitions>
 	<DataSources>
@@ -3690,7 +3697,7 @@ Historical values of Sales are displayed as markers only, without a line. The ch
 		<Graph graphType="bar" supplementalVisuals="ve72" resultDefinitions="dd67" name="ve73" data="dd70" label="Sales by Unit (1)" selectionDisabled="true" applyDynamicBrushes="yes" sourceInteractionVariables="bi65 bi66">
 			<EditorProperties>
 				<Property key="isAutoLabel">false</Property>
-				<Property key="addedInteractionQueryDataItems">bi697</Property>
+				<Property key="addedInteractionQueryDataItems">bi765</Property>
 			</EditorProperties>
 <![CDATA[<StatGraph border="false" opaque="false" includeMissingDiscrete="true" selectionMode="multiple" missingValueDisplay="autolabel">
     <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
@@ -3760,7 +3767,8 @@ Historical values of Sales are displayed as markers only, without a line. The ch
     </LayoutGlobalLegend>
     <Animation keyFrameSortOrder="ascending_unformatted" keyFrame="KEY_FRAME"/>
     <OverviewAxis maxPlotSize="60px" minPlotSize="35px" visible="off" axis="categoryAxis"/>
-</StatGraph>]]>
+</StatGraph>
+]]>
 		</Graph>
 		<Table columnSizing="autoFill" resultDefinitions="dd67" name="ve72" data="dd70" applyDynamicBrushes="yes" sourceInteractionVariables="bi65 bi66">
 			<Columns>
@@ -3814,7 +3822,8 @@ Historical values of Sales are displayed as markers only, without a line. The ch
         </AutoLegend>
     </LayoutGlobalLegend>
     <Animation keyframesPerSecond="1" playDirectionForward="true" repeatEnabled="false"/>
-</StatGraph>]]>
+</StatGraph>
+]]>
 		</Graph>
 		<VisualContainer containerType="layout" name="ve124" label="Layout Container 6" selectionDisabled="true">
 			<EditorProperties>
@@ -3824,7 +3833,7 @@ Historical values of Sales are displayed as markers only, without a line. The ch
 		<Graph graphType="bar" supplementalVisuals="ve110" resultDefinitions="dd106" name="ve113" data="dd108" label="Sales by Unit (2)" selectionDisabled="true" applyDynamicBrushes="yes" sourceInteractionVariables="bi105">
 			<EditorProperties>
 				<Property key="isAutoLabel">false</Property>
-				<Property key="addedInteractionQueryDataItems">bi698,bi699</Property>
+				<Property key="addedInteractionQueryDataItems">bi766,bi767</Property>
 			</EditorProperties>
 			<Conditions>
 				<Condition ref="cd111" nonVisual="false">
@@ -3895,7 +3904,8 @@ Historical values of Sales are displayed as markers only, without a line. The ch
     </LayoutGlobalLegend>
     <Animation keyFrameSortOrder="ascending_unformatted" keyFrame="KEY_FRAME"/>
     <OverviewAxis maxPlotSize="60px" minPlotSize="35px" visible="off" axis="categoryAxis"/>
-</StatGraph>]]>
+</StatGraph>
+]]>
 		</Graph>
 		<Table columnSizing="autoFill" resultDefinitions="dd106" name="ve110" data="dd108" applyDynamicBrushes="yes" sourceInteractionVariables="bi105">
 			<Columns>
@@ -3906,7 +3916,7 @@ Historical values of Sales are displayed as markers only, without a line. The ch
 		<Graph graphType="bar" supplementalVisuals="ve121" resultDefinitions="dd117" name="ve122" data="dd119" label="Sales by District (1)" selectionDisabled="true" applyDynamicBrushes="yes" sourceInteractionVariables="bi115 bi116">
 			<EditorProperties>
 				<Property key="isAutoLabel">false</Property>
-				<Property key="addedInteractionQueryDataItems">bi700</Property>
+				<Property key="addedInteractionQueryDataItems">bi768</Property>
 			</EditorProperties>
 <![CDATA[<StatGraph border="false" opaque="false" includeMissingDiscrete="true" selectionMode="multiple" missingValueDisplay="autolabel">
     <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
@@ -3975,7 +3985,8 @@ Historical values of Sales are displayed as markers only, without a line. The ch
     </LayoutGlobalLegend>
     <Animation keyFrameSortOrder="ascending_unformatted" keyFrame="KEY_FRAME"/>
     <OverviewAxis maxPlotSize="60px" minPlotSize="35px" visible="off" axis="categoryAxis"/>
-</StatGraph>]]>
+</StatGraph>
+]]>
 		</Graph>
 		<Table columnSizing="autoFill" resultDefinitions="dd117" name="ve121" data="dd119" applyDynamicBrushes="yes" sourceInteractionVariables="bi115 bi116">
 			<Columns>
@@ -4027,7 +4038,8 @@ Historical values of Sales are displayed as markers only, without a line. The ch
         </AutoLegend>
     </LayoutGlobalLegend>
     <Animation keyframesPerSecond="1" playDirectionForward="true" repeatEnabled="false"/>
-</StatGraph>]]>
+</StatGraph>
+]]>
 		</Graph>
 		<VisualContainer containerType="scrolling" name="ve239" label="Scrolling container 1 (1)" selectionDisabled="true">
 			<EditorProperties>
@@ -4093,7 +4105,8 @@ Historical values of Sales are displayed as markers only, without a line. The ch
             </GraphNames>
         </ContinuousLegend>
     </LayoutGlobalLegend>
-</StatGraph>]]>
+</StatGraph>
+]]>
 		</Graph>
 		<Table columnSizing="autoFill" resultDefinitions="dd156" name="ve166" data="dd160" applyDynamicBrushes="yes">
 			<Columns>
@@ -4118,7 +4131,7 @@ Historical values of Sales are displayed as markers only, without a line. The ch
 				<Property key="isAutoLabel">false</Property>
 				<Property key="timeSeriesBinOption">formatBin</Property>
 				<Property key="timeSeriesFixedBinCardinality">300</Property>
-				<Property key="addedInteractionQueryDataItems">bi701</Property>
+				<Property key="addedInteractionQueryDataItems">bi769</Property>
 			</EditorProperties>
 			<Title auto="false"><P class="styleForTitle_paragraph6"><Span class="styleForTitle_span5">Daily Sales</Span></P></Title>
 <![CDATA[<StatGraph border="false" opaque="false" includeMissingDiscrete="true" selectionMode="multiple" missingValueDisplay="autolabel" displayOptionPolicy="union">
@@ -4176,7 +4189,8 @@ Historical values of Sales are displayed as markers only, without a line. The ch
         </AutoLegend>
     </LayoutGlobalLegend>
     <OverviewAxis maxPlotSize="60px" minPlotSize="35px" visible="off" axis="categoryAxis"/>
-</StatGraph>]]>
+</StatGraph>
+]]>
 		</Graph>
 		<Table columnSizing="autoFill" resultDefinitions="dd170" name="ve179" data="dd177" applyDynamicBrushes="yes" sourceInteractionVariables="bi171 bi172 bi173 bi174">
 			<Columns>
@@ -4294,7 +4308,8 @@ Historical values of Sales are displayed as markers only, without a line. The ch
         <Value>HOMEDOWN</Value>
     </DataSymbols>
     <OverviewAxis maxPlotSize="60px" minPlotSize="35px" visible="auto" axis="categoryAxis"/>
-</StatGraph>]]>
+</StatGraph>
+]]>
 		</Graph>
 		<Table columnSizing="autoFill" resultDefinitions="dd211" name="ve232" data="dd229" applyDynamicBrushes="yes">
 			<Columns>
@@ -4380,7 +4395,8 @@ Historical values of Sales are displayed as markers only, without a line. The ch
             </GraphNames>
         </ContinuousLegend>
     </LayoutGlobalLegend>
-</StatGraph>]]>
+</StatGraph>
+]]>
 		</Graph>
 		<Table columnSizing="autoFill" resultDefinitions="dd244" name="ve254" data="dd248" applyDynamicBrushes="yes">
 			<Columns>
@@ -4405,7 +4421,7 @@ Historical values of Sales are displayed as markers only, without a line. The ch
 				<Property key="isAutoLabel">false</Property>
 				<Property key="timeSeriesBinOption">formatBin</Property>
 				<Property key="timeSeriesFixedBinCardinality">300</Property>
-				<Property key="addedInteractionQueryDataItems">bi702</Property>
+				<Property key="addedInteractionQueryDataItems">bi770</Property>
 			</EditorProperties>
 			<Title auto="false"><P class="styleForTitle_paragraph6"><Span class="styleForTitle_span5">Daily Sales</Span></P></Title>
 <![CDATA[<StatGraph border="false" opaque="false" includeMissingDiscrete="true" selectionMode="multiple" missingValueDisplay="autolabel" displayOptionPolicy="union">
@@ -4463,7 +4479,8 @@ Historical values of Sales are displayed as markers only, without a line. The ch
         </AutoLegend>
     </LayoutGlobalLegend>
     <OverviewAxis maxPlotSize="60px" minPlotSize="35px" visible="off" axis="categoryAxis"/>
-</StatGraph>]]>
+</StatGraph>
+]]>
 		</Graph>
 		<Table columnSizing="autoFill" resultDefinitions="dd258" name="ve267" data="dd265" applyDynamicBrushes="yes" sourceInteractionVariables="bi259 bi260 bi261 bi262">
 			<Columns>
@@ -4581,7 +4598,8 @@ Historical values of Sales are displayed as markers only, without a line. The ch
         <Value>HOMEDOWN</Value>
     </DataSymbols>
     <OverviewAxis maxPlotSize="60px" minPlotSize="35px" visible="auto" axis="categoryAxis"/>
-</StatGraph>]]>
+</StatGraph>
+]]>
 		</Graph>
 		<Table columnSizing="autoFill" resultDefinitions="dd299" name="ve320" data="dd317" applyDynamicBrushes="yes">
 			<Columns>
@@ -4674,7 +4692,8 @@ Historical values of Sales are displayed as markers only, without a line. The ch
         </AutoLegend>
     </LayoutGlobalLegend>
     <OverviewAxis maxPlotSize="60px" minPlotSize="35px" visible="auto" axis="categoryAxis"/>
-</StatGraph>]]>
+</StatGraph>
+]]>
 		</Graph>
 		<Table columnSizing="autoFill" resultDefinitions="dd330" name="ve339" data="dd337" applyDynamicBrushes="yes" sourceInteractionVariables="bi332 bi333 bi334">
 			<Columns>
@@ -4724,7 +4743,8 @@ Historical values of Sales are displayed as markers only, without a line. The ch
             </KeyValue>
         </LayoutPrototypeRegion>
     </LayoutDataPanel>
-</StatGraph>]]>
+</StatGraph>
+]]>
 		</Graph>
 		<Table columnSizing="autoFill" resultDefinitions="dd342" name="ve348" data="dd346" applyDynamicBrushes="yes">
 			<Columns>
@@ -4766,7 +4786,8 @@ Historical values of Sales are displayed as markers only, without a line. The ch
             </KeyValue>
         </LayoutPrototypeRegion>
     </LayoutDataPanel>
-</StatGraph>]]>
+</StatGraph>
+]]>
 		</Graph>
 		<Table columnSizing="autoFill" resultDefinitions="dd351" name="ve357" data="dd355" applyDynamicBrushes="yes">
 			<Columns>
@@ -4808,7 +4829,8 @@ Historical values of Sales are displayed as markers only, without a line. The ch
             </KeyValue>
         </LayoutPrototypeRegion>
     </LayoutDataPanel>
-</StatGraph>]]>
+</StatGraph>
+]]>
 		</Graph>
 		<Table columnSizing="autoFill" resultDefinitions="dd360" name="ve366" data="dd364" applyDynamicBrushes="yes">
 			<Columns>
@@ -4886,7 +4908,8 @@ Historical values of Sales are displayed as markers only, without a line. The ch
         </AutoLegend>
     </LayoutGlobalLegend>
     <OverviewAxis maxPlotSize="60px" minPlotSize="35px" visible="auto" axis="categoryAxis"/>
-</StatGraph>]]>
+</StatGraph>
+]]>
 		</Graph>
 		<Table columnSizing="autoFill" resultDefinitions="dd374" name="ve383" data="dd381" applyDynamicBrushes="yes" sourceInteractionVariables="bi376 bi377 bi378">
 			<Columns>
@@ -4936,7 +4959,8 @@ Historical values of Sales are displayed as markers only, without a line. The ch
             </KeyValue>
         </LayoutPrototypeRegion>
     </LayoutDataPanel>
-</StatGraph>]]>
+</StatGraph>
+]]>
 		</Graph>
 		<Table columnSizing="autoFill" resultDefinitions="dd386" name="ve392" data="dd390" applyDynamicBrushes="yes">
 			<Columns>
@@ -4978,7 +5002,8 @@ Historical values of Sales are displayed as markers only, without a line. The ch
             </KeyValue>
         </LayoutPrototypeRegion>
     </LayoutDataPanel>
-</StatGraph>]]>
+</StatGraph>
+]]>
 		</Graph>
 		<Table columnSizing="autoFill" resultDefinitions="dd395" name="ve401" data="dd399" applyDynamicBrushes="yes">
 			<Columns>
@@ -5020,7 +5045,8 @@ Historical values of Sales are displayed as markers only, without a line. The ch
             </KeyValue>
         </LayoutPrototypeRegion>
     </LayoutDataPanel>
-</StatGraph>]]>
+</StatGraph>
+]]>
 		</Graph>
 		<Table columnSizing="autoFill" resultDefinitions="dd404" name="ve410" data="dd408" applyDynamicBrushes="yes">
 			<Columns>
@@ -5093,7 +5119,8 @@ Historical values of Sales are displayed as markers only, without a line. The ch
         </AutoLegend>
     </LayoutGlobalLegend>
     <OverviewAxis maxPlotSize="60px" minPlotSize="35px" visible="auto" axis="categoryAxis"/>
-</StatGraph>]]>
+</StatGraph>
+]]>
 		</Graph>
 		<Table columnSizing="autoFill" resultDefinitions="dd418" name="ve426" data="dd424" applyDynamicBrushes="yes" sourceInteractionVariables="bi420 bi421">
 			<Columns>
@@ -5141,7 +5168,8 @@ Historical values of Sales are displayed as markers only, without a line. The ch
             </KeyValue>
         </LayoutPrototypeRegion>
     </LayoutDataPanel>
-</StatGraph>]]>
+</StatGraph>
+]]>
 		</Graph>
 		<Table columnSizing="autoFill" resultDefinitions="dd429" name="ve435" data="dd433" applyDynamicBrushes="yes">
 			<Columns>
@@ -5182,7 +5210,8 @@ Historical values of Sales are displayed as markers only, without a line. The ch
             </KeyValue>
         </LayoutPrototypeRegion>
     </LayoutDataPanel>
-</StatGraph>]]>
+</StatGraph>
+]]>
 		</Graph>
 		<Table columnSizing="autoFill" resultDefinitions="dd438" name="ve444" data="dd442" applyDynamicBrushes="yes">
 			<Columns>
@@ -5223,7 +5252,8 @@ Historical values of Sales are displayed as markers only, without a line. The ch
             </KeyValue>
         </LayoutPrototypeRegion>
     </LayoutDataPanel>
-</StatGraph>]]>
+</StatGraph>
+]]>
 		</Graph>
 		<Table columnSizing="autoFill" resultDefinitions="dd447" name="ve453" data="dd451" applyDynamicBrushes="yes">
 			<Columns>
@@ -5296,7 +5326,8 @@ Historical values of Sales are displayed as markers only, without a line. The ch
         </AutoLegend>
     </LayoutGlobalLegend>
     <OverviewAxis maxPlotSize="60px" minPlotSize="35px" visible="auto" axis="categoryAxis"/>
-</StatGraph>]]>
+</StatGraph>
+]]>
 		</Graph>
 		<Table columnSizing="autoFill" resultDefinitions="dd461" name="ve473" data="dd470" applyDynamicBrushes="yes" sourceInteractionVariables="bi471 bi465 bi464">
 			<Columns>
@@ -5344,7 +5375,8 @@ Historical values of Sales are displayed as markers only, without a line. The ch
             </KeyValue>
         </LayoutPrototypeRegion>
     </LayoutDataPanel>
-</StatGraph>]]>
+</StatGraph>
+]]>
 		</Graph>
 		<Table columnSizing="autoFill" resultDefinitions="dd476" name="ve484" data="dd482" applyDynamicBrushes="yes">
 			<Columns>
@@ -5385,7 +5417,8 @@ Historical values of Sales are displayed as markers only, without a line. The ch
             </KeyValue>
         </LayoutPrototypeRegion>
     </LayoutDataPanel>
-</StatGraph>]]>
+</StatGraph>
+]]>
 		</Graph>
 		<Table columnSizing="autoFill" resultDefinitions="dd487" name="ve495" data="dd493" applyDynamicBrushes="yes">
 			<Columns>
@@ -5426,7 +5459,8 @@ Historical values of Sales are displayed as markers only, without a line. The ch
             </KeyValue>
         </LayoutPrototypeRegion>
     </LayoutDataPanel>
-</StatGraph>]]>
+</StatGraph>
+]]>
 		</Graph>
 		<Table columnSizing="autoFill" resultDefinitions="dd498" name="ve506" data="dd504" applyDynamicBrushes="yes">
 			<Columns>
@@ -5451,7 +5485,7 @@ Historical values of Sales are displayed as markers only, without a line. The ch
 				<Property key="isAutoLabel">false</Property>
 				<Property key="timeSeriesBinOption">formatBin</Property>
 				<Property key="timeSeriesFixedBinCardinality">300</Property>
-				<Property key="addedInteractionQueryDataItems">bi703</Property>
+				<Property key="addedInteractionQueryDataItems">bi771</Property>
 			</EditorProperties>
 <![CDATA[<StatGraph border="false" opaque="false" includeMissingDiscrete="true" selectionMode="multiple" missingValueDisplay="autolabel" displayOptionPolicy="union">
     <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
@@ -5513,7 +5547,8 @@ Historical values of Sales are displayed as markers only, without a line. The ch
         </AutoLegend>
     </LayoutGlobalLegend>
     <OverviewAxis maxPlotSize="60px" minPlotSize="35px" visible="off" axis="categoryAxis"/>
-</StatGraph>]]>
+</StatGraph>
+]]>
 		</Graph>
 		<Table columnSizing="autoFill" resultDefinitions="dd521" name="ve530" data="dd528" applyDynamicBrushes="yes" sourceInteractionVariables="bi523 bi524 bi525">
 			<Columns>
@@ -5528,7 +5563,7 @@ Historical values of Sales are displayed as markers only, without a line. The ch
 				<Property key="isAutoLabel">false</Property>
 				<Property key="timeSeriesBinOption">formatBin</Property>
 				<Property key="timeSeriesFixedBinCardinality">300</Property>
-				<Property key="addedInteractionQueryDataItems">bi704</Property>
+				<Property key="addedInteractionQueryDataItems">bi772</Property>
 			</EditorProperties>
 <![CDATA[<StatGraph border="false" opaque="false" includeMissingDiscrete="true" selectionMode="multiple" missingValueDisplay="autolabel" displayOptionPolicy="union">
     <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
@@ -5590,7 +5625,8 @@ Historical values of Sales are displayed as markers only, without a line. The ch
         </AutoLegend>
     </LayoutGlobalLegend>
     <OverviewAxis maxPlotSize="60px" minPlotSize="35px" visible="off" axis="categoryAxis"/>
-</StatGraph>]]>
+</StatGraph>
+]]>
 		</Graph>
 		<Table columnSizing="autoFill" resultDefinitions="dd533" name="ve542" data="dd540" applyDynamicBrushes="yes" sourceInteractionVariables="bi535 bi536 bi537">
 			<Columns>
@@ -5605,7 +5641,7 @@ Historical values of Sales are displayed as markers only, without a line. The ch
 				<Property key="isAutoLabel">false</Property>
 				<Property key="timeSeriesBinOption">formatBin</Property>
 				<Property key="timeSeriesFixedBinCardinality">300</Property>
-				<Property key="addedInteractionQueryDataItems">bi705</Property>
+				<Property key="addedInteractionQueryDataItems">bi773</Property>
 			</EditorProperties>
 <![CDATA[<StatGraph border="false" opaque="false" includeMissingDiscrete="true" selectionMode="multiple" missingValueDisplay="autolabel" displayOptionPolicy="union">
     <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
@@ -5667,7 +5703,8 @@ Historical values of Sales are displayed as markers only, without a line. The ch
         </AutoLegend>
     </LayoutGlobalLegend>
     <OverviewAxis maxPlotSize="60px" minPlotSize="35px" visible="off" axis="categoryAxis"/>
-</StatGraph>]]>
+</StatGraph>
+]]>
 		</Graph>
 		<Table columnSizing="autoFill" resultDefinitions="dd545" name="ve554" data="dd552" applyDynamicBrushes="yes" sourceInteractionVariables="bi547 bi548 bi549">
 			<Columns>
@@ -5682,7 +5719,7 @@ Historical values of Sales are displayed as markers only, without a line. The ch
 				<Property key="isAutoLabel">false</Property>
 				<Property key="timeSeriesBinOption">formatBin</Property>
 				<Property key="timeSeriesFixedBinCardinality">300</Property>
-				<Property key="addedInteractionQueryDataItems">bi706</Property>
+				<Property key="addedInteractionQueryDataItems">bi774</Property>
 			</EditorProperties>
 <![CDATA[<StatGraph border="false" opaque="false" includeMissingDiscrete="true" selectionMode="multiple" missingValueDisplay="autolabel" displayOptionPolicy="union">
     <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
@@ -5744,7 +5781,8 @@ Historical values of Sales are displayed as markers only, without a line. The ch
         </AutoLegend>
     </LayoutGlobalLegend>
     <OverviewAxis maxPlotSize="60px" minPlotSize="35px" visible="off" axis="categoryAxis"/>
-</StatGraph>]]>
+</StatGraph>
+]]>
 		</Graph>
 		<Table columnSizing="autoFill" resultDefinitions="dd557" name="ve566" data="dd564" applyDynamicBrushes="yes" sourceInteractionVariables="bi559 bi560 bi561">
 			<Columns>
@@ -5759,7 +5797,7 @@ Historical values of Sales are displayed as markers only, without a line. The ch
 				<Property key="isAutoLabel">false</Property>
 				<Property key="timeSeriesBinOption">formatBin</Property>
 				<Property key="timeSeriesFixedBinCardinality">300</Property>
-				<Property key="addedInteractionQueryDataItems">bi707</Property>
+				<Property key="addedInteractionQueryDataItems">bi775</Property>
 			</EditorProperties>
 <![CDATA[<StatGraph border="false" opaque="false" includeMissingDiscrete="true" selectionMode="multiple" missingValueDisplay="autolabel" displayOptionPolicy="union">
     <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
@@ -5821,7 +5859,8 @@ Historical values of Sales are displayed as markers only, without a line. The ch
         </AutoLegend>
     </LayoutGlobalLegend>
     <OverviewAxis maxPlotSize="60px" minPlotSize="35px" visible="off" axis="categoryAxis"/>
-</StatGraph>]]>
+</StatGraph>
+]]>
 		</Graph>
 		<Table columnSizing="autoFill" resultDefinitions="dd569" name="ve578" data="dd576" applyDynamicBrushes="yes" sourceInteractionVariables="bi571 bi572 bi573">
 			<Columns>
@@ -5836,7 +5875,7 @@ Historical values of Sales are displayed as markers only, without a line. The ch
 				<Property key="isAutoLabel">false</Property>
 				<Property key="timeSeriesBinOption">formatBin</Property>
 				<Property key="timeSeriesFixedBinCardinality">300</Property>
-				<Property key="addedInteractionQueryDataItems">bi708</Property>
+				<Property key="addedInteractionQueryDataItems">bi776</Property>
 			</EditorProperties>
 <![CDATA[<StatGraph border="false" opaque="false" includeMissingDiscrete="true" selectionMode="multiple" missingValueDisplay="autolabel" displayOptionPolicy="union">
     <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
@@ -5898,7 +5937,8 @@ Historical values of Sales are displayed as markers only, without a line. The ch
         </AutoLegend>
     </LayoutGlobalLegend>
     <OverviewAxis maxPlotSize="60px" minPlotSize="35px" visible="off" axis="categoryAxis"/>
-</StatGraph>]]>
+</StatGraph>
+]]>
 		</Graph>
 		<Table columnSizing="autoFill" resultDefinitions="dd581" name="ve590" data="dd588" applyDynamicBrushes="yes" sourceInteractionVariables="bi583 bi584 bi585">
 			<Columns>
@@ -5923,6 +5963,60 @@ Historical values of Sales are displayed as markers only, without a line. The ch
 				<Column variable="bi137"/>
 			</Columns>
 		</Table>
+		<Graph graphType="bar" supplementalVisuals="ve764" resultDefinitions="dd763" name="ve760" data="dd761" label="Bar 1" applyDynamicBrushes="yes">
+			<EditorProperties>
+				<Property key="isAutoLabel">true</Property>
+			</EditorProperties>
+			<Title auto="true"><P><DynamicSpan key="bird.autotitle.template.oneByTwo.fmt.txt"><Substitutions><Substitution key="bird.autotitle.measure.txt"/><Substitution key="bird.autotitle.category.txt"/></Substitutions></DynamicSpan></P></Title>
+<![CDATA[<StatGraph border="false" opaque="false" includeMissingDiscrete="true" missingValueDisplay="autolabel">
+    <Dimension/>
+    <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
+    <Dimension/>
+    <Meta>
+        <DynVars>
+            <DynVar name="CATEGORY" description="CATEGORY_VAR" required="true" type="character"/>
+            <DynVar name="RESPONSE" description="MEASURE_VAR" required="true" type="numeric" multiplesAllowed="true"/>
+            <DynVar name="GROUP" description="SUBGROUP_VAR" required="false" type="character"/>
+            <DynVar name="COLUMN" description="HORIZONTAL_SERIES_VAR" required="false" type="character" multiplesAllowed="true"/>
+            <DynVar name="ROW" description="VERTICAL_SERIES_VAR" required="false" type="character" multiplesAllowed="true"/>
+            <DynVar name="TIP" description="TIP_VAR" required="false" type="any" multiplesAllowed="true"/>
+            <DynVar name="KEY_FRAME" description="ANIMATION" required="false" type="time" multiplesAllowed="false"/>
+            <DynVar name="HIDDEN" description="HIDDEN_VAR" required="false" type="character" multiplesAllowed="true"/>
+        </DynVars>
+        <DataNameMap>
+            <Entry model="LayoutDataMatrix_24" data="dd763"/>
+        </DataNameMap>
+    </Meta>
+    <LayoutDataMatrix cellHeightMin="1px" cellWidthMin="1px" includeMissingClass="true" rowVars="ROW" columnVars="COLUMN" name="LayoutDataMatrix_24">
+        <LayoutPrototypeOverlay2D>
+            <BarChartParm name="BarChart" tipListPolicy="replace" _stmt="barchart" compactLabelFormats="true" groupDisplay="cluster" orient="horizontal" stat="none" tip="TIP" category="CATEGORY" responseVars="RESPONSE" group="GROUP"/>
+            <XAxisOpts name="categoryAxis">
+                <DiscreteOpts sortOrder="data"/>
+                <LinearOpts>
+                    <TickValueFormatOpts extractScale="true"/>
+                </LinearOpts>
+            </XAxisOpts>
+            <YAxisOpts reverse="true">
+                <DiscreteOpts tickValueFitPolicy="staggertruncatedrop" sortOrder="data"/>
+                <LinearOpts>
+                    <TickValueFormatOpts extractScale="true"/>
+                </LinearOpts>
+            </YAxisOpts>
+        </LayoutPrototypeOverlay2D>
+    </LayoutDataMatrix>
+    <LayoutGlobalLegend legendTitlePosition="top" allowCollapsed="true">
+        <AutoLegend>
+            <GraphNames>
+                <Value>BarChart</Value>
+            </GraphNames>
+        </AutoLegend>
+    </LayoutGlobalLegend>
+    <Animation keyFrameSortOrder="ascending_unformatted" keyFrame="KEY_FRAME"/>
+    <OverviewAxis maxPlotSize="60px" minPlotSize="35px" visible="off" axis="categoryAxis"/>
+</StatGraph>
+]]>
+		</Graph>
+		<Table columnSizing="autoFill" resultDefinitions="dd763" name="ve764" data="dd761" applyDynamicBrushes="yes"/>
 	</VisualElements>
 	<PromptDefinitions>
 		<PromptDefinition label="Type" isParameter="true" name="pr8">
@@ -7017,11 +7111,38 @@ Historical values of Sales are displayed as markers only, without a line. The ch
 				</MediaContainer>
 			</Body>
 		</Section>
+		<Section name="vi758" label="Page 11">
+			<Body>
+				<MediaContainer target="mt2">
+					<ResponsiveLayout orientation="vertical" overflow="fit">
+						<Weights mediaTarget="mt5" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt4" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt3" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+					</ResponsiveLayout>
+					<Visual ref="ve760" name="vi759">
+						<ResponsiveConstraint>
+							<WidthConstraint>
+								<Width mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+							</WidthConstraint>
+							<HeightConstraint>
+								<Height mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+							</HeightConstraint>
+						</ResponsiveConstraint>
+					</Visual>
+				</MediaContainer>
+			</Body>
+		</Section>
 	</View>
 	<Interactions>
 		<Interaction name="ia596" type="brush" derived="false">
 			<InteractionElementReference purpose="source" ref="ve100" variable="bi76"/>
-			<InteractionElementReference purpose="target" ref="ve73" variable="bi697"/>
+			<InteractionElementReference purpose="target" ref="ve73" variable="bi765"/>
 		</Interaction>
 		<Interaction name="ia597" type="brush" derived="true">
 			<InteractionElementReference purpose="source" ref="ve73" variable="bi65 bi66"/>
@@ -7029,43 +7150,43 @@ Historical values of Sales are displayed as markers only, without a line. The ch
 		</Interaction>
 		<Interaction name="ia598" type="brush" derived="false">
 			<InteractionElementReference purpose="source" ref="ve113" variable="bi105"/>
-			<InteractionElementReference purpose="target" ref="ve122" variable="bi700"/>
+			<InteractionElementReference purpose="target" ref="ve122" variable="bi768"/>
 		</Interaction>
 		<Interaction name="ia599" type="brush" derived="true">
 			<InteractionElementReference purpose="source" ref="ve122" variable="bi115 bi116"/>
-			<InteractionElementReference purpose="target" ref="ve113" variable="bi698 bi699"/>
+			<InteractionElementReference purpose="target" ref="ve113" variable="bi766 bi767"/>
 		</Interaction>
 		<Interaction name="ia600" type="filter" derived="false">
 			<InteractionElementReference purpose="source" ref="ve193" variable="bi187"/>
-			<InteractionElementReference purpose="target" ref="ve180" variable="bi701"/>
+			<InteractionElementReference purpose="target" ref="ve180" variable="bi769"/>
 		</Interaction>
 		<Interaction name="ia601" type="filter" derived="false">
 			<InteractionElementReference purpose="source" ref="ve281" variable="bi275"/>
-			<InteractionElementReference purpose="target" ref="ve268" variable="bi702"/>
+			<InteractionElementReference purpose="target" ref="ve268" variable="bi770"/>
 		</Interaction>
 		<Interaction name="ia602" type="filter" dataStage="detail" derived="false">
 			<InteractionElementReference purpose="source" ref="ve519" variable="bi514"/>
-			<InteractionElementReference purpose="target" ref="ve531" variable="bi703"/>
+			<InteractionElementReference purpose="target" ref="ve531" variable="bi771"/>
 		</Interaction>
 		<Interaction name="ia603" type="filter" dataStage="detail" derived="false">
 			<InteractionElementReference purpose="source" ref="ve519" variable="bi514"/>
-			<InteractionElementReference purpose="target" ref="ve543" variable="bi704"/>
+			<InteractionElementReference purpose="target" ref="ve543" variable="bi772"/>
 		</Interaction>
 		<Interaction name="ia604" type="filter" dataStage="detail" derived="false">
 			<InteractionElementReference purpose="source" ref="ve519" variable="bi514"/>
-			<InteractionElementReference purpose="target" ref="ve555" variable="bi705"/>
+			<InteractionElementReference purpose="target" ref="ve555" variable="bi773"/>
 		</Interaction>
 		<Interaction name="ia605" type="filter" dataStage="detail" derived="false">
 			<InteractionElementReference purpose="source" ref="ve519" variable="bi514"/>
-			<InteractionElementReference purpose="target" ref="ve567" variable="bi706"/>
+			<InteractionElementReference purpose="target" ref="ve567" variable="bi774"/>
 		</Interaction>
 		<Interaction name="ia606" type="filter" dataStage="detail" derived="false">
 			<InteractionElementReference purpose="source" ref="ve519" variable="bi514"/>
-			<InteractionElementReference purpose="target" ref="ve579" variable="bi707"/>
+			<InteractionElementReference purpose="target" ref="ve579" variable="bi775"/>
 		</Interaction>
 		<Interaction name="ia607" type="filter" dataStage="detail" derived="false">
 			<InteractionElementReference purpose="source" ref="ve519" variable="bi514"/>
-			<InteractionElementReference purpose="target" ref="ve591" variable="bi708"/>
+			<InteractionElementReference purpose="target" ref="ve591" variable="bi776"/>
 		</Interaction>
 	</Interactions>
 	<Conditions>
