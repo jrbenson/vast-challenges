@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<metadataSupplement>
+    <tables>
+        <table dataLocale="en_US" dataSources="ds7" resourceIdentifier="'cas-shared-default','Public','VAST2022_SPENDING_BY_LOCATION','en_US'" tableModifiedTimeStamp="2022-07-03T23:05:52.757Z">
+            <columns>
+                <column dataType="double" format="BEST12." label="Participant ID" xref="participantId"/>
+                <column dataType="datetime" format="DATETIME19" label="Date/Time" xref="timestamp"/>
+                <column dataType="date" format="DATE9" label="date" xref="date"/>
+                <column dataType="datetime" format="DATETIME19" label="time_at_venue_start" xref="time_at_venue_start"/>
+                <column dataType="datetime" format="DATETIME19" label="time_at_venue_end" xref="time_at_venue_end"/>
+                <column dataType="string" label="Expense Category" xref="spending_category"/>
+                <column dataType="double" format="DOLLAR32.2" label="sale" xref="sale"/>
+                <column dataType="double" format="BEST12." label="End Travel Building ID" xref="buildingID"/>
+                <column dataType="double" format="BEST12." label="End Travel Location ID" xref="unit"/>
+                <column dataType="double" format="BEST12." label="End Travel Location Latitude" xref="locationLat"/>
+                <column dataType="double" format="BEST12." label="End Travel Location Longitude" xref="locationLng"/>
+                <column dataType="string" label="Purpose of Travel" xref="purpose"/>
+                <column dataType="string" label="unitType" xref="unitType"/>
+            </columns>
+        </table>
+        <table dataLocale="en_US" dataSources="ds13" resourceIdentifier="'cas-shared-default','Public','VAST2022_TS_CLUSTERS','en_US'" tableModifiedTimeStamp="2022-07-03T23:05:49.680Z">
+            <columns>
+                <column dataType="double" format="BEST12." label="End Travel Location ID" xref="unit"/>
+                <column dataType="date" format="DATE9" label="date" xref="date"/>
+                <column dataType="double" format="DOLLAR32.2" label="sale" xref="sale"/>
+                <column dataType="string" label="unitType" xref="unitType"/>
+                <column dataType="double" format="BEST12." label="cluster" xref="cluster"/>
+                <column dataType="double" format="BEST12." label="sale_norm" xref="sale_norm"/>
+                <column dataType="double" format="BEST12." label="buildingID" xref="buildingID"/>
+            </columns>
+        </table>
+    </tables>
+    <version>2</version>
+</metadataSupplement>

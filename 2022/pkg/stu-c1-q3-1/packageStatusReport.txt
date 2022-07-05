@@ -1,0 +1,11 @@
+Geo bubble - Building 1
+  Interactivity for this object is limited for the following reasons:
+    * Linked selection actions are not supported.
+  These reasons may only be a problem because of these data complexities:
+    * This object type requires an advanced query.
+
+Sales by Unit (1)
+  Interactivity for this object is limited for the following reasons:
+    * Linked selection actions are not supported.
+  These reasons may only be a problem because of these data complexities:
+    * This object uses an aggregate measure.
