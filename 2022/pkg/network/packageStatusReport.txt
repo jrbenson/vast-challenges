@@ -10,10 +10,6 @@ Geo cluster - Apartment ID 1
   These reasons may only be a problem because of these data complexities:
     * This object type requires an advanced query.
 
-Pie - Travel Duration Category 1
-  Interactivity for this object is limited for the following reasons:
-    * This object uses a join.
-
 Geo network - Start Travel Location ID 1
   Interactivity for this object is limited for the following reasons:
     * This object uses a join.

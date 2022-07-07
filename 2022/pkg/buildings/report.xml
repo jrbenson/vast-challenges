@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SASReport xmlns="http://www.sas.com/sasreportmodel/bird-4.20.0" label="Building and Location Analysis (Falko)" implicitInteractions="reportPrompt sectionPrompt" createdLocale="en" createdVersion="4.19.0" dateCreated="2022-04-28T22:55:06Z" dateModified="2022-06-22T16:00:17Z" createdApplication="SAS Visual Analytics 2020" lastModifiedApplication="SAS Visual Analytics 2020" nextUniqueNameIndex="745">
+<SASReport xmlns="http://www.sas.com/sasreportmodel/bird-4.20.0" label="Building and Location Analysis (Falko)" implicitInteractions="reportPrompt sectionPrompt" createdLocale="en" createdVersion="4.19.0" dateCreated="2022-04-28T22:55:06Z" dateModified="2022-07-07T21:09:40Z" createdApplication="SAS Visual Analytics 2020" lastModifiedApplication="SAS Visual Analytics 2020" nextUniqueNameIndex="745">
 	<Results>
-		<Result ref="dd618" type="relational" status="warning" dataLevel="baseline" label="Cluster Result" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-06-19T13:44:53.096Z">
+		<Result ref="dd618" type="relational" status="warning" dataLevel="baseline" label="Cluster Result" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-07-03T18:52:29.966Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -31,23 +31,23 @@
 				<StringColumn maxLength="0" colname="c6" encoding="text"/>
 				<NumericColumn dataType="double" colname="c7" encoding="text"/>
 			</Columns>
-			<Data isIndexed="true" availableRowCount="17" contentKey="6GN6POH47SICEER64557IMY6NCDA7FM3" size="1206" format="CSV" rowCount="17" grandTotal="false" dataLayout="minimal"><![CDATA[0,0.0,1727.726,-1598.21,20.0,0.37922264650000004,-1,0.37922264650000004
-1,1.0,1520.327,-185.929,40.0,0.4564747923859649,-1,0.4564747923859649
+			<Data isIndexed="true" availableRowCount="17" contentKey="S7MAGSEDYJ7DLAF2S6EHCLFDID2LWCHZ" size="1210" format="CSV" rowCount="17" grandTotal="false" dataLayout="minimal"><![CDATA[0,0.0,1727.726,-1598.21,20.0,0.3792226465000001,-1,0.3792226465000001
+1,1.0,1520.327,-185.929,40.0,0.45647479238596483,-1,0.45647479238596483
 9,2.0,5249.2,-4167.1,70.0,0.3946947266067416,-1,0.3946947266067416
-10,3.0,5214.852,-207.448,54.0,0.6076638532597401,-1,0.6076638532597401
-11,4.0,4956.647,-2012.56,61.0,0.5520663300133333,-1,0.5520663300133333
-12,5.0,3257.188,1352.574,30.0,0.5097062728947369,-1,0.5097062728947369
-13,6.0,6223.628,-1845.1,43.0,0.3254914259999999,-1,0.3254914259999999
-14,7.0,2782.763,-2251.06,42.0,0.4412365126304349,-1,0.4412365126304349
+10,3.0,5214.852,-207.448,54.0,0.6076638532597403,-1,0.6076638532597403
+11,4.0,4956.647,-2012.56,61.0,0.5520663300133334,-1,0.5520663300133334
+12,5.0,3257.188,1352.574,30.0,0.5097062728947368,-1,0.5097062728947368
+13,6.0,6223.628,-1845.1,43.0,0.32549142600000003,-1,0.32549142600000003
+14,7.0,2782.763,-2251.06,42.0,0.44123651263043484,-1,0.44123651263043484
 15,8.0,2510.406,-1412.1,51.0,0.44004534343859647,-1,0.44004534343859647
-16,9.0,3412.393,-127.266,32.0,0.5232474512820512,-1,0.5232474512820512
+16,9.0,3412.393,-127.266,32.0,0.5232474512820513,-1,0.5232474512820513
 2,10.0,3512.059,-1302.48,50.0,0.5253572403934426,-1,0.5253572403934426
 3,11.0,4877.664,2015.601,53.0,0.5639395002812501,-1,0.5639395002812501
-4,12.0,6184.855,-574.854,20.0,0.3553333694193549,-1,0.3553333694193549
+4,12.0,6184.855,-574.854,20.0,0.35533336941935495,-1,0.35533336941935495
 5,13.0,6298.465,-3134.77,20.0,0.7104846334074075,-1,0.7104846334074075
 6,14.0,7229.108,-4243.5,73.0,0.3549709143863638,-1,0.3549709143863638
 7,15.0,7432.927,-3323.45,26.0,0.33172211248387096,-1,0.33172211248387096
-8,16.0,676.0876,1066.514,14.0,0.45770512913333333,-1,0.45770512913333333
+8,16.0,676.0876,1066.514,14.0,0.4577051291333334,-1,0.4577051291333334
 ]]></Data>
 			<StringTable contentKey="GCVZED3KJNFOYBW42RSH4HUHTWEA7Y2M" size="211" format="CSV" rowCount="17"><![CDATA["Cluster 0"
 "Cluster 1"
@@ -68,7 +68,7 @@
 "Cluster 9"
 ]]></StringTable>
 		</Result>
-		<Result ref="dd87" type="relational" status="success" dataLevel="baseline" label="Contour Result" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-06-19T13:44:53.092Z">
+		<Result ref="dd87" type="relational" status="success" dataLevel="baseline" label="Contour Result" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-07-03T18:52:36.510Z">
 			<Variables>
 				<NumericVariable format="BEST." usage="quantitative" coordinateSpace="EPSG:900913" label="Location Latitude" ref="bi85" varname="bi85" column="c0"/>
 				<NumericVariable format="BEST." usage="quantitative" coordinateSpace="EPSG:900913" label="Location Longitude" ref="bi84" varname="bi84" column="c1"/>
@@ -81,7 +81,7 @@
 			</Columns>
 			<DataFile contentKey="ZSY5B77T2G4WIMWG4ZH4JKJFQHGH53GY" size="53848" format="CSV" rowCount="1296" grandTotal="false" dataLayout="minimal" file="dd87.csv" isIndexed="false" availableRowCount="1296"/>
 		</Result>
-		<Result ref="dd18" type="relational" status="success" dataLevel="baseline" label="Region" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-06-19T13:45:02.922Z">
+		<Result ref="dd18" type="relational" status="success" dataLevel="baseline" label="Region" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-07-03T18:52:36.412Z">
 			<Variables>
 				<NumericVariable format="BEST12." usage="categorical" label="Building ID" ref="bi41" varname="bi41" column="c0"/>
 				<StringVariable label="Map ID" ref="bi30" varname="bi30" column="c1"/>
@@ -955,15 +955,15 @@
             </Roles>
             <DataLabelAttrs size="10.5pt"/>
         </MapRegionLayer>
-        <ScatterPlot name="Scatter" dataTransparency="0.129999995" tipListPolicy="replace" compactLabelFormats="true" includeMissingGroup="true" sizeMax="10px" sizeMin="4px" auxiliary="Role1 Role1" tip="Role2 Role3 Role4 Role5 Role6" x="dd111#bi129" y="dd111#bi130" group="dd111#bi175" sizeResponse="dd111#bi169">
+        <ScatterPlot name="Scatter" dataTransparency="0.129999995" tipListPolicy="replace" compactLabelFormats="true" includeMissingGroup="true" sizeMax="10px" sizeMin="4px" auxiliary="Role1 Role1" tip="Role2 Role3 Role4 Role5 Role6" x="dd102#bi129" y="dd102#bi130" group="dd102#bi175" sizeResponse="dd102#bi169">
             <ProximityClusterOptions proximityCluster="auto" clusterDistance="150px"/>
             <Roles>
-                <Role name="Role1" type="variable">dd111#bi150</Role>
-                <Role name="Role2" type="variable">dd111#bi154</Role>
-                <Role name="Role3" type="variable">dd111#bi157</Role>
-                <Role name="Role4" type="variable">dd111#bi160</Role>
-                <Role name="Role5" type="variable">dd111#bi170</Role>
-                <Role name="Role6" type="variable">dd111#bi176</Role>
+                <Role name="Role1" type="variable">dd102#bi150</Role>
+                <Role name="Role2" type="variable">dd102#bi154</Role>
+                <Role name="Role3" type="variable">dd102#bi157</Role>
+                <Role name="Role4" type="variable">dd102#bi160</Role>
+                <Role name="Role5" type="variable">dd102#bi170</Role>
+                <Role name="Role6" type="variable">dd102#bi176</Role>
             </Roles>
         </ScatterPlot>
     </LayoutOverlayMap>
@@ -1456,6 +1456,21 @@
 			</Body>
 		</Section>
 		<Section name="vi741" label="STOP">
+			<Header>
+				<MediaContainer target="mt2">
+					<ResponsiveLayout orientation="horizontal" overflow="fit">
+						<Weights mediaTarget="mt5" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt4" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt3" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+					</ResponsiveLayout>
+				</MediaContainer>
+			</Header>
 			<Body>
 				<MediaContainer target="mt2">
 					<ResponsiveLayout orientation="vertical" overflow="fit">
@@ -1746,7 +1761,7 @@
 	<Editors>
 		<Editor applicationName="VA">
 			<Revision editorVersion="2021.2.6" lastDate="2022-05-03T04:45:27.598Z"/>
-			<Revision editorVersion="2020" lastDate="2022-06-22T16:00:17.496Z"/>
+			<Revision editorVersion="2020" lastDate="2022-07-07T21:09:40.603Z"/>
 		</Editor>
 	</Editors>
 </History>
@@ -1754,7 +1769,7 @@
 		<VisualElements>
 			<GraphState element="ve615">
 				<Viewports>
-					<LayoutOverlayMapViewport top="7739.25830078125" bottom="369.756103515625" left="-6162.34814453125" right="3934.449951171875"/>
+					<LayoutOverlayMapViewport top="8004.91064453125" bottom="104.10355377197266" left="-6963.9091796875" right="4736.0107421875"/>
 				</Viewports>
 			</GraphState>
 		</VisualElements>

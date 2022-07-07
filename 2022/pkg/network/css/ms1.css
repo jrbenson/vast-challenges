@@ -30,11 +30,11 @@
 #ve329 .GraphDataStyle1 {
   fill-color: #DD5757;
 }
-#ve2251 .GraphSkin {
-  data-skin: CRISP;
-}
 #ve2367 .GraphDataStyle1 {
   fill-color: #DD5757;
+}
+#ve2251 .GraphSkin {
+  data-skin: CRISP;
 }
 #ve53 .GraphSkin {
   data-skin: CRISP;
@@ -119,14 +119,14 @@
   text-color: #E9ECEF;
   line-color: #E9ECEF;
 }
+#ve1106 .TwoColorRamp1 {
+  fill-gradient-start-color: #71EBBF;
+  fill-gradient-end-color: #DD5757;
+}
 #ve3599 .GraphDataStyleDefault {
   marker-color: #FF8224;
   text-color: #FF8224;
   line-color: #FF8224;
-}
-#ve1106 .TwoColorRamp1 {
-  fill-gradient-start-color: #71EBBF;
-  fill-gradient-end-color: #DD5757;
 }
 #ve1089 .GraphDataStyleDefault {
   fill-color: #FF8224;
@@ -134,14 +134,14 @@
 #ve558 .GraphSkin {
   data-skin: CRISP;
 }
-#ve3853 .GraphSkin {
-  data-skin: MATTE;
-}
 #ve1089 .GraphDataStyle1 {
   fill-color: #FF8224;
 }
 #ve4691 .GraphSkin {
   data-skin: CRISP;
+}
+#ve3853 .GraphSkin {
+  data-skin: MATTE;
 }
 #ve3599 .GraphDataStyle2 {
   marker-color: #CC6F2A;
@@ -213,13 +213,13 @@
 #ve2929 .GraphSkin {
   data-skin: MATTE;
 }
+.ReportElementContainer {
+  padding: 8px;
+}
 #ve2251 .GraphDataStyle1 {
   marker-color: #2F495B;
   text-color: #2F495B;
   line-color: #2F495B;
-}
-.ReportElementContainer {
-  padding: 8px;
 }
 #ve2251 .GraphDataStyle2 {
   marker-color: #FF8224;

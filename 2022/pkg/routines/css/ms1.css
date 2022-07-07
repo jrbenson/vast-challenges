@@ -65,11 +65,11 @@
 #ve2381 .GraphDataStyle1 {
   fill-color: #33A3FF;
 }
-#ve2381 .GraphSkin {
-  data-skin: CRISP;
-}
 #ve2678 .GraphDataStyle1 {
   fill-color: #2C8AD6;
+}
+#ve2381 .GraphSkin {
+  data-skin: CRISP;
 }
 #ve4718 .GraphSkin {
   data-skin: CRISP;
@@ -124,11 +124,11 @@
 #ve4622 .GraphDataStyleDefault {
   fill-color: #287FC7;
 }
-#ve2678 .GraphSkin {
-  data-skin: CRISP;
-}
 #ve2719 .GraphDataStyle1 {
   fill-color: #2C8AD6;
+}
+#ve2678 .GraphSkin {
+  data-skin: CRISP;
 }
 #ve4816 .GraphSkin {
   data-skin: CRISP;
@@ -143,17 +143,20 @@
 #ve2393 .styleForTitle_paragraph1 {
   text-align: center;
 }
-#ve2678 .GraphDataStyleDefault {
-  fill-color: #2C8AD6;
-}
 #ve4739 .GraphDataStyleDefault {
   fill-color: #33A3FF;
+}
+#ve2678 .GraphDataStyleDefault {
+  fill-color: #2C8AD6;
 }
 #ve4739 .GraphDataStyle1 {
   fill-color: #33A3FF;
 }
 #ve4816 .GraphDataStyleDefault {
   fill-color: #2C8AD6;
+}
+.ReportElementContainer {
+  padding: 8px;
 }
 #ve3570 .ReportElementContainer {
   padding: 8px;
@@ -210,9 +213,6 @@
 }
 #ve4739 .GraphSkin {
   data-skin: CRISP;
-}
-#ve3807 .styleForTitle_paragraph3 {
-  text-align: center;
 }
 #ve2604 .tableColumnbi2632 {
   fill-color: #FFFFFF;
@@ -329,9 +329,6 @@
 #ve4851 .GraphDataStyleDefault {
   fill-color: #2C8AD6;
 }
-#ve4873 .styleForTitle_paragraph3 {
-  text-align: center;
-}
 #ve3797 .GraphDataStyleDefault {
   marker-color: #FF8224;
   text-color: #FF8224;
@@ -375,15 +372,15 @@
 #ve2696 .GraphDataStyleDefault {
   fill-color: #2C8AD6;
 }
-#ve2366 .GraphSkin {
-  data-skin: CRISP;
-}
 #ve2961 .TwoColorRamp1 {
   fill-gradient-start-color: #FF8224;
 }
 #ve2961 .GraphDataStyle3 {
   marker-symbol: squarefilled;
   fill-color: #7358C7;
+}
+#ve2366 .GraphSkin {
+  data-skin: CRISP;
 }
 #ve2961 .GraphDataStyle4 {
   marker-symbol: trianglefilled;
