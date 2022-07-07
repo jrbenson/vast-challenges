@@ -1,7 +1,309 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SASReport xmlns="http://www.sas.com/sasreportmodel/bird-4.20.0" label="Challenge1 Q2 (Don)" implicitInteractions="reportPrompt sectionPrompt" createdLocale="en" createdVersion="4.19.0" dateCreated="2022-04-27T19:43:18Z" dateModified="2022-07-01T11:43:50Z" createdApplication="SAS Visual Analytics 2020" lastModifiedApplication="SAS Visual Analytics 2020" nextUniqueNameIndex="76268">
+<SASReport xmlns="http://www.sas.com/sasreportmodel/bird-4.20.0" label="Challenge1 Q2 (Don)" implicitInteractions="reportPrompt sectionPrompt" createdLocale="en" createdVersion="4.19.0" dateCreated="2022-04-27T19:43:18Z" dateModified="2022-07-07T00:57:10Z" createdApplication="SAS Visual Analytics 2020" lastModifiedApplication="SAS Visual Analytics 2020" nextUniqueNameIndex="76298">
 	<Results>
-		<Result ref="dd75939" type="relational" status="success" dataLevel="baseline" label="Network Analysis Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-06-26T14:23:37.553Z">
+		<Result ref="dd75987" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-07-03T18:52:45.929Z">
+			<Variables>
+				<StringVariable label="End Travel Location Type" ref="bi75994" varname="bi75994" column="c0"/>
+				<StringVariable label="Travel Segment" ref="bi75989" varname="bi75989" column="c1"/>
+				<NumericVariable format="COMMA12." usage="quantitative" definedAggregation="sum" label="Location Time (mins)" ref="bi75990" varname="bi75990" column="c2"/>
+				<NumericVariable format="COMMA12." usage="quantitative" definedAggregation="average" label="Average Location Time (mins)" ref="bi75991" varname="bi75991" column="c3"/>
+				<NumericVariable format="COMMA12." usage="quantitative" definedAggregation="sum" label="Travel Time (minutes)" ref="bi75992" varname="bi75992" column="c4"/>
+				<NumericVariable format="COMMA12." usage="quantitative" definedAggregation="average" label="Average Travel Time (minutes)" ref="bi75993" varname="bi75993" column="c5"/>
+				<NumericVariable format="COMMA12.2" usage="brush" definedAggregation="totalCount" varname="ri1" column="c6"/>
+			</Variables>
+			<Columns>
+				<StringColumn maxLength="2" colname="c0" encoding="text"/>
+				<StringColumn maxLength="2" colname="c1" encoding="text"/>
+				<NumericColumn dataType="double" colname="c2" encoding="text"/>
+				<NumericColumn dataType="double" colname="c3" encoding="text"/>
+				<NumericColumn dataType="double" colname="c4" encoding="text"/>
+				<NumericColumn dataType="double" colname="c5" encoding="text"/>
+				<NumericColumn dataType="double" colname="c6" encoding="text"/>
+			</Columns>
+			<DefinedSortItems>
+				<DefinedSortItem variable="bi75991" sortDirection="descending"/>
+			</DefinedSortItems>
+			<Data isIndexed="true" availableRowCount="10" contentKey="RUXHFKXEQPW2QZWSFGJMV2EHWLPG7XCK" size="693" format="CSV" rowCount="10" grandTotal="false" dataLayout="minimal"><![CDATA[0,11,5.522804E7,705.8167086278069,971145.0,12.411274553657009,78247.0
+0,5,1.4398755E8,550.1987000431791,9653485.0,36.887459352467125,261701.0
+4,1,9.2601555E7,353.1404758545208,9648375.0,36.794541287377534,262223.0
+0,8,2.988457E7,211.4045500205147,4577185.0,32.379175450262444,141362.0
+4,12,3.3639325E7,162.5834320098596,1681105.0,8.125009062129964,206905.0
+7,2,1.136559E7,79.67409972590448,4792165.0,33.593630608968745,142651.0
+10,6,4138100.0,20.0,1897060.0,9.168748942751504,206905.0
+10,3,1509545.0,19.516781734026324,1007920.0,13.031313836526776,77346.0
+7,13,327950.0,19.45367184719421,190320.0,11.289595444299442,16858.0
+10,9,347055.0,19.362586476232984,210550.0,11.746819906270922,17924.0
+]]></Data>
+			<StringTable contentKey="HVR47HDLP7WGKY3VXRV2MUKFLJNODWIZ" size="270" format="CSV" rowCount="14"><![CDATA["Apartment"
+"Apartment to Employer"
+"Apartment to Pub"
+"Apartment to Restaurant"
+"Employer"
+"Employer to Apartment"
+"Employer to Restaurant"
+"Pub"
+"Pub to Apartment"
+"Pub to Restaurant"
+"Restaurant"
+"Restaurant to Apartment"
+"Restaurant to Employer"
+"Restaurant to Pub"
+]]></StringTable>
+		</Result>
+		<Result ref="dd75967" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-07-03T18:52:45.929Z">
+			<Variables>
+				<StringVariable label="End Travel Location Type" ref="bi75983" varname="bi75983" column="c0"/>
+				<StringVariable label="Travel Segment" ref="bi75968" varname="bi75968" column="c1"/>
+				<NumericVariable format="COMMA12." usage="quantitative" definedAggregation="sum" label="Location Time (mins)" ref="bi75969" varname="bi75969" column="c2"/>
+				<NumericVariable format="COMMA12." usage="quantitative" definedAggregation="average" label="Average Location Time (mins)" ref="bi75970" varname="bi75970" column="c3"/>
+				<NumericVariable format="COMMA12." usage="quantitative" definedAggregation="sum" label="Travel Time (minutes)" ref="bi75971" varname="bi75971" column="c4"/>
+				<NumericVariable format="COMMA12." usage="quantitative" definedAggregation="average" label="Average Travel Time (minutes)" ref="bi75972" varname="bi75972" column="c5"/>
+				<NumericVariable format="COMMA12.2" usage="brush" definedAggregation="totalCount" varname="ri1" column="c6"/>
+			</Variables>
+			<Columns>
+				<StringColumn maxLength="2" colname="c0" encoding="text"/>
+				<StringColumn maxLength="2" colname="c1" encoding="text"/>
+				<NumericColumn dataType="double" colname="c2" encoding="text"/>
+				<NumericColumn dataType="double" colname="c3" encoding="text"/>
+				<NumericColumn dataType="double" colname="c4" encoding="text"/>
+				<NumericColumn dataType="double" colname="c5" encoding="text"/>
+				<NumericColumn dataType="double" colname="c6" encoding="text"/>
+			</Columns>
+			<DefinedSortItems>
+				<DefinedSortItem variable="bi75970" sortDirection="descending"/>
+			</DefinedSortItems>
+			<Data isIndexed="true" availableRowCount="10" contentKey="QI7HRC5UAPEFBLY4HXLQ7XBQ2MTNUCCP" size="675" format="CSV" rowCount="10" grandTotal="false" dataLayout="minimal"><![CDATA[0,11,7.7659495E7,740.8772574197918,1315135.0,12.546484006067486,104821.0
+0,5,6747890.0,515.933175319214,504265.0,38.55531768483829,13079.0
+4,1,4558095.0,348.504855111247,501165.0,38.31829650584907,13079.0
+4,12,1736390.0,176.01520527116068,83050.0,8.418651799290421,9865.0
+0,8,2.415724E7,156.81937096303028,4934465.0,32.03262033821286,154045.0
+7,2,1.3334435E7,86.43625744640855,5114590.0,33.15371202250614,154269.0
+10,6,197300.0,20.0,91865.0,9.312214901165737,9865.0
+10,9,320415.0,19.764063656550704,199910.0,12.330989390574883,16212.0
+7,13,311950.0,19.731182795698924,188290.0,11.90955091714105,15810.0
+10,3,2052270.0,19.644022857580428,1405440.0,13.452662410383544,104473.0
+]]></Data>
+			<StringTable contentKey="HVR47HDLP7WGKY3VXRV2MUKFLJNODWIZ" size="270" format="CSV" rowCount="14"><![CDATA["Apartment"
+"Apartment to Employer"
+"Apartment to Pub"
+"Apartment to Restaurant"
+"Employer"
+"Employer to Apartment"
+"Employer to Restaurant"
+"Pub"
+"Pub to Apartment"
+"Pub to Restaurant"
+"Restaurant"
+"Restaurant to Apartment"
+"Restaurant to Employer"
+"Restaurant to Pub"
+]]></StringTable>
+		</Result>
+		<Result ref="dd75870" type="relational" status="success" dataLevel="baseline" label="Network Analysis Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-07-03T18:52:45.929Z">
+			<Variables>
+				<StringVariable label="Network Analysis Summary" ref="bi75866" varname="bi75866" column="c0"/>
+			</Variables>
+			<Columns>
+				<StringColumn maxLength="110" colname="c0" encoding="text"/>
+			</Columns>
+			<Data isIndexed="false" availableRowCount="1" contentKey="DK35RZ6EJ25SBIGAK6VYF7UQPHSJUKLE" size="111" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA["The network analysis object displays the relationships between data item values as a series of linked nodes."
+]]></Data>
+		</Result>
+		<Result ref="dd75863" type="relational" status="success" dataLevel="baseline" label="Ungrouped - End Travel Location Type" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-07-03T18:52:45.929Z">
+			<Variables>
+				<StringVariable label="Item Type" ref="bi75851" varname="bi75851" column="c0"/>
+				<StringVariable label="Item Type" ref="bi75862" varname="bi75862" column="c1"/>
+				<StringVariable label="ID" ref="bi75852" varname="bi75852" column="c2"/>
+				<StringVariable label="ID" ref="bi75853" varname="bi75853" column="c3"/>
+				<StringVariable label="End Travel Location Type" ref="bi75854" varname="bi75854" column="c4"/>
+				<StringVariable label="Persistence Node ID" ref="bi75855" varname="bi75855" column="c5"/>
+				<StringVariable label="Source" ref="bi75856" varname="bi75856" column="c6"/>
+				<StringVariable label="Target" ref="bi75857" varname="bi75857" column="c7"/>
+				<StringVariable label="Direction" ref="bi75860" varname="bi75860" column="c8"/>
+				<NumericVariable format="BEST." usage="quantitative" label="X" ref="bi75858" varname="bi75858" column="c9"/>
+				<NumericVariable format="BEST." usage="quantitative" label="Y" ref="bi75859" varname="bi75859" column="c10"/>
+				<NumericVariable format="COMMA12." usage="quantitative" label="Location Time (mins)" ref="bi75883" varname="bi75883" column="c11"/>
+				<StringVariable label="Location Type" ref="bi75844" varname="bi75844" column="c12"/>
+				<NumericVariable format="COMMA12." usage="quantitative" label="Travel Time (minutes)" ref="bi75953" varname="bi75953" column="c13"/>
+				<StringVariable label="Start Travel Location Type" ref="bi75847" varname="bi75847" column="c14"/>
+				<StringVariable label="End Travel Location Type" ref="bi75848" varname="bi75848" column="c15"/>
+				<StringVariable label="Location Type" ref="bi75850" varname="bi75850" column="c16"/>
+				<NumericVariable format="COMMA12." usage="quantitative" label="Location Time (mins)" ref="bi75884" varname="bi75884" column="c17"/>
+			</Variables>
+			<Columns>
+				<StringColumn maxLength="2" colname="c0" encoding="text"/>
+				<StringColumn maxLength="2" colname="c1" encoding="text"/>
+				<StringColumn maxLength="2" colname="c2" encoding="text"/>
+				<StringColumn maxLength="2" colname="c3" encoding="text"/>
+				<StringColumn maxLength="2" colname="c4" encoding="text"/>
+				<StringColumn maxLength="2" colname="c5" encoding="text"/>
+				<StringColumn maxLength="2" colname="c6" encoding="text"/>
+				<StringColumn maxLength="2" colname="c7" encoding="text"/>
+				<StringColumn maxLength="1" colname="c8" encoding="text"/>
+				<NumericColumn dataType="double" colname="c9" encoding="text"/>
+				<NumericColumn dataType="double" colname="c10" encoding="text"/>
+				<NumericColumn dataType="double" colname="c11" encoding="text"/>
+				<StringColumn maxLength="2" colname="c12" encoding="text"/>
+				<NumericColumn dataType="double" colname="c13" encoding="text"/>
+				<StringColumn maxLength="1" colname="c14" encoding="text"/>
+				<StringColumn maxLength="2" colname="c15" encoding="text"/>
+				<StringColumn maxLength="2" colname="c16" encoding="text"/>
+				<NumericColumn dataType="double" colname="c17" encoding="text"/>
+			</Columns>
+			<Data isIndexed="true" availableRowCount="14" contentKey="6M566K3FV2IC4UXGUU6WGMGKYNBXEN26" size="927" format="CSV" rowCount="14" grandTotal="false" dataLayout="minimal"><![CDATA[19,18,5,1,1,1,-1,-1,-1,143.92117007579716,219.67274342229808,2.2910016E8,1,.,0,1,1,2.2910016E8
+19,18,13,10,10,10,-1,-1,-1,270.8361230455593,160.6127437588552,1.2624088E8,10,.,0,10,10,1.2624088E8
+19,18,23,20,20,20,-1,-1,-1,29.16387695444071,139.506601697825,1.169354E7,20,.,0,20,20,1.169354E7
+19,18,30,26,26,26,-1,-1,-1,156.08940795244203,80.3272565777019,5994700.0,26,.,0,26,26,5994700.0
+17,16,6,2,2,2,5,13,9,.,.,.,-1,9653485.0,-1,-1,-1,.
+17,16,7,3,3,3,5,23,9,.,.,.,-1,4577185.0,-1,-1,-1,.
+17,16,8,4,4,4,5,30,9,.,.,.,-1,971145.0,-1,-1,-1,.
+17,16,14,11,11,11,13,5,9,.,.,.,-1,9648375.0,-1,-1,-1,.
+17,16,15,12,12,12,13,30,9,.,.,.,-1,1681105.0,-1,-1,-1,.
+17,16,24,21,21,21,23,5,9,.,.,.,-1,4792165.0,-1,-1,-1,.
+17,16,25,22,22,22,23,30,9,.,.,.,-1,190320.0,-1,-1,-1,.
+17,16,31,27,27,27,30,5,9,.,.,.,-1,1007920.0,-1,-1,-1,.
+17,16,32,28,28,28,30,13,9,.,.,.,-1,1897060.0,-1,-1,-1,.
+17,16,33,29,29,29,30,23,9,.,.,.,-1,210550.0,-1,-1,-1,.
+]]></Data>
+			<StringTable contentKey="36NTFBEM7OJRTFUDIY2EZ65UK554AXBU" size="1159" format="CSV" rowCount="34"><![CDATA["(multiple values)"
+"Apartment"
+"Apartment_Employer"
+"Apartment_Pub"
+"Apartment_Restaurant"
+"Apartment(End Travel Location Type)"
+"Apartment(End Travel Location Type)_Employer(End Travel Location Type)"
+"Apartment(End Travel Location Type)_Pub(End Travel Location Type)"
+"Apartment(End Travel Location Type)_Restaurant(End Travel Location Type)"
+"BOTH"
+"Employer"
+"Employer_Apartment"
+"Employer_Restaurant"
+"Employer(End Travel Location Type)"
+"Employer(End Travel Location Type)_Apartment(End Travel Location Type)"
+"Employer(End Travel Location Type)_Restaurant(End Travel Location Type)"
+"Link"
+"LINK"
+"Node"
+"NODE"
+"Pub"
+"Pub_Apartment"
+"Pub_Restaurant"
+"Pub(End Travel Location Type)"
+"Pub(End Travel Location Type)_Apartment(End Travel Location Type)"
+"Pub(End Travel Location Type)_Restaurant(End Travel Location Type)"
+"Restaurant"
+"Restaurant_Apartment"
+"Restaurant_Employer"
+"Restaurant_Pub"
+"Restaurant(End Travel Location Type)"
+"Restaurant(End Travel Location Type)_Apartment(End Travel Location Type)"
+"Restaurant(End Travel Location Type)_Employer(End Travel Location Type)"
+"Restaurant(End Travel Location Type)_Pub(End Travel Location Type)"
+]]></StringTable>
+		</Result>
+		<Result ref="dd75819" type="relational" status="success" dataLevel="baseline" label="Network Analysis Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-07-03T18:52:45.929Z">
+			<Variables>
+				<StringVariable label="Network Analysis Summary" ref="bi75815" varname="bi75815" column="c0"/>
+			</Variables>
+			<Columns>
+				<StringColumn maxLength="110" colname="c0" encoding="text"/>
+			</Columns>
+			<Data isIndexed="false" availableRowCount="1" contentKey="DK35RZ6EJ25SBIGAK6VYF7UQPHSJUKLE" size="111" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA["The network analysis object displays the relationships between data item values as a series of linked nodes."
+]]></Data>
+		</Result>
+		<Result ref="dd75812" type="relational" status="success" dataLevel="baseline" label="Ungrouped - End Travel Location Type" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-07-03T18:52:45.929Z">
+			<Variables>
+				<StringVariable label="Item Type" ref="bi75800" varname="bi75800" column="c0"/>
+				<StringVariable label="Item Type" ref="bi75811" varname="bi75811" column="c1"/>
+				<StringVariable label="ID" ref="bi75801" varname="bi75801" column="c2"/>
+				<StringVariable label="ID" ref="bi75802" varname="bi75802" column="c3"/>
+				<StringVariable label="End Travel Location Type" ref="bi75803" varname="bi75803" column="c4"/>
+				<StringVariable label="Persistence Node ID" ref="bi75804" varname="bi75804" column="c5"/>
+				<StringVariable label="Source" ref="bi75805" varname="bi75805" column="c6"/>
+				<StringVariable label="Target" ref="bi75806" varname="bi75806" column="c7"/>
+				<StringVariable label="Direction" ref="bi75809" varname="bi75809" column="c8"/>
+				<NumericVariable format="BEST." usage="quantitative" label="X" ref="bi75807" varname="bi75807" column="c9"/>
+				<NumericVariable format="BEST." usage="quantitative" label="Y" ref="bi75808" varname="bi75808" column="c10"/>
+				<NumericVariable format="COMMA12." usage="quantitative" label="Location Time (mins)" ref="bi75832" varname="bi75832" column="c11"/>
+				<StringVariable label="Location Type" ref="bi75793" varname="bi75793" column="c12"/>
+				<NumericVariable format="COMMA12." usage="quantitative" label="Travel Time (minutes)" ref="bi75951" varname="bi75951" column="c13"/>
+				<StringVariable label="Start Travel Location Type" ref="bi75796" varname="bi75796" column="c14"/>
+				<StringVariable label="End Travel Location Type" ref="bi75797" varname="bi75797" column="c15"/>
+				<StringVariable label="Location Type" ref="bi75799" varname="bi75799" column="c16"/>
+				<NumericVariable format="COMMA12." usage="quantitative" label="Location Time (mins)" ref="bi75833" varname="bi75833" column="c17"/>
+			</Variables>
+			<Columns>
+				<StringColumn maxLength="2" colname="c0" encoding="text"/>
+				<StringColumn maxLength="2" colname="c1" encoding="text"/>
+				<StringColumn maxLength="2" colname="c2" encoding="text"/>
+				<StringColumn maxLength="2" colname="c3" encoding="text"/>
+				<StringColumn maxLength="2" colname="c4" encoding="text"/>
+				<StringColumn maxLength="2" colname="c5" encoding="text"/>
+				<StringColumn maxLength="2" colname="c6" encoding="text"/>
+				<StringColumn maxLength="2" colname="c7" encoding="text"/>
+				<StringColumn maxLength="1" colname="c8" encoding="text"/>
+				<NumericColumn dataType="double" colname="c9" encoding="text"/>
+				<NumericColumn dataType="double" colname="c10" encoding="text"/>
+				<NumericColumn dataType="double" colname="c11" encoding="text"/>
+				<StringColumn maxLength="2" colname="c12" encoding="text"/>
+				<NumericColumn dataType="double" colname="c13" encoding="text"/>
+				<StringColumn maxLength="1" colname="c14" encoding="text"/>
+				<StringColumn maxLength="2" colname="c15" encoding="text"/>
+				<StringColumn maxLength="2" colname="c16" encoding="text"/>
+				<NumericColumn dataType="double" colname="c17" encoding="text"/>
+			</Columns>
+			<Data isIndexed="true" availableRowCount="14" contentKey="7WGQP377QWIWWR2QI7HEMXMVAWH7N764" size="922" format="CSV" rowCount="14" grandTotal="false" dataLayout="minimal"><![CDATA[19,18,5,1,1,1,-1,-1,-1,143.92117007579716,219.67274342229808,1.08564625E8,1,.,0,1,1,1.08564625E8
+19,18,13,10,10,10,-1,-1,-1,270.8361230455593,160.6127437588552,6294485.0,10,.,0,10,10,6294485.0
+19,18,23,20,20,20,-1,-1,-1,29.16387695444071,139.506601697825,1.3646385E7,20,.,0,20,20,1.3646385E7
+19,18,30,26,26,26,-1,-1,-1,156.08940795244203,80.3272565777019,2569985.0,26,.,0,26,26,2569985.0
+17,16,6,2,2,2,5,13,9,.,.,.,-1,504265.0,-1,-1,-1,.
+17,16,7,3,3,3,5,23,9,.,.,.,-1,4934465.0,-1,-1,-1,.
+17,16,8,4,4,4,5,30,9,.,.,.,-1,1315135.0,-1,-1,-1,.
+17,16,14,11,11,11,13,5,9,.,.,.,-1,501165.0,-1,-1,-1,.
+17,16,15,12,12,12,13,30,9,.,.,.,-1,83050.0,-1,-1,-1,.
+17,16,24,21,21,21,23,5,9,.,.,.,-1,5114590.0,-1,-1,-1,.
+17,16,25,22,22,22,23,30,9,.,.,.,-1,188290.0,-1,-1,-1,.
+17,16,31,27,27,27,30,5,9,.,.,.,-1,1405440.0,-1,-1,-1,.
+17,16,32,28,28,28,30,13,9,.,.,.,-1,91865.0,-1,-1,-1,.
+17,16,33,29,29,29,30,23,9,.,.,.,-1,199910.0,-1,-1,-1,.
+]]></Data>
+			<StringTable contentKey="36NTFBEM7OJRTFUDIY2EZ65UK554AXBU" size="1159" format="CSV" rowCount="34"><![CDATA["(multiple values)"
+"Apartment"
+"Apartment_Employer"
+"Apartment_Pub"
+"Apartment_Restaurant"
+"Apartment(End Travel Location Type)"
+"Apartment(End Travel Location Type)_Employer(End Travel Location Type)"
+"Apartment(End Travel Location Type)_Pub(End Travel Location Type)"
+"Apartment(End Travel Location Type)_Restaurant(End Travel Location Type)"
+"BOTH"
+"Employer"
+"Employer_Apartment"
+"Employer_Restaurant"
+"Employer(End Travel Location Type)"
+"Employer(End Travel Location Type)_Apartment(End Travel Location Type)"
+"Employer(End Travel Location Type)_Restaurant(End Travel Location Type)"
+"Link"
+"LINK"
+"Node"
+"NODE"
+"Pub"
+"Pub_Apartment"
+"Pub_Restaurant"
+"Pub(End Travel Location Type)"
+"Pub(End Travel Location Type)_Apartment(End Travel Location Type)"
+"Pub(End Travel Location Type)_Restaurant(End Travel Location Type)"
+"Restaurant"
+"Restaurant_Apartment"
+"Restaurant_Employer"
+"Restaurant_Pub"
+"Restaurant(End Travel Location Type)"
+"Restaurant(End Travel Location Type)_Apartment(End Travel Location Type)"
+"Restaurant(End Travel Location Type)_Employer(End Travel Location Type)"
+"Restaurant(End Travel Location Type)_Pub(End Travel Location Type)"
+]]></StringTable>
+		</Result>
+		<Result ref="dd75939" type="relational" status="success" dataLevel="baseline" label="Network Analysis Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-07-03T18:52:45.929Z">
 			<Variables>
 				<StringVariable label="Network Analysis Summary" ref="bi75936" varname="bi75936" column="c0"/>
 			</Variables>
@@ -11,7 +313,7 @@
 			<Data isIndexed="false" availableRowCount="1" contentKey="DK35RZ6EJ25SBIGAK6VYF7UQPHSJUKLE" size="111" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA["The network analysis object displays the relationships between data item values as a series of linked nodes."
 ]]></Data>
 		</Result>
-		<Result ref="dd75934" type="relational" status="success" dataLevel="baseline" label="Ungrouped - End Travel Location Type" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-06-26T14:23:37.553Z">
+		<Result ref="dd75934" type="relational" status="success" dataLevel="baseline" label="Ungrouped - End Travel Location Type" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-07-03T18:52:45.929Z">
 			<Variables>
 				<StringVariable label="Item Type" ref="bi75922" varname="bi75922" column="c0"/>
 				<StringVariable label="Item Type" ref="bi75933" varname="bi75933" column="c1"/>
@@ -105,7 +407,7 @@
 "TO"
 ]]></StringTable>
 		</Result>
-		<Result ref="dd75643" type="relational" status="success" dataLevel="baseline" label="Network Analysis Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-06-26T14:23:37.553Z">
+		<Result ref="dd75643" type="relational" status="success" dataLevel="baseline" label="Network Analysis Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-07-03T18:52:45.929Z">
 			<Variables>
 				<StringVariable label="Network Analysis Summary" ref="bi75640" varname="bi75640" column="c0"/>
 			</Variables>
@@ -115,7 +417,7 @@
 			<Data isIndexed="false" availableRowCount="1" contentKey="DK35RZ6EJ25SBIGAK6VYF7UQPHSJUKLE" size="111" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA["The network analysis object displays the relationships between data item values as a series of linked nodes."
 ]]></Data>
 		</Result>
-		<Result ref="dd75638" type="relational" status="success" dataLevel="baseline" label="Ungrouped - End Travel Location Type" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-06-26T14:23:37.553Z">
+		<Result ref="dd75638" type="relational" status="success" dataLevel="baseline" label="Ungrouped - End Travel Location Type" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-07-03T18:52:45.929Z">
 			<Variables>
 				<StringVariable label="Item Type" ref="bi75626" varname="bi75626" column="c0"/>
 				<StringVariable label="Item Type" ref="bi75637" varname="bi75637" column="c1"/>
@@ -217,336 +519,6 @@
 "School(End Travel Location Type)_Restaurant(End Travel Location Type)"
 "TO"
 ]]></StringTable>
-		</Result>
-		<Result ref="dd75293" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-06-26T14:23:37.553Z">
-			<Variables>
-				<NumericVariable format="WEEKV5" usage="quantitative" definedAggregation="min" label="Date (week)" ref="bi75444" varname="bi75444" column="c0"/>
-				<NumericVariable format="WEEKV5" usage="quantitative" definedAggregation="max" label="Date (week)" ref="bi75445" varname="bi75445" column="c1"/>
-			</Variables>
-			<Columns>
-				<NumericColumn dataType="double" colname="c0" encoding="text"/>
-				<NumericColumn dataType="double" colname="c1" encoding="text"/>
-			</Columns>
-			<Data isIndexed="false" availableRowCount="1" contentKey="7SYAP74Q2LIJ6JMQPMD2C7ZS4NW6QVFQ" size="16" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA[22704.0,23152.0
-]]></Data>
-		</Result>
-		<Result ref="dd75819" type="relational" status="warning" dataLevel="baseline" label="Network Analysis Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-06-26T14:23:37.553Z">
-			<Messages>
-				<Message messageKey="limitedInteractivity" messageLevel="warning">
-					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Query limit exceeded)</MessageText>
-					<Parameters>
-						<Parameter key="offlineNeedsAdvancedProcessingReason">This object type requires an advanced query.</Parameter>
-						<Parameter key="queryError">The data to support actions could not be retrieved. Query limit exceeded: 101025 queries required. Query limit = 20000.</Parameter>
-					</Parameters>
-				</Message>
-			</Messages>
-			<Variables>
-				<StringVariable label="Network Analysis Summary" ref="bi75815" varname="bi75815" column="c0"/>
-			</Variables>
-			<Columns>
-				<StringColumn maxLength="110" colname="c0" encoding="text"/>
-			</Columns>
-			<Data isIndexed="false" availableRowCount="1" contentKey="DK35RZ6EJ25SBIGAK6VYF7UQPHSJUKLE" size="111" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA["The network analysis object displays the relationships between data item values as a series of linked nodes."
-]]></Data>
-		</Result>
-		<Result ref="dd75812" type="relational" status="warning" dataLevel="baseline" label="Ungrouped - End Travel Location Type" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-06-26T14:23:37.553Z">
-			<Messages>
-				<Message messageKey="limitedInteractivity" messageLevel="warning">
-					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Query limit exceeded)</MessageText>
-					<Parameters>
-						<Parameter key="offlineNeedsAdvancedProcessingReason">This object type requires an advanced query.</Parameter>
-						<Parameter key="queryError">The data to support actions could not be retrieved. Query limit exceeded: 101025 queries required. Query limit = 20000.</Parameter>
-					</Parameters>
-				</Message>
-			</Messages>
-			<Variables>
-				<StringVariable label="Item Type" ref="bi75800" varname="bi75800" column="c0"/>
-				<StringVariable label="Item Type" ref="bi75811" varname="bi75811" column="c1"/>
-				<StringVariable label="ID" ref="bi75801" varname="bi75801" column="c2"/>
-				<StringVariable label="ID" ref="bi75802" varname="bi75802" column="c3"/>
-				<StringVariable label="End Travel Location Type" ref="bi75803" varname="bi75803" column="c4"/>
-				<StringVariable label="Persistence Node ID" ref="bi75804" varname="bi75804" column="c5"/>
-				<StringVariable label="Source" ref="bi75805" varname="bi75805" column="c6"/>
-				<StringVariable label="Target" ref="bi75806" varname="bi75806" column="c7"/>
-				<StringVariable label="Direction" ref="bi75809" varname="bi75809" column="c8"/>
-				<NumericVariable format="BEST." usage="quantitative" label="X" ref="bi75807" varname="bi75807" column="c9"/>
-				<NumericVariable format="BEST." usage="quantitative" label="Y" ref="bi75808" varname="bi75808" column="c10"/>
-				<NumericVariable format="COMMA12." usage="quantitative" label="Location Time (mins)" ref="bi75832" varname="bi75832" column="c11"/>
-				<StringVariable label="Location Type" ref="bi75793" varname="bi75793" column="c12"/>
-				<NumericVariable format="COMMA12." usage="quantitative" label="Travel Time (minutes)" ref="bi75951" varname="bi75951" column="c13"/>
-				<StringVariable label="Start Travel Location Type" ref="bi75796" varname="bi75796" column="c14"/>
-				<StringVariable label="End Travel Location Type" ref="bi75797" varname="bi75797" column="c15"/>
-				<StringVariable label="Location Type" ref="bi75799" varname="bi75799" column="c16"/>
-				<NumericVariable format="COMMA12." usage="quantitative" label="Location Time (mins)" ref="bi75833" varname="bi75833" column="c17"/>
-			</Variables>
-			<Columns>
-				<StringColumn maxLength="2" colname="c0" encoding="text"/>
-				<StringColumn maxLength="2" colname="c1" encoding="text"/>
-				<StringColumn maxLength="2" colname="c2" encoding="text"/>
-				<StringColumn maxLength="2" colname="c3" encoding="text"/>
-				<StringColumn maxLength="2" colname="c4" encoding="text"/>
-				<StringColumn maxLength="2" colname="c5" encoding="text"/>
-				<StringColumn maxLength="2" colname="c6" encoding="text"/>
-				<StringColumn maxLength="2" colname="c7" encoding="text"/>
-				<StringColumn maxLength="1" colname="c8" encoding="text"/>
-				<NumericColumn dataType="double" colname="c9" encoding="text"/>
-				<NumericColumn dataType="double" colname="c10" encoding="text"/>
-				<NumericColumn dataType="double" colname="c11" encoding="text"/>
-				<StringColumn maxLength="2" colname="c12" encoding="text"/>
-				<NumericColumn dataType="double" colname="c13" encoding="text"/>
-				<StringColumn maxLength="1" colname="c14" encoding="text"/>
-				<StringColumn maxLength="2" colname="c15" encoding="text"/>
-				<StringColumn maxLength="2" colname="c16" encoding="text"/>
-				<NumericColumn dataType="double" colname="c17" encoding="text"/>
-			</Columns>
-			<Data isIndexed="true" availableRowCount="14" contentKey="7WGQP377QWIWWR2QI7HEMXMVAWH7N764" size="922" format="CSV" rowCount="14" grandTotal="false" dataLayout="minimal"><![CDATA[19,18,5,1,1,1,-1,-1,-1,143.92117007579716,219.67274342229808,1.08564625E8,1,.,0,1,1,1.08564625E8
-19,18,13,10,10,10,-1,-1,-1,270.8361230455593,160.6127437588552,6294485.0,10,.,0,10,10,6294485.0
-19,18,23,20,20,20,-1,-1,-1,29.16387695444071,139.506601697825,1.3646385E7,20,.,0,20,20,1.3646385E7
-19,18,30,26,26,26,-1,-1,-1,156.08940795244203,80.3272565777019,2569985.0,26,.,0,26,26,2569985.0
-17,16,6,2,2,2,5,13,9,.,.,.,-1,504265.0,-1,-1,-1,.
-17,16,7,3,3,3,5,23,9,.,.,.,-1,4934465.0,-1,-1,-1,.
-17,16,8,4,4,4,5,30,9,.,.,.,-1,1315135.0,-1,-1,-1,.
-17,16,14,11,11,11,13,5,9,.,.,.,-1,501165.0,-1,-1,-1,.
-17,16,15,12,12,12,13,30,9,.,.,.,-1,83050.0,-1,-1,-1,.
-17,16,24,21,21,21,23,5,9,.,.,.,-1,5114590.0,-1,-1,-1,.
-17,16,25,22,22,22,23,30,9,.,.,.,-1,188290.0,-1,-1,-1,.
-17,16,31,27,27,27,30,5,9,.,.,.,-1,1405440.0,-1,-1,-1,.
-17,16,32,28,28,28,30,13,9,.,.,.,-1,91865.0,-1,-1,-1,.
-17,16,33,29,29,29,30,23,9,.,.,.,-1,199910.0,-1,-1,-1,.
-]]></Data>
-			<StringTable contentKey="36NTFBEM7OJRTFUDIY2EZ65UK554AXBU" size="1159" format="CSV" rowCount="34"><![CDATA["(multiple values)"
-"Apartment"
-"Apartment_Employer"
-"Apartment_Pub"
-"Apartment_Restaurant"
-"Apartment(End Travel Location Type)"
-"Apartment(End Travel Location Type)_Employer(End Travel Location Type)"
-"Apartment(End Travel Location Type)_Pub(End Travel Location Type)"
-"Apartment(End Travel Location Type)_Restaurant(End Travel Location Type)"
-"BOTH"
-"Employer"
-"Employer_Apartment"
-"Employer_Restaurant"
-"Employer(End Travel Location Type)"
-"Employer(End Travel Location Type)_Apartment(End Travel Location Type)"
-"Employer(End Travel Location Type)_Restaurant(End Travel Location Type)"
-"Link"
-"LINK"
-"Node"
-"NODE"
-"Pub"
-"Pub_Apartment"
-"Pub_Restaurant"
-"Pub(End Travel Location Type)"
-"Pub(End Travel Location Type)_Apartment(End Travel Location Type)"
-"Pub(End Travel Location Type)_Restaurant(End Travel Location Type)"
-"Restaurant"
-"Restaurant_Apartment"
-"Restaurant_Employer"
-"Restaurant_Pub"
-"Restaurant(End Travel Location Type)"
-"Restaurant(End Travel Location Type)_Apartment(End Travel Location Type)"
-"Restaurant(End Travel Location Type)_Employer(End Travel Location Type)"
-"Restaurant(End Travel Location Type)_Pub(End Travel Location Type)"
-]]></StringTable>
-		</Result>
-		<Result ref="dd75870" type="relational" status="warning" dataLevel="baseline" label="Network Analysis Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-06-26T14:23:37.553Z">
-			<Messages>
-				<Message messageKey="limitedInteractivity" messageLevel="warning">
-					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Query limit exceeded)</MessageText>
-					<Parameters>
-						<Parameter key="offlineNeedsAdvancedProcessingReason">This object type requires an advanced query.</Parameter>
-						<Parameter key="queryError">The data to support actions could not be retrieved. Query limit exceeded: 101025 queries required. Query limit = 20000.</Parameter>
-					</Parameters>
-				</Message>
-			</Messages>
-			<Variables>
-				<StringVariable label="Network Analysis Summary" ref="bi75866" varname="bi75866" column="c0"/>
-			</Variables>
-			<Columns>
-				<StringColumn maxLength="110" colname="c0" encoding="text"/>
-			</Columns>
-			<Data isIndexed="false" availableRowCount="1" contentKey="DK35RZ6EJ25SBIGAK6VYF7UQPHSJUKLE" size="111" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA["The network analysis object displays the relationships between data item values as a series of linked nodes."
-]]></Data>
-		</Result>
-		<Result ref="dd75863" type="relational" status="warning" dataLevel="baseline" label="Ungrouped - End Travel Location Type" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-06-26T14:23:37.553Z">
-			<Messages>
-				<Message messageKey="limitedInteractivity" messageLevel="warning">
-					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Query limit exceeded)</MessageText>
-					<Parameters>
-						<Parameter key="offlineNeedsAdvancedProcessingReason">This object type requires an advanced query.</Parameter>
-						<Parameter key="queryError">The data to support actions could not be retrieved. Query limit exceeded: 101025 queries required. Query limit = 20000.</Parameter>
-					</Parameters>
-				</Message>
-			</Messages>
-			<Variables>
-				<StringVariable label="Item Type" ref="bi75851" varname="bi75851" column="c0"/>
-				<StringVariable label="Item Type" ref="bi75862" varname="bi75862" column="c1"/>
-				<StringVariable label="ID" ref="bi75852" varname="bi75852" column="c2"/>
-				<StringVariable label="ID" ref="bi75853" varname="bi75853" column="c3"/>
-				<StringVariable label="End Travel Location Type" ref="bi75854" varname="bi75854" column="c4"/>
-				<StringVariable label="Persistence Node ID" ref="bi75855" varname="bi75855" column="c5"/>
-				<StringVariable label="Source" ref="bi75856" varname="bi75856" column="c6"/>
-				<StringVariable label="Target" ref="bi75857" varname="bi75857" column="c7"/>
-				<StringVariable label="Direction" ref="bi75860" varname="bi75860" column="c8"/>
-				<NumericVariable format="BEST." usage="quantitative" label="X" ref="bi75858" varname="bi75858" column="c9"/>
-				<NumericVariable format="BEST." usage="quantitative" label="Y" ref="bi75859" varname="bi75859" column="c10"/>
-				<NumericVariable format="COMMA12." usage="quantitative" label="Location Time (mins)" ref="bi75883" varname="bi75883" column="c11"/>
-				<StringVariable label="Location Type" ref="bi75844" varname="bi75844" column="c12"/>
-				<NumericVariable format="COMMA12." usage="quantitative" label="Travel Time (minutes)" ref="bi75953" varname="bi75953" column="c13"/>
-				<StringVariable label="Start Travel Location Type" ref="bi75847" varname="bi75847" column="c14"/>
-				<StringVariable label="End Travel Location Type" ref="bi75848" varname="bi75848" column="c15"/>
-				<StringVariable label="Location Type" ref="bi75850" varname="bi75850" column="c16"/>
-				<NumericVariable format="COMMA12." usage="quantitative" label="Location Time (mins)" ref="bi75884" varname="bi75884" column="c17"/>
-			</Variables>
-			<Columns>
-				<StringColumn maxLength="2" colname="c0" encoding="text"/>
-				<StringColumn maxLength="2" colname="c1" encoding="text"/>
-				<StringColumn maxLength="2" colname="c2" encoding="text"/>
-				<StringColumn maxLength="2" colname="c3" encoding="text"/>
-				<StringColumn maxLength="2" colname="c4" encoding="text"/>
-				<StringColumn maxLength="2" colname="c5" encoding="text"/>
-				<StringColumn maxLength="2" colname="c6" encoding="text"/>
-				<StringColumn maxLength="2" colname="c7" encoding="text"/>
-				<StringColumn maxLength="1" colname="c8" encoding="text"/>
-				<NumericColumn dataType="double" colname="c9" encoding="text"/>
-				<NumericColumn dataType="double" colname="c10" encoding="text"/>
-				<NumericColumn dataType="double" colname="c11" encoding="text"/>
-				<StringColumn maxLength="2" colname="c12" encoding="text"/>
-				<NumericColumn dataType="double" colname="c13" encoding="text"/>
-				<StringColumn maxLength="1" colname="c14" encoding="text"/>
-				<StringColumn maxLength="2" colname="c15" encoding="text"/>
-				<StringColumn maxLength="2" colname="c16" encoding="text"/>
-				<NumericColumn dataType="double" colname="c17" encoding="text"/>
-			</Columns>
-			<Data isIndexed="true" availableRowCount="14" contentKey="6M566K3FV2IC4UXGUU6WGMGKYNBXEN26" size="927" format="CSV" rowCount="14" grandTotal="false" dataLayout="minimal"><![CDATA[19,18,5,1,1,1,-1,-1,-1,143.92117007579716,219.67274342229808,2.2910016E8,1,.,0,1,1,2.2910016E8
-19,18,13,10,10,10,-1,-1,-1,270.8361230455593,160.6127437588552,1.2624088E8,10,.,0,10,10,1.2624088E8
-19,18,23,20,20,20,-1,-1,-1,29.16387695444071,139.506601697825,1.169354E7,20,.,0,20,20,1.169354E7
-19,18,30,26,26,26,-1,-1,-1,156.08940795244203,80.3272565777019,5994700.0,26,.,0,26,26,5994700.0
-17,16,6,2,2,2,5,13,9,.,.,.,-1,9653485.0,-1,-1,-1,.
-17,16,7,3,3,3,5,23,9,.,.,.,-1,4577185.0,-1,-1,-1,.
-17,16,8,4,4,4,5,30,9,.,.,.,-1,971145.0,-1,-1,-1,.
-17,16,14,11,11,11,13,5,9,.,.,.,-1,9648375.0,-1,-1,-1,.
-17,16,15,12,12,12,13,30,9,.,.,.,-1,1681105.0,-1,-1,-1,.
-17,16,24,21,21,21,23,5,9,.,.,.,-1,4792165.0,-1,-1,-1,.
-17,16,25,22,22,22,23,30,9,.,.,.,-1,190320.0,-1,-1,-1,.
-17,16,31,27,27,27,30,5,9,.,.,.,-1,1007920.0,-1,-1,-1,.
-17,16,32,28,28,28,30,13,9,.,.,.,-1,1897060.0,-1,-1,-1,.
-17,16,33,29,29,29,30,23,9,.,.,.,-1,210550.0,-1,-1,-1,.
-]]></Data>
-			<StringTable contentKey="36NTFBEM7OJRTFUDIY2EZ65UK554AXBU" size="1159" format="CSV" rowCount="34"><![CDATA["(multiple values)"
-"Apartment"
-"Apartment_Employer"
-"Apartment_Pub"
-"Apartment_Restaurant"
-"Apartment(End Travel Location Type)"
-"Apartment(End Travel Location Type)_Employer(End Travel Location Type)"
-"Apartment(End Travel Location Type)_Pub(End Travel Location Type)"
-"Apartment(End Travel Location Type)_Restaurant(End Travel Location Type)"
-"BOTH"
-"Employer"
-"Employer_Apartment"
-"Employer_Restaurant"
-"Employer(End Travel Location Type)"
-"Employer(End Travel Location Type)_Apartment(End Travel Location Type)"
-"Employer(End Travel Location Type)_Restaurant(End Travel Location Type)"
-"Link"
-"LINK"
-"Node"
-"NODE"
-"Pub"
-"Pub_Apartment"
-"Pub_Restaurant"
-"Pub(End Travel Location Type)"
-"Pub(End Travel Location Type)_Apartment(End Travel Location Type)"
-"Pub(End Travel Location Type)_Restaurant(End Travel Location Type)"
-"Restaurant"
-"Restaurant_Apartment"
-"Restaurant_Employer"
-"Restaurant_Pub"
-"Restaurant(End Travel Location Type)"
-"Restaurant(End Travel Location Type)_Apartment(End Travel Location Type)"
-"Restaurant(End Travel Location Type)_Employer(End Travel Location Type)"
-"Restaurant(End Travel Location Type)_Pub(End Travel Location Type)"
-]]></StringTable>
-		</Result>
-		<Result ref="dd75967" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-06-26T14:23:37.553Z">
-			<Variables>
-				<StringVariable label="End Travel Location Type" ref="bi75983" varname="bi75983" column="c0"/>
-				<StringVariable label="Travel Segment" ref="bi75968" varname="bi75968" column="c1"/>
-				<NumericVariable format="COMMA12." usage="quantitative" definedAggregation="sum" label="Location Time (mins)" ref="bi75969" varname="bi75969" column="c2"/>
-				<NumericVariable format="COMMA12." usage="quantitative" definedAggregation="average" label="Average Location Time (mins)" ref="bi75970" varname="bi75970" column="c3"/>
-				<NumericVariable format="COMMA12." usage="quantitative" definedAggregation="sum" label="Travel Time (minutes)" ref="bi75971" varname="bi75971" column="c5"/>
-				<NumericVariable format="COMMA12." usage="quantitative" definedAggregation="average" label="Average Travel Time (minutes)" ref="bi75972" varname="bi75972" column="c6"/>
-				<NumericVariable format="WEEKV5" usage="categorical" label="Date (week)" ref="bi25475" varname="bi25475" column="c8"/>
-				<NumericVariable format="COMMA12.2" usage="brush" definedAggregation="totalCount" varname="ri1" column="c9"/>
-			</Variables>
-			<Columns>
-				<StringColumn maxLength="2" colname="c0" encoding="text"/>
-				<StringColumn maxLength="2" colname="c1" encoding="text"/>
-				<NumericAggregations colname="c2" encoding="text">
-					<DataColumn dataType="double" aggregation="sum"/>
-				</NumericAggregations>
-				<NumericAggregations colname="c3" encoding="text">
-					<DataColumn dataType="double" aggregation="sum"/>
-					<DataColumn dataType="double" aggregation="count"/>
-				</NumericAggregations>
-				<NumericAggregations colname="c5" encoding="text">
-					<DataColumn dataType="double" aggregation="sum"/>
-				</NumericAggregations>
-				<NumericAggregations colname="c6" encoding="text">
-					<DataColumn dataType="double" aggregation="sum"/>
-					<DataColumn dataType="double" aggregation="count"/>
-				</NumericAggregations>
-				<NumericColumn dataType="date" colname="c8" encoding="text"/>
-				<NumericAggregations colname="c9" encoding="text">
-					<DataColumn dataType="double" aggregation="totalCount"/>
-				</NumericAggregations>
-			</Columns>
-			<DefinedSortItems>
-				<DefinedSortItem variable="bi75970" sortDirection="descending"/>
-			</DefinedSortItems>
-			<DataFile contentKey="OF7GUQ3ZRDV57ZXLVO63S55XES2HZXFX" size="40316" format="CSV" rowCount="640" grandTotal="false" dataLayout="partiallyAggregated" file="dd75967.csv" isIndexed="true" availableRowCount="640"/>
-			<StringTableFile contentKey="HVR47HDLP7WGKY3VXRV2MUKFLJNODWIZ" size="270" format="CSV" rowCount="14" file="dd75967index.csv"/>
-		</Result>
-		<Result ref="dd75987" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-06-26T14:23:37.553Z">
-			<Variables>
-				<StringVariable label="End Travel Location Type" ref="bi75994" varname="bi75994" column="c0"/>
-				<StringVariable label="Travel Segment" ref="bi75989" varname="bi75989" column="c1"/>
-				<NumericVariable format="COMMA12." usage="quantitative" definedAggregation="sum" label="Location Time (mins)" ref="bi75990" varname="bi75990" column="c2"/>
-				<NumericVariable format="COMMA12." usage="quantitative" definedAggregation="average" label="Average Location Time (mins)" ref="bi75991" varname="bi75991" column="c3"/>
-				<NumericVariable format="COMMA12." usage="quantitative" definedAggregation="sum" label="Travel Time (minutes)" ref="bi75992" varname="bi75992" column="c5"/>
-				<NumericVariable format="COMMA12." usage="quantitative" definedAggregation="average" label="Average Travel Time (minutes)" ref="bi75993" varname="bi75993" column="c6"/>
-				<NumericVariable format="WEEKV5" usage="categorical" label="Date (week)" ref="bi25475" varname="bi25475" column="c8"/>
-				<NumericVariable format="COMMA12.2" usage="brush" definedAggregation="totalCount" varname="ri1" column="c9"/>
-			</Variables>
-			<Columns>
-				<StringColumn maxLength="2" colname="c0" encoding="text"/>
-				<StringColumn maxLength="2" colname="c1" encoding="text"/>
-				<NumericAggregations colname="c2" encoding="text">
-					<DataColumn dataType="double" aggregation="sum"/>
-				</NumericAggregations>
-				<NumericAggregations colname="c3" encoding="text">
-					<DataColumn dataType="double" aggregation="sum"/>
-					<DataColumn dataType="double" aggregation="count"/>
-				</NumericAggregations>
-				<NumericAggregations colname="c5" encoding="text">
-					<DataColumn dataType="double" aggregation="sum"/>
-				</NumericAggregations>
-				<NumericAggregations colname="c6" encoding="text">
-					<DataColumn dataType="double" aggregation="sum"/>
-					<DataColumn dataType="double" aggregation="count"/>
-				</NumericAggregations>
-				<NumericColumn dataType="date" colname="c8" encoding="text"/>
-				<NumericAggregations colname="c9" encoding="text">
-					<DataColumn dataType="double" aggregation="totalCount"/>
-				</NumericAggregations>
-			</Columns>
-			<DefinedSortItems>
-				<DefinedSortItem variable="bi75991" sortDirection="descending"/>
-			</DefinedSortItems>
-			<DataFile contentKey="NEOTYPCGZ6C2VFHEPIM4ASGYFSLHM3AU" size="43313" format="CSV" rowCount="654" grandTotal="false" dataLayout="partiallyAggregated" file="dd75987.csv" isIndexed="true" availableRowCount="654"/>
-			<StringTableFile contentKey="FLS6AAA2JZVWO47KXVFH2DBI6OHK2YPM" size="369" format="CSV" rowCount="19" file="dd75987index.csv"/>
 		</Result>
 	</Results>
 	<DataDefinitions>
@@ -804,8 +776,8 @@
 					<Item purpose="direction" name="bi75023"/>
 					<Item purpose="directionLabel" name="bi75024"/>
 					<Item purpose="itemTypeLabel" name="bi75025"/>
-					<Item purpose="latitude" root="bi76026" name="bi76262"/>
-					<Item purpose="longitude" root="bi76027" name="bi76263"/>
+					<Item purpose="latitude" root="bi76026" name="bi76282"/>
+					<Item purpose="longitude" root="bi76027" name="bi76283"/>
 				</SyntheticItems>
 				<SyntheticItems name="si75027">
 					<Item purpose="textSummary" name="bi75028"/>
@@ -859,25 +831,6 @@
 			<RankItems>
 				<RankItem rankBy="bi76001" groupBy="bi75046" n="50" includeTies="false" other="false" subset="top" type="count" name="rk76008"/>
 			</RankItems>
-		</ParentDataDefinition>
-		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds24521" name="dd75296">
-			<BusinessItems>
-				<RelationalDataItem binOption="formatBin" name="bi75444" base="bi25475" usage="quantitative" aggregation="min"/>
-				<RelationalDataItem binOption="formatBin" name="bi75445" base="bi25475" usage="quantitative" aggregation="max"/>
-			</BusinessItems>
-			<DataDefinition dataSource="ds24521" type="relational" name="dd75297">
-				<RelationalQuery detail="false">
-					<Axes>
-						<Axis type="column">
-							<BusinessItem ref="bi75444"/>
-							<BusinessItem ref="bi75445"/>
-						</Axis>
-					</Axes>
-				</RelationalQuery>
-				<ResultDefinitions>
-					<ResultDefinition purpose="primary" name="dd75293"/>
-				</ResultDefinitions>
-			</DataDefinition>
 		</ParentDataDefinition>
 		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds24521" name="dd75641">
 			<BusinessItems>
@@ -994,6 +947,14 @@
 				</RelationalFilterItem>
 				<RelationalDataItem name="bi75831" base="bi26054"/>
 				<RelationalDataItem name="bi75834" base="bi25466"/>
+				<RelationalDataItem name="bi76290" base="bi25475"/>
+				<RelationalFilterItem name="bi76291">
+					<EditorProperties>
+						<Property key="complexity">SINGLE_DATA_ITEM</Property>
+						<Property key="interactiveEditingAllowed">TRUE</Property>
+					</EditorProperties>
+					<Expression>or(between(${bi76290,binned},22714,23152),ismissing(${bi76290,binned}))</Expression>
+				</RelationalFilterItem>
 			</BusinessItems>
 			<DataDefinition dataSource="ds24521" type="procedural" name="dd75818">
 				<ProceduralQuery type="networkDiagram" scoreCodeNumber="74885">
@@ -1035,6 +996,7 @@
 			<AppliedFilters>
 				<DetailFilters>
 					<BusinessItem ref="bi75816"/>
+					<BusinessItem ref="bi76291"/>
 				</DetailFilters>
 			</AppliedFilters>
 		</ParentDataDefinition>
@@ -1077,6 +1039,14 @@
 				</RelationalFilterItem>
 				<RelationalDataItem name="bi75882" base="bi26054"/>
 				<RelationalDataItem name="bi75885" base="bi25466"/>
+				<RelationalDataItem name="bi76292" base="bi25475"/>
+				<RelationalFilterItem name="bi76293">
+					<EditorProperties>
+						<Property key="complexity">SINGLE_DATA_ITEM</Property>
+						<Property key="interactiveEditingAllowed">TRUE</Property>
+					</EditorProperties>
+					<Expression>or(between(${bi76292,binned},22715,23152),ismissing(${bi76292,binned}))</Expression>
+				</RelationalFilterItem>
 			</BusinessItems>
 			<DataDefinition dataSource="ds24521" type="procedural" name="dd75869">
 				<ProceduralQuery type="networkDiagram" scoreCodeNumber="74885">
@@ -1118,6 +1088,7 @@
 			<AppliedFilters>
 				<DetailFilters>
 					<BusinessItem ref="bi75867"/>
+					<BusinessItem ref="bi76293"/>
 				</DetailFilters>
 			</AppliedFilters>
 		</ParentDataDefinition>
@@ -1225,6 +1196,14 @@
 					<Expression>in(${bi75979,binned},2,8)</Expression>
 				</RelationalFilterItem>
 				<RelationalDataItem name="bi75983" base="bi26543"/>
+				<RelationalDataItem name="bi76294" base="bi25475"/>
+				<RelationalFilterItem name="bi76295">
+					<EditorProperties>
+						<Property key="complexity">SINGLE_DATA_ITEM</Property>
+						<Property key="interactiveEditingAllowed">TRUE</Property>
+					</EditorProperties>
+					<Expression>or(between(${bi76294,binned},22714,23152),ismissing(${bi76294,binned}))</Expression>
+				</RelationalFilterItem>
 			</BusinessItems>
 			<DataDefinition dataSource="ds24521" type="relational" name="dd75974">
 				<RelationalQuery omitTotalItems="bi75968 bi75969 bi75970 bi75971 bi75972 bi75983" detail="false">
@@ -1249,6 +1228,7 @@
 			<AppliedFilters>
 				<DetailFilters>
 					<BusinessItem ref="bi75980"/>
+					<BusinessItem ref="bi76295"/>
 				</DetailFilters>
 			</AppliedFilters>
 		</ParentDataDefinition>
@@ -1268,6 +1248,14 @@
 					<Expression>in(${bi75988,binned},3,4,5,6,7)</Expression>
 				</RelationalFilterItem>
 				<RelationalDataItem name="bi75994" base="bi26543"/>
+				<RelationalDataItem name="bi76296" base="bi25475"/>
+				<RelationalFilterItem name="bi76297">
+					<EditorProperties>
+						<Property key="complexity">SINGLE_DATA_ITEM</Property>
+						<Property key="interactiveEditingAllowed">TRUE</Property>
+					</EditorProperties>
+					<Expression>or(between(${bi76296,binned},22714,23152),ismissing(${bi76296,binned}))</Expression>
+				</RelationalFilterItem>
 			</BusinessItems>
 			<DataDefinition dataSource="ds24521" type="relational" name="dd75997">
 				<RelationalQuery omitTotalItems="bi75989 bi75990 bi75991 bi75992 bi75993 bi75994" detail="false">
@@ -1292,6 +1280,7 @@
 			<AppliedFilters>
 				<DetailFilters>
 					<BusinessItem ref="bi75995"/>
+					<BusinessItem ref="bi76297"/>
 				</DetailFilters>
 			</AppliedFilters>
 		</ParentDataDefinition>
@@ -2475,8 +2464,7 @@
             </LinearOpts>
         </YAxisOpts>
     </LayoutOverlay>
-</StatGraph>
-]]>
+</StatGraph>]]>
 		</Graph>
 		<Table columnSizing="autoFill" resultDefinitions="dd74680" name="ve74686" data="dd74678" applyDynamicBrushes="yes">
 			<Columns>
@@ -2554,8 +2542,7 @@
     </LayoutGlobalLegend>
     <Animation keyFrameSortOrder="ascending_unformatted" keyFrame="KEY_FRAME"/>
     <OverviewAxis maxPlotSize="60px" minPlotSize="35px" visible="off" axis="categoryAxis"/>
-</StatGraph>
-]]>
+</StatGraph>]]>
 		</Graph>
 		<Table columnSizing="autoFill" resultDefinitions="dd74691" name="ve74695" data="dd74689" applyDynamicBrushes="yes" sourceInteractionVariables="bi74696">
 			<Columns>
@@ -2606,8 +2593,7 @@
             </LinearOpts>
         </YAxisOpts>
     </LayoutOverlay>
-</StatGraph>
-]]>
+</StatGraph>]]>
 		</Graph>
 		<Table columnSizing="autoFill" resultDefinitions="dd74743" name="ve74749" data="dd74741" applyDynamicBrushes="yes">
 			<Columns>
@@ -2689,8 +2675,7 @@
     </LayoutGlobalLegend>
     <Animation keyFrameSortOrder="ascending_unformatted" keyFrame="KEY_FRAME"/>
     <OverviewAxis maxPlotSize="60px" minPlotSize="35px" visible="off" axis="categoryAxis"/>
-</StatGraph>
-]]>
+</StatGraph>]]>
 		</Graph>
 		<Prompt ref="pr74765" interactOnAggregateData="false" name="ve74761" label="Slider - Trips to Restuarant from Work 1" selectionDisabled="true" applyDynamicBrushes="no" sourceInteractionVariables="bi74766">
 			<EditorProperties>
@@ -2732,8 +2717,7 @@
             </ParallelAxisOpts>
         </ParallelCoordinatesPlot>
     </LayoutRegion>
-</StatGraph>
-]]>
+</StatGraph>]]>
 		</Graph>
 		<Table columnSizing="autoFill" resultDefinitions="dd74808" name="ve74811" data="dd74795" applyDynamicBrushes="yes">
 			<Columns>
@@ -2813,16 +2797,8 @@
             </GraphNames>
         </ContinuousLegend>
     </LayoutGlobalLegend>
-</StatGraph>
-]]>
+</StatGraph>]]>
 		</Graph>
-		<Prompt ref="pr75298" interactOnAggregateData="false" name="ve75299" label="Slider - Date (week) 1" selectionDisabled="true" applyDynamicBrushes="no" sourceInteractionVariables="bi75444">
-			<EditorProperties>
-				<Property key="autoChartCategory">CONTROL</Property>
-				<Property key="isAutoLabel">true</Property>
-			</EditorProperties>
-			<DualSlider/>
-		</Prompt>
 		<Graph graphType="network" graphSubType="networkDirected" supplementalVisuals="ve75644 ve75645" resultDefinitions="dd75638" name="ve75646" data="dd75641" label="Network analysis - End Travel Location Type 3" selectionDisabled="true" applyDynamicBrushes="no" sourceInteractionVariables="bi75629">
 			<EditorProperties>
 				<Property key="isAutoLabel">true</Property>
@@ -2896,8 +2872,7 @@
             </GraphNames>
         </ContinuousLegend>
     </LayoutGlobalLegend>
-</StatGraph>
-]]>
+</StatGraph>]]>
 		</Graph>
 		<VisualContainer containerType="layout" name="ve75784" label="Layout Container 6" selectionDisabled="true">
 			<EditorProperties>
@@ -2977,8 +2952,7 @@
             </GraphNames>
         </ContinuousLegend>
     </LayoutGlobalLegend>
-</StatGraph>
-]]>
+</StatGraph>]]>
 		</Graph>
 		<Graph graphType="network" graphSubType="networkDirected" supplementalVisuals="ve75871 ve75872" resultDefinitions="dd75863" name="ve75873" data="dd75868" label="Network analysis - End Travel Location Type 8" selectionDisabled="true" applyDynamicBrushes="no" sourceInteractionVariables="bi75854">
 			<EditorProperties>
@@ -3053,8 +3027,7 @@
             </GraphNames>
         </ContinuousLegend>
     </LayoutGlobalLegend>
-</StatGraph>
-]]>
+</StatGraph>]]>
 		</Graph>
 		<Graph graphType="network" graphSubType="networkDirected" supplementalVisuals="ve75940 ve75941" resultDefinitions="dd75934" name="ve75942" data="dd75937" label="Network analysis - End Travel Location Type 5" selectionDisabled="true" applyDynamicBrushes="no" sourceInteractionVariables="bi75925">
 			<EditorProperties>
@@ -3129,8 +3102,7 @@
             </GraphNames>
         </ContinuousLegend>
     </LayoutGlobalLegend>
-</StatGraph>
-]]>
+</StatGraph>]]>
 		</Graph>
 		<Table columnSizing="autoFill" resultDefinitions="dd75967" name="ve75975" data="dd75973" label="List table - Travel Segment 2" selectionDisabled="true" applyDynamicBrushes="yes" sourceInteractionVariables="bi75968 bi75983">
 			<EditorProperties>
@@ -3250,8 +3222,7 @@
         </AutoLegend>
     </LayoutGlobalLegend>
     <Animation keyframesPerSecond="1" playDirectionForward="true" repeatEnabled="false"/>
-</StatGraph>
-]]>
+</StatGraph>]]>
 		</Graph>
 		<Graph graphType="geo" graphSubType="geoScatter" supplementalVisuals="ve76088" mapData="dd76090" resultDefinitions="dd76084" name="ve76091" data="dd76085" label="Geo coordinate - End Location 2" applyDynamicBrushes="yes" sourceInteractionVariables="bi76083">
 			<EditorProperties>
@@ -3303,8 +3274,7 @@
         </AutoLegend>
     </LayoutGlobalLegend>
     <Animation keyframesPerSecond="1" playDirectionForward="true" repeatEnabled="false"/>
-</StatGraph>
-]]>
+</StatGraph>]]>
 		</Graph>
 		<VisualContainer containerType="layout" name="ve76100" label="Layout Container 1" selectionDisabled="true">
 			<EditorProperties>
@@ -3380,8 +3350,7 @@
             </GraphNames>
         </AutoLegend>
     </LayoutGlobalLegend>
-</StatGraph>
-]]>
+</StatGraph>]]>
 		</Graph>
 		<Table columnSizing="autoFill" resultDefinitions="dd76244" name="ve76245" data="dd76195" applyDynamicBrushes="yes">
 			<Columns>
@@ -3511,12 +3480,6 @@
 			</DefaultValue>
 			<NumericRangeConstraint required="true" minInclusive="true" maxInclusive="true"/>
 		</PromptDefinition>
-		<PromptDefinition data="dd75296" labelVariable="bi75444" resultDefinitions="dd75293" minVariable="bi75444" maxVariable="bi75445" name="pr75298">
-			<DefaultValue>
-				<NumericRange type="double" minInclusive="true" maxInclusive="true" min="22716.0" max="23152.0"/>
-			</DefaultValue>
-			<NumericRangeConstraint required="true" minInclusive="true" maxInclusive="true"/>
-		</PromptDefinition>
 		<PromptDefinition data="dd76011" labelVariable="bi76015" resultDefinitions="dd76013" minVariable="bi76015" maxVariable="bi76016" name="pr76014">
 			<DefaultValue>
 				<NumericRange type="double" minInclusive="true" maxInclusive="true" min="22711.0" max="23152.0"/>
@@ -3605,31 +3568,6 @@
 			</Body>
 		</Section>
 		<Section name="vi75443" label="2 - Locations and Travel Time">
-			<Header location="top">
-				<MediaContainer target="mt2">
-					<ResponsiveLayout orientation="horizontal" overflow="fit">
-						<Weights mediaTarget="mt5" unit="percent">
-							<Weight value="100%"/>
-						</Weights>
-						<Weights mediaTarget="mt4" unit="percent">
-							<Weight value="100%"/>
-						</Weights>
-						<Weights mediaTarget="mt3" unit="percent">
-							<Weight value="100%"/>
-						</Weights>
-					</ResponsiveLayout>
-					<Visual ref="ve75299" name="vi75300">
-						<ResponsiveConstraint>
-							<WidthConstraint>
-								<Width mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="fixed"/>
-							</WidthConstraint>
-							<HeightConstraint>
-								<Height mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="fixed"/>
-							</HeightConstraint>
-						</ResponsiveConstraint>
-					</Visual>
-				</MediaContainer>
-			</Header>
 			<Body>
 				<MediaContainer target="mt2">
 					<ResponsiveLayout orientation="vertical" overflow="fit">
@@ -4270,7 +4208,7 @@
 	<Editors>
 		<Editor applicationName="VA">
 			<Revision editorVersion="2021.2.6" lastDate="2022-05-10T21:27:20.815Z"/>
-			<Revision editorVersion="2020" lastDate="2022-07-01T11:43:50.811Z"/>
+			<Revision editorVersion="2020" lastDate="2022-07-07T00:57:10.900Z"/>
 		</Editor>
 	</Editors>
 </History>

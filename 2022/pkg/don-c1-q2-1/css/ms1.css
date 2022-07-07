@@ -1,26 +1,30 @@
-#ve75941 .Table {
-  display-opts : retainnewline;
-  wrap-text : normal;
-}
-#ve75645 .Table {
-  display-opts : retainnewline;
-  wrap-text : normal;
-}
-#ve75034 .Table {
-  display-opts : retainnewline;
-  wrap-text : normal;
-}
-#ve75975 .tableColumnbi75968 {
-  width : 166px;
+
+
+.ReportElementContainer {
+  padding: 8px;
 }
 #ve75821 .Table {
-  display-opts : retainnewline;
-  wrap-text : normal;
+  wrap-text: normal;
+  display-opts: retainnewline;
+}
+#ve75941 .Table {
+  wrap-text: normal;
+  display-opts: retainnewline;
+}
+#ve75034 .Table {
+  wrap-text: normal;
+  display-opts: retainnewline;
+}
+#ve75975 .tableColumnbi75968 {
+  width: 166px;
+}
+#ve75645 .Table {
+  wrap-text: normal;
+  display-opts: retainnewline;
 }
 #ve75872 .Table {
-  display-opts : retainnewline;
-  wrap-text : normal;
+  wrap-text: normal;
+  display-opts: retainnewline;
 }
-.ReportElementContainer {
-  padding : 8px;
-}
+
+			

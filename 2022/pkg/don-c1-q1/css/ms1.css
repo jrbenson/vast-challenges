@@ -58,8 +58,8 @@
   width: 200px;
 }
 #ve63118 .TwoColorRamp1 {
-  fill-gradient-start-color: #cce8ff;
-  fill-gradient-end-color: #33A3FF;
+  fill-gradient-start-color: #c8dbea;
+  fill-gradient-end-color: #2470AD;
 }
 #ve62431 .GraphDataStyleDefault {
   fill-color: #33A3FF;
@@ -491,15 +491,15 @@
   fill-gradient-start-color: #c8dbea;
   fill-gradient-end-color: #2470AD;
 }
-#ve63118 .GraphDataStyleDefault {
-  marker-color: #33A3FF;
-  text-color: #33A3FF;
-  fill-color: #33A3FF;
-  line-color: #33A3FF;
-}
 #ve71194 .TwoColorRamp1 {
   fill-gradient-start-color: #c8dbea;
   fill-gradient-end-color: #2470AD;
+}
+#ve63118 .GraphDataStyleDefault {
+  marker-color: #2470AD;
+  text-color: #2470AD;
+  fill-color: #2470AD;
+  line-color: #2470AD;
 }
 #ve62473 .paragraph1 {
   white-space: pre-line;
@@ -550,27 +550,24 @@
 #ve55139 .GraphSkin {
   data-skin: MATTE;
 }
-#ve68232 .Table {
-  wrap-text: normal;
-}
 #ve52195 .paragraph1 {
   white-space: pre-line;
 }
-#ve63118 .GraphDataStyle2 {
-  fill-color: #929292;
-}
 #ve63329 .paragraph1 {
   font-size: 13.5pt;
+}
+#ve63118 .GraphDataStyle2 {
+  fill-color: #646464;
 }
 #ve53098 .TwoColorRamp1 {
   fill-gradient-start-color: #c8dbea;
   fill-gradient-end-color: #2470AD;
 }
 #ve63118 .GraphDataStyle1 {
-  marker-color: #33A3FF;
-  text-color: #33A3FF;
-  fill-color: #33A3FF;
-  line-color: #33A3FF;
+  marker-color: #2470AD;
+  text-color: #2470AD;
+  fill-color: #2470AD;
+  line-color: #2470AD;
 }
 #ve52203 .firstColumn {
   width: 200px;
@@ -731,8 +728,8 @@
   white-space: pre-line;
 }
 #ve63118 .TwoColorRamp {
-  fill-gradient-start-color: #cce8ff;
-  fill-gradient-end-color: #33A3FF;
+  fill-gradient-start-color: #c8dbea;
+  fill-gradient-end-color: #2470AD;
 }
 #ve64993 .paragraph1 {
   font-size: 13.5pt;
@@ -848,15 +845,15 @@
   fill-color: #2470AD;
   line-color: #2470AD;
 }
-#ve63114 .CustomStyle1 {
-  background-color: #99d1ff;
-  color: #000000;
-}
 #ve63335 .Table {
   wrap-text: normal;
   padding-top: 16px;
   horizontal-line-style: none;
   vertical-line-style: none;
+}
+#ve63114 .CustomStyle1 {
+  background-color: #91b7d6;
+  color: #000000;
 }
 #ve52320 .GraphDataStyle2 {
   fill-color: #646464;
@@ -944,6 +941,9 @@
 #ve62684 .paragraph1 {
   white-space: pre-line;
 }
+#ve72281 .Table {
+  wrap-text: normal;
+}
 #ve62790 .Table {
   wrap-text: normal;
   padding-top: 16px;
@@ -1011,7 +1011,7 @@
   data-skin: MATTE;
 }
 #ve63112 .CustomStyle1 {
-  background-color: #99d1ff;
+  background-color: #91b7d6;
   color: #000000;
 }
 #ve57099 .TwoColorRamp1 {

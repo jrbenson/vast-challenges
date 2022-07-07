@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <metadataSupplement>
     <tables>
-        <table dataLocale="en_US" dataSources="ds7" resourceIdentifier="'cas-shared-default','VAST','VAST2022_PARTICIPANTS_PLUS','en_US'" tableModifiedTimeStamp="2022-06-26T14:23:24.985Z">
+        <table dataLocale="en_US" dataSources="ds7" resourceIdentifier="'cas-shared-default','VAST','VAST2022_PARTICIPANTS_PLUS','en_US'" tableModifiedTimeStamp="2022-07-03T18:52:29.966Z">
             <columns>
                 <column dataType="double" format="BEST12." label="Participant ID" xref="participantId"/>
                 <column dataType="double" format="BEST12." label="Household Size" xref="householdSize"/>

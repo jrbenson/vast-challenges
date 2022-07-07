@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SASReport xmlns="http://www.sas.com/sasreportmodel/bird-4.20.0" label="Challenge 1 Q2 (Falko w/Don Edits)" implicitInteractions="reportPrompt sectionPrompt" createdLocale="en" createdVersion="4.19.0" dateCreated="2022-06-20T04:58:31Z" dateModified="2022-07-01T12:03:11Z" createdApplication="SAS Visual Analytics 2020" lastModifiedApplication="SAS Visual Analytics 2020" nextUniqueNameIndex="789">
+<SASReport xmlns="http://www.sas.com/sasreportmodel/bird-4.20.0" label="Challenge 1 Q2 (Falko w/Don Edits)" implicitInteractions="reportPrompt sectionPrompt" createdLocale="en" createdVersion="4.19.0" dateCreated="2022-06-20T04:58:31Z" dateModified="2022-07-07T01:08:01Z" createdApplication="SAS Visual Analytics 2020" lastModifiedApplication="SAS Visual Analytics 2020" nextUniqueNameIndex="789">
 	<Results>
-		<Result ref="dd93" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-06-26T14:23:24.985Z">
+		<Result ref="dd93" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-07-03T18:52:29.966Z">
 			<Variables>
 				<NumericVariable format="COMMA12." usage="categorical" label="Days at Work" ref="bi211" varname="bi211" column="c0"/>
 				<NumericVariable format="COMMA12." usage="categorical" label="Days at Work (lower)" ref="bi212" varname="bi212" column="c1"/>
@@ -26,7 +26,7 @@
 322.7,322.7,323.0,0.0011363636363636363
 ]]></Data>
 		</Result>
-		<Result ref="dd352" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-06-26T14:23:24.985Z">
+		<Result ref="dd352" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-07-03T18:52:29.966Z">
 			<Variables>
 				<NumericVariable format="BEST12." usage="categorical" label="Participant ID" ref="bi354" varname="bi354" column="c0"/>
 				<NumericVariable format="COMMA12." usage="quantitative" definedAggregation="median" label="Trips to Restaurant after Work" ref="bi561" varname="bi561" column="c1"/>
@@ -60,7 +60,7 @@
 439.0,247.0,322.0,204.0
 ]]></Data>
 		</Result>
-		<Result ref="dd755" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-06-26T14:23:24.985Z">
+		<Result ref="dd755" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-07-03T18:52:29.966Z">
 			<Variables>
 				<NumericVariable format="BEST12." usage="categorical" label="Participant ID" ref="bi754" varname="bi754" column="c0"/>
 				<NumericVariable format="COMMA12." usage="quantitative" definedAggregation="median" label="Trips to Restaurant after Work" ref="bi756" varname="bi756" column="c1"/>
@@ -94,7 +94,7 @@
 376.0,0.0,18.0,108.0
 ]]></Data>
 		</Result>
-		<Result ref="dd370" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-06-26T14:23:24.985Z">
+		<Result ref="dd370" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-07-03T18:52:29.966Z">
 			<Variables>
 				<NumericVariable format="COMMA12." usage="quantitative" definedAggregation="median" label="Trips to Restaurant" ref="bi429" varname="bi429" column="c0"/>
 			</Variables>
@@ -107,7 +107,7 @@
 			<Data isIndexed="false" availableRowCount="1" contentKey="XJTYW4ZBX7LEDSXRY7JF3VUZ7KGU745S" size="6" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA[469.0
 ]]></Data>
 		</Result>
-		<Result ref="dd390" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-06-26T14:23:24.985Z">
+		<Result ref="dd390" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-07-03T18:52:29.966Z">
 			<Variables>
 				<NumericVariable format="COMMA12." usage="quantitative" definedAggregation="median" label="Trips to Restaurant non-Work" ref="bi656" varname="bi656" column="c0"/>
 			</Variables>
@@ -120,7 +120,7 @@
 			<Data isIndexed="false" availableRowCount="1" contentKey="K5WZDYVNR4VIXVLPSU3O4KEATICXZ4GM" size="6" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA[147.0
 ]]></Data>
 		</Result>
-		<Result ref="dd647" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-06-26T14:23:24.985Z">
+		<Result ref="dd647" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-07-03T18:52:29.966Z">
 			<Variables>
 				<NumericVariable format="COMMA12." usage="quantitative" definedAggregation="median" label="Trips to Restaurant during Work" ref="bi648" varname="bi648" column="c0"/>
 			</Variables>
@@ -133,7 +133,7 @@
 			<Data isIndexed="false" availableRowCount="1" contentKey="TEGNXOM4XB4AD2OREZR4WU5RNU43BUZD" size="6" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA[321.0
 ]]></Data>
 		</Result>
-		<Result ref="dd638" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-06-26T14:23:24.985Z">
+		<Result ref="dd638" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-07-03T18:52:29.966Z">
 			<Variables>
 				<NumericVariable format="COMMA12." usage="quantitative" definedAggregation="median" label="Trips to Restaurant after Work" ref="bi640" varname="bi640" column="c0"/>
 			</Variables>
@@ -146,7 +146,7 @@
 			<Data isIndexed="false" availableRowCount="1" contentKey="HYSEEBS76CQK5OIFLB4JW6KRO4KED3X7" size="6" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA[129.5
 ]]></Data>
 		</Result>
-		<Result ref="dd331" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-06-26T14:23:24.985Z">
+		<Result ref="dd331" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-07-03T18:52:29.966Z">
 			<Variables>
 				<NumericVariable format="COMMA12." usage="categorical" label="Trips to Restaurant" ref="bi515" varname="bi515" column="c0"/>
 				<NumericVariable format="COMMA12." usage="categorical" label="Trips to Restaurant (lower)" ref="bi516" varname="bi516" column="c1"/>
@@ -171,7 +171,7 @@
 889.8,889.8,975.0,0.0011363636363636363
 ]]></Data>
 		</Result>
-		<Result ref="dd659" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-06-26T14:23:24.985Z">
+		<Result ref="dd659" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-07-03T18:52:29.966Z">
 			<Variables>
 				<NumericVariable format="BEST12." usage="categorical" label="Participant ID" ref="bi660" varname="bi660" column="c0"/>
 				<NumericVariable format="COMMA12." usage="quantitative" definedAggregation="median" label="Trips to Pub non-Work" ref="bi717" varname="bi717" column="c1"/>
@@ -203,7 +203,7 @@
 570.0,493.0,160.0
 ]]></Data>
 		</Result>
-		<Result ref="dd770" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-06-26T14:23:24.985Z">
+		<Result ref="dd770" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-07-03T18:52:29.966Z">
 			<Variables>
 				<NumericVariable format="BEST12." usage="categorical" label="Participant ID" ref="bi771" varname="bi771" column="c0"/>
 				<NumericVariable format="COMMA12." usage="quantitative" definedAggregation="median" label="Trips to Pub non-Work" ref="bi772" varname="bi772" column="c1"/>
@@ -235,7 +235,7 @@
 946.0,0.0,1.0
 ]]></Data>
 		</Result>
-		<Result ref="dd669" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-06-26T14:23:24.985Z">
+		<Result ref="dd669" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-07-03T18:52:29.966Z">
 			<Variables>
 				<NumericVariable format="COMMA12." usage="quantitative" definedAggregation="median" label="Trips to Pub" ref="bi721" varname="bi721" column="c0"/>
 			</Variables>
@@ -248,7 +248,7 @@
 			<Data isIndexed="false" availableRowCount="1" contentKey="GDNYOOWDKY7IENZQJPPKKXAHTQ3RFFTL" size="6" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA[394.5
 ]]></Data>
 		</Result>
-		<Result ref="dd676" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-06-26T14:23:24.985Z">
+		<Result ref="dd676" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-07-03T18:52:29.966Z">
 			<Variables>
 				<NumericVariable format="COMMA12." usage="quantitative" definedAggregation="median" label="Trips to Pub non-Work" ref="bi720" varname="bi720" column="c0"/>
 			</Variables>
@@ -261,7 +261,7 @@
 			<Data isIndexed="false" availableRowCount="1" contentKey="JDQ4IEI75GWF2EREIGIXFN6F6PH2TWR4" size="6" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA[314.0
 ]]></Data>
 		</Result>
-		<Result ref="dd685" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-06-26T14:23:24.985Z">
+		<Result ref="dd685" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-07-03T18:52:29.966Z">
 			<Variables>
 				<NumericVariable format="COMMA12." usage="quantitative" definedAggregation="median" label="Trips to Pub during Work" ref="bi722" varname="bi722" column="c0"/>
 			</Variables>
@@ -274,7 +274,7 @@
 			<Data isIndexed="false" availableRowCount="1" contentKey="E2XCHZIO3ZYV4ENRTLM2F73NXEQFEH3R" size="4" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA[0.0
 ]]></Data>
 		</Result>
-		<Result ref="dd693" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-06-26T14:23:24.985Z">
+		<Result ref="dd693" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-07-03T18:52:29.966Z">
 			<Variables>
 				<NumericVariable format="COMMA12." usage="quantitative" definedAggregation="median" label="Trips to Pub after Work" ref="bi724" varname="bi724" column="c0"/>
 			</Variables>
@@ -287,7 +287,7 @@
 			<Data isIndexed="false" availableRowCount="1" contentKey="2XTTDTUDL3OLKGMK3CBXMTJ4AIQJ6CRG" size="5" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA[71.0
 ]]></Data>
 		</Result>
-		<Result ref="dd702" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-06-26T14:23:24.985Z">
+		<Result ref="dd702" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-07-03T18:52:29.966Z">
 			<Variables>
 				<NumericVariable format="COMMA12." usage="categorical" label="Trips to Pub" ref="bi725" varname="bi725" column="c0"/>
 				<NumericVariable format="COMMA12." usage="categorical" label="Trips to Pub (lower)" ref="bi726" varname="bi726" column="c1"/>
@@ -1796,7 +1796,7 @@
     </Meta>
     <LayoutDataPanel cellHeightMin="100px" cellWidthMin="100px" rowGutter="4px" columnGutter="6px" headerLabelDisplay="none" includeMissingClass="true" scroll="true" classVars="CATEGORY">
         <LayoutPrototypeRegion>
-            <KeyValue name="KeyValue" tipListPolicy="replace" _stmt="keyValue" display="CATEGORYLABEL CATEGORYVALUE RESPONSEVALUE" hAlign="left" justify="center" key="responsevalue" vAlign="top" tip="TIP" category="CATEGORY" response="RESPONSE">
+            <KeyValue name="KeyValue" tipListPolicy="replace" _stmt="keyValue" display="CATEGORYLABEL CATEGORYVALUE RESPONSEVALUE" hAlign="left" justify="left" key="responsevalue" vAlign="top" tip="TIP" category="CATEGORY" response="RESPONSE">
                 <KeyAttrs color="15330543"/>
             </KeyValue>
         </LayoutPrototypeRegion>
@@ -1833,7 +1833,7 @@
     </Meta>
     <LayoutDataPanel cellHeightMin="100px" cellWidthMin="100px" rowGutter="4px" columnGutter="6px" headerLabelDisplay="none" includeMissingClass="true" scroll="true" classVars="CATEGORY">
         <LayoutPrototypeRegion>
-            <KeyValue name="KeyValue" tipListPolicy="replace" _stmt="keyValue" display="CATEGORYLABEL CATEGORYVALUE RESPONSEVALUE" hAlign="left" justify="center" key="responsevalue" vAlign="top" tip="TIP" category="CATEGORY" response="RESPONSE"/>
+            <KeyValue name="KeyValue" tipListPolicy="replace" _stmt="keyValue" display="CATEGORYLABEL CATEGORYVALUE RESPONSEVALUE" hAlign="left" justify="left" key="responsevalue" vAlign="top" tip="TIP" category="CATEGORY" response="RESPONSE"/>
         </LayoutPrototypeRegion>
     </LayoutDataPanel>
 </StatGraph>]]>
@@ -2204,7 +2204,7 @@
     </Meta>
     <LayoutDataPanel cellHeightMin="100px" cellWidthMin="100px" rowGutter="4px" columnGutter="6px" headerLabelDisplay="none" includeMissingClass="true" scroll="true" classVars="CATEGORY">
         <LayoutPrototypeRegion>
-            <KeyValue name="KeyValue" tipListPolicy="replace" _stmt="keyValue" display="CATEGORYLABEL CATEGORYVALUE RESPONSEVALUE" hAlign="left" justify="center" key="responsevalue" vAlign="top" tip="TIP" category="CATEGORY" response="RESPONSE">
+            <KeyValue name="KeyValue" tipListPolicy="replace" _stmt="keyValue" display="CATEGORYLABEL CATEGORYVALUE RESPONSEVALUE" hAlign="left" justify="left" key="responsevalue" vAlign="top" tip="TIP" category="CATEGORY" response="RESPONSE">
                 <KeyAttrs color="16763954"/>
             </KeyValue>
         </LayoutPrototypeRegion>
@@ -2246,7 +2246,7 @@
     </Meta>
     <LayoutDataPanel cellHeightMin="100px" cellWidthMin="100px" rowGutter="4px" columnGutter="6px" headerLabelDisplay="none" includeMissingClass="true" scroll="true" classVars="CATEGORY">
         <LayoutPrototypeRegion>
-            <KeyValue name="KeyValue" tipListPolicy="replace" _stmt="keyValue" display="CATEGORYLABEL CATEGORYVALUE RESPONSEVALUE" hAlign="left" justify="center" key="responsevalue" vAlign="top" tip="TIP" category="CATEGORY" response="RESPONSE">
+            <KeyValue name="KeyValue" tipListPolicy="replace" _stmt="keyValue" display="CATEGORYLABEL CATEGORYVALUE RESPONSEVALUE" hAlign="left" justify="left" key="responsevalue" vAlign="top" tip="TIP" category="CATEGORY" response="RESPONSE">
                 <KeyAttrs color="7170559"/>
             </KeyValue>
         </LayoutPrototypeRegion>
@@ -2923,7 +2923,7 @@
 										<Width mediaTarget="mt3" preferredSizeBehavior="ignore" value="50%" flexibility="shrinkable"/>
 									</WidthConstraint>
 									<HeightConstraint>
-										<Height mediaTarget="mt3" preferredSizeBehavior="ignore" value="47.39%" flexibility="flexible"/>
+										<Height mediaTarget="mt3" preferredSizeBehavior="ignore" value="46%" flexibility="shrinkable"/>
 									</HeightConstraint>
 								</ResponsiveConstraint>
 							</Visual>
@@ -2933,7 +2933,7 @@
 										<Width mediaTarget="mt3" preferredSizeBehavior="ignore" value="50%" flexibility="shrinkable"/>
 									</WidthConstraint>
 									<HeightConstraint>
-										<Height mediaTarget="mt3" preferredSizeBehavior="ignore" value="52.61%" flexibility="shrinkable"/>
+										<Height mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="shrinkable"/>
 									</HeightConstraint>
 								</ResponsiveConstraint>
 							</Visual>
@@ -2964,7 +2964,7 @@
 										<Width mediaTarget="mt3" preferredSizeBehavior="ignore" value="50%" flexibility="shrinkable"/>
 									</WidthConstraint>
 									<HeightConstraint>
-										<Height mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+										<Height mediaTarget="mt3" preferredSizeBehavior="ignore" value="15%" flexibility="flexible"/>
 									</HeightConstraint>
 								</ResponsiveConstraint>
 							</Visual>
@@ -2974,7 +2974,7 @@
 										<Width mediaTarget="mt3" preferredSizeBehavior="ignore" value="50%" flexibility="shrinkable"/>
 									</WidthConstraint>
 									<HeightConstraint>
-										<Height mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+										<Height mediaTarget="mt3" preferredSizeBehavior="ignore" value="15%" flexibility="flexible"/>
 									</HeightConstraint>
 								</ResponsiveConstraint>
 							</Visual>
@@ -2984,7 +2984,7 @@
 										<Width mediaTarget="mt3" preferredSizeBehavior="ignore" value="50%" flexibility="flexible"/>
 									</WidthConstraint>
 									<HeightConstraint>
-										<Height mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+										<Height mediaTarget="mt3" preferredSizeBehavior="ignore" value="15%" flexibility="flexible"/>
 									</HeightConstraint>
 								</ResponsiveConstraint>
 							</Visual>
@@ -2994,7 +2994,7 @@
 										<Width mediaTarget="mt3" preferredSizeBehavior="ignore" value="50%" flexibility="flexible"/>
 									</WidthConstraint>
 									<HeightConstraint>
-										<Height mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+										<Height mediaTarget="mt3" preferredSizeBehavior="ignore" value="15%" flexibility="shrinkable"/>
 									</HeightConstraint>
 								</ResponsiveConstraint>
 							</Visual>
@@ -3078,7 +3078,7 @@
 										<Width mediaTarget="mt3" preferredSizeBehavior="ignore" value="50%" flexibility="shrinkable"/>
 									</WidthConstraint>
 									<HeightConstraint>
-										<Height mediaTarget="mt3" preferredSizeBehavior="ignore" value="43.2%" flexibility="shrinkable"/>
+										<Height mediaTarget="mt3" preferredSizeBehavior="ignore" value="44%" flexibility="shrinkable"/>
 									</HeightConstraint>
 								</ResponsiveConstraint>
 							</Visual>
@@ -3088,7 +3088,7 @@
 										<Width mediaTarget="mt3" preferredSizeBehavior="ignore" value="50%" flexibility="shrinkable"/>
 									</WidthConstraint>
 									<HeightConstraint>
-										<Height mediaTarget="mt3" preferredSizeBehavior="ignore" value="48.87%" flexibility="shrinkable"/>
+										<Height mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="shrinkable"/>
 									</HeightConstraint>
 								</ResponsiveConstraint>
 							</Visual>
@@ -3129,7 +3129,7 @@
 										<Width mediaTarget="mt3" preferredSizeBehavior="ignore" value="50%" flexibility="flexible"/>
 									</WidthConstraint>
 									<HeightConstraint>
-										<Height mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+										<Height mediaTarget="mt3" preferredSizeBehavior="ignore" value="15%" flexibility="flexible"/>
 									</HeightConstraint>
 								</ResponsiveConstraint>
 							</Visual>
@@ -3139,7 +3139,7 @@
 										<Width mediaTarget="mt3" preferredSizeBehavior="ignore" value="50%" flexibility="flexible"/>
 									</WidthConstraint>
 									<HeightConstraint>
-										<Height mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+										<Height mediaTarget="mt3" preferredSizeBehavior="ignore" value="15%" flexibility="flexible"/>
 									</HeightConstraint>
 								</ResponsiveConstraint>
 							</Visual>
@@ -3149,7 +3149,7 @@
 										<Width mediaTarget="mt3" preferredSizeBehavior="ignore" value="50%" flexibility="flexible"/>
 									</WidthConstraint>
 									<HeightConstraint>
-										<Height mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+										<Height mediaTarget="mt3" preferredSizeBehavior="ignore" value="15%" flexibility="flexible"/>
 									</HeightConstraint>
 								</ResponsiveConstraint>
 							</Visual>
@@ -3159,7 +3159,7 @@
 										<Width mediaTarget="mt3" preferredSizeBehavior="ignore" value="50%" flexibility="flexible"/>
 									</WidthConstraint>
 									<HeightConstraint>
-										<Height mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+										<Height mediaTarget="mt3" preferredSizeBehavior="ignore" value="15%" flexibility="flexible"/>
 									</HeightConstraint>
 								</ResponsiveConstraint>
 							</Visual>
@@ -3460,6 +3460,21 @@
 			</Body>
 		</HiddenSection>
 		<Section name="vi751" label="Patterns Archive">
+			<Header>
+				<MediaContainer target="mt2">
+					<ResponsiveLayout orientation="horizontal" overflow="fit">
+						<Weights mediaTarget="mt5" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt4" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt3" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+					</ResponsiveLayout>
+				</MediaContainer>
+			</Header>
 			<Body>
 				<MediaContainer target="mt2">
 					<ResponsiveLayout orientation="vertical" overflow="fit">
@@ -3613,7 +3628,7 @@
 	</Conversions>
 	<Editors>
 		<Editor applicationName="VA">
-			<Revision editorVersion="2020" lastDate="2022-07-01T12:03:11.333Z"/>
+			<Revision editorVersion="2020" lastDate="2022-07-07T01:08:01.474Z"/>
 		</Editor>
 	</Editors>
 </History>
