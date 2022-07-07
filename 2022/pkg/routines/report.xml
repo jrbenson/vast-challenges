@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SASReport xmlns="http://www.sas.com/sasreportmodel/bird-4.20.0" label="Daily routines and history (Falko)" implicitInteractions="reportPrompt sectionPrompt" createdLocale="en" createdVersion="4.19.0" dateCreated="2022-04-28T08:39:24Z" dateModified="2022-07-07T21:39:32Z" createdApplication="SAS Visual Analytics 2020" lastModifiedApplication="SAS Visual Analytics 2020" nextUniqueNameIndex="4989">
+<SASReport xmlns="http://www.sas.com/sasreportmodel/bird-4.20.0" label="Daily routines and history (Falko)" implicitInteractions="reportPrompt sectionPrompt" createdLocale="en" createdVersion="4.19.0" dateCreated="2022-04-28T08:39:24Z" dateModified="2022-07-07T23:21:20Z" createdApplication="SAS Visual Analytics 2020" lastModifiedApplication="SAS Visual Analytics 2020" nextUniqueNameIndex="4989">
 	<Results>
 		<Result ref="dd4860" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-07-05T18:39:29.847Z">
 			<Variables>
@@ -16911,7 +16911,7 @@
 				<Property key="isAutoLabel">true</Property>
 				<Property key="autoFrequencyQueryDataItemName">bi2684</Property>
 			</EditorProperties>
-			<Title auto="false"><P><Span>Purpose of Travel by Hour of the Day</Span></P></Title>
+			<Title auto="false"><P><Span>Purpose of Travel by Hour</Span></P></Title>
 			<Conditions>
 				<Condition ref="rg3405">
 					<ConditionParameters>
@@ -17003,7 +17003,7 @@
 			<EditorProperties>
 				<Property key="isAutoLabel">true</Property>
 			</EditorProperties>
-			<Title auto="false"><P><Span>Travel time (average)</Span></P></Title>
+			<Title auto="false"><P><Span>Travel Time (average)</Span></P></Title>
 			<Conditions>
 				<Condition ref="rg3405">
 					<ConditionParameters>
@@ -17084,7 +17084,7 @@
 			<EditorProperties>
 				<Property key="isAutoLabel">true</Property>
 			</EditorProperties>
-			<Title auto="false"><P><Span>Time spent at a given location (days)</Span></P></Title>
+			<Title auto="false"><P><Span>Time Spent at Locations (days)</Span></P></Title>
 			<Conditions>
 				<Condition ref="rg3405">
 					<ConditionParameters>
@@ -17161,7 +17161,7 @@
 				<Property key="autoFrequencyQueryDataItemName">bi2727</Property>
 				<Property key="addedInteractionQueryDataItems">bi4983</Property>
 			</EditorProperties>
-			<Title auto="false"><P><Span>Distribution of duration at location</Span></P></Title>
+			<Title auto="false"><P><Span>Distribution of Duration at Location</Span></P></Title>
 <![CDATA[<StatGraph border="false" opaque="false" includeMissingDiscrete="true" missingValueDisplay="autolabel">
     <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
     <Meta>
@@ -17748,7 +17748,7 @@
 				<Property key="axisItemRoleVarNames">bi2808,bi2887</Property>
 				<Property key="addedInteractionQueryDataItems">bi4984</Property>
 			</EditorProperties>
-			<Title auto="false"><P><Span>Hourly activity pattern</Span></P></Title>
+			<Title auto="false"><P><Span>Hourly Activity Pattern</Span></P></Title>
 <![CDATA[<StatGraph opaque="false" includeMissingDiscrete="true" missingValueDisplay="autolabel">
     <Meta>
         <DataNameMap>
@@ -18841,7 +18841,7 @@
 			<EditorProperties>
 				<Property key="isAutoLabel">true</Property>
 			</EditorProperties>
-			<Title auto="false"><P><Span>Employment history</Span></P></Title>
+			<Title auto="false"><P><Span>Employment History</Span></P></Title>
 <![CDATA[<StatGraph border="false" opaque="false" includeMissingDiscrete="true" selectionMode="multiple" missingValueDisplay="autolabel" displayOptionPolicy="union">
     <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
     <Meta>
@@ -19244,7 +19244,7 @@
 				<Property key="timeSeriesFixedBinCardinality">300</Property>
 				<Property key="autoFrequencyQueryDataItemName">bi4714</Property>
 			</EditorProperties>
-			<Title auto="false"><P><Span>Activity by mode</Span></P></Title>
+			<Title auto="false"><P><Span>Activity by Mode</Span></P></Title>
 			<Conditions>
 				<Condition ref="rg3405">
 					<ConditionParameters>
@@ -19324,7 +19324,7 @@
 				<Property key="isAutoLabel">true</Property>
 				<Property key="autoFrequencyQueryDataItemName">bi4723</Property>
 			</EditorProperties>
-			<Title auto="false"><P><Span>Purpose of travel by hour of the day</Span></P></Title>
+			<Title auto="false"><P><Span>Purpose of Travel by Hour</Span></P></Title>
 			<Conditions>
 				<Condition ref="rg3405">
 					<ConditionParameters>
@@ -19406,7 +19406,7 @@
 			<EditorProperties>
 				<Property key="isAutoLabel">true</Property>
 			</EditorProperties>
-			<Title auto="false"><P><Span>Activity by hour</Span></P></Title>
+			<Title auto="false"><P><Span>Activity by Hour</Span></P></Title>
 			<Conditions>
 				<Condition ref="rg3405">
 					<ConditionParameters>
@@ -19547,7 +19547,7 @@
 			<EditorProperties>
 				<Property key="isAutoLabel">true</Property>
 			</EditorProperties>
-			<Title auto="false"><P><Span>Time spent at a given location (days)</Span></P></Title>
+			<Title auto="false"><P><Span>Time Spent At a Location (days)</Span></P></Title>
 			<Conditions>
 				<Condition ref="rg3405">
 					<ConditionParameters>
@@ -19629,7 +19629,7 @@
 			<EditorProperties>
 				<Property key="isAutoLabel">true</Property>
 			</EditorProperties>
-			<Title auto="false"><P><Span>Travel time (average)</Span></P></Title>
+			<Title auto="false"><P><Span>Travel Time (average)</Span></P></Title>
 			<Conditions>
 				<Condition ref="rg3405">
 					<ConditionParameters>
@@ -19718,7 +19718,7 @@
 				<Property key="axisItemRoleVarNames">bi4832,bi4831</Property>
 				<Property key="addedInteractionQueryDataItems">bi4986</Property>
 			</EditorProperties>
-			<Title auto="false"><P><Span>Hourly activity pattern</Span></P></Title>
+			<Title auto="false"><P><Span>Hourly Activity Pattern</Span></P></Title>
 <![CDATA[<StatGraph opaque="false" includeMissingDiscrete="true" missingValueDisplay="autolabel">
     <Meta>
         <DataNameMap>
@@ -19780,7 +19780,7 @@
 				<Property key="autoFrequencyQueryDataItemName">bi4847</Property>
 				<Property key="addedInteractionQueryDataItems">bi4987</Property>
 			</EditorProperties>
-			<Title auto="false"><P><Span>Distribution of duration at location</Span></P></Title>
+			<Title auto="false"><P><Span>Distribution of Duration at Location</Span></P></Title>
 <![CDATA[<StatGraph border="false" opaque="false" includeMissingDiscrete="true" missingValueDisplay="autolabel">
     <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
     <Meta>
@@ -19891,10 +19891,53 @@
     <Animation keyframesPerSecond="5" playDirectionForward="true" repeatEnabled="false"/>
 </StatGraph>]]>
 		</Graph>
+		<Prompt ref="pr4797" name="ve4798" label="Button bar - Participant ID 7" selectionDisabled="true" applyDynamicBrushes="promptsOnly" sourceInteractionVariables="bi4793">
+			<EditorProperties>
+				<Property key="isAutoLabel">true</Property>
+				<Property key="autoChartCategory">CONTROL</Property>
+			</EditorProperties>
+			<LinkBar/>
+		</Prompt>
+		<Prompt ref="pr4977" name="ve3807" label="Drop-down list - Month (short) 1" selectionDisabled="true" applyDynamicBrushes="promptsOnly" sourceInteractionVariables="bi3816">
+			<EditorProperties>
+				<Property key="isAutoLabel">true</Property>
+				<Property key="autoChartCategory">CONTROL</Property>
+			</EditorProperties>
+			<Title auto="false"><P class="styleForTitle_paragraph3"><Span>Month</Span></P></Title>
+			<ComboBox/>
+		</Prompt>
+		<Prompt ref="pr4981" name="ve4873" label="Drop-down list - Month (short) 2" selectionDisabled="true" applyDynamicBrushes="promptsOnly" sourceInteractionVariables="bi4869">
+			<EditorProperties>
+				<Property key="isAutoLabel">true</Property>
+				<Property key="autoChartCategory">CONTROL</Property>
+			</EditorProperties>
+			<Title auto="false"><P class="styleForTitle_paragraph3"><Span>Month</Span></P></Title>
+			<ComboBox/>
+		</Prompt>
 		<Table columnSizing="autoFill" resultDefinitions="dd2550" name="ve2570" data="dd2548" applyDynamicBrushes="yes">
 			<Columns>
 				<Column variable="bi2583"/>
 				<Column variable="bi2600"/>
+			</Columns>
+		</Table>
+		<Table columnSizing="autoFill" resultDefinitions="dd2964" name="ve3002" data="dd2962" applyDynamicBrushes="yes">
+			<Columns>
+				<Column variable="bi3770"/>
+				<Column variable="bi3999"/>
+				<Column variable="bi3952"/>
+				<Column variable="bi4054"/>
+				<Column variable="bi4325"/>
+				<Column variable="bi4327"/>
+				<Column variable="bi4329"/>
+				<Column variable="bi4330"/>
+			</Columns>
+		</Table>
+		<Table columnSizing="autoFill" resultDefinitions="dd2973" name="ve3003" data="dd2962" applyDynamicBrushes="yes">
+			<Columns>
+				<Column variable="bi3780"/>
+				<Column variable="bi3766"/>
+				<Column variable="bi3776"/>
+				<Column variable="bi4323"/>
 			</Columns>
 		</Table>
 		<Table columnSizing="autoFill" resultDefinitions="dd4668" name="ve4686" data="dd4683" applyDynamicBrushes="yes">
@@ -19917,54 +19960,11 @@
 				<Column variable="bi4678"/>
 			</Columns>
 		</Table>
-		<Prompt ref="pr4797" name="ve4798" label="Button bar - Participant ID 7" selectionDisabled="true" applyDynamicBrushes="promptsOnly" sourceInteractionVariables="bi4793">
-			<EditorProperties>
-				<Property key="isAutoLabel">true</Property>
-				<Property key="autoChartCategory">CONTROL</Property>
-			</EditorProperties>
-			<LinkBar/>
-		</Prompt>
-		<Table columnSizing="autoFill" resultDefinitions="dd2964" name="ve3002" data="dd2962" applyDynamicBrushes="yes">
-			<Columns>
-				<Column variable="bi3770"/>
-				<Column variable="bi3999"/>
-				<Column variable="bi3952"/>
-				<Column variable="bi4054"/>
-				<Column variable="bi4325"/>
-				<Column variable="bi4327"/>
-				<Column variable="bi4329"/>
-				<Column variable="bi4330"/>
-			</Columns>
-		</Table>
-		<Table columnSizing="autoFill" resultDefinitions="dd2973" name="ve3003" data="dd2962" applyDynamicBrushes="yes">
-			<Columns>
-				<Column variable="bi3780"/>
-				<Column variable="bi3766"/>
-				<Column variable="bi3776"/>
-				<Column variable="bi4323"/>
-			</Columns>
-		</Table>
-		<Prompt ref="pr4977" name="ve3807" label="Drop-down list - Month (short) 1" selectionDisabled="true" applyDynamicBrushes="promptsOnly" sourceInteractionVariables="bi3816">
-			<EditorProperties>
-				<Property key="isAutoLabel">true</Property>
-				<Property key="autoChartCategory">CONTROL</Property>
-			</EditorProperties>
-			<Title auto="false"><P class="styleForTitle_paragraph3"><Span>Month</Span></P></Title>
-			<ComboBox/>
-		</Prompt>
 		<Table columnSizing="autoFill" resultDefinitions="dd3791" name="ve3794" data="dd3792" applyDynamicBrushes="yes">
 			<Columns>
 				<Column variable="bi3786"/>
 			</Columns>
 		</Table>
-		<Prompt ref="pr4981" name="ve4873" label="Drop-down list - Month (short) 2" selectionDisabled="true" applyDynamicBrushes="promptsOnly" sourceInteractionVariables="bi4869">
-			<EditorProperties>
-				<Property key="isAutoLabel">true</Property>
-				<Property key="autoChartCategory">CONTROL</Property>
-			</EditorProperties>
-			<Title auto="false"><P class="styleForTitle_paragraph3"><Span>Month</Span></P></Title>
-			<ComboBox/>
-		</Prompt>
 		<Table columnSizing="autoFill" resultDefinitions="dd4882" name="ve4885" data="dd4883" applyDynamicBrushes="yes">
 			<Columns>
 				<Column variable="bi4878"/>
@@ -20166,7 +20166,7 @@
 										<Width mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
 									</WidthConstraint>
 									<HeightConstraint>
-										<Height mediaTarget="mt3" preferredSizeBehavior="ignore" value="5%" flexibility="shrinkable"/>
+										<Height mediaTarget="mt3" preferredSizeBehavior="ignore" value="20%" flexibility="shrinkable"/>
 									</HeightConstraint>
 								</ResponsiveConstraint>
 							</Visual>
@@ -20176,7 +20176,7 @@
 										<Width mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
 									</WidthConstraint>
 									<HeightConstraint>
-										<Height mediaTarget="mt3" preferredSizeBehavior="ignore" value="4%" flexibility="shrinkable"/>
+										<Height mediaTarget="mt3" preferredSizeBehavior="ignore" value="20%" flexibility="shrinkable"/>
 									</HeightConstraint>
 								</ResponsiveConstraint>
 							</Visual>
@@ -21456,7 +21456,7 @@
 		<MediaTarget windowSize="large" scheme="ms1" name="mt5"/>
 	</MediaTargets>
 	<Properties>
-		<Property key="displayDataSource">ds541</Property>
+		<Property key="displayDataSource">ds38</Property>
 		<Property key="loadedFromXML">true</Property>
 		<Property key="ReportPackagesServiceVersion">2020.1.4</Property>
 		<Property key="ReportDataServiceVersion">2020.1.4</Property>
@@ -21619,7 +21619,7 @@
 	<Editors>
 		<Editor applicationName="VA">
 			<Revision editorVersion="2021.2.6" lastDate="2022-05-14T05:28:34.264Z"/>
-			<Revision editorVersion="2020" lastDate="2022-07-07T21:39:32.546Z"/>
+			<Revision editorVersion="2020" lastDate="2022-07-07T23:21:20.960Z"/>
 		</Editor>
 	</Editors>
 </History>

@@ -1,10 +1,10 @@
 
 
-#ve2696 .GraphDataStyle1 {
-  fill-color: #2C8AD6;
-}
 #ve4622 .GraphDataStyle3 {
   fill-color: #7358C7;
+}
+#ve2696 .GraphDataStyle1 {
+  fill-color: #2C8AD6;
 }
 #ve4622 .GraphDataStyle4 {
   fill-color: #C7651C;
@@ -65,11 +65,11 @@
 #ve2381 .GraphDataStyle1 {
   fill-color: #33A3FF;
 }
-#ve2678 .GraphDataStyle1 {
-  fill-color: #2C8AD6;
-}
 #ve2381 .GraphSkin {
   data-skin: CRISP;
+}
+#ve2678 .GraphDataStyle1 {
+  fill-color: #2C8AD6;
 }
 #ve4718 .GraphSkin {
   data-skin: CRISP;
