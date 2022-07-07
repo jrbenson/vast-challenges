@@ -1,0 +1,1952 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SASReport xmlns="http://www.sas.com/sasreportmodel/bird-4.20.0" label="Study Notes (Don)" implicitInteractions="reportPrompt sectionPrompt" createdLocale="en" createdVersion="4.19.0" dateCreated="2022-06-09T15:11:22Z" dateModified="2022-07-07T20:31:23Z" createdApplication="SAS Visual Analytics 2020" lastModifiedApplication="SAS Visual Analytics 2020" nextUniqueNameIndex="471">
+	<Results>
+		<Result ref="dd276" type="relational" status="success" dataLevel="baseline" label="Parallel Coordinates Plot" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-07-03T18:52:45.929Z">
+			<Variables>
+				<NumericVariable format="BEST12." usage="categorical" label="Days in Study" ref="bi419" varname="bi419" column="c0"/>
+				<StringVariable label="Home" ref="bi420" varname="bi420" column="c1"/>
+				<StringVariable label="End Travel Location Type" ref="bi285" varname="bi285" column="c2"/>
+				<NumericVariable format="BEST12." usage="quantitative" definedAggregation="sum" label="Total Employers" ref="bi417" varname="bi417" column="c3"/>
+				<NumericVariable format="BEST12." usage="categorical" label="Participant ID" ref="bi287" varname="bi287" column="c4"/>
+				<NumericVariable format="COMMA20." usage="quantitative" label="Frequency" ref="bi288" varname="bi288" column="c5"/>
+			</Variables>
+			<Columns>
+				<NumericColumn dataType="double" colname="c0" encoding="text"/>
+				<StringColumn maxLength="1" colname="c1" encoding="text"/>
+				<StringColumn maxLength="1" colname="c2" encoding="text"/>
+				<NumericColumn dataType="double" colname="c3" encoding="text"/>
+				<NumericColumn dataType="double" colname="c4" encoding="text"/>
+				<NumericColumn dataType="double" colname="c5" encoding="text"/>
+			</Columns>
+			<Data isIndexed="true" availableRowCount="142" contentKey="PF2ZV7GIHOFMD4PTAQ65OHVJTUPDU2NY" size="3863" format="CSV" rowCount="142" grandTotal="false" dataLayout="minimal"><![CDATA[5.0,1,2,21.25,288.0,8
+5.0,1,2,5.050000000000001,301.0,7
+5.0,1,2,5.050000000000001,886.0,8
+5.0,1,2,7.750000000000001,161.0,5
+4.0,1,2,15.85,768.0,7
+4.0,1,2,2.35,856.0,7
+5.0,1,2,23.950000000000003,267.0,8
+5.0,1,2,10.450000000000001,346.0,8
+4.0,1,2,18.550000000000004,577.0,7
+5.0,1,2,7.750000000000001,773.0,9
+4.0,1,2,7.750000000000001,761.0,8
+5.0,1,2,7.750000000000001,790.0,7
+5.0,1,2,15.85,900.0,8
+4.0,1,2,15.85,382.0,5
+5.0,1,2,21.25,799.0,8
+5.0,1,2,13.15,639.0,8
+5.0,1,2,10.450000000000001,615.0,8
+5.0,1,2,15.85,793.0,8
+5.0,1,2,5.050000000000001,780.0,4
+5.0,1,2,2.35,883.0,4
+4.0,1,2,23.950000000000003,558.0,8
+5.0,1,2,2.35,876.0,4
+5.0,1,2,13.15,604.0,5
+5.0,1,2,5.050000000000001,817.0,8
+5.0,1,2,13.15,859.0,5
+4.0,1,2,21.25,628.0,7
+4.0,1,2,18.550000000000004,789.0,7
+5.0,1,2,21.25,383.0,8
+450.0,0,2,13.15,849.0,4
+4.0,1,2,10.450000000000001,875.0,7
+4.0,1,2,26.65,634.0,8
+5.0,1,2,21.25,510.0,7
+5.0,1,2,21.25,896.0,5
+5.0,1,2,26.65,589.0,8
+5.0,1,2,2.35,909.0,4
+5.0,1,2,7.750000000000001,44.0,8
+5.0,1,2,7.750000000000001,839.0,8
+5.0,1,2,18.550000000000004,858.0,7
+5.0,1,2,21.25,512.0,8
+450.0,0,2,7.750000000000001,372.0,4
+5.0,1,2,23.950000000000003,862.0,8
+5.0,1,2,23.950000000000003,352.0,9
+5.0,1,2,7.750000000000001,756.0,8
+5.0,1,2,7.750000000000001,629.0,7
+4.0,1,2,18.550000000000004,384.0,8
+5.0,1,2,21.25,380.0,8
+5.0,1,2,26.65,298.0,9
+5.0,1,2,15.85,509.0,9
+5.0,1,2,21.25,762.0,7
+4.0,1,2,2.35,901.0,7
+4.0,1,2,7.750000000000001,853.0,7
+450.0,0,2,2.35,640.0,3
+4.0,1,2,13.15,907.0,6
+5.0,1,2,15.85,641.0,9
+5.0,1,2,15.85,808.0,7
+450.0,0,2,7.750000000000001,916.0,4
+5.0,1,2,2.35,885.0,5
+5.0,1,2,2.35,832.0,5
+4.0,1,2,21.25,602.0,7
+4.0,1,2,7.750000000000001,567.0,7
+4.0,1,2,15.85,603.0,10
+5.0,1,2,15.85,774.0,7
+5.0,1,2,7.750000000000001,860.0,9
+5.0,1,2,21.25,887.0,8
+5.0,1,2,2.35,902.0,4
+5.0,1,2,15.85,154.0,7
+5.0,1,2,13.15,923.0,5
+4.0,1,2,13.15,617.0,8
+5.0,1,2,2.35,668.0,7
+4.0,1,2,15.85,867.0,7
+5.0,1,2,10.450000000000001,595.0,12
+5.0,1,2,7.750000000000001,806.0,8
+4.0,1,2,13.15,127.0,7
+5.0,1,2,2.35,919.0,4
+5.0,1,2,26.65,262.0,9
+5.0,1,2,10.450000000000001,897.0,7
+5.0,1,2,15.85,827.0,9
+4.0,1,2,15.85,760.0,7
+5.0,1,2,5.050000000000001,568.0,8
+450.0,0,2,2.35,868.0,4
+5.0,1,2,7.750000000000001,831.0,8
+5.0,1,2,5.050000000000001,842.0,8
+5.0,1,2,7.750000000000001,864.0,8
+5.0,1,2,10.450000000000001,792.0,6
+5.0,1,2,13.15,785.0,8
+5.0,1,2,21.25,572.0,8
+4.0,1,2,21.25,285.0,7
+5.0,1,2,18.550000000000004,658.0,6
+5.0,1,2,7.750000000000001,884.0,8
+5.0,1,2,2.35,892.0,6
+5.0,1,2,2.35,911.0,4
+5.0,1,2,2.35,816.0,5
+5.0,1,2,21.25,406.0,8
+450.0,0,2,7.750000000000001,141.0,4
+4.0,1,2,21.25,541.0,7
+450.0,0,2,10.450000000000001,403.0,4
+4.0,1,2,15.85,514.0,10
+5.0,1,2,7.750000000000001,647.0,11
+5.0,1,2,13.15,920.0,6
+5.0,1,2,2.35,553.0,7
+5.0,1,2,26.65,279.0,8
+5.0,1,2,21.25,256.0,8
+5.0,1,2,5.050000000000001,834.0,8
+5.0,1,2,2.35,655.0,5
+5.0,1,2,15.85,142.0,7
+5.0,1,2,13.15,523.0,6
+5.0,1,2,21.25,605.0,8
+450.0,0,2,7.750000000000001,559.0,3
+5.0,1,2,23.950000000000003,392.0,10
+5.0,1,2,15.85,611.0,8
+5.0,1,2,23.950000000000003,407.0,7
+5.0,1,2,2.35,771.0,4
+5.0,1,2,7.750000000000001,846.0,7
+5.0,1,2,26.65,657.0,8
+5.0,1,2,2.35,925.0,5
+5.0,1,2,7.750000000000001,824.0,6
+5.0,1,2,2.35,643.0,8
+5.0,1,2,15.85,580.0,8
+4.0,1,2,10.450000000000001,794.0,7
+4.0,1,2,23.950000000000003,574.0,8
+5.0,1,2,2.35,924.0,5
+450.0,0,2,10.450000000000001,782.0,4
+5.0,1,2,21.25,825.0,8
+450.0,0,2,7.750000000000001,798.0,4
+5.0,1,2,5.050000000000001,802.0,7
+5.0,1,2,23.950000000000003,526.0,11
+4.0,1,2,21.25,663.0,8
+4.0,1,2,7.750000000000001,670.0,7
+5.0,1,2,13.15,872.0,7
+5.0,1,2,26.65,818.0,10
+450.0,0,2,5.050000000000001,576.0,3
+5.0,1,2,15.85,757.0,7
+5.0,1,2,21.25,847.0,8
+5.0,1,2,23.950000000000003,621.0,12
+4.0,1,2,21.25,791.0,7
+4.0,1,2,21.25,356.0,7
+5.0,1,2,7.750000000000001,653.0,6
+4.0,1,2,23.950000000000003,828.0,6
+5.0,1,2,21.25,575.0,8
+4.0,1,2,2.35,855.0,7
+5.0,1,2,5.050000000000001,539.0,8
+5.0,1,2,15.85,599.0,7
+]]></Data>
+			<StringTable contentKey="AZ3PIU3WJF4OBXKAHGIFVTXBWN2P44JT" size="36" format="CSV" rowCount="3"><![CDATA["Apartment"
+"Not Supplied"
+"School"
+]]></StringTable>
+		</Result>
+		<Result ref="dd295" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-07-03T18:52:45.929Z">
+			<Variables>
+				<StringVariable label="Number of Polylines" ref="bi290" varname="bi290" column="c0"/>
+				<StringVariable label="Polylines" ref="bi291" varname="bi291" column="c1"/>
+			</Variables>
+			<Columns>
+				<StringColumn maxLength="5" colname="c0" encoding="text"/>
+				<StringColumn maxLength="12" colname="c1" encoding="text"/>
+			</Columns>
+			<Data isIndexed="false" availableRowCount="1" contentKey="3LKWSKTL6TMMXQSVJTFXG4QUPDJSZ46P" size="19" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA["142","Polylines:"
+]]></Data>
+		</Result>
+		<Result ref="dd282" type="relational" status="success" dataLevel="baseline" label="Dependent Variables Results" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-07-03T18:52:45.929Z">
+			<Variables>
+				<StringVariable label="Variable Name" ref="bi278" varname="bi278" column="c0"/>
+				<NumericVariable format="BEST." usage="quantitative" label="Bin lower bound" ref="bi279" varname="bi279" column="c1"/>
+				<NumericVariable format="BEST." usage="quantitative" label="Bin width" ref="bi280" varname="bi280" column="c2"/>
+				<NumericVariable format="BEST." usage="quantitative" label="Number of Bins" ref="bi281" varname="bi281" column="c3"/>
+			</Variables>
+			<Columns>
+				<StringColumn maxLength="1" colname="c0" encoding="text"/>
+				<NumericColumn dataType="double" colname="c1" encoding="text"/>
+				<NumericColumn dataType="double" colname="c2" encoding="text"/>
+				<NumericColumn dataType="double" colname="c3" encoding="text"/>
+			</Columns>
+			<Data isIndexed="true" availableRowCount="5" contentKey="PN7NEUGTSDISE4M5JEVLDJVDOHCRG4RR" size="60" format="CSV" rowCount="5" grandTotal="false" dataLayout="minimal"><![CDATA[3,.,.,0
+4,.,.,0
+0,.,.,0
+2,1.0,2.6999999999999993,10
+1,.,.,0
+]]></Data>
+			<StringTable contentKey="SRSDO4E7VKWH72NAY7QMDAKOEBN3Z5QS" size="40" format="CSV" rowCount="5"><![CDATA["bi285"
+"bi287"
+"bi417"
+"bi419"
+"bi420"
+]]></StringTable>
+		</Result>
+	</Results>
+	<DataDefinitions>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds7" name="dd62">
+			<BusinessItems>
+				<RelationalDataItem name="bi65" base="bi27"/>
+				<RelationalDataItem name="bi66" base="bi57"/>
+				<RelationalDataItem name="bi67" base="bi20"/>
+				<RelationalDataItem name="bi69" base="bi68"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds7" type="relational" name="dd63">
+				<RelationalQuery detail="false">
+					<Axes>
+						<Axis type="column">
+							<BusinessItem ref="bi65"/>
+							<BusinessItem ref="bi66"/>
+							<BusinessItem ref="bi67"/>
+							<BusinessItem ref="bi69"/>
+						</Axis>
+					</Axes>
+					<SortItems>
+						<SortItem ref="bi67" sortDirection="ascending"/>
+					</SortItems>
+				</RelationalQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRowsLookup="listTable" maxRowsBehavior="truncate" name="dd64"/>
+				</ResultDefinitions>
+			</DataDefinition>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds86" name="dd147">
+			<BusinessItems>
+				<SyntheticDataItem name="bi150"/>
+				<SyntheticItems name="si152">
+					<Item purpose="variableName" name="bi153"/>
+					<Item purpose="lowerBound" name="bi154"/>
+					<Item purpose="binWidth" name="bi155"/>
+					<Item purpose="binCount" name="bi156"/>
+				</SyntheticItems>
+				<SyntheticItems name="si157">
+					<Item purpose="polylineCount" name="bi158"/>
+					<Item purpose="polylineCountLabel" name="bi159"/>
+				</SyntheticItems>
+				<RelationalDataItem name="bi165" base="bi102"/>
+				<RelationalDataItem name="bi166" base="bi116"/>
+				<RelationalDataItem name="bi175" base="bi133"/>
+				<RelationalFilterItem name="bi198">
+					<EditorProperties>
+						<Property key="complexity">SINGLE_DATA_ITEM</Property>
+						<Property key="interactiveEditingAllowed">TRUE</Property>
+					</EditorProperties>
+					<Expression>or(between(${bi165,raw},4,8),ismissing(${bi165,raw}))</Expression>
+				</RelationalFilterItem>
+				<RelationalDataItem name="bi224" base="bi221"/>
+				<RelationalDataItem name="bi275" base="bi124"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds86" type="procedural" name="dd148">
+				<ProceduralQuery type="parallelCoordinates" scoreCodeNumber="149">
+					<Arguments>
+						<ListArgument purpose="variables">
+							<ArgumentGroup group="variableGroup">
+								<Argument purpose="variable">
+									<ReferenceValue>bi165</ReferenceValue>
+								</Argument>
+								<Argument purpose="binCount">
+									<IntValue>10</IntValue>
+								</Argument>
+							</ArgumentGroup>
+							<ArgumentGroup group="variableGroup">
+								<Argument purpose="variable">
+									<ReferenceValue>bi175</ReferenceValue>
+								</Argument>
+								<Argument purpose="includeMissing">
+									<BooleanValue>true</BooleanValue>
+								</Argument>
+							</ArgumentGroup>
+							<ArgumentGroup group="variableGroup">
+								<Argument purpose="variable">
+									<ReferenceValue>bi166</ReferenceValue>
+								</Argument>
+								<Argument purpose="includeMissing">
+									<BooleanValue>true</BooleanValue>
+								</Argument>
+							</ArgumentGroup>
+							<ArgumentGroup group="variableGroup">
+								<Argument purpose="variable">
+									<ReferenceValue>bi224</ReferenceValue>
+								</Argument>
+								<Argument purpose="includeMissing">
+									<BooleanValue>true</BooleanValue>
+								</Argument>
+							</ArgumentGroup>
+							<ArgumentGroup group="variableGroup">
+								<Argument purpose="variable">
+									<ReferenceValue>bi275</ReferenceValue>
+								</Argument>
+								<Argument purpose="includeMissing">
+									<BooleanValue>true</BooleanValue>
+								</Argument>
+							</ArgumentGroup>
+						</ListArgument>
+						<Argument purpose="binCount">
+							<IntValue>10</IntValue>
+						</Argument>
+						<Argument purpose="maxPolylines">
+							<IntValue>3000</IntValue>
+						</Argument>
+						<Argument purpose="totalCount">
+							<ReferenceValue>bi150</ReferenceValue>
+						</Argument>
+					</Arguments>
+				</ProceduralQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" name="dd160"/>
+					<ResultDefinition purpose="variableOutputInfo" name="dd161" syntheticItems="si152"/>
+					<ResultDefinition purpose="outputInfo" name="dd162" syntheticItems="si157"/>
+				</ResultDefinitions>
+			</DataDefinition>
+			<AppliedFilters>
+				<DetailFilters>
+					<BusinessItem ref="bi198"/>
+				</DetailFilters>
+			</AppliedFilters>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds86" name="dd214">
+			<BusinessItems>
+				<SyntheticDataItem name="bi209"/>
+				<SyntheticItems name="si200">
+					<Item purpose="variableName" name="bi201"/>
+					<Item purpose="lowerBound" name="bi202"/>
+					<Item purpose="binWidth" name="bi203"/>
+					<Item purpose="binCount" name="bi204"/>
+				</SyntheticItems>
+				<SyntheticItems name="si210">
+					<Item purpose="polylineCount" name="bi211"/>
+					<Item purpose="polylineCountLabel" name="bi212"/>
+				</SyntheticItems>
+				<RelationalDataItem name="bi206" base="bi102"/>
+				<RelationalDataItem name="bi208" base="bi116"/>
+				<RelationalDataItem name="bi207" base="bi133"/>
+				<RelationalFilterItem name="bi213">
+					<EditorProperties>
+						<Property key="complexity">SINGLE_DATA_ITEM</Property>
+						<Property key="interactiveEditingAllowed">TRUE</Property>
+					</EditorProperties>
+					<Expression>or(between(${bi206,raw},8,450),ismissing(${bi206,raw}))</Expression>
+				</RelationalFilterItem>
+				<RelationalFilterItem name="bi273">
+					<EditorProperties>
+						<Property key="complexity">SINGLE_DATA_ITEM</Property>
+						<Property key="interactiveEditingAllowed">TRUE</Property>
+					</EditorProperties>
+					<Expression>in(${bi208,binned},&apos;School&apos;)</Expression>
+				</RelationalFilterItem>
+				<RelationalDataItem name="bi274" base="bi124"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds86" type="procedural" name="dd215">
+				<ProceduralQuery type="parallelCoordinates" scoreCodeNumber="149">
+					<Arguments>
+						<ListArgument purpose="variables">
+							<ArgumentGroup group="variableGroup">
+								<Argument purpose="variable">
+									<ReferenceValue>bi274</ReferenceValue>
+								</Argument>
+								<Argument purpose="includeMissing">
+									<BooleanValue>true</BooleanValue>
+								</Argument>
+							</ArgumentGroup>
+							<ArgumentGroup group="variableGroup">
+								<Argument purpose="variable">
+									<ReferenceValue>bi206</ReferenceValue>
+								</Argument>
+								<Argument purpose="binCount">
+									<IntValue>10</IntValue>
+								</Argument>
+							</ArgumentGroup>
+							<ArgumentGroup group="variableGroup">
+								<Argument purpose="variable">
+									<ReferenceValue>bi207</ReferenceValue>
+								</Argument>
+								<Argument purpose="includeMissing">
+									<BooleanValue>true</BooleanValue>
+								</Argument>
+							</ArgumentGroup>
+							<ArgumentGroup group="variableGroup">
+								<Argument purpose="variable">
+									<ReferenceValue>bi208</ReferenceValue>
+								</Argument>
+								<Argument purpose="includeMissing">
+									<BooleanValue>true</BooleanValue>
+								</Argument>
+							</ArgumentGroup>
+						</ListArgument>
+						<Argument purpose="binCount">
+							<IntValue>10</IntValue>
+						</Argument>
+						<Argument purpose="maxPolylines">
+							<IntValue>3000</IntValue>
+						</Argument>
+						<Argument purpose="totalCount">
+							<ReferenceValue>bi209</ReferenceValue>
+						</Argument>
+					</Arguments>
+				</ProceduralQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" name="dd199"/>
+					<ResultDefinition purpose="variableOutputInfo" name="dd205" syntheticItems="si200"/>
+					<ResultDefinition purpose="outputInfo" name="dd216" syntheticItems="si210"/>
+				</ResultDefinitions>
+			</DataDefinition>
+			<AppliedFilters>
+				<DetailFilters>
+					<BusinessItem ref="bi213"/>
+					<BusinessItem ref="bi273"/>
+				</DetailFilters>
+			</AppliedFilters>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds86" name="dd242">
+			<BusinessItems>
+				<SyntheticDataItem name="bi236"/>
+				<SyntheticItems name="si226">
+					<Item purpose="variableName" name="bi227"/>
+					<Item purpose="lowerBound" name="bi228"/>
+					<Item purpose="binWidth" name="bi229"/>
+					<Item purpose="binCount" name="bi230"/>
+				</SyntheticItems>
+				<SyntheticItems name="si237">
+					<Item purpose="polylineCount" name="bi238"/>
+					<Item purpose="polylineCountLabel" name="bi239"/>
+				</SyntheticItems>
+				<RelationalDataItem name="bi232" base="bi102"/>
+				<RelationalDataItem name="bi235" base="bi116"/>
+				<RelationalDataItem name="bi234" base="bi133"/>
+				<RelationalDataItem name="bi233" base="bi221"/>
+				<RelationalFilterItem label="Advanced Filter 1" name="bi249">
+					<EditorProperties>
+						<Property key="complexity">ADVANCED</Property>
+					</EditorProperties>
+					<Expression>or(eq(${bi234,binned},&apos;School&apos;),eq(${bi235,binned},&apos;School&apos;))</Expression>
+				</RelationalFilterItem>
+				<RelationalDataItem name="bi272" base="bi124"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds86" type="procedural" name="dd243">
+				<ProceduralQuery type="parallelCoordinates" scoreCodeNumber="149">
+					<Arguments>
+						<ListArgument purpose="variables">
+							<ArgumentGroup group="variableGroup">
+								<Argument purpose="variable">
+									<ReferenceValue>bi272</ReferenceValue>
+								</Argument>
+								<Argument purpose="includeMissing">
+									<BooleanValue>true</BooleanValue>
+								</Argument>
+							</ArgumentGroup>
+							<ArgumentGroup group="variableGroup">
+								<Argument purpose="variable">
+									<ReferenceValue>bi232</ReferenceValue>
+								</Argument>
+								<Argument purpose="binCount">
+									<IntValue>10</IntValue>
+								</Argument>
+							</ArgumentGroup>
+							<ArgumentGroup group="variableGroup">
+								<Argument purpose="variable">
+									<ReferenceValue>bi234</ReferenceValue>
+								</Argument>
+								<Argument purpose="includeMissing">
+									<BooleanValue>true</BooleanValue>
+								</Argument>
+							</ArgumentGroup>
+							<ArgumentGroup group="variableGroup">
+								<Argument purpose="variable">
+									<ReferenceValue>bi235</ReferenceValue>
+								</Argument>
+								<Argument purpose="includeMissing">
+									<BooleanValue>true</BooleanValue>
+								</Argument>
+							</ArgumentGroup>
+							<ArgumentGroup group="variableGroup">
+								<Argument purpose="variable">
+									<ReferenceValue>bi233</ReferenceValue>
+								</Argument>
+								<Argument purpose="includeMissing">
+									<BooleanValue>true</BooleanValue>
+								</Argument>
+							</ArgumentGroup>
+						</ListArgument>
+						<Argument purpose="binCount">
+							<IntValue>10</IntValue>
+						</Argument>
+						<Argument purpose="maxPolylines">
+							<IntValue>3000</IntValue>
+						</Argument>
+						<Argument purpose="totalCount">
+							<ReferenceValue>bi236</ReferenceValue>
+						</Argument>
+					</Arguments>
+				</ProceduralQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" name="dd225"/>
+					<ResultDefinition purpose="variableOutputInfo" name="dd231" syntheticItems="si226"/>
+					<ResultDefinition purpose="outputInfo" name="dd244" syntheticItems="si237"/>
+				</ResultDefinitions>
+			</DataDefinition>
+			<AppliedFilters>
+				<DetailFilters>
+					<BusinessItem ref="bi249"/>
+				</DetailFilters>
+			</AppliedFilters>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds86" name="dd316">
+			<BusinessItems>
+				<SyntheticDataItem name="bi310"/>
+				<SyntheticItems name="si300">
+					<Item purpose="variableName" name="bi301"/>
+					<Item purpose="lowerBound" name="bi302"/>
+					<Item purpose="binWidth" name="bi303"/>
+					<Item purpose="binCount" name="bi304"/>
+				</SyntheticItems>
+				<SyntheticItems name="si311">
+					<Item purpose="polylineCount" name="bi312"/>
+					<Item purpose="polylineCountLabel" name="bi313"/>
+				</SyntheticItems>
+				<RelationalDataItem name="bi306" base="bi102"/>
+				<RelationalDataItem name="bi307" base="bi116"/>
+				<RelationalDataItem name="bi309" base="bi133"/>
+				<RelationalFilterItem name="bi314">
+					<EditorProperties>
+						<Property key="complexity">SINGLE_DATA_ITEM</Property>
+						<Property key="interactiveEditingAllowed">TRUE</Property>
+					</EditorProperties>
+					<Expression>or(between(${bi306,raw},8,450),ismissing(${bi306,raw}))</Expression>
+				</RelationalFilterItem>
+				<RelationalDataItem name="bi308" base="bi124"/>
+				<RelationalFilterItem name="bi315">
+					<EditorProperties>
+						<Property key="complexity">SINGLE_DATA_ITEM</Property>
+						<Property key="interactiveEditingAllowed">TRUE</Property>
+					</EditorProperties>
+					<Expression>in(${bi307,binned},&apos;School&apos;)</Expression>
+				</RelationalFilterItem>
+			</BusinessItems>
+			<DataDefinition dataSource="ds86" type="procedural" name="dd317">
+				<ProceduralQuery type="parallelCoordinates" scoreCodeNumber="149">
+					<Arguments>
+						<ListArgument purpose="variables">
+							<ArgumentGroup group="variableGroup">
+								<Argument purpose="variable">
+									<ReferenceValue>bi308</ReferenceValue>
+								</Argument>
+								<Argument purpose="includeMissing">
+									<BooleanValue>true</BooleanValue>
+								</Argument>
+							</ArgumentGroup>
+							<ArgumentGroup group="variableGroup">
+								<Argument purpose="variable">
+									<ReferenceValue>bi306</ReferenceValue>
+								</Argument>
+								<Argument purpose="binCount">
+									<IntValue>10</IntValue>
+								</Argument>
+							</ArgumentGroup>
+							<ArgumentGroup group="variableGroup">
+								<Argument purpose="variable">
+									<ReferenceValue>bi309</ReferenceValue>
+								</Argument>
+								<Argument purpose="includeMissing">
+									<BooleanValue>true</BooleanValue>
+								</Argument>
+							</ArgumentGroup>
+							<ArgumentGroup group="variableGroup">
+								<Argument purpose="variable">
+									<ReferenceValue>bi307</ReferenceValue>
+								</Argument>
+								<Argument purpose="includeMissing">
+									<BooleanValue>true</BooleanValue>
+								</Argument>
+							</ArgumentGroup>
+						</ListArgument>
+						<Argument purpose="binCount">
+							<IntValue>10</IntValue>
+						</Argument>
+						<Argument purpose="maxPolylines">
+							<IntValue>3000</IntValue>
+						</Argument>
+						<Argument purpose="totalCount">
+							<ReferenceValue>bi310</ReferenceValue>
+						</Argument>
+					</Arguments>
+				</ProceduralQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" name="dd299"/>
+					<ResultDefinition purpose="variableOutputInfo" name="dd305" syntheticItems="si300"/>
+					<ResultDefinition purpose="outputInfo" name="dd318" syntheticItems="si311"/>
+				</ResultDefinitions>
+			</DataDefinition>
+			<AppliedFilters>
+				<DetailFilters>
+					<BusinessItem ref="bi314"/>
+					<BusinessItem ref="bi315"/>
+				</DetailFilters>
+			</AppliedFilters>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds86" name="dd339">
+			<BusinessItems>
+				<SyntheticDataItem name="bi334"/>
+				<SyntheticItems name="si323">
+					<Item purpose="variableName" name="bi324"/>
+					<Item purpose="lowerBound" name="bi325"/>
+					<Item purpose="binWidth" name="bi326"/>
+					<Item purpose="binCount" name="bi327"/>
+				</SyntheticItems>
+				<SyntheticItems name="si335">
+					<Item purpose="polylineCount" name="bi336"/>
+					<Item purpose="polylineCountLabel" name="bi337"/>
+				</SyntheticItems>
+				<RelationalDataItem name="bi332" base="bi102"/>
+				<RelationalDataItem name="bi330" base="bi116"/>
+				<RelationalDataItem name="bi329" base="bi133"/>
+				<RelationalDataItem name="bi333" base="bi221"/>
+				<RelationalFilterItem label="Advanced Filter 1" name="bi338">
+					<EditorProperties>
+						<Property key="complexity">ADVANCED</Property>
+					</EditorProperties>
+					<Expression>or(eq(${bi329,binned},&apos;School&apos;),eq(${bi330,binned},&apos;School&apos;))</Expression>
+				</RelationalFilterItem>
+				<RelationalDataItem name="bi331" base="bi124"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds86" type="procedural" name="dd340">
+				<ProceduralQuery type="parallelCoordinates" scoreCodeNumber="149">
+					<Arguments>
+						<ListArgument purpose="variables">
+							<ArgumentGroup group="variableGroup">
+								<Argument purpose="variable">
+									<ReferenceValue>bi331</ReferenceValue>
+								</Argument>
+								<Argument purpose="includeMissing">
+									<BooleanValue>true</BooleanValue>
+								</Argument>
+							</ArgumentGroup>
+							<ArgumentGroup group="variableGroup">
+								<Argument purpose="variable">
+									<ReferenceValue>bi332</ReferenceValue>
+								</Argument>
+								<Argument purpose="binCount">
+									<IntValue>10</IntValue>
+								</Argument>
+							</ArgumentGroup>
+							<ArgumentGroup group="variableGroup">
+								<Argument purpose="variable">
+									<ReferenceValue>bi329</ReferenceValue>
+								</Argument>
+								<Argument purpose="includeMissing">
+									<BooleanValue>true</BooleanValue>
+								</Argument>
+							</ArgumentGroup>
+							<ArgumentGroup group="variableGroup">
+								<Argument purpose="variable">
+									<ReferenceValue>bi330</ReferenceValue>
+								</Argument>
+								<Argument purpose="includeMissing">
+									<BooleanValue>true</BooleanValue>
+								</Argument>
+							</ArgumentGroup>
+							<ArgumentGroup group="variableGroup">
+								<Argument purpose="variable">
+									<ReferenceValue>bi333</ReferenceValue>
+								</Argument>
+								<Argument purpose="includeMissing">
+									<BooleanValue>true</BooleanValue>
+								</Argument>
+							</ArgumentGroup>
+						</ListArgument>
+						<Argument purpose="binCount">
+							<IntValue>10</IntValue>
+						</Argument>
+						<Argument purpose="maxPolylines">
+							<IntValue>3000</IntValue>
+						</Argument>
+						<Argument purpose="totalCount">
+							<ReferenceValue>bi334</ReferenceValue>
+						</Argument>
+					</Arguments>
+				</ProceduralQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" name="dd322"/>
+					<ResultDefinition purpose="variableOutputInfo" name="dd328" syntheticItems="si323"/>
+					<ResultDefinition purpose="outputInfo" name="dd341" syntheticItems="si335"/>
+				</ResultDefinitions>
+			</DataDefinition>
+			<AppliedFilters>
+				<DetailFilters>
+					<BusinessItem ref="bi338"/>
+				</DetailFilters>
+			</AppliedFilters>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds86" name="dd352">
+			<BusinessItems>
+				<RelationalDataItem name="bi355" base="bi124"/>
+				<RelationalDataItem name="bi356" base="bi116"/>
+				<RelationalDataItem name="bi357" base="bi142"/>
+				<RelationalFilterItem name="bi366">
+					<EditorProperties>
+						<Property key="complexity">SINGLE_DATA_ITEM</Property>
+						<Property key="interactiveEditingAllowed">TRUE</Property>
+					</EditorProperties>
+					<Expression>in(${bi356,binned},&apos;School&apos;)</Expression>
+				</RelationalFilterItem>
+				<RelationalDataItem name="bi367" base="bi90"/>
+				<RelationalDataItem name="bi368" base="bi102"/>
+				<RelationalFilterItem name="bi369">
+					<EditorProperties>
+						<Property key="complexity">SINGLE_DATA_ITEM</Property>
+						<Property key="interactiveEditingAllowed">TRUE</Property>
+					</EditorProperties>
+					<Expression>or(between(${bi368,raw},8,450),ismissing(${bi368,raw}))</Expression>
+				</RelationalFilterItem>
+				<RelationalDataItem name="bi383" base="bi136"/>
+				<RelationalDataItem name="bi413" base="bi412"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds86" type="relational" name="dd353">
+				<RelationalQuery columnTotals="true" omitTotalItems="bi357 bi383" detail="false">
+					<Axes>
+						<Axis type="column">
+							<BusinessItem ref="bi355"/>
+							<BusinessItem ref="bi356"/>
+							<BusinessItem ref="bi357"/>
+							<BusinessItem ref="bi367"/>
+							<BusinessItem ref="bi383"/>
+							<BusinessItem ref="bi413"/>
+						</Axis>
+					</Axes>
+					<SortItems>
+						<SortItem ref="bi355" sortDirection="ascending"/>
+					</SortItems>
+				</RelationalQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRowsLookup="listTable" maxRowsBehavior="truncate" name="dd354"/>
+				</ResultDefinitions>
+			</DataDefinition>
+			<AppliedFilters>
+				<DetailFilters>
+					<BusinessItem ref="bi366"/>
+					<BusinessItem ref="bi369"/>
+				</DetailFilters>
+			</AppliedFilters>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds86" name="dd378">
+			<BusinessItems>
+				<RelationalDataItem name="bi373" base="bi124"/>
+				<RelationalDataItem name="bi371" base="bi116"/>
+				<RelationalDataItem name="bi374" base="bi142"/>
+				<RelationalFilterItem name="bi376">
+					<EditorProperties>
+						<Property key="complexity">SINGLE_DATA_ITEM</Property>
+						<Property key="interactiveEditingAllowed">TRUE</Property>
+					</EditorProperties>
+					<Expression>in(${bi371,binned},&apos;School&apos;)</Expression>
+				</RelationalFilterItem>
+				<RelationalDataItem name="bi375" base="bi90"/>
+				<RelationalDataItem name="bi372" base="bi102"/>
+				<RelationalFilterItem name="bi377">
+					<EditorProperties>
+						<Property key="complexity">SINGLE_DATA_ITEM</Property>
+						<Property key="interactiveEditingAllowed">TRUE</Property>
+					</EditorProperties>
+					<Expression>or(between(${bi372,raw},4,7),ismissing(${bi372,raw}))</Expression>
+				</RelationalFilterItem>
+				<RelationalDataItem name="bi382" base="bi136"/>
+				<RelationalDataItem name="bi414" base="bi412"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds86" type="relational" name="dd379">
+				<RelationalQuery columnTotals="true" omitTotalItems="bi374 bi382" detail="false">
+					<Axes>
+						<Axis type="column">
+							<BusinessItem ref="bi373"/>
+							<BusinessItem ref="bi371"/>
+							<BusinessItem ref="bi374"/>
+							<BusinessItem ref="bi375"/>
+							<BusinessItem ref="bi382"/>
+							<BusinessItem ref="bi414"/>
+						</Axis>
+					</Axes>
+					<SortItems>
+						<SortItem ref="bi373" sortDirection="ascending"/>
+					</SortItems>
+				</RelationalQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRowsLookup="listTable" maxRowsBehavior="truncate" name="dd370"/>
+				</ResultDefinitions>
+			</DataDefinition>
+			<AppliedFilters>
+				<DetailFilters>
+					<BusinessItem ref="bi376"/>
+					<BusinessItem ref="bi377"/>
+				</DetailFilters>
+			</AppliedFilters>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds86" name="dd387">
+			<BusinessItems>
+				<RelationalDataItem name="bi390" base="bi124"/>
+				<RelationalDataItem name="bi391" base="bi136"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds86" type="multidimensional" name="dd388">
+				<MultidimensionalQuery detail="false">
+					<Axes>
+						<Axis type="column">
+							<BusinessItem ref="bi390"/>
+						</Axis>
+						<Axis type="row">
+							<BusinessItem ref="bi391"/>
+						</Axis>
+					</Axes>
+					<ColumnSortItems>
+						<MeasureSortItem ref="bi391" sortDirection="descending"/>
+						<SortItem ref="bi390" sortDirection="ascending"/>
+					</ColumnSortItems>
+				</MultidimensionalQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRowsLookup="graphDefault" maxRowsBehavior="truncate" name="dd389"/>
+				</ResultDefinitions>
+			</DataDefinition>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds86" name="dd293">
+			<BusinessItems>
+				<SyntheticDataItem name="bi288"/>
+				<SyntheticItems name="si277">
+					<Item purpose="variableName" name="bi278"/>
+					<Item purpose="lowerBound" name="bi279"/>
+					<Item purpose="binWidth" name="bi280"/>
+					<Item purpose="binCount" name="bi281"/>
+				</SyntheticItems>
+				<SyntheticItems name="si289">
+					<Item purpose="polylineCount" name="bi290"/>
+					<Item purpose="polylineCountLabel" name="bi291"/>
+				</SyntheticItems>
+				<RelationalDataItem name="bi285" base="bi116"/>
+				<RelationalDataItem name="bi287" base="bi124"/>
+				<RelationalFilterItem name="bi415">
+					<EditorProperties>
+						<Property key="complexity">SINGLE_DATA_ITEM</Property>
+						<Property key="interactiveEditingAllowed">TRUE</Property>
+					</EditorProperties>
+					<Expression>in(${bi285,binned},&apos;School&apos;)</Expression>
+				</RelationalFilterItem>
+				<RelationalDataItem name="bi417" base="bi135"/>
+				<RelationalDataItem name="bi419" base="bi418"/>
+				<RelationalDataItem name="bi420" base="bi144"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds86" type="procedural" name="dd294">
+				<ProceduralQuery type="parallelCoordinates" scoreCodeNumber="149">
+					<Arguments>
+						<ListArgument purpose="variables">
+							<ArgumentGroup group="variableGroup">
+								<Argument purpose="variable">
+									<ReferenceValue>bi419</ReferenceValue>
+								</Argument>
+								<Argument purpose="includeMissing">
+									<BooleanValue>true</BooleanValue>
+								</Argument>
+							</ArgumentGroup>
+							<ArgumentGroup group="variableGroup">
+								<Argument purpose="variable">
+									<ReferenceValue>bi420</ReferenceValue>
+								</Argument>
+								<Argument purpose="includeMissing">
+									<BooleanValue>true</BooleanValue>
+								</Argument>
+							</ArgumentGroup>
+							<ArgumentGroup group="variableGroup">
+								<Argument purpose="variable">
+									<ReferenceValue>bi285</ReferenceValue>
+								</Argument>
+								<Argument purpose="includeMissing">
+									<BooleanValue>true</BooleanValue>
+								</Argument>
+							</ArgumentGroup>
+							<ArgumentGroup group="variableGroup">
+								<Argument purpose="variable">
+									<ReferenceValue>bi417</ReferenceValue>
+								</Argument>
+								<Argument purpose="binCount">
+									<IntValue>10</IntValue>
+								</Argument>
+							</ArgumentGroup>
+							<ArgumentGroup group="variableGroup">
+								<Argument purpose="variable">
+									<ReferenceValue>bi287</ReferenceValue>
+								</Argument>
+								<Argument purpose="includeMissing">
+									<BooleanValue>true</BooleanValue>
+								</Argument>
+							</ArgumentGroup>
+						</ListArgument>
+						<Argument purpose="binCount">
+							<IntValue>10</IntValue>
+						</Argument>
+						<Argument purpose="maxPolylines">
+							<IntValue>3000</IntValue>
+						</Argument>
+						<Argument purpose="totalCount">
+							<ReferenceValue>bi288</ReferenceValue>
+						</Argument>
+					</Arguments>
+				</ProceduralQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" name="dd276"/>
+					<ResultDefinition purpose="variableOutputInfo" name="dd282" syntheticItems="si277"/>
+					<ResultDefinition purpose="outputInfo" name="dd295" syntheticItems="si289"/>
+				</ResultDefinitions>
+			</DataDefinition>
+			<AppliedFilters>
+				<DetailFilters>
+					<BusinessItem ref="bi415"/>
+				</DetailFilters>
+			</AppliedFilters>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds7" name="dd441">
+			<BusinessItems>
+				<SyntheticDataItem name="bi437"/>
+				<SyntheticItems name="si428">
+					<Item purpose="variableName" name="bi429"/>
+					<Item purpose="lowerBound" name="bi430"/>
+					<Item purpose="binWidth" name="bi431"/>
+					<Item purpose="binCount" name="bi432"/>
+				</SyntheticItems>
+				<SyntheticItems name="si438">
+					<Item purpose="polylineCount" name="bi439"/>
+					<Item purpose="polylineCountLabel" name="bi440"/>
+				</SyntheticItems>
+				<RelationalDataItem name="bi435" base="bi20"/>
+				<RelationalDataItem name="bi436" base="bi28"/>
+				<RelationalDataItem name="bi434" base="bi57"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds7" type="procedural" name="dd442">
+				<ProceduralQuery type="parallelCoordinates" scoreCodeNumber="40">
+					<Arguments>
+						<ListArgument purpose="variables">
+							<ArgumentGroup group="variableGroup">
+								<Argument purpose="variable">
+									<ReferenceValue>bi434</ReferenceValue>
+								</Argument>
+								<Argument purpose="includeMissing">
+									<BooleanValue>true</BooleanValue>
+								</Argument>
+							</ArgumentGroup>
+							<ArgumentGroup group="variableGroup">
+								<Argument purpose="variable">
+									<ReferenceValue>bi435</ReferenceValue>
+								</Argument>
+								<Argument purpose="binCount">
+									<IntValue>10</IntValue>
+								</Argument>
+							</ArgumentGroup>
+							<ArgumentGroup group="variableGroup">
+								<Argument purpose="variable">
+									<ReferenceValue>bi436</ReferenceValue>
+								</Argument>
+								<Argument purpose="binCount">
+									<IntValue>10</IntValue>
+								</Argument>
+							</ArgumentGroup>
+						</ListArgument>
+						<Argument purpose="binCount">
+							<IntValue>10</IntValue>
+						</Argument>
+						<Argument purpose="maxPolylines">
+							<IntValue>3000</IntValue>
+						</Argument>
+						<Argument purpose="totalCount">
+							<ReferenceValue>bi437</ReferenceValue>
+						</Argument>
+					</Arguments>
+				</ProceduralQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" name="dd427"/>
+					<ResultDefinition purpose="variableOutputInfo" name="dd433" syntheticItems="si428"/>
+					<ResultDefinition purpose="outputInfo" name="dd443" syntheticItems="si438"/>
+				</ResultDefinitions>
+			</DataDefinition>
+		</ParentDataDefinition>
+	</DataDefinitions>
+	<DataSources>
+		<DataSource label="VAST2022_PARTICIPANTS_PLUS" type="relational" name="ds7">
+			<CasResource server="cas-shared-default" library="VAST" table="VAST2022_PARTICIPANTS_PLUS" locale="en_US"/>
+			<BusinessItemFolder>
+				<DataItem name="bi8" xref="age"/>
+				<DataItem name="bi9" xref="apartmentBuildingId" usage="categorical"/>
+				<DataItem name="bi10" xref="apartmentBuildingMaxOccupancy"/>
+				<DataItem name="bi11" xref="apartmentId" usage="categorical"/>
+				<DataItem name="bi12" xref="apartmentLocationLat"/>
+				<DataItem name="bi13" xref="apartmentLocationLng"/>
+				<DataItem name="bi14" xref="apartmentMaxOccupancy"/>
+				<DataItem name="bi15" xref="apartmentRentalCost"/>
+				<DataItem name="bi16" xref="apartmentNumberOfRooms"/>
+				<DataItem name="bi17" xref="avgHourlyRate"/>
+				<DataItem name="bi18" xref="buildingId" hidden="true"/>
+				<DataItem name="bi19" xref="haveKids"/>
+				<DataItem name="bi20" xref="daysInStudy"/>
+				<DataItem name="bi21" xref="educationLevel"/>
+				<DataItem name="bi22" xref="joviality"/>
+				<DataItem name="bi23" xref="householdSize"/>
+				<DataItem name="bi24" xref="interestGroup"/>
+				<DataItem name="bi25" xref="maxHourlyRate"/>
+				<DataItem name="bi26" xref="minHourlyRate"/>
+				<DataItem name="bi27" xref="participantId" usage="categorical"/>
+				<DataItem name="bi28" xref="totalEmployers"/>
+				<PredefinedDataItem calculation="totalCount" name="bi29" label="Frequency" usage="quantitative" format="COMMA12."/>
+				<PredefinedDataItem calculation="totalCountPercent" name="bi30" label="Frequency Percent" usage="quantitative" format="PERCENT20.2"/>
+				<CalculatedItem dataType="string" name="bi57" label="Home" usage="categorical" format="$." aggregation="sum" sortOn="custom" customSort="cs59">
+					<Expression>cond(ismissing(${bi11,binned}),&apos;Not Supplied&apos;,&apos;Apartment&apos;)</Expression>
+				</CalculatedItem>
+				<CalculatedItem dataType="double" name="bi68" label="Calculated Days in Study" usage="quantitative" format="COMMA12.2" aggregation="sum">
+					<Expression>cond(in(${bi27,binned},768,577,789,514,670,875,628,794,856,634,663,558,791,127,382,867,828,541,384,285,617,855,602,574,603,567,760,761,907,356,901,853),4,cond(in(${bi27,binned},892,831,512,885,262,816,575,256,154,876,605,860,802,793,827,629,817,346,858,896,773,589,780,864,655,288,653,392,920,887,834,301,142,806,859,911,832,771,641,298,824,909,846,808,643,572,639,900,799,762,657,611,580,568,647,553,774,818,847,523,919,510,897,526,839,352,279,595,161,383,790,825,924,925,902,842,406,785,757,44,792,407,886,380,509,883,862,267,539,756,668,621,604,599,615,658,923,884,872),5,450))</Expression>
+				</CalculatedItem>
+				<DataItem name="bi70" xref="workDays"/>
+				<DataItem name="bi71" xref="checkInDays"/>
+				<DataItem name="bi72" xref="multiplePubsOneDay"/>
+				<DataItem name="bi73" xref="twoJobs"/>
+				<DataItem name="bi74" xref="twoShifts"/>
+				<DataItem name="bi75" xref="totalJobs"/>
+				<DataItem name="bi76" xref="pubEvents"/>
+				<DataItem name="bi77" xref="eatEvents"/>
+				<DataItem name="bi78" xref="goingToEatAfterWork"/>
+				<DataItem name="bi79" xref="goingToPubAtWork"/>
+				<DataItem name="bi80" xref="goingToEatAtWork"/>
+			</BusinessItemFolder>
+		</DataSource>
+		<DataSource label="VAST2022_TRAVELJOURNAL3" type="relational" name="ds86">
+			<CasResource server="cas-shared-default" library="VAST" table="VAST2022_TRAVELJOURNAL3" locale="en_US"/>
+			<BusinessItemFolder>
+				<DataItem name="bi87" xref="age"/>
+				<DataItem name="bi88" xref="apartmentBuildingId"/>
+				<DataItem name="bi89" xref="apartmentBuildingMaxOccupancy"/>
+				<DataItem name="bi90" xref="apartmentId" usage="categorical"/>
+				<DataItem name="bi91" xref="apartmentLocationLat"/>
+				<DataItem name="bi92" xref="apartmentLocationLng"/>
+				<DataItem name="bi93" xref="apartmentMaxOccupancy"/>
+				<DataItem name="bi94" xref="apartmentRentalCost"/>
+				<DataItem name="bi95" xref="apartmentNumberOfRooms"/>
+				<DataItem name="bi96" xref="avgHourlyRate"/>
+				<DataItem name="bi97" xref="buildingId"/>
+				<DataItem name="bi98" xref="checkInTime"/>
+				<DataItem name="bi99" xref="checkOutTime"/>
+				<DataItem name="bi100" xref="haveKids"/>
+				<DataItem name="bi101" xref="workDays"/>
+				<DataItem name="bi102" xref="daysInStudy"/>
+				<DataItem name="bi103" xref="checkInDays"/>
+				<DataItem name="bi104" xref="multiplePubsOneDay"/>
+				<DataItem name="bi105" xref="twoJobs"/>
+				<DataItem name="bi106" xref="twoShifts"/>
+				<DataItem name="bi107" xref="educationLevel"/>
+				<DataItem name="bi108" xref="employerId"/>
+				<DataItem name="bi109" xref="endingBalance"/>
+				<DataItem name="bi110" xref="travelEndBuildingId"/>
+				<DataItem name="bi111" xref="travelEndBuildingType"/>
+				<DataItem name="bi112" xref="travelEndLocationId"/>
+				<DataItem name="bi113" xref="travelEndIsEmployer"/>
+				<DataItem name="bi114" xref="travelEndLocationLat"/>
+				<DataItem name="bi115" xref="travelEndLocationLng"/>
+				<DataItem name="bi116" xref="travelEndLocationType"/>
+				<DataItem name="bi117" xref="travelEndTime"/>
+				<DataItem name="bi118" xref="joviality"/>
+				<DataItem name="bi119" xref="householdSize"/>
+				<DataItem name="bi120" xref="interestGroup"/>
+				<DataItem name="bi121" xref="jobId"/>
+				<DataItem name="bi122" xref="maxHourlyRate"/>
+				<DataItem name="bi123" xref="minHourlyRate"/>
+				<DataItem name="bi124" xref="participantId" usage="categorical"/>
+				<DataItem name="bi125" xref="purpose"/>
+				<DataItem name="bi126" xref="startingBalance"/>
+				<DataItem name="bi127" xref="travelStartBuildingId"/>
+				<DataItem name="bi128" xref="travelStartBuildingType"/>
+				<DataItem name="bi129" xref="travelStartLocationId"/>
+				<DataItem name="bi130" xref="travelStartIsEmployer"/>
+				<DataItem name="bi131" xref="travelStartLocationLat"/>
+				<DataItem name="bi132" xref="travelStartLocationLng"/>
+				<DataItem name="bi133" xref="travelStartLocationType"/>
+				<DataItem name="bi134" xref="travelStartTime"/>
+				<DataItem name="bi135" xref="totalEmployers"/>
+				<DataItem name="bi136" xref="totalJobs" aggregation="min"/>
+				<DataItem name="bi137" xref="pubEvents"/>
+				<DataItem name="bi138" xref="eatEvents"/>
+				<DataItem name="bi139" xref="goingToEatAfterWork"/>
+				<DataItem name="bi140" xref="goingToPubAtWork"/>
+				<DataItem name="bi141" xref="goingToEatAtWork"/>
+				<PredefinedDataItem calculation="totalCount" name="bi142" label="Frequency" usage="quantitative" format="COMMA12."/>
+				<PredefinedDataItem calculation="totalCountPercent" name="bi143" label="Frequency Percent" usage="quantitative" format="PERCENT20.2"/>
+				<CalculatedItem dataType="string" name="bi144" label="Home" usage="categorical" format="$." aggregation="sum">
+					<Expression>cond(ismissing(${bi90,binned}),&apos;Not Supplied&apos;,&apos;Apartment&apos;)</Expression>
+				</CalculatedItem>
+				<CalculatedItem dataType="date" name="bi221" label="Date (weekly)" usage="categorical" format="WEEKV5" aggregation="sum">
+					<Expression>datepart(${bi134,binned})</Expression>
+				</CalculatedItem>
+				<AggregateCalculatedItem dataType="double" name="bi412" label="Participant ID (Distinct count)" format="COMMA12.">
+					<Expression>aggregate(countDistinct,group,${bi124,binned})</Expression>
+				</AggregateCalculatedItem>
+				<DataItem name="bi418" label="Days in Study" xref="daysInStudy" usage="categorical"/>
+			</BusinessItemFolder>
+		</DataSource>
+	</DataSources>
+	<VisualElements>
+		<Text name="ve32" label="Text 1" selectionDisabled="true" applyDynamicBrushes="no">
+			<P><Span class="span1"><Span class="span2">Note</Span></Span></P>
+			<P></P>
+			<P><Span>There are several anomalies in the first few days of the study, such as people having multiple jobs with some lasting only 5 minutes.  The study started with 1,011 participants with 32 dropping out after 4 days and another 99 dropping out after 5 days.  None of the participants who dropped out of the study lived in an apartment and they all traveled to School.  Our conclusion is these participants stayed in the dorms at college/university and traveled home at the end of the school year.  The remaining 880 participants completed the study, which ran 450 days. </Span></P>
+			<P></P>
+			<P><Span>The analysis in this report is only on those that participated in the entire study.</Span></P>
+		</Text>
+		<Table columnSizing="autoFill" resultDefinitions="dd64" name="ve61" data="dd62" label="List table - Participant ID 1" applyDynamicBrushes="yes" sourceInteractionVariables="bi65 bi66">
+			<EditorProperties>
+				<Property key="isAutoLabel">true</Property>
+			</EditorProperties>
+			<Columns>
+				<Column variable="bi65" isVisible="true"/>
+				<Column variable="bi66" isVisible="true"/>
+				<Column variable="bi67" isVisible="true" compactFormat="false"/>
+				<Column variable="bi69" isVisible="true" compactFormat="false"/>
+			</Columns>
+		</Table>
+		<Graph graphType="pcPlot" supplementalVisuals="ve163" resultDefinitions="dd160 dd161" name="ve146" data="dd147" label="Parallel Coordinates - Days in Study 1" applyDynamicBrushes="no">
+			<EditorProperties>
+				<Property key="isAutoLabel">true</Property>
+			</EditorProperties>
+			<Title auto="true"><P><DynamicSpan key="bird.autotitle.template.parallelCoordinatesOfSelected.txt"></DynamicSpan></P></Title>
+<![CDATA[<StatGraph opaque="false" includeMissingDiscrete="true" missingValueDisplay="autolabel">
+    <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
+    <Meta>
+        <DataNameMap>
+            <Entry model="ParallelCoordinatesPlot_10" data="dd160"/>
+            <Entry model="BinMetadata_10" data="dd161"/>
+        </DataNameMap>
+    </Meta>
+    <LayoutRegion>
+        <ParallelCoordinatesPlot name="ParallelCoordinatesPlot_10" dataTransparency="0.5" smoothConnect="true" lineWidthResponse="dd160#bi150">
+            <BinMetadata name="BinMetadata_10" dataField="dd161#bi153" size="dd161#bi155" start="dd161#bi154" count="dd161#bi156"/>
+            <Response>
+                <Value>dd160#bi165</Value>
+                <Value>dd160#bi175</Value>
+                <Value>dd160#bi166</Value>
+                <Value>dd160#bi224</Value>
+                <Value>dd160#bi275</Value>
+            </Response>
+            <ParallelAxisOpts>
+                <AxisOpts name="response1"/>
+                <AxisOpts discreteSortOrder="ascendingunformatted" type="discrete" name="response2"/>
+                <AxisOpts discreteSortOrder="ascendingunformatted" type="discrete" name="response3"/>
+                <AxisOpts discreteSortOrder="ascendingunformatted" type="discrete" name="response4"/>
+                <AxisOpts discreteSortOrder="ascendingunformatted" type="discrete" name="response5"/>
+            </ParallelAxisOpts>
+        </ParallelCoordinatesPlot>
+    </LayoutRegion>
+</StatGraph>]]>
+		</Graph>
+		<Table columnSizing="autoFill" resultDefinitions="dd160" name="ve163" data="dd147" applyDynamicBrushes="yes">
+			<Columns>
+				<Column variable="bi165"/>
+				<Column variable="bi175"/>
+				<Column variable="bi166"/>
+				<Column variable="bi224"/>
+				<Column variable="bi275"/>
+				<Column variable="bi150"/>
+			</Columns>
+		</Table>
+		<Graph graphType="pcPlot" supplementalVisuals="ve217" resultDefinitions="dd199 dd205" name="ve218" data="dd214" label="Parallel Coordinates - Participant ID 3" applyDynamicBrushes="no">
+			<EditorProperties>
+				<Property key="isAutoLabel">true</Property>
+			</EditorProperties>
+			<Title auto="true"><P><DynamicSpan key="bird.autotitle.template.parallelCoordinatesOfSelected.txt"></DynamicSpan></P></Title>
+<![CDATA[<StatGraph opaque="false" includeMissingDiscrete="true" missingValueDisplay="autolabel">
+    <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
+    <Meta>
+        <DataNameMap>
+            <Entry model="ParallelCoordinatesPlot_8" data="dd199"/>
+            <Entry model="BinMetadata_8" data="dd205"/>
+        </DataNameMap>
+    </Meta>
+    <LayoutRegion>
+        <ParallelCoordinatesPlot name="ParallelCoordinatesPlot_8" dataTransparency="0.5" smoothConnect="true" lineWidthResponse="dd199#bi209">
+            <BinMetadata name="BinMetadata_8" dataField="dd205#bi201" size="dd205#bi203" start="dd205#bi202" count="dd205#bi204"/>
+            <Response>
+                <Value>dd199#bi274</Value>
+                <Value>dd199#bi206</Value>
+                <Value>dd199#bi207</Value>
+                <Value>dd199#bi208</Value>
+            </Response>
+            <ParallelAxisOpts>
+                <AxisOpts discreteSortOrder="ascendingunformatted" type="discrete" name="response1"/>
+                <AxisOpts name="response2"/>
+                <AxisOpts discreteSortOrder="ascendingunformatted" type="discrete" name="response3"/>
+                <AxisOpts discreteSortOrder="ascendingunformatted" type="discrete" name="response4"/>
+            </ParallelAxisOpts>
+        </ParallelCoordinatesPlot>
+    </LayoutRegion>
+</StatGraph>]]>
+		</Graph>
+		<Table columnSizing="autoFill" resultDefinitions="dd199" name="ve217" data="dd214" applyDynamicBrushes="yes">
+			<Columns>
+				<Column variable="bi274"/>
+				<Column variable="bi206"/>
+				<Column variable="bi207"/>
+				<Column variable="bi208"/>
+				<Column variable="bi209"/>
+			</Columns>
+		</Table>
+		<Graph graphType="pcPlot" supplementalVisuals="ve245" resultDefinitions="dd225 dd231" name="ve246" data="dd242" label="Parallel Coordinates - Participant ID 4" applyDynamicBrushes="no">
+			<EditorProperties>
+				<Property key="isAutoLabel">true</Property>
+			</EditorProperties>
+			<Title auto="true"><P><DynamicSpan key="bird.autotitle.template.parallelCoordinatesOfSelected.txt"></DynamicSpan></P></Title>
+<![CDATA[<StatGraph opaque="false" includeMissingDiscrete="true" missingValueDisplay="autolabel">
+    <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
+    <Meta>
+        <DataNameMap>
+            <Entry model="ParallelCoordinatesPlot_9" data="dd225"/>
+            <Entry model="BinMetadata_9" data="dd231"/>
+        </DataNameMap>
+    </Meta>
+    <LayoutRegion>
+        <ParallelCoordinatesPlot name="ParallelCoordinatesPlot_9" dataTransparency="0.5" smoothConnect="true" lineWidthResponse="dd225#bi236">
+            <BinMetadata name="BinMetadata_9" dataField="dd231#bi227" size="dd231#bi229" start="dd231#bi228" count="dd231#bi230"/>
+            <Response>
+                <Value>dd225#bi272</Value>
+                <Value>dd225#bi232</Value>
+                <Value>dd225#bi234</Value>
+                <Value>dd225#bi235</Value>
+                <Value>dd225#bi233</Value>
+            </Response>
+            <ParallelAxisOpts>
+                <AxisOpts discreteSortOrder="ascendingunformatted" type="discrete" name="response1"/>
+                <AxisOpts name="response2"/>
+                <AxisOpts discreteSortOrder="ascendingunformatted" type="discrete" name="response3"/>
+                <AxisOpts discreteSortOrder="ascendingunformatted" type="discrete" name="response4"/>
+                <AxisOpts discreteSortOrder="ascendingunformatted" type="discrete" name="response5"/>
+            </ParallelAxisOpts>
+        </ParallelCoordinatesPlot>
+    </LayoutRegion>
+</StatGraph>]]>
+		</Graph>
+		<Table columnSizing="autoFill" resultDefinitions="dd225" name="ve245" data="dd242" applyDynamicBrushes="yes">
+			<Columns>
+				<Column variable="bi272"/>
+				<Column variable="bi232"/>
+				<Column variable="bi234"/>
+				<Column variable="bi235"/>
+				<Column variable="bi233"/>
+				<Column variable="bi236"/>
+			</Columns>
+		</Table>
+		<Graph graphType="pcPlot" supplementalVisuals="ve319" resultDefinitions="dd299 dd305" name="ve320" data="dd316" label="Parallel Coordinates - Participant ID 2" applyDynamicBrushes="no">
+			<EditorProperties>
+				<Property key="isAutoLabel">true</Property>
+			</EditorProperties>
+			<Title auto="true"><P><DynamicSpan key="bird.autotitle.template.parallelCoordinatesOfSelected.txt"></DynamicSpan></P></Title>
+<![CDATA[<StatGraph opaque="false" includeMissingDiscrete="true" missingValueDisplay="autolabel">
+    <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
+    <Meta>
+        <DataNameMap>
+            <Entry model="ParallelCoordinatesPlot_12" data="dd299"/>
+            <Entry model="BinMetadata_12" data="dd305"/>
+        </DataNameMap>
+    </Meta>
+    <LayoutRegion>
+        <ParallelCoordinatesPlot name="ParallelCoordinatesPlot_12" dataTransparency="0.5" smoothConnect="true" lineWidthResponse="dd299#bi310">
+            <BinMetadata name="BinMetadata_12" dataField="dd305#bi301" size="dd305#bi303" start="dd305#bi302" count="dd305#bi304"/>
+            <Response>
+                <Value>dd299#bi308</Value>
+                <Value>dd299#bi306</Value>
+                <Value>dd299#bi309</Value>
+                <Value>dd299#bi307</Value>
+            </Response>
+            <ParallelAxisOpts>
+                <AxisOpts discreteSortOrder="ascendingunformatted" type="discrete" name="response1"/>
+                <AxisOpts name="response2"/>
+                <AxisOpts discreteSortOrder="ascendingunformatted" type="discrete" name="response3"/>
+                <AxisOpts discreteSortOrder="ascendingunformatted" type="discrete" name="response4"/>
+            </ParallelAxisOpts>
+        </ParallelCoordinatesPlot>
+    </LayoutRegion>
+</StatGraph>]]>
+		</Graph>
+		<Table columnSizing="autoFill" resultDefinitions="dd299" name="ve319" data="dd316" applyDynamicBrushes="yes">
+			<Columns>
+				<Column variable="bi308"/>
+				<Column variable="bi306"/>
+				<Column variable="bi309"/>
+				<Column variable="bi307"/>
+				<Column variable="bi310"/>
+			</Columns>
+		</Table>
+		<Graph graphType="pcPlot" supplementalVisuals="ve342" resultDefinitions="dd322 dd328" name="ve343" data="dd339" label="Parallel Coordinates - Participant ID 1" applyDynamicBrushes="no">
+			<EditorProperties>
+				<Property key="isAutoLabel">true</Property>
+			</EditorProperties>
+			<Title auto="true"><P><DynamicSpan key="bird.autotitle.template.parallelCoordinatesOfSelected.txt"></DynamicSpan></P></Title>
+<![CDATA[<StatGraph opaque="false" includeMissingDiscrete="true" missingValueDisplay="autolabel">
+    <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
+    <Meta>
+        <DataNameMap>
+            <Entry model="ParallelCoordinatesPlot_11" data="dd322"/>
+            <Entry model="BinMetadata_11" data="dd328"/>
+        </DataNameMap>
+    </Meta>
+    <LayoutRegion>
+        <ParallelCoordinatesPlot name="ParallelCoordinatesPlot_11" dataTransparency="0.5" smoothConnect="true" lineWidthResponse="dd322#bi334">
+            <BinMetadata name="BinMetadata_11" dataField="dd328#bi324" size="dd328#bi326" start="dd328#bi325" count="dd328#bi327"/>
+            <Response>
+                <Value>dd322#bi331</Value>
+                <Value>dd322#bi332</Value>
+                <Value>dd322#bi329</Value>
+                <Value>dd322#bi330</Value>
+                <Value>dd322#bi333</Value>
+            </Response>
+            <ParallelAxisOpts>
+                <AxisOpts discreteSortOrder="ascendingunformatted" type="discrete" name="response1"/>
+                <AxisOpts name="response2"/>
+                <AxisOpts discreteSortOrder="ascendingunformatted" type="discrete" name="response3"/>
+                <AxisOpts discreteSortOrder="ascendingunformatted" type="discrete" name="response4"/>
+                <AxisOpts discreteSortOrder="ascendingunformatted" type="discrete" name="response5"/>
+            </ParallelAxisOpts>
+        </ParallelCoordinatesPlot>
+    </LayoutRegion>
+</StatGraph>]]>
+		</Graph>
+		<Table columnSizing="autoFill" resultDefinitions="dd322" name="ve342" data="dd339" applyDynamicBrushes="yes">
+			<Columns>
+				<Column variable="bi331"/>
+				<Column variable="bi332"/>
+				<Column variable="bi329"/>
+				<Column variable="bi330"/>
+				<Column variable="bi333"/>
+				<Column variable="bi334"/>
+			</Columns>
+		</Table>
+		<Table columnSizing="autoFill" resultDefinitions="dd354" name="ve351" data="dd352" label="List table - Participant ID 2" applyDynamicBrushes="yes" sourceInteractionVariables="bi355 bi356 bi367">
+			<EditorProperties>
+				<Property key="isAutoLabel">true</Property>
+			</EditorProperties>
+			<Title auto="false"><P><Span>In School; In Apartment; Stayed</Span></P></Title>
+			<Summary>
+				<Total rowVisible="true"/>
+			</Summary>
+			<Columns>
+				<Column variable="bi355" isVisible="true"/>
+				<Column variable="bi367" isVisible="true"/>
+				<Column variable="bi356" isVisible="true"/>
+				<Column variable="bi357" isVisible="true" compactFormat="false"/>
+				<Column variable="bi383" isVisible="true" compactFormat="false"/>
+				<Column variable="bi413" isVisible="true" compactFormat="false"/>
+			</Columns>
+		</Table>
+		<Table columnSizing="autoFill" resultDefinitions="dd370" name="ve380" data="dd378" label="List table - Participant ID 3" applyDynamicBrushes="yes" sourceInteractionVariables="bi373 bi371 bi375">
+			<EditorProperties>
+				<Property key="isAutoLabel">true</Property>
+			</EditorProperties>
+			<Summary>
+				<Total rowVisible="true"/>
+			</Summary>
+			<Columns>
+				<Column variable="bi373" isVisible="true"/>
+				<Column variable="bi375" isVisible="true"/>
+				<Column variable="bi371" isVisible="true"/>
+				<Column variable="bi374" isVisible="true" compactFormat="false"/>
+				<Column variable="bi382" isVisible="true" compactFormat="false"/>
+				<Column variable="bi414" isVisible="true" compactFormat="false"/>
+			</Columns>
+		</Table>
+		<Graph graphType="bar" supplementalVisuals="ve393" resultDefinitions="dd389" name="ve386" data="dd387" label="Bar - Participant ID 1" applyDynamicBrushes="yes" sourceInteractionVariables="bi390">
+			<EditorProperties>
+				<Property key="isAutoLabel">true</Property>
+			</EditorProperties>
+			<Title auto="true"><P><DynamicSpan key="bird.autotitle.template.oneByTwo.fmt.txt"><Substitutions><Substitution valueType="label" variables="bi136"/><Substitution valueType="label" variables="bi124"/></Substitutions></DynamicSpan></P></Title>
+<![CDATA[<StatGraph border="false" opaque="false" includeMissingDiscrete="true" selectionMode="multiple" missingValueDisplay="autolabel">
+    <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
+    <Meta>
+        <DynVars>
+            <DynVar name="CATEGORY" description="CATEGORY_VAR" required="true" assignedType="character" type="character">
+                <DefaultValues>
+                    <Value>dd389.bi390</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name="RESPONSE" description="MEASURE_VAR" required="true" assignedType="numeric" type="numeric" multiplesAllowed="true">
+                <DefaultValues>
+                    <Value>dd389.bi391</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name="GROUP" description="SUBGROUP_VAR" required="false" type="character"/>
+            <DynVar name="COLUMN" description="HORIZONTAL_SERIES_VAR" required="false" type="character" multiplesAllowed="true"/>
+            <DynVar name="ROW" description="VERTICAL_SERIES_VAR" required="false" type="character" multiplesAllowed="true"/>
+            <DynVar name="TIP" description="TIP_VAR" required="false" assignedType="numeric" type="any" multiplesAllowed="true">
+                <DefaultValues>
+                    <Value>dd389.bi390</Value>
+                    <Value>dd389.bi391</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name="KEY_FRAME" description="ANIMATION" required="false" type="time" multiplesAllowed="false"/>
+            <DynVar name="HIDDEN" description="HIDDEN_VAR" required="false" type="character" multiplesAllowed="true"/>
+        </DynVars>
+        <DataNameMap>
+            <Entry model="LayoutDataMatrix_141" data="dd389"/>
+        </DataNameMap>
+    </Meta>
+    <LayoutDataMatrix name="LayoutDataMatrix_141" cellHeightMin="1px" cellWidthMin="1px" includeMissingClass="true" rowVars="ROW" columnVars="COLUMN">
+        <LayoutPrototypeOverlay2D>
+            <BarChartParm name="BarChart" tipListPolicy="replace" _stmt="barchart" compactLabelFormats="true" groupDisplay="cluster" orient="horizontal" stat="none" tip="TIP" category="CATEGORY" responseVars="RESPONSE" group="GROUP"/>
+            <XAxisOpts name="categoryAxis">
+                <DiscreteOpts sortOrder="data"/>
+                <LinearOpts>
+                    <TickValueFormatOpts extractScale="true"/>
+                </LinearOpts>
+            </XAxisOpts>
+            <YAxisOpts reverse="true">
+                <DiscreteOpts tickValueFitPolicy="staggertruncatedrop" sortOrder="data" tickValueAppearance="auto"/>
+                <LinearOpts>
+                    <TickValueFormatOpts extractScale="true"/>
+                </LinearOpts>
+            </YAxisOpts>
+        </LayoutPrototypeOverlay2D>
+    </LayoutDataMatrix>
+    <LayoutGlobalLegend legendTitlePosition="top" allowCollapsed="true">
+        <AutoLegend>
+            <GraphNames>
+                <Value>BarChart</Value>
+            </GraphNames>
+        </AutoLegend>
+    </LayoutGlobalLegend>
+    <Animation keyFrameSortOrder="ascending_unformatted" keyFrame="KEY_FRAME"/>
+    <OverviewAxis maxPlotSize="60px" minPlotSize="35px" visible="off" axis="categoryAxis"/>
+</StatGraph>]]>
+		</Graph>
+		<Table columnSizing="autoFill" resultDefinitions="dd389" name="ve393" data="dd387" applyDynamicBrushes="yes" sourceInteractionVariables="bi390">
+			<Columns>
+				<Column variable="bi390"/>
+				<Column variable="bi391"/>
+			</Columns>
+		</Table>
+		<Graph graphType="pcPlot" supplementalVisuals="ve296" resultDefinitions="dd276 dd282" name="ve297" data="dd293" label="Parallel Coordinates - Days in Study 2" applyDynamicBrushes="no">
+			<EditorProperties>
+				<Property key="isAutoLabel">true</Property>
+			</EditorProperties>
+<![CDATA[<StatGraph opaque="false" includeMissingDiscrete="true" missingValueDisplay="autolabel">
+    <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
+    <Meta>
+        <DataNameMap>
+            <Entry model="ParallelCoordinatesPlot_9" data="dd276"/>
+            <Entry model="BinMetadata_9" data="dd282"/>
+        </DataNameMap>
+    </Meta>
+    <LayoutRegion>
+        <ParallelCoordinatesPlot name="ParallelCoordinatesPlot_9" dataTransparency="0.5" smoothConnect="true" lineWidthResponse="dd276#bi288">
+            <BinMetadata dataField="dd282#bi278" size="dd282#bi280" start="dd282#bi279" count="dd282#bi281" name="BinMetadata_9"/>
+            <Response>
+                <Value>dd276#bi419</Value>
+                <Value>dd276#bi420</Value>
+                <Value>dd276#bi285</Value>
+                <Value>dd276#bi417</Value>
+                <Value>dd276#bi287</Value>
+            </Response>
+            <ParallelAxisOpts>
+                <AxisOpts discreteSortOrder="ascendingunformatted" type="discrete" name="response1">
+                </AxisOpts>
+                <AxisOpts discreteSortOrder="ascendingunformatted" type="discrete" name="response2">
+                </AxisOpts>
+                <AxisOpts discreteSortOrder="ascendingunformatted" type="discrete" name="response3">
+                </AxisOpts>
+                <AxisOpts name="response4"/>
+                <AxisOpts discreteSortOrder="ascendingunformatted" type="discrete" name="response5">
+                </AxisOpts>
+            </ParallelAxisOpts>
+        </ParallelCoordinatesPlot>
+    </LayoutRegion>
+</StatGraph>]]>
+		</Graph>
+		<Table columnSizing="autoFill" resultDefinitions="dd276" name="ve296" data="dd293" applyDynamicBrushes="yes">
+			<Columns>
+				<Column variable="bi419"/>
+				<Column variable="bi420"/>
+				<Column variable="bi285"/>
+				<Column variable="bi417"/>
+				<Column variable="bi287"/>
+				<Column variable="bi288"/>
+			</Columns>
+		</Table>
+		<Text name="ve425" label="Text 1 (1)" selectionDisabled="true" applyDynamicBrushes="no">
+			<P><Span class="span1"><Span class="span2">Note</Span></Span></P>
+			<P></P>
+			<P><Span>There are several anomalies in the first few days of the study, such as people having multiple jobs with some lasting only 5 minutes.  The study started with 1,011 participants with 32 dropping out after 4 days and another 99 dropping out after 5 days.  None of the participants who dropped out of the study lived in an apartment and they all traveled to School.  Our conclusion is these participants stayed in the dorms at college/university and traveled home at the end of the school year.  The remaining 880 participants completed the study, which ran 450 days. </Span></P>
+			<P></P>
+			<P><Span>The analysis in this report is only on those that participated in the entire study.</Span></P>
+		</Text>
+		<Graph graphType="pcPlot" supplementalVisuals="ve444" resultDefinitions="dd427 dd433" name="ve445" data="dd441" label="Parallel Coordinates - Home 1" applyDynamicBrushes="no">
+			<EditorProperties>
+				<Property key="isAutoLabel">true</Property>
+			</EditorProperties>
+			<Title auto="false"><P><Span>Participants in the First Week of the Study</Span></P></Title>
+<![CDATA[<StatGraph opaque="false" includeMissingDiscrete="true" missingValueDisplay="autolabel">
+    <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
+    <Meta>
+        <DataNameMap>
+            <Entry model="ParallelCoordinatesPlot_8" data="dd427"/>
+            <Entry model="BinMetadata_8" data="dd433"/>
+        </DataNameMap>
+    </Meta>
+    <LayoutRegion>
+        <ParallelCoordinatesPlot name="ParallelCoordinatesPlot_8" dataTransparency="0.5" smoothConnect="true" lineWidthResponse="dd427#bi437">
+            <BinMetadata dataField="dd433#bi429" size="dd433#bi431" start="dd433#bi430" count="dd433#bi432" name="BinMetadata_8"/>
+            <Response>
+                <Value>dd427#bi434</Value>
+                <Value>dd427#bi435</Value>
+                <Value>dd427#bi436</Value>
+            </Response>
+            <ParallelAxisOpts>
+                <AxisOpts discreteSortOrder="ascendingunformatted" type="discrete" name="response1">
+                </AxisOpts>
+                <AxisOpts name="response2"/>
+                <AxisOpts name="response3"/>
+            </ParallelAxisOpts>
+        </ParallelCoordinatesPlot>
+    </LayoutRegion>
+</StatGraph>]]>
+		</Graph>
+		<Table columnSizing="autoFill" resultDefinitions="dd427" name="ve444" data="dd441" applyDynamicBrushes="yes">
+			<Columns>
+				<Column variable="bi434"/>
+				<Column variable="bi435"/>
+				<Column variable="bi436"/>
+				<Column variable="bi437"/>
+			</Columns>
+		</Table>
+	</VisualElements>
+	<View>
+		<Header>
+			<MediaContainer target="mt2">
+				<ResponsiveLayout orientation="horizontal" overflow="fit">
+					<Weights mediaTarget="mt5" unit="percent">
+						<Weight value="100%"/>
+					</Weights>
+					<Weights mediaTarget="mt4" unit="percent">
+						<Weight value="100%"/>
+					</Weights>
+					<Weights mediaTarget="mt3" unit="percent">
+						<Weight value="100%"/>
+					</Weights>
+				</ResponsiveLayout>
+			</MediaContainer>
+		</Header>
+		<Section name="vi6" label="1- Study Anomalies">
+			<Header>
+				<MediaContainer target="mt2">
+					<ResponsiveLayout orientation="horizontal" overflow="fit">
+						<Weights mediaTarget="mt5" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt4" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt3" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+					</ResponsiveLayout>
+				</MediaContainer>
+			</Header>
+			<Body>
+				<MediaContainer target="mt2">
+					<ResponsiveLayout orientation="vertical" overflow="fit">
+						<Weights mediaTarget="mt5" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt4" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt3" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+					</ResponsiveLayout>
+					<Visual ref="ve297" name="vi298">
+						<ResponsiveConstraint>
+							<WidthConstraint>
+								<Width mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+							</WidthConstraint>
+							<HeightConstraint>
+								<Height mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+							</HeightConstraint>
+						</ResponsiveConstraint>
+					</Visual>
+				</MediaContainer>
+			</Body>
+		</Section>
+		<Section name="vi470" label="orig pc plot">
+			<Header>
+				<MediaContainer target="mt2">
+					<ResponsiveLayout orientation="horizontal" overflow="fit">
+						<Weights mediaTarget="mt5" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt4" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt3" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+					</ResponsiveLayout>
+				</MediaContainer>
+			</Header>
+			<Body>
+				<MediaContainer target="mt2">
+					<ResponsiveLayout orientation="vertical" overflow="fit">
+						<Weights mediaTarget="mt5" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt4" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt3" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+					</ResponsiveLayout>
+					<Visual ref="ve425" name="vi426">
+						<ResponsiveConstraint>
+							<WidthConstraint>
+								<Width mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+							</WidthConstraint>
+							<HeightConstraint>
+								<Height mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="fixed"/>
+							</HeightConstraint>
+						</ResponsiveConstraint>
+					</Visual>
+					<Visual ref="ve445" name="vi446">
+						<ResponsiveConstraint>
+							<WidthConstraint>
+								<Width mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+							</WidthConstraint>
+							<HeightConstraint>
+								<Height mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+							</HeightConstraint>
+						</ResponsiveConstraint>
+					</Visual>
+					<Visual ref="ve32" name="vi31">
+						<ResponsiveConstraint>
+							<WidthConstraint>
+								<Width mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+							</WidthConstraint>
+							<HeightConstraint>
+								<Height mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="fixed"/>
+							</HeightConstraint>
+						</ResponsiveConstraint>
+					</Visual>
+				</MediaContainer>
+			</Body>
+		</Section>
+		<Section name="vi421" label="Page 6">
+			<Header>
+				<MediaContainer target="mt2">
+					<ResponsiveLayout orientation="horizontal" overflow="fit">
+						<Weights mediaTarget="mt5" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt4" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt3" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+					</ResponsiveLayout>
+				</MediaContainer>
+			</Header>
+			<Body>
+				<MediaContainer target="mt2">
+					<ResponsiveLayout orientation="vertical" overflow="fit">
+						<Weights mediaTarget="mt5" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt4" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt3" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+					</ResponsiveLayout>
+					<Visual ref="ve61" name="vi60">
+						<ResponsiveConstraint>
+							<WidthConstraint>
+								<Width mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+							</WidthConstraint>
+							<HeightConstraint>
+								<Height mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+							</HeightConstraint>
+						</ResponsiveConstraint>
+					</Visual>
+				</MediaContainer>
+			</Body>
+		</Section>
+		<Section name="vi85" label="Page 2">
+			<Header>
+				<MediaContainer target="mt2">
+					<ResponsiveLayout orientation="horizontal" overflow="fit">
+						<Weights mediaTarget="mt5" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt4" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt3" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+					</ResponsiveLayout>
+				</MediaContainer>
+			</Header>
+			<Body>
+				<MediaContainer target="mt2">
+					<ResponsiveLayout orientation="vertical" overflow="fit">
+						<Weights mediaTarget="mt5" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt4" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt3" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+					</ResponsiveLayout>
+					<Visual ref="ve146" name="vi145">
+						<ResponsiveConstraint>
+							<WidthConstraint>
+								<Width mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+							</WidthConstraint>
+							<HeightConstraint>
+								<Height mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+							</HeightConstraint>
+						</ResponsiveConstraint>
+					</Visual>
+					<Visual ref="ve218" name="vi219">
+						<ResponsiveConstraint>
+							<WidthConstraint>
+								<Width mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+							</WidthConstraint>
+							<HeightConstraint>
+								<Height mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+							</HeightConstraint>
+						</ResponsiveConstraint>
+					</Visual>
+					<Visual ref="ve246" name="vi247">
+						<ResponsiveConstraint>
+							<WidthConstraint>
+								<Width mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+							</WidthConstraint>
+							<HeightConstraint>
+								<Height mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+							</HeightConstraint>
+						</ResponsiveConstraint>
+					</Visual>
+				</MediaContainer>
+			</Body>
+		</Section>
+		<Section name="vi345" label="Page 2 (1)">
+			<Header>
+				<MediaContainer target="mt2">
+					<ResponsiveLayout orientation="horizontal" overflow="fit">
+						<Weights mediaTarget="mt5" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt4" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt3" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+					</ResponsiveLayout>
+				</MediaContainer>
+			</Header>
+			<Body>
+				<MediaContainer target="mt2">
+					<ResponsiveLayout orientation="vertical" overflow="fit">
+						<Weights mediaTarget="mt5" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt4" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt3" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+					</ResponsiveLayout>
+					<Visual ref="ve320" name="vi321">
+						<ResponsiveConstraint>
+							<WidthConstraint>
+								<Width mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+							</WidthConstraint>
+							<HeightConstraint>
+								<Height mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+							</HeightConstraint>
+						</ResponsiveConstraint>
+					</Visual>
+					<Visual ref="ve343" name="vi344">
+						<ResponsiveConstraint>
+							<WidthConstraint>
+								<Width mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+							</WidthConstraint>
+							<HeightConstraint>
+								<Height mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+							</HeightConstraint>
+						</ResponsiveConstraint>
+					</Visual>
+				</MediaContainer>
+			</Body>
+		</Section>
+		<Section name="vi349" label="Page 4">
+			<Header>
+				<MediaContainer target="mt2">
+					<ResponsiveLayout orientation="horizontal" overflow="fit">
+						<Weights mediaTarget="mt5" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt4" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt3" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+					</ResponsiveLayout>
+				</MediaContainer>
+			</Header>
+			<Body>
+				<MediaContainer target="mt2">
+					<ResponsiveLayout orientation="vertical" overflow="fit">
+						<Weights mediaTarget="mt5" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt4" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt3" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+					</ResponsiveLayout>
+					<Visual ref="ve351" name="vi350">
+						<ResponsiveConstraint>
+							<WidthConstraint>
+								<Width mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+							</WidthConstraint>
+							<HeightConstraint>
+								<Height mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+							</HeightConstraint>
+						</ResponsiveConstraint>
+					</Visual>
+					<Visual ref="ve380" name="vi381">
+						<ResponsiveConstraint>
+							<WidthConstraint>
+								<Width mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+							</WidthConstraint>
+							<HeightConstraint>
+								<Height mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+							</HeightConstraint>
+						</ResponsiveConstraint>
+					</Visual>
+				</MediaContainer>
+			</Body>
+		</Section>
+		<Section name="vi384" label="Page 5">
+			<Header>
+				<MediaContainer target="mt2">
+					<ResponsiveLayout orientation="horizontal" overflow="fit">
+						<Weights mediaTarget="mt5" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt4" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt3" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+					</ResponsiveLayout>
+				</MediaContainer>
+			</Header>
+			<Body>
+				<MediaContainer target="mt2">
+					<ResponsiveLayout orientation="vertical" overflow="fit">
+						<Weights mediaTarget="mt5" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt4" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt3" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+					</ResponsiveLayout>
+					<Visual ref="ve386" name="vi385">
+						<ResponsiveConstraint>
+							<WidthConstraint>
+								<Width mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+							</WidthConstraint>
+							<HeightConstraint>
+								<Height mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+							</HeightConstraint>
+						</ResponsiveConstraint>
+					</Visual>
+				</MediaContainer>
+			</Body>
+		</Section>
+	</View>
+	<MediaSchemes>
+		<MediaScheme name="ms1">
+			<BaseStylesheetResource file="basems1.css" theme="midnight2020"/>
+			<StylesheetFile file="ms1.css"/>
+		</MediaScheme>
+	</MediaSchemes>
+	<MediaTargets>
+		<MediaTarget windowSize="default" scheme="ms1" name="mt2"/>
+		<MediaTarget windowSize="small" scheme="ms1" name="mt3"/>
+		<MediaTarget windowSize="medium" scheme="ms1" name="mt4"/>
+		<MediaTarget windowSize="large" scheme="ms1" name="mt5"/>
+	</MediaTargets>
+	<Properties>
+		<Property key="displayDataSource">ds86</Property>
+		<Property key="ReportPackagesServiceVersion">2020.1.4</Property>
+		<Property key="ReportDataServiceVersion">2020.1.4</Property>
+	</Properties>
+	<CustomSorts>
+		<CustomSort type="string" name="cs59">
+			<Value>Not Supplied</Value>
+			<Value>Apartment</Value>
+		</CustomSort>
+	</CustomSorts>
+	<ExportProperties>
+		<Export destination="pdf">
+			<Property key="showCoverPage" value="true"></Property>
+			<Property key="showPageNumbers" value="true"></Property>
+		</Export>
+	</ExportProperties>
+	<History>
+	<Versions>
+		<Version key="4.19.0" lastDate="2022-06-09T00:00:00Z"/>
+		<Version key="4.20.0" lastDate="2022-07-06T00:00:00Z"/>
+	</Versions>
+	<Conversions>
+		<Conversion startVersion="4.19.0" finalVersion="4.20.0" date="2022-07-06T00:00:00Z"/>
+	</Conversions>
+	<Editors>
+		<Editor applicationName="VA">
+			<Revision editorVersion="2020" lastDate="2022-07-07T20:31:23.731Z"/>
+		</Editor>
+	</Editors>
+</History>
+	<SASReportState>
+		<View/>
+	</SASReportState>
+</SASReport>
