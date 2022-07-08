@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>SAS-SCHULZ-CH1</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#1f75bd" />
+    <meta name="msapplication-TileColor" content="#1f75bd" />
+    <meta name="theme-color" content="#ffffff" /> -->
+
+    <script
+      async
+      src="https://cdn.developer.sas.com/packages/va-report-components/1.8.0/dist/umd/va-report-components.js"
+    ></script>
+
+    <style>
+      sas-report,
+      sas-report-page,
+      sas-report-object {
+        height: 80vh;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="main">
+      <header>
+        <h1><strong class="wrapblock">SAS-SCHULZ-CH1</strong></h1>
+        <p>VAST Challenge 2022</p>
+        <p>Challenge 1</p>
+
+        <nav>
+          <a href="#team_information">Team Information</a> |
+          <a href="#video">Video</a> |
+          <a href="#questions">Questions</a>
+        </nav>
+      </header>
+
+      <h2 id="team_information">Team Information</h2>
+
+      <h3>Team members:</h3>
+      <ul>
+        <li>
+          Falko Schulz, SAS Institute,
+          <a href="mailto:Falko.Schulz@sas.com">Falko.Schulz@sas.com</a>
+          (PRIMARY)
+        </li>
+        <li>
+          Don Chapman, SAS Institute,
+          <a href="mailto:Don.Chapman@sas.com">Don.Chapman@sas.com</a>
+        </li>
+        <li>
+          Steven Harenberg, SAS Institute,
+          <a href="mailto:Steven.Harenberg@sas.com">Steven.Harenberg@sas.com</a>
+        </li>
+        <li>
+          Stu Sztukowski, SAS Institute,
+          <a href="mailto:Stu.Sztukowski@sas.com">Stu.Sztukowski@sas.com</a>
+        </li>
+        <li>
+          Cheryl LeSaint, SAS Institute,
+          <a href="mailto:Cheryl.LeSaint@sas.com">Cheryl.LeSaint@sas.com</a>
+        </li>
+      </ul>
+
+      <h3>Student team?</h3>
+      <p>No</p>
+
+      <h3>Analytics tools used:</h3>
+      <ul>
+        <li>
+          <a href="https://www.sas.com/en_us/software/visual-analytics.html"
+            >SAS Visual Analytics</a
+          >
+        </li>
+      </ul>
+
+      <h3>
+        Approximately how many hours were spent working on this submission in
+        total?
+      </h3>
+      <p>100 hours</p>
+
+      <h3>
+        May we post your submission in the Visual Analytics Benchmark Repository
+        after VAST Challenge 2022 is complete?
+      </h3>
+      <p>Yes</p>
+
+      <h2 id="video">Video</h2>
+      <div class="darkpane">
+        <div class="vidwrap">
+          <iframe
+            width="784"
+            height="480"
+            src="https://www.youtube.com/embed/BTX8mT4Kfr8?theme=light&modestbranding=1&controls=2&rel=0&showinfo=0"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+      <p class="centered">
+        <a href="https://youtu.be/BTX8mT4Kfr8">Watch Video on YouTube</a>
+      </p>
+
+      <h2 id="questions">Questions</h2>
+
+      <p class="centered">
+        <a href="#q1">Question 1</a> | <a href="#q2">Question 2</a> |
+        <a href="#q3">Question 3</a> |
+        <a href="#q4">Question 4</a>
+      </p>
+
+      <p>
+        Demographics and Relationships involves understanding the city's
+        demographics. Given social networks and other information about the
+        city, you will analyze the available data to prepare a one-page fact
+        sheet about the city's demographics, its neighborhoods, and its business
+        base.
+      </p>
+
+      <div
+        class="centered darkpane brochure"
+        style="font-size: large; background-image: none"
+      >
+        <h3 style="font-weight: bold; font-size: 2rem; margin-top: 1rem">
+          NOTE
+        </h3>
+        <p>
+          The answer form contains interactive visualizations that rely on
+          content hosted on GitHub pages and CDNs. If you encounter issues with
+          these visualizations first try viewing in Chrome and disabling any ad
+          blocking. If the interactive visuals still do not work a static
+          fallback version can be forced by clicking this link:
+        </p>
+        <p>
+          <a style="color: #329ff7; font-weight: bold" href="index.htm?static"
+            >Static Answer Form</a
+          >
+        </p>
+      </div>
+      <br />
+      <br />
+
+      <h3>
+        <span id="q1" class="question-number">1</span>Assuming the volunteers
+        are representative of the city's population, characterize what you can
+        about the demographics of the town. Provide your rationale and
+        supporting data.
+      </h3>
+      <p>
+        <small>Limit your response to 10 images and 500 words.</small>
+      </p>
+
+      <h4>Age</h4>
+      <p>
+        Age ranges from 18 to 60. Average Age is 39. Most cases (704 of 880)
+        have an age between 22 and 56.
+      </p>
+
+      <figure>
+        <figcaption>
+          Map of Age Group Distributions Throughout the City
+        </figcaption>
+        <sas-report-page
+          class="dynamic remove"
+          reportContextKey="https://jrbenson.github.io/vast-challenges/2022/pkg/don-c1-q1/"
+          pageName="vi40509"
+        ></sas-report-page
+        ><img src="img/fig-c1-q1-1.png" class="static" />
+      </figure>
+
+      <h4>Apartment Location</h4>
+      <p>
+        Central is the most common value representing 45.68% (402 of 880) of
+        Apartment Location. Other common values are Northwest (at 29.43%) and
+        East (at 14.09%).
+      </p>
+
+      <figure>
+        <figcaption>Rental Costs in Different Areas of the City</figcaption>
+        <sas-report-page
+          class="dynamic remove"
+          reportContextKey="https://jrbenson.github.io/vast-challenges/2022/pkg/don-c1-q1/"
+          pageName="vi55047"
+        ></sas-report-page
+        ><img src="img/fig-c1-q1-2.png" class="static" />
+      </figure>
+
+      <h4>Apartment Cost</h4>
+      <p>
+        "$$" is the most common value representing 31.97% (485 of 1.5K) of
+        Apartment Cost. Other common values are "$$$" (at 27.88%) and "$" (at
+        24.65%).
+      </p>
+
+      <figure>
+        <figcaption>
+          Correlated Groupings of Education Level, Household Size, and Families
+          with Children
+        </figcaption>
+        <sas-report-page
+          class="dynamic remove"
+          reportContextKey="https://jrbenson.github.io/vast-challenges/2022/pkg/don-c1-q1/"
+          pageName="vi5268"
+        ></sas-report-page
+        ><img src="img/fig-c1-q1-3.png" class="static" />
+      </figure>
+
+      <h4>Households Size</h4>
+      <p>
+        Household Size ranges from 1 to 3. Average Household Size is 1.9. Most
+        cases (704 of 880) have a Household Size between 1 and 3.
+      </p>
+
+      <h4>Children (yes/no)</h4>
+      <p>
+        "no" is the most common value representing 71.93% (633 of 880) of
+        Children (yes/no). Another common value is "yes" (at 28.07%).
+      </p>
+
+      <h4>Education Level</h4>
+      <p>
+        "HighSchoolOrCollege" is the most common value representing 47.95% (422
+        of 880) of Education Level. Other common values are "Bachelors" (at
+        26.36%) and "Graduate" (at 19.32%).
+      </p>
+
+      <figure>
+        <figcaption>Location of Schools, Restaurants, and Pubs</figcaption>
+        <sas-report-page
+          class="dynamic remove"
+          reportContextKey="https://jrbenson.github.io/vast-challenges/2022/pkg/don-c1-q1/"
+          pageName="vi58616"
+        ></sas-report-page
+        ><img src="img/fig-c1-q1-4.png" class="static" />
+      </figure>
+
+      <h4>Schools</h4>
+      <p>
+        Enrollment (max) ranges from 242 to 418. Average Enrollment (max) is
+        360. Most cases (3 of 4) have an Enrollment (max) between 242 and 418.
+      </p>
+
+      <h4>Restaurants</h4>
+      <p>
+        Food Cost ranges from $4.1 to $5.9. Average Food Cost is $5. Most cases
+        (16 of 20) have a Food Cost between $4.2 and $5.9.
+      </p>
+
+      <h4>Pubs</h4>
+      <p>
+        Hourly Cost ranges from $6.4 to $15. Average Hourly Cost is $11. Most
+        cases (9 of 12) have an Hour Cost between $7.5 and $14.
+      </p>
+
+      <figure>
+        <figcaption>
+          Job Availability and Education Requirements for Employers
+        </figcaption>
+        <sas-report-page
+          class="dynamic remove"
+          reportContextKey="https://jrbenson.github.io/vast-challenges/2022/pkg/don-c1-q1/"
+          pageName="vi62455"
+        ></sas-report-page
+        ><img src="img/fig-c1-q1-5.png" class="static" />
+      </figure>
+
+      <h4>Employer Job Count</h4>
+      <p>
+        Employer Job Count ranges from 2 to 9. Average Employer Job Count is
+        5.2. Most cases (202 of 253) have an Employer Job Count between 2 and 8.
+      </p>
+
+      <h4>Employer Education Requirements</h4>
+      <p>
+        "HighSchoolOrCollege" is the most common value representing 72.56% (2.2k
+        of 3K) of Education Level (min req). other common values are "Bachelors"
+        (at 12.64%) and "Low" (at 8.93%).
+      </p>
+
+      <figure>
+        <figcaption>Breakdown of Job Types Available</figcaption>
+        <sas-report-page
+          class="dynamic remove"
+          reportContextKey="https://jrbenson.github.io/vast-challenges/2022/pkg/don-c1-q1/"
+          pageName="vi9921"
+        ></sas-report-page
+        ><img src="img/fig-c1-q1-6.png" class="static" />
+      </figure>
+
+      <h4>Wage Range</h4>
+      <p>
+        $10 - $20 is the most common value representing 67.24% (893 of 1.3K) of
+        Wage Range. Other common values are $20 - $50 (at 29.59%) and $50 - $100
+        (at 3.16%).
+      </p>
+
+      <h4>Hourly Rate</h4>
+      <p>
+        Hourly Rate ranges from $10 to $100. Average Hourly Rate is $19. Most
+        cases (1.1K of 1.3K) have an Hourly Rate between $10 and $33.
+      </p>
+
+      <h4>Job Start Time</h4>
+      <p>
+        8:00 to 8:29 is the most common value representing 26.20% (348 of 1.3K)
+        of Job Start Time.
+      </p>
+
+      <h4>Job End Time</h4>
+      <p>
+        16:00 to 16:29 is the most common value representing 26.20% (348 of
+        1.3K) of Job End Time.
+      </p>
+
+      <figure>
+        <figcaption>
+          Examination of Distribution of Jobs Not in The Study
+        </figcaption>
+        <sas-report-page
+          class="dynamic remove"
+          reportContextKey="https://jrbenson.github.io/vast-challenges/2022/pkg/don-c1-q1/"
+          pageName="vi58201"
+        ></sas-report-page
+        ><img src="img/fig-c1-q1-7.png" class="static" />
+      </figure>
+
+      <h4>Job in Study</h4>
+      <p>
+        "In Study" is the most common value representing 89.6% (1.2K of 1.3K).
+      </p>
+
+      <h3>
+        <span id="q2" class="question-number">2</span>Consider the social
+        activities in the community. What patterns do you see in the social
+        networks in the town? Describe up to ten significant patterns you
+        observe, with evidence and rationale.
+      </h3>
+      <p>
+        <small>Limit your response to 10 images and 500 words.</small>
+      </p>
+
+      <p>
+        There are several anomalies in the first few days of the study, such as
+        people having multiple jobs with some lasting only 5 minutes. The study
+        started with 1,011 participants with 32 dropping out after 4 days and
+        another 99 dropping out after 5 days. None of the participants who
+        dropped out of the study lived in an apartment and they all traveled to
+        School. Our conclusion is these participants stayed in the dorms at
+        college/university and traveled home at the end of the school year. The
+        remaining 880 participants completed the study, which ran 450 days.
+      </p>
+
+      <figure>
+        <figcaption>
+          Impact of Anomalies Found in First Week of Study
+        </figcaption>
+        <sas-report-page
+          class="dynamic remove short"
+          reportContextKey="https://jrbenson.github.io/vast-challenges/2022/pkg/don-c1-q2-3/"
+          pageName="vi6"
+        ></sas-report-page
+        ><img src="img/fig-c1-q2-1-alt.png" class="static" />
+      </figure>
+
+      <p>
+        The analysis in this report is only on those that participated in the
+        entire study.
+      </p>
+
+      <figure>
+        <figcaption>
+          Impact of Anomalies Found in First Week of Study
+        </figcaption>
+        <sas-report-page
+          class="dynamic remove"
+          reportContextKey="https://jrbenson.github.io/vast-challenges/2022/pkg/don-c1-q2-1/"
+          pageName="vi75596"
+        ></sas-report-page
+        ><img src="img/fig-c1-q2-1.png" class="static" />
+      </figure>
+
+      <p>
+        On weekends, the longest average travel time was between Apartments and
+        Pubs. On weekdays, the longest average travel time was between
+        Apartments and Employers. Participants also had a longer average time
+        staying at their Employer on weekdays versus weekends.
+      </p>
+
+      <figure>
+        <figcaption>Comparison of Weekday and Weekend Travel Times</figcaption>
+        <sas-report-page
+          class="dynamic remove"
+          reportContextKey="https://jrbenson.github.io/vast-challenges/2022/pkg/don-c1-q2-1/"
+          pageName="vi75443"
+        ></sas-report-page
+        ><img src="img/fig-c1-q2-2.png" class="static" />
+      </figure>
+
+      <p>
+        Using SAS Viya's network analytics procedure, we searched for various
+        travel patterns to better understand the daily social activities of the
+        participants. When analyzing patterns, we took into account the travel
+        end location, purpose and check-in time. Using pattern match algorithm,
+        we are able to determine the frequency of given patterns in the data.
+        The following patterns have been identified:
+      </p>
+
+      <dl>
+        <dt>checkInDays</dt>
+        <dd>Number of unique days with at least one logged activity</dd>
+        <dt>workDays</dt>
+        <dd>number of days where the participant goes to work</dd>
+        <dt>pubEvents</dt>
+        <dd>number of times where the participant goes to a pub</dd>
+        <dt>eatEvents</dt>
+        <dd>number of times where the participant goes to a restaurant</dd>
+        <dt>goingToEatAtWork</dt>
+        <dd>
+          The participant goes to work, eats in the middle of work, then goes
+          home.
+        </dd>
+        <dt>twoJobs</dt>
+        <dd>
+          The participant goes to work at one job then goes to work at a
+          different job.
+        </dd>
+        <dt>twoShifts</dt>
+        <dd>
+          The participant goes to work at one job, goes home, then goes to work
+          at the same job.
+        </dd>
+        <dt>goingToPubAtWork</dt>
+        <dd>
+          The participant goes to work, goes to a pub in the middle of work,
+          then goes home.
+        </dd>
+        <dt>goingToPubAfterWork</dt>
+        <dd>The participant goes to work, comes home, then goes to a pub.</dd>
+        <dt>goingToEatAfterWork</dt>
+        <dd>
+          The participant goes to work, comes home, then goes to a restaurant.
+        </dd>
+        <dt>multiplePubsOneDay</dt>
+        <dd>The participant goes out to at least two pubs.</dd>
+      </dl>
+
+      <p>
+        These patterns can be grouped into
+        <em>Working</em>, <em>Pub</em>, and <em>Restaurant</em> visits to better
+        describe their daily social activities.
+      </p>
+
+      <figure>
+        <figcaption>Distribution For Number of Days Spent at Work</figcaption>
+        <sas-report-page
+          class="dynamic remove short"
+          reportContextKey="https://jrbenson.github.io/vast-challenges/2022/pkg/don-c1-q2-2/"
+          pageName="vi210"
+        ></sas-report-page
+        ><img src="img/fig-c1-q2-3.png" class="static" />
+      </figure>
+
+      <p>
+        Eating out is a common activity after work and in general. The median
+        participant ate out 469 times in total and ate out 130 times after a
+        work day (40% of the work days).
+      </p>
+
+      <figure>
+        <figcaption>Restaurant Visit Details</figcaption>
+        <sas-report-page
+          class="dynamic remove tall"
+          reportContextKey="https://jrbenson.github.io/vast-challenges/2022/pkg/don-c1-q2-2/"
+          pageName="vi347"
+        ></sas-report-page
+        ><img src="img/fig-c1-q2-4.png" class="static" />
+      </figure>
+
+      <p>
+        Visiting pubs were a common activity even though 13 participants
+        refrained from going to pubs altogether. Thankfully no participant went
+        to a pub during a work shift. However going to pubs after work and on
+        non-work days was common, often multiple times in one day. The median
+        participant went to a pub 364 times in total, 71 times after work (22%
+        of the work days), and had 100 days that contained multiple pub trips.
+      </p>
+
+      <figure>
+        <figcaption>Pub Visit Details</figcaption>
+        <sas-report-page
+          class="dynamic remove tall"
+          reportContextKey="https://jrbenson.github.io/vast-challenges/2022/pkg/don-c1-q2-2/"
+          pageName="vi716"
+        ></sas-report-page
+        ><img src="img/fig-c1-q2-5.png" class="static" />
+      </figure>
+
+      <h3>
+        <span id="q3" class="question-number">3</span>Identify the predominant
+        business base of the town, and describe patterns you observe.
+      </h3>
+      <p>
+        <small>Limit your response to 10 images and 500 words.</small>
+      </p>
+
+      <p>
+        The citizens in the study primarily went to two locations during their
+        free time: pubs and restaurants. Pubs were the dominant place to engage
+        in social gatherings. There are five primary locations of pubs and
+        restaurants:
+      </p>
+      <ul>
+        <li>Central</li>
+        <li>North Central</li>
+        <li>Northwest</li>
+        <li>East</li>
+        <li>South</li>
+      </ul>
+
+      <figure>
+        <figcaption>Pub and Restaurant Sales Across the City</figcaption>
+        <sas-report-page
+          class="dynamic remove"
+          reportContextKey="https://jrbenson.github.io/vast-challenges/2022/pkg/stu-c1-q3-1/"
+          pageName="vi104"
+        ></sas-report-page
+        ><img src="img/fig-c1-q3-1.png" class="static" />
+      </figure>
+
+      <p>
+        Throughout the study, two pubs dominated all sales in the central part
+        of town: 1342 and 1344. These two pubs made up over 20% of all sales
+        alone. Nearly 78% of all pub and restaurant sales occurred between the
+        Northwest, Southwest Central, and Central parts of town.
+      </p>
+
+      <figure>
+        <figcaption>Sales Breakdown by District and Unit</figcaption>
+        <sas-report-page
+          class="dynamic remove"
+          reportContextKey="https://jrbenson.github.io/vast-challenges/2022/pkg/stu-c1-q3-1/"
+          pageName="vi126"
+        ></sas-report-page
+        ><img src="img/fig-c1-q3-2.png" class="static" />
+      </figure>
+
+      <p>
+        Restaurants had the lowest number of sales within the study. Sales
+        tended to be distributed throughout the city relatively evenly, but the
+        central part of the city had the lowest number of sales. The best
+        performing restaurant, 1801, is located in the northwest part of the
+        city. The poorest performing restaurant, 1349, is located in the central
+        part of the city.
+      </p>
+
+      <figure>
+        <figcaption>Restaurant Sales Across the City</figcaption>
+        <sas-report-page
+          class="dynamic remove"
+          reportContextKey="https://jrbenson.github.io/vast-challenges/2022/pkg/stu-c1-q3-1/"
+          pageName="vi153"
+        ></sas-report-page
+        ><img src="img/fig-c1-q3-3.png" class="static" />
+      </figure>
+
+      <p>
+        Throughout the course of the study, Restaurants and Pubs were shown to
+        have very different behavior in terms of the times that participants
+        spent money. Regardless of the location of the pub, participants tended
+        to spend the most money on weekends between 9AM and 12:00AM, and
+        weekdays from 5PM to 12:00AM. Pubs tended to have fewer sales on
+        weekdays between 6AM and 4PM.
+      </p>
+
+      <figure>
+        <figcaption>Daily Pub Sales Patterns</figcaption>
+        <sas-report-page
+          class="dynamic remove"
+          reportContextKey="https://jrbenson.github.io/vast-challenges/2022/pkg/stu-c1-q3-1/"
+          pageName="vi241"
+        ></sas-report-page
+        ><img src="img/fig-c1-q3-4.png" class="static" />
+      </figure>
+
+      <p>
+        Restaurants told another story. Restaurants, however, generate most of
+        their revenue between 7AM and 8AM on weekends and 11AM and 3PM on
+        weekdays.
+      </p>
+
+      <figure>
+        <figcaption>Daily Restaurant Sales Patterns</figcaption>
+        <sas-report-page
+          class="dynamic remove"
+          reportContextKey="https://jrbenson.github.io/vast-challenges/2022/pkg/stu-c1-q3-1/"
+          pageName="vi329"
+        ></sas-report-page
+        ><img src="img/fig-c1-q3-5.png" class="static" />
+      </figure>
+
+      <p>
+        Sales for pubs across all regions exhibit identical seasonality, with
+        the most sales occurring on Saturday and the least sales occurring on
+        Wednesdays. There is no growth in spending for either restaurants or
+        pubs based on these participants' habits. Sales declined between March
+        and May before stabilizing to an overall average of approximately
+        $469,000/month.
+      </p>
+
+      <figure>
+        <figcaption>Pub Sales Pattern by District</figcaption>
+        <sas-report-page
+          class="dynamic remove"
+          reportContextKey="https://jrbenson.github.io/vast-challenges/2022/pkg/stu-c1-q3-1/"
+          pageName="vi373"
+        ></sas-report-page
+        ><img src="img/fig-c1-q3-6.png" class="static" />
+      </figure>
+
+      <p>
+        Restaurants, however, tell a different story. Seasonality is rarely
+        exhibited within the identified districts, but individual restaurants
+        often exhibit their own seasonality. When grouped together in districts,
+        restaurants tend to have erratic seasonality. This is due to each
+        individual restaurant's patterns not matching up with other restaurants.
+        For example, Restaurant 1804 has very clear seasonality that peaks on
+        Sundays, but this seasonality is not identical to other restaurants in
+        the Southern district.
+      </p>
+
+      <figure>
+        <figcaption>Restaurant Sales Pattern by District</figcaption>
+        <sas-report-page
+          class="dynamic remove"
+          reportContextKey="https://jrbenson.github.io/vast-challenges/2022/pkg/stu-c1-q3-1/"
+          pageName="vi417"
+        ></sas-report-page
+        ><img src="img/fig-c1-q3-7.png" class="static" />
+      </figure>
+
+      <figure>
+        <figcaption>Sales Pattern for Restaurant 1804</figcaption>
+        <sas-report-page
+          class="dynamic remove"
+          reportContextKey="https://jrbenson.github.io/vast-challenges/2022/pkg/stu-c1-q3-1/"
+          pageName="vi460"
+        ></sas-report-page
+        ><img src="img/fig-c1-q3-8.png" class="static" />
+      </figure>
+
+      <figure>
+        <figcaption>Sales Pattern for Northwestern Restaurants</figcaption>
+        <sas-report-page
+          class="dynamic remove"
+          reportContextKey="https://jrbenson.github.io/vast-challenges/2022/pkg/stu-c1-q3-1/"
+          pageName="vi513"
+        ></sas-report-page
+        ><img src="img/fig-c1-q3-9.png" class="static" />
+      </figure>
+
+      <p>
+        We discovered 6 clusters of weekly sale patterns by restaurants and
+        pubs. There is no clear relationship between weekly sales patterns and
+        location within the city. The y axis represents normalized total sales.
+        The higher the value, the greater the sales at that time. The clusters
+        below are zoomed in to a representative date range and is designed to
+        show the general shape of sales patterns over time.
+      </p>
+
+      <dl>
+        <dt>Cluster 1</dt>
+        <dd>
+          Consists almost entirely of pubs with the exception of a single
+          restaurant (895) that has similar demand patterns to pubs. Saturday
+          and Sunday both have sharp increases in sales. Weekdays tend to have
+          much fewer sales.
+        </dd>
+
+        <dt>Cluster 2</dt>
+        <dd>
+          Restaurants whose sales tend to be greatest during weekdays. Weekends
+          have fewer sales.
+        </dd>
+
+        <dt>Cluster 3</dt>
+        <dd>
+          Restaurants whose sales tend to be greatest on Saturday followed by
+          Sunday. Weekdays have fewer sales.
+        </dd>
+
+        <dt>Cluster 4</dt>
+        <dd>
+          Two restaurants whose sales are relatively evenly distributed across
+          weekdays with few peaks in-between.
+        </dd>
+
+        <dt>Cluster 5</dt>
+        <dd>
+          Four restaurants whose sales are generally higher on weekdays but tend
+          to have slightly higher sales on weekends compared to clusters 2, 3,
+          and 4. Sales tend to be more erratic throughout the week compared to
+          other clusters.
+        </dd>
+
+        <dt>Cluster 6</dt>
+        <dd>
+          Four restaurants whose sales tend to peak on Sundays, with Saturday
+          close behind.
+        </dd>
+      </dl>
+
+      <figure>
+        <figcaption>Comparison of Time Series Cluster Patterns</figcaption>
+        <sas-report-page
+          class="dynamic remove"
+          reportContextKey="https://jrbenson.github.io/vast-challenges/2022/pkg/stu-c1-q3-1/"
+          pageName="vi595"
+        ></sas-report-page
+        ><img src="img/fig-c1-q3-10.png" class="static" />
+      </figure>
+
+      <h3>
+        <span id="q4" class="question-number">4</span>From your answers to
+        questions 1-3, assemble a one-page summary that provides the key
+        information to share with residents about the town.
+      </h3>
+
+      <div class="darkpane brochure">
+        <h4>
+          <span style="font-size: 1rem">COME VISIT</span><br />Engagement Ohio
+        </h4>
+        <br />
+        <br />
+        <p>
+          <em style="font-size: 1.25rem"
+            >Our town has lots to offer those looking to relocate or to
+            visit!</em
+          >
+        </p>
+        <hr />
+        <p>
+          Nestled between the convenience of <strong>Dayton</strong> and the
+          smaller charm of <strong>Marion</strong>,
+          <strong>Engagement</strong> Ohio is a perfect place to visit for a day
+          of fun and relaxation. The town is home to a variety of activities and
+          events that are sure to make your stay a memorable one.
+        </p>
+        <ul>
+          <li>
+            Enjoy low unemployment! With 0% unemployment you will be guaranteed
+            to find a job.
+          </li>
+          <li>Low cost of living!</li>
+          <li>Join a lively pub scene!</li>
+        </ul>
+        <hr />
+        <img style="opacity: 0.5" src="img/brochure.png" />
+      </div>
+
+      <script>
+        const statics = document.querySelectorAll(".static");
+        const dynamics = document.querySelectorAll(".dynamic");
+        window.addEventListener("vaReportComponents.loaded", function () {
+          vaReportComponents.setLoadingTheme({
+            baseTheme: "dark",
+          });
+          vaReportComponents.setUseZoomOverlay(true);
+          if (!window.location.href.includes("?static")) {
+            for (let static of statics) {
+              static.classList.add("remove");
+            }
+            for (let dynamic of dynamics) {
+              dynamic.classList.remove("remove");
+            }
+          }
+        });
+        const embeds = document.querySelectorAll("sas-report-page");
+        const observer = new IntersectionObserver((entries) => {
+          for (const entry of entries) {
+            if (entry.isIntersecting) {
+              element = entry.target;
+              if (!element.getAttribute("packageUri")) {
+                const key = element.getAttribute("reportContextKey");
+                element.setAttribute("packageUri", key);
+              }
+            }
+          }
+        });
+        embeds.forEach((element) => {
+          observer.observe(element);
+        });
+      </script>
+    </div>
+  </body>
+</html>

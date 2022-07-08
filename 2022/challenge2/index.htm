@@ -43,18 +43,30 @@
         </nav>
       </header>
 
-      <h2 class="vast" id="team_information">Team Information</h2>
+      <h2 id="team_information">Team Information</h2>
 
       <h3>Team members:</h3>
-      <ul class="vast">
+      <ul>
         <li>
-          First Last, SAS Institute,
+          Falko Schulz, SAS Institute,
           <a href="mailto:Falko.Schulz@sas.com">Falko.Schulz@sas.com</a>
           (PRIMARY)
         </li>
         <li>
-          First Last, SAS Institute,
+          Don Chapman, SAS Institute,
           <a href="mailto:Don.Chapman@sas.com">Don.Chapman@sas.com</a>
+        </li>
+        <li>
+          Steven Harenberg, SAS Institute,
+          <a href="mailto:Steven.Harenberg@sas.com">Steven.Harenberg@sas.com</a>
+        </li>
+        <li>
+          Stu Sztukowski, SAS Institute,
+          <a href="mailto:Stu.Sztukowski@sas.com">Stu.Sztukowski@sas.com</a>
+        </li>
+        <li>
+          Cheryl LeSaint, SAS Institute,
+          <a href="mailto:Cheryl.LeSaint@sas.com">Cheryl.LeSaint@sas.com</a>
         </li>
       </ul>
 
@@ -62,7 +74,7 @@
       <p>No</p>
 
       <h3>Analytics tools used:</h3>
-      <ul class="vast">
+      <ul>
         <li>
           <a href="https://www.sas.com/en_us/software/visual-analytics.html"
             >SAS Visual Analytics</a
@@ -74,7 +86,7 @@
         Approximately how many hours were spent working on this submission in
         total?
       </h3>
-      <p>?? hours</p>
+      <p>100 hours</p>
 
       <h3>
         May we post your submission in the Visual Analytics Benchmark Repository
@@ -82,7 +94,7 @@
       </h3>
       <p>Yes</p>
 
-      <h2 class="vast" id="video">Video</h2>
+      <h2 id="video">Video</h2>
       <div class="darkpane">
         <div class="vidwrap">
           <iframe
@@ -99,7 +111,7 @@
         <a href="https://youtu.be/BTX8mT4Kfr8">Watch Video on YouTube</a>
       </p>
 
-      <h2 class="vast" id="questions">Questions</h2>
+      <h2 id="questions">Questions</h2>
 
       <p class="centered">
         <a href="#q1">Question 1</a> | <a href="#q2">Question 2</a> |
@@ -114,6 +126,29 @@
         bottlenecks or hazards, and examine how these patterns change over time
         and seasons.
       </p>
+
+      <div
+        class="centered darkpane brochure"
+        style="font-size: large; background-image: none"
+      >
+        <h3 style="font-weight: bold; font-size: 2rem; margin-top: 1rem">
+          NOTE
+        </h3>
+        <p>
+          The answer form contains interactive visualizations that rely on
+          content hosted on GitHub pages and CDNs. If you encounter issues with
+          these visualizations first try viewing in Chrome and disabling any ad
+          blocking. If the interactive visuals still do not work a static
+          fallback version can be forced by clicking this link:
+        </p>
+        <p>
+          <a style="color: #329ff7; font-weight: bold" href="index.htm?static"
+            >Static Answer Form</a
+          >
+        </p>
+      </div>
+      <br />
+      <br />
 
       <h3>
         <span id="q1" class="question-number">1</span>Assuming the volunteers
@@ -134,9 +169,11 @@
       <figure>
         <figcaption>Map of Residential and Business Districts</figcaption>
         <sas-report-page
+          class="dynamic remove"
           reportContextKey="https://jrbenson.github.io/vast-challenges/2022/pkg/network/"
           pageName="vi4003"
-        ></sas-report-page>
+        ></sas-report-page
+        ><img src="img/fig-c2-q1-1.png" class="static" />
       </figure>
 
       <p>
@@ -151,9 +188,11 @@
       <figure>
         <figcaption>Heat Maps of Residential and Business Activity</figcaption>
         <sas-report-page
+          class="dynamic remove"
           reportContextKey="https://jrbenson.github.io/vast-challenges/2022/pkg/network/"
           pageName="vi2365"
-        ></sas-report-page>
+        ></sas-report-page
+        ><img src="img/fig-c2-q1-2.png" class="static" />
       </figure>
 
       <p>
@@ -165,9 +204,11 @@
       <figure>
         <figcaption>Heat Maps of Rental Costs</figcaption>
         <sas-report-page
+          class="dynamic remove"
           reportContextKey="https://jrbenson.github.io/vast-challenges/2022/pkg/buildings/"
           pageName="vi96"
-        ></sas-report-page>
+        ></sas-report-page
+        ><img src="img/fig-c2-q1-3.png" class="static" />
       </figure>
 
       <p>
@@ -180,9 +221,11 @@
       <figure>
         <figcaption>Clustering of Higher Happiness Near City Center</figcaption>
         <sas-report-page
+          class="dynamic remove"
           reportContextKey="https://jrbenson.github.io/vast-challenges/2022/pkg/buildings/"
           pageName="vi613"
-        ></sas-report-page>
+        ></sas-report-page
+        ><img src="img/fig-c2-q1-4.png" class="static" />
       </figure>
 
       <p>
@@ -195,16 +238,18 @@
       <figure>
         <figcaption>Heatmap Showing Three Distinct Business Centers</figcaption>
         <sas-report-page
+          class="dynamic remove"
           reportContextKey="https://jrbenson.github.io/vast-challenges/2022/pkg/network/"
           pageName="vi1070"
-        ></sas-report-page>
+        ></sas-report-page
+        ><img src="img/fig-c2-q1-5.png" class="static" />
       </figure>
 
       <p>
         For brevity the business districts will be reference using this acronyms
         going forward:
       </p>
-      <ul class="vast">
+      <ul>
         <li>NWD = North West District</li>
         <li>CBD = Central Business District</li>
         <li>EBD = East Business District</li>
@@ -220,9 +265,11 @@
           Clustering Showing Areas With More Families With Children
         </figcaption>
         <sas-report-page
+          class="dynamic remove"
           reportContextKey="https://jrbenson.github.io/vast-challenges/2022/pkg/network/"
           pageName="vi4004"
-        ></sas-report-page>
+        ></sas-report-page
+        ><img src="img/fig-c2-q1-6.png" class="static" />
       </figure>
 
       <p>
@@ -236,9 +283,11 @@
           Clustering of Residential Locations by Age Group
         </figcaption>
         <sas-report-page
+          class="dynamic remove"
           reportContextKey="https://jrbenson.github.io/vast-challenges/2022/pkg/network/"
           pageName="vi4005"
-        ></sas-report-page>
+        ></sas-report-page
+        ><img src="img/fig-c2-q1-7.png" class="static" />
       </figure>
 
       <p>
@@ -250,9 +299,11 @@
       <figure>
         <figcaption>Map of Participants With More Than One Job</figcaption>
         <sas-report-page
+          class="dynamic remove"
           reportContextKey="https://jrbenson.github.io/vast-challenges/2022/pkg/network/"
           pageName="vi4006"
-        ></sas-report-page>
+        ></sas-report-page
+        ><img src="img/fig-c2-q1-8.png" class="static" />
       </figure>
 
       <h3>
@@ -274,9 +325,11 @@
       <figure>
         <figcaption>???</figcaption>
         <sas-report-page
+          class="dynamic remove"
           reportContextKey="https://jrbenson.github.io/vast-challenges/2022/pkg/network/"
           pageName="vi754"
-        ></sas-report-page>
+        ></sas-report-page
+        ><img src="img/fig-c2-q2-1.png" class="static" />
       </figure>
 
       <p>
@@ -288,9 +341,11 @@
       <figure>
         <figcaption>Heatmap of 4-5PM Traffic Congestion</figcaption>
         <sas-report-page
+          class="dynamic remove"
           reportContextKey="https://jrbenson.github.io/vast-challenges/2022/pkg/network/"
           pageName="vi4369"
-        ></sas-report-page>
+        ></sas-report-page
+        ><img src="img/fig-c2-q2-2.png" class="static" />
       </figure>
 
       <p>
@@ -305,9 +360,11 @@
           Diagram of Commutes to Eastern Business District
         </figcaption>
         <sas-report-page
+          class="dynamic remove"
           reportContextKey="https://jrbenson.github.io/vast-challenges/2022/pkg/network/"
           pageName="vi51"
-        ></sas-report-page>
+        ></sas-report-page
+        ><img src="img/fig-c2-q2-3.png" class="static" />
       </figure>
 
       <p>
@@ -322,9 +379,11 @@
           Comparison of Weekday and Weekend Travel Patterns
         </figcaption>
         <sas-report-page
+          class="dynamic remove"
           reportContextKey="https://jrbenson.github.io/vast-challenges/2022/pkg/patterns/"
           pageName="vi6760"
-        ></sas-report-page>
+        ></sas-report-page
+        ><img src="img/fig-c2-q2-4.png" class="static" />
       </figure>
 
       <h3>
@@ -336,6 +395,8 @@
       <p>
         <small>Limit your response to 10 images and 500 words.</small>
       </p>
+
+      <h4>Participant 40</h4>
 
       <p>
         We have selected participant <strong>40</strong> as our first case
@@ -352,9 +413,11 @@
       <figure>
         <figcaption>Summary of Participant 40 Activity</figcaption>
         <sas-report-page
+          class="dynamic remove"
           reportContextKey="https://jrbenson.github.io/vast-challenges/2022/pkg/routines/"
           pageName="vi2899"
-        ></sas-report-page>
+        ></sas-report-page
+        ><img src="img/fig-c2-q3-1.png" class="static" />
       </figure>
 
       <p>
@@ -367,9 +430,11 @@
       <figure>
         <figcaption>Daily Activity Dashboard for Participant 40</figcaption>
         <sas-report-page
+          class="dynamic remove"
           reportContextKey="https://jrbenson.github.io/vast-challenges/2022/pkg/routines/"
           pageName="vi2357"
-        ></sas-report-page>
+        ></sas-report-page
+        ><img src="img/fig-c2-q3-2.png" class="static" />
       </figure>
 
       <p>
@@ -385,9 +450,11 @@
           Participant 40 Routine Change Between March and May
         </figcaption>
         <sas-report-page
+          class="dynamic remove"
           reportContextKey="https://jrbenson.github.io/vast-challenges/2022/pkg/routines/"
           pageName="vi2391"
-        ></sas-report-page>
+        ></sas-report-page
+        ><img src="img/fig-c2-q3-3.png" class="static" />
       </figure>
 
       <p>
@@ -407,9 +474,11 @@
       <figure>
         <figcaption>Participant 40 Daily Time Allocation</figcaption>
         <sas-report-page
+          class="dynamic remove"
           reportContextKey="https://jrbenson.github.io/vast-challenges/2022/pkg/routines/"
           pageName="vi2662"
-        ></sas-report-page>
+        ></sas-report-page
+        ><img src="img/fig-c2-q3-4.png" class="static" />
       </figure>
 
       <p>
@@ -424,9 +493,11 @@
       <figure>
         <figcaption>Change in Daily Commute for Participant 40</figcaption>
         <sas-report-page
+          class="dynamic remove"
           reportContextKey="https://jrbenson.github.io/vast-challenges/2022/pkg/routines/"
-          pageName="vi92"
-        ></sas-report-page>
+          pageName="vi3803"
+        ></sas-report-page
+        ><img src="img/example_dark.png" class="static" />
       </figure>
 
       <p>
@@ -435,22 +506,18 @@
       </p>
 
       <figure>
-        <figcaption>Typical Daily Travel Destinations</figcaption>
-        <sas-report-page
-          reportContextKey="https://jrbenson.github.io/vast-challenges/2022/pkg/network/"
-          pageName="vi635"
-        ></sas-report-page>
-      </figure>
-
-      <figure>
         <figcaption>
-          Typical Daily Travel Destinations for Participant 50
+          Typical Daily Travel Destinations for Participant 40
         </figcaption>
         <sas-report-page
+          class="dynamic remove"
           reportContextKey="https://jrbenson.github.io/vast-challenges/2022/pkg/network/"
-          pageName="vi4693"
-        ></sas-report-page>
+          pageName="vi635"
+        ></sas-report-page
+        ><img src="img/fig-c2-q3-6.png" class="static" />
       </figure>
+
+      <h4>Participant 50</h4>
 
       <p>
         The second participant example is participant <strong>50</strong>. This
@@ -463,9 +530,11 @@
       <figure>
         <figcaption>Summary of Participant 50 Activity</figcaption>
         <sas-report-page
+          class="dynamic remove"
           reportContextKey="https://jrbenson.github.io/vast-challenges/2022/pkg/routines/"
           pageName="vi4696"
-        ></sas-report-page>
+        ></sas-report-page
+        ><img src="img/fig-c2-q3-8.png" class="static" />
       </figure>
 
       <p>
@@ -477,11 +546,25 @@
       </p>
 
       <figure>
+        <figcaption>
+          Typical Daily Travel Destinations for Participant 50
+        </figcaption>
+        <sas-report-page
+          class="dynamic remove"
+          reportContextKey="https://jrbenson.github.io/vast-challenges/2022/pkg/network/"
+          pageName="vi4693"
+        ></sas-report-page
+        ><img src="img/fig-c2-q3-7.png" class="static" />
+      </figure>
+
+      <figure>
         <figcaption>Daily Activity Dashboard for Participant 50</figcaption>
         <sas-report-page
+          class="dynamic remove"
           reportContextKey="https://jrbenson.github.io/vast-challenges/2022/pkg/routines/"
           pageName="vi4743"
-        ></sas-report-page>
+        ></sas-report-page
+        ><img src="img/fig-c2-q3-9.png" class="static" />
       </figure>
 
       <p>
@@ -495,9 +578,11 @@
       <figure>
         <figcaption>Participant 50 Daily Time Allocation</figcaption>
         <sas-report-page
+          class="dynamic remove"
           reportContextKey="https://jrbenson.github.io/vast-challenges/2022/pkg/routines/"
           pageName="vi4857"
-        ></sas-report-page>
+        ></sas-report-page
+        ><img src="img/fig-c2-q3-10.png" class="static" />
       </figure>
 
       <p>
@@ -510,9 +595,11 @@
       <figure>
         <figcaption>Daily Commute for Participant 50</figcaption>
         <sas-report-page
+          class="dynamic remove"
           reportContextKey="https://jrbenson.github.io/vast-challenges/2022/pkg/routines/"
           pageName="vi4890"
-        ></sas-report-page>
+        ></sas-report-page
+        ><img src="img/fig-c2-q3-11.png" class="static" />
       </figure>
 
       <h3>
@@ -535,9 +622,11 @@
       <figure>
         <figcaption>Animation of Change in Activities</figcaption>
         <sas-report-page
+          class="dynamic remove"
           reportContextKey="https://jrbenson.github.io/vast-challenges/2022/pkg/patterns/"
           pageName="vi2357"
-        ></sas-report-page>
+        ></sas-report-page
+        ><img src="img/fig-c2-q4-1.png" class="static" />
       </figure>
 
       <p>
@@ -549,9 +638,11 @@
       <figure>
         <figcaption>Trend of Weekend Activity Levels</figcaption>
         <sas-report-page
+          class="dynamic remove"
           reportContextKey="https://jrbenson.github.io/vast-challenges/2022/pkg/patterns/"
           pageName="vi5670"
-        ></sas-report-page>
+        ></sas-report-page
+        ><img src="img/fig-c2-q4-2.png" class="static" />
       </figure>
 
       <p>
@@ -563,9 +654,11 @@
       <figure>
         <figcaption>Weekday Traffic Activity Levels</figcaption>
         <sas-report-page
+          class="dynamic remove"
           reportContextKey="https://jrbenson.github.io/vast-challenges/2022/pkg/patterns/"
-          pageName="vi5670"
-        ></sas-report-page>
+          pageName="vi6643"
+        ></sas-report-page
+        ><img src="img/fig-c2-q4-3.png" class="static" />
       </figure>
 
       <p>
@@ -576,28 +669,10 @@
         times as common on weekends as they are on weekdays.
       </p>
 
-      <figure>
-        <figcaption>
-          Activity Comparison for Participants Without Children
-        </figcaption>
-        <sas-report-page
-          reportContextKey="https://jrbenson.github.io/vast-challenges/2022/pkg/test/"
-          pageName="vi92"
-        ></sas-report-page>
-      </figure>
-
       <p>
         Total weekend traffic is highest in July, October, and April of 2023.
         However, weekday traffic is highest in August and March of 2023.
       </p>
-
-      <figure>
-        <figcaption>Total Traffic for Weekend and Workdays</figcaption>
-        <sas-report-page
-          reportContextKey="https://jrbenson.github.io/vast-challenges/2022/pkg/test/"
-          pageName="vi92"
-        ></sas-report-page>
-      </figure>
 
       <p>
         Traffic patterns don't show significant geographical changes during the
@@ -611,9 +686,11 @@
       <figure>
         <figcaption>Shift in Traffic Concentration Location</figcaption>
         <sas-report-page
+          class="dynamic remove"
           reportContextKey="https://jrbenson.github.io/vast-challenges/2022/pkg/patterns/"
           pageName="vi3803"
-        ></sas-report-page>
+        ></sas-report-page
+        ><img src="img/fig-c2-q4-4.png" class="static" />
       </figure>
 
       <p>
@@ -627,23 +704,34 @@
       <figure>
         <figcaption>Travel Hotspots by Month</figcaption>
         <sas-report-page
+          class="dynamic remove"
           reportContextKey="https://jrbenson.github.io/vast-challenges/2022/pkg/patterns/"
           pageName="vi6535"
-        ></sas-report-page>
+        ></sas-report-page
+        ><img src="img/fig-c2-q4-5.png" class="static" />
       </figure>
 
       <script></script>
     </div>
   </body>
   <script>
+    const statics = document.querySelectorAll(".static");
+    const dynamics = document.querySelectorAll(".dynamic");
     window.addEventListener("vaReportComponents.loaded", function () {
       vaReportComponents.setLoadingTheme({
         baseTheme: "dark",
       });
       vaReportComponents.setUseZoomOverlay(true);
+      if (!window.location.href.includes("?static")) {
+        for (let static of statics) {
+          static.classList.add("remove");
+        }
+        for (let dynamic of dynamics) {
+          dynamic.classList.remove("remove");
+        }
+      }
     });
-
-    const target = document.querySelectorAll("sas-report-page");
+    const embeds = document.querySelectorAll("sas-report-page");
     const observer = new IntersectionObserver((entries) => {
       for (const entry of entries) {
         if (entry.isIntersecting) {
@@ -655,7 +743,7 @@
         }
       }
     });
-    target.forEach((element) => {
+    embeds.forEach((element) => {
       observer.observe(element);
     });
   </script>

@@ -432,6 +432,7 @@ figure > img {
 	margin-bottom: 0.5rem;
 	color: #e2e2e2;
 	padding: 6rem;
+	background-image: url("../img/brochure_background.jpg");
 	background-repeat: no-repeat;
 }
 
